@@ -13,5 +13,3 @@ Settled choices, newest first, so nobody reopens them by accident. Change one on
 | 2026-10-11 | Softest blank over heaviest; worn-ink back print on dark shirts | A big underbased print is the main cause of a stiff shirt | Heaviest blank with a solid print |
 | 2026-10-09 | Store moved from Base44 into storefront-kit | One shared storefront for every brand | Keeping the Base44 single-file store |
 | 2026-10-09 | Sizes start unselected (`pick:true`) | Clothing must never default to XS | Defaulting to the first size |
-
-The 2026-10-15 rows are in this system but not yet in the live store; see "Known drift" in README.md.

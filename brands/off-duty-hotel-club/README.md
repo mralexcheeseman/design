@@ -55,16 +55,7 @@ Scrolling ticker or destination strips, badges, a back/front toggle on every car
 
 ## Known drift
 
-The live store in storefront-kit does not match this system yet in these places. Fix them in storefront-kit (as brand options in `src/` where the code is shared), then delete each line here.
-
-- `ink-3` is #7c7d72 in `theme.css`; this system uses #6b6c61.
-- `staff-green`, `line-strong`, `on-dark-2`, `scrim`, the hotel inks and garment colours are missing from `theme.css`.
-- The wordmark is Instrument Serif; Cinzel is not loaded.
-- The focus ring is 1px `ink`; this system uses 2px `accent` with a 4px offset.
-- Buttons are 54px, 13px, uppercase; this system uses 52px, 14px, sentence case.
-- Product cards show a heart and scale to 1.03 over 1.4s; this system has no heart and scales to 1.025 over 700ms.
-- The announcement bar and the footer's bottom line drop to 11px on phones.
-- The header background is a fixed rgba of Small Hours' paper rather than `paper`.
+None known. If the live store in storefront-kit stops matching this system, list each difference here until it is fixed.
 
 ## Files in this system
 
