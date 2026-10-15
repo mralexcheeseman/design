@@ -1,0 +1,47 @@
+/* Off Duty Hotel Club — component styles. Values come from tokens.css; nothing here declares a token. */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Instrument+Serif:ital@0;1&display=swap');
+body{background:var(--paper);color:var(--ink);font-family:var(--font-sans);margin:0}
+.odh-label{font-family:var(--font-sans);font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:500;line-height:1.4}
+.odh-wordmark{display:inline-flex;flex-direction:column;align-items:center;gap:8px;color:var(--ink);text-decoration:none}
+.odh-wordmark b{font-family:var(--font-crest);font-weight:600;font-size:26px;letter-spacing:.08em;line-height:1}
+.odh-wordmark span{font-family:var(--font-crest);font-weight:600;font-size:12px;letter-spacing:.32em;line-height:1;padding-left:.32em}
+.odh-wordmark.on-dark{color:var(--on-dark)}
+.odh-button{display:inline-flex;align-items:center;justify-content:space-between;gap:40px;min-height:52px;padding:0 var(--space-5);background:var(--ink);color:var(--paper);border:1px solid var(--ink);border-radius:var(--radius-0);font:500 14px/1 var(--font-sans);cursor:pointer;transition:background .7s cubic-bezier(.2,.7,.2,1);text-decoration:none}
+.odh-button:hover{background:var(--ink-2);border-color:var(--ink-2)}
+.odh-button.paper{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+.odh-button.paper:hover{background:var(--stone-2)}
+.odh-button.block{width:100%}
+.odh-button:focus-visible,.odh-link:focus-visible,.odh-size button:focus-visible,.odh-card a:focus-visible,.odh-hotel:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.odh-link{display:inline-flex;align-items:center;min-height:44px;color:var(--ink);text-decoration:none;font-family:var(--font-sans);font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:500}
+.odh-link span{border-bottom:1px solid currentColor;padding-bottom:4px}
+.odh-link:hover span{border-bottom-color:transparent}
+.odh-card{display:flex;flex-direction:column;gap:var(--space-3);color:var(--ink);text-decoration:none}
+.odh-card .photo{position:relative;aspect-ratio:4/5;background:var(--stone);overflow:hidden}
+.odh-card .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
+.odh-card .photo img.front{opacity:0}
+.odh-card:hover .photo img{transform:scale(1.025)}
+.odh-card:hover .photo img.front{opacity:1}
+.odh-card .meta{display:flex;justify-content:space-between;align-items:baseline;gap:var(--space-2);font-size:15px;line-height:1.5}
+.odh-card .meta strong{font-weight:500}
+.odh-card .hotel{font-size:13px;color:var(--ink-2);line-height:1.5}
+.odh-hotel{display:flex;flex-direction:column;align-items:center;gap:var(--space-4);padding:var(--space-6) var(--space-5);border:1px solid var(--line);background:var(--paper);color:var(--ink);text-decoration:none;text-align:center;transition:background .7s cubic-bezier(.2,.7,.2,1)}
+.odh-hotel:hover{background:var(--stone-2)}
+.odh-hotel img{height:120px;width:auto}
+.odh-hotel .name{font-family:var(--font-serif);font-size:24px;line-height:1.1}
+.odh-size legend{display:flex;justify-content:space-between;width:100%;padding:0;margin-bottom:var(--space-2);font-size:13px}
+.odh-size{border:0;margin:0;padding:0;min-width:0}
+.odh-size .opts{display:flex;gap:var(--space-2);flex-wrap:wrap}
+.odh-size button{flex:1;min-width:52px;min-height:48px;border:1px solid var(--line-strong);border-radius:var(--radius-0);background:transparent;color:var(--ink);font:500 13px/1 var(--font-sans);cursor:pointer}
+.odh-size button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.odh-size button:disabled{color:var(--ink-3);text-decoration:line-through;cursor:not-allowed}
+.odh-size .error{color:var(--accent);font-size:13px;margin:var(--space-2) 0 0}
+.odh-announce{background:var(--staff-green);color:var(--on-dark);display:flex;justify-content:center;align-items:center;gap:var(--space-4);min-height:40px;padding:0 var(--space-4);font-size:12px;letter-spacing:.06em}
+.odh-announce button{background:none;border:0;color:inherit;font:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer;min-height:40px}
+.odh-details{border-top:1px solid var(--line)}
+.odh-details details{border-bottom:1px solid var(--line)}
+.odh-details summary{display:flex;justify-content:space-between;align-items:center;min-height:52px;cursor:pointer;list-style:none;font-size:15px}
+.odh-details summary::-webkit-details-marker{display:none}
+.odh-details summary::after{content:'+';font-size:18px;color:var(--ink-2)}
+.odh-details details[open] summary::after{content:'–'}
+.odh-details p{margin:0 0 var(--space-4);color:var(--ink-2);font-size:13px;line-height:1.7;max-width:60ch}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
