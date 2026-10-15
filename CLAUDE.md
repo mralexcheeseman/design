@@ -17,7 +17,8 @@ Run the checklists in `checklists/` that apply (page, copy, photography, crest a
 
 ## Changing the system
 
-- Token changes: edit `tokens.json`, run `node scripts/build-tokens.mjs`, commit both files. CI fails if `tokens.css` is stale.
+- Token or component changes: edit `tokens.json` or `components/`, run `node scripts/build-tokens.mjs` and `node scripts/build-preview.mjs`, commit the generated files too. CI fails if `tokens.css` or `index.html` is stale.
+- Artwork (crests, print files) lives in `brands/<brand>/artwork/` and is the master copy. Change it here first.
 - Every change gets a dated line in `CHANGELOG.md`. Settled choices go in `decisions.md`.
 - Keep the Design System artifact (link in README.md) in step: when you change this repo, update it, or say in your summary that it needs updating.
 - Brand-specific copy and assets stay in that brand's folder.

@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-10-15 · off-duty-hotel-club · Artwork and a one-page view
+Added the crest source sheet, explorations, traced masters and scripts (`artwork/crests/`), every supplier print file (`artwork/print-files/`) and the original product renders (`assets/photography/source/`), copied from storefront-kit `supply/`. This repo is now the master copy of the artwork. Added `index.html`, a generated one-page view of colours, type, crests and components, checked in CI.
+
 ## 2026-10-15 · off-duty-hotel-club · Known drift cleared
 storefront-kit#3 brings the live store in line with this system, so the drift list in the brand README is now empty.
 

@@ -1,6 +1,6 @@
 # Merch: the shirts themselves
 
-The website is the shop window; the T-shirt is the product. These rules cover everything that gets printed, stitched or packed. Working files live in `storefront-kit/brands/off-duty-hotel-club/supply/` (`print-files/`, `crests/`, `SAMPLE-ORDER.md`, `LAUNCH-PACK.md`). Physical values are also in the `print` group of `tokens.json`.
+The website is the shop window; the T-shirt is the product. These rules cover everything that gets printed, stitched or packed. Artwork is in `artwork/` in this folder (`crests/`, `print-files/`); supplier orders and research stay in storefront-kit `brands/off-duty-hotel-club/supply/` (`SAMPLE-ORDER.md`, `LAUNCH-PACK.md`). Physical values are also in the `print` group of `tokens.json`.
 
 ## The range
 
@@ -24,7 +24,7 @@ Pantone references (TCX for fabric, C for ink) are to be confirmed against a swa
 - Job title in Anton, capitals, 280 mm wide (`back-print-width`), centred 80 mm below the collar.
 - Hotel name below in Oswald 500, 14 mm, tracked 0.18em; city below that in Oswald 500, 8.5 mm, tracked 0.35em.
 - Use the worn-ink version on dark shirts: about 9% of the lettering knocked out in a speckle, so less ink sits on the fabric and it stays soft.
-- Generator: `print-files/make_art.py`. Outlined SVG and 300 dpi PNG for every back.
+- Generator: `artwork/print-files/make_art.py`. Outlined SVG and 300 dpi PNG for every back.
 
 ## Blanks
 - Softness beats weight. Prefer garment-dyed or combed ring-spun heavyweight cotton.
