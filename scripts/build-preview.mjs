@@ -9,8 +9,10 @@ for(const b of brands.length?brands:all){
  const dir=`brands/${b}`,t=JSON.parse(readFileSync(`${dir}/tokens.json`,'utf8'));
  const colours=t.color.tokens.map(c=>`<figure><div style="background:${c.value}"></div><figcaption><b>${c.name}</b> ${c.value}<br>${esc(c.usage)}</figcaption></figure>`).join('');
  const type=t.type.groups.flatMap(g=>g.styles.map(s=>`<div class="type"><span class="odh-label">${s.name} · ${s.fontSize}${s.fontSizeMobile?' / '+s.fontSizeMobile+' phone':''}</span><p style="font-family:var(--font-${g.family});font-size:${s.fontSize};line-height:${s.lineHeight};letter-spacing:${s.letterSpacing||0};font-weight:${s.fontWeight};margin:8px 0 0${s.name.startsWith('wordmark')||s.name==='label'?';text-transform:uppercase':''}">${esc(s.sample)}</p></div>`)).join('');
- const crestDir=`${dir}/assets/crests`;
- const crests=existsSync(crestDir)?readdirSync(crestDir).filter(f=>f.endsWith('.svg')).map(f=>`<figure class="crest"><img src="assets/crests/${f}" alt="${f.replace('.svg','')} crest"><figcaption>${f}</figcaption></figure>`).join(''):'';
+ // The brand's marks: crests (Off Duty) or postmarks (Postmark), whichever folder the brand has.
+ const markKind=['crests','postmarks'].find(k=>existsSync(`${dir}/assets/${k}`));
+ const markTitle=markKind?markKind[0].toUpperCase()+markKind.slice(1):'';
+ const crests=markKind?readdirSync(`${dir}/assets/${markKind}`).filter(f=>f.endsWith('.svg')).map(f=>`<figure class="crest"><img src="assets/${markKind}/${f}" alt="${f.replace('.svg','')} ${markKind.slice(0,-1)}"><figcaption>${f}</figcaption></figure>`).join(''):'';
  const comps=readdirSync(`${dir}/components`,{withFileTypes:true}).filter(d=>d.isDirectory()).map(d=>d.name).sort();
  const cards=comps.map(c=>{
   const p=`${dir}/components/${c}/preview.html`;
@@ -37,7 +39,7 @@ figure{margin:0}.swatches div{height:64px;border:1px solid var(--line)}figcaptio
 <nav><a href="README.md">README</a><a href="tokens.json">tokens.json</a><a href="merch.md">Merch</a><a href="decisions.md">Decisions</a><a href="../../checklists/README.md">Checklists</a></nav>
 <h2>Colour</h2><div class="swatches">${colours}</div>
 <h2>Type</h2>${type}
-${crests?`<h2>Crests</h2><div class="crests">${crests}</div>`:''}
+${crests?`<h2>${markTitle}</h2><div class="crests">${crests}</div>`:''}
 <h2>Components</h2>${cards}
 </main></body></html>
 `;
