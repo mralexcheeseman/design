@@ -2,6 +2,12 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-10-16 · postmark · First version
+New brand: phone straps from four destinations. Tokens (envelope paper, navy ink, airmail red, four destination inks, Newsreader, Manrope and Barlow Condensed), the postmark family (full and ring versions, outlined, black print masters and the script that draws them), merch, decisions and component notes. Built alongside the store in one session.
+
+## 2026-10-16 · all · Template for new brands
+`brands/_template/` holds the README, decisions, merch and components skeleton. `build-preview.mjs` now shows a brand's postmarks as well as crests.
+
 ## 2026-10-15 · off-duty-hotel-club · Artwork and a one-page view
 Added the crest source sheet, explorations, traced masters and scripts (`artwork/crests/`), every supplier print file (`artwork/print-files/`) and the original product renders (`assets/photography/source/`), copied from storefront-kit `supply/`. This repo is now the master copy of the artwork. Added `index.html`, a generated one-page view of colours, type, crests and components, checked in CI.
 
