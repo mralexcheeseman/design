@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-10-16 · off-duty-hotel-club · Usage guide and audit
+Added USING-THE-KIT.md with the verified checks, remaining gaps and website/Figma/email workflow. Added the missing Cover README to repair its preview link and identify it as a legacy library illustration, not a compliant customer-facing component. No tokens, artwork or preview markup changed.
+
 ## 2026-10-15 · off-duty-hotel-club · Artwork and a one-page view
 Added the crest source sheet, explorations, traced masters and scripts (`artwork/crests/`), every supplier print file (`artwork/print-files/`) and the original product renders (`assets/photography/source/`), copied from storefront-kit `supply/`. This repo is now the master copy of the artwork. Added `index.html`, a generated one-page view of colours, type, crests and components, checked in CI.
 
