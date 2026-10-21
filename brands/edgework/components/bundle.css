@@ -1,0 +1,53 @@
+/* Edgework component styles. Reads tokens.css; asset paths are relative to this file.
+   Consumers that serve the assets elsewhere (e.g. /marks/, /fonts/) rewrite the url() paths. */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Courier+Prime:wght@400;700&family=Rock+Salt&display=swap');
+@font-face { font-family: 'TT2020'; src: url('../assets/fonts/TT2020StyleG-ASCII.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'TT2020E'; src: url('../assets/fonts/TT2020StyleE.woff2') format('woff2'); font-display: swap; }
+
+body { margin: 0; background: var(--paper) url('../assets/marks/paper-45.jpg') center / cover fixed; color: var(--ink); font-family: var(--font-label); }
+
+/* Type */
+.ew-type { font-family: var(--font-type); font-feature-settings: 'calt' 1; }
+.ew-shout { font-family: var(--font-shout); text-transform: uppercase; line-height: .92; letter-spacing: .01em; font-weight: 400; }
+.ew-lp { -webkit-mask-image: url('../assets/marks/letterpress-mask.png'); mask-image: url('../assets/marks/letterpress-mask.png'); -webkit-mask-size: 420px auto; mask-size: 420px auto; }
+.ew-label { font-family: var(--font-label); font-size: var(--type-label-size); font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+.ew-scrawl { font-family: var(--font-scrawl); color: var(--red); font-size: var(--type-scrawl-size); display: inline-block; transform: rotate(-5deg); }
+.ew-night .ew-scrawl { color: var(--red-night); }
+
+/* Surfaces */
+.ew-sheet { position: relative; background: var(--sheet); box-shadow: var(--shadow-sheet); }
+.ew-night { background: var(--night); color: var(--on-night); }
+.ew-hl { background: url('../assets/marks/highlight-1.webp') center 60% / 100% 112% no-repeat; padding: 0 .2em; }
+.ew-mark { position: absolute; pointer-events: none; mix-blend-mode: multiply; z-index: var(--z-mark); height: auto; }
+.ew-tape { position: absolute; pointer-events: none; z-index: var(--z-tape); height: auto; }
+
+/* Index card (Position) */
+.ew-card { position: relative; background: var(--sheet); box-shadow: var(--shadow-sheet); padding: var(--space-5); aspect-ratio: var(--ratio-card); display: flex; flex-direction: column; gap: var(--space-3); overflow: hidden;
+  background-image: repeating-linear-gradient(transparent 0 35px, var(--line) 35px 36px); background-position: 0 72px;
+  transition: transform var(--duration-lift) var(--ease), box-shadow var(--duration-lift) var(--ease); }
+.ew-card::before { content: ''; position: absolute; left: 0; right: 0; top: 64px; border-top: 2px solid rgba(196,33,26,.55); }
+.ew-card > :not(.ew-mark):not(.ew-tape) { position: relative; z-index: var(--z-text); }
+.ew-card:hover { transform: translateY(-6px) rotate(0deg) !important; box-shadow: var(--shadow-lifted); }
+
+/* Buttons and links */
+.ew-btn { font: 700 13px/1 var(--font-label); letter-spacing: .12em; text-transform: uppercase; min-height: 44px; padding: 0 18px; border: 2px solid var(--ink); background: transparent; color: var(--ink); cursor: pointer; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; transition: background 120ms, color 120ms; }
+.ew-btn:hover { background: var(--ink); color: var(--sheet); }
+.ew-btn-red { border-color: var(--red); color: var(--red); }
+.ew-btn-red:hover { background: var(--red); color: var(--sheet); }
+.ew-night .ew-btn { border-color: var(--on-night); color: var(--on-night); }
+.ew-night .ew-btn:hover { background: var(--on-night); color: var(--ink); }
+.ew-link { color: inherit; text-decoration: none; border-bottom: 2px solid var(--red); }
+
+/* Cursor */
+@keyframes ew-blink { 50% { opacity: 0; } }
+.ew-cursor { display: inline-block; width: .55em; height: 1em; background: currentColor; vertical-align: -.12em; animation: ew-blink var(--duration-blink) steps(1) infinite; }
+
+:focus-visible { outline: var(--focus-ring); outline-offset: var(--focus-offset); }
+.ew-night :focus-visible { outline-color: var(--red-night); }
+
+@media (max-width: 640px) {
+  .ew-card { aspect-ratio: auto; padding: var(--space-4); }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

@@ -7,8 +7,9 @@ const brands=process.argv.slice(2).filter(a=>!a.startsWith('--'));
 const all=readdirSync('brands',{withFileTypes:true}).filter(d=>d.isDirectory()&&existsSync(`brands/${d.name}/tokens.json`)).map(d=>d.name);
 for(const b of brands.length?brands:all){
  const dir=`brands/${b}`,t=JSON.parse(readFileSync(`${dir}/tokens.json`,'utf8'));
+ const pv=t.meta?.preview||{},display=pv.display||'serif',ui=pv.ui||'sans',lab=pv.labelClass||'odh-label';
  const colours=t.color.tokens.map(c=>`<figure><div style="background:${c.value}"></div><figcaption><b>${c.name}</b> ${c.value}<br>${esc(c.usage)}</figcaption></figure>`).join('');
- const type=t.type.groups.flatMap(g=>g.styles.map(s=>`<div class="type"><span class="odh-label">${s.name} · ${s.fontSize}${s.fontSizeMobile?' / '+s.fontSizeMobile+' phone':''}</span><p style="font-family:var(--font-${g.family});font-size:${s.fontSize};line-height:${s.lineHeight};letter-spacing:${s.letterSpacing||0};font-weight:${s.fontWeight};margin:8px 0 0${s.name.startsWith('wordmark')||s.name==='label'?';text-transform:uppercase':''}">${esc(s.sample)}</p></div>`)).join('');
+ const type=t.type.groups.flatMap(g=>g.styles.map(s=>`<div class="type"><span class="${lab}">${s.name} · ${s.fontSize}${s.fontSizeMobile?' / '+s.fontSizeMobile+' phone':''}</span><p style="font-family:var(--font-${g.family});font-size:${s.fontSize};line-height:${s.lineHeight};letter-spacing:${s.letterSpacing||0};font-weight:${s.fontWeight};margin:8px 0 0${s.name.startsWith('wordmark')||s.name==='label'?';text-transform:uppercase':''}">${esc(s.sample)}</p></div>`)).join('');
  const crestDir=`${dir}/assets/crests`;
  const crests=existsSync(crestDir)?readdirSync(crestDir).filter(f=>f.endsWith('.svg')).map(f=>`<figure class="crest"><img src="assets/crests/${f}" alt="${f.replace('.svg','')} crest"><figcaption>${f}</figcaption></figure>`).join(''):'';
  const comps=readdirSync(`${dir}/components`,{withFileTypes:true}).filter(d=>d.isDirectory()).map(d=>d.name).sort();
@@ -24,8 +25,8 @@ for(const b of brands.length?brands:all){
 <link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="components/bundle.css">
 <style>
 main{max-width:1200px;margin:0 auto;padding:48px 16px 96px}
-h1{font-family:var(--font-serif);font-weight:400;font-size:56px;margin:0 0 8px}h2{font-family:var(--font-serif);font-weight:400;font-size:32px;margin:72px 0 24px;border-top:1px solid var(--line);padding-top:24px}
-h3{font:500 15px/1.4 var(--font-sans);margin:0 0 12px}h3 a{font-size:12px;color:var(--ink-3);margin-left:8px}
+h1{font-family:var(--font-${display});font-weight:400;font-size:56px;margin:0 0 8px}h2{font-family:var(--font-${display});font-weight:400;font-size:32px;margin:72px 0 24px;border-top:1px solid var(--line);padding-top:24px}
+h3{font:500 15px/1.4 var(--font-${ui});margin:0 0 12px}h3 a{font-size:12px;color:var(--ink-3);margin-left:8px}
 nav a{margin-right:16px;color:var(--ink-2);font-size:13px}
 .swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:24px}
 figure{margin:0}.swatches div{height:64px;border:1px solid var(--line)}figcaption{font-size:12px;color:var(--ink-2);margin-top:8px;line-height:1.5}
@@ -33,7 +34,7 @@ figure{margin:0}.swatches div{height:64px;border:1px solid var(--line)}figcaptio
 .crests{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:24px}.crest img{height:160px;width:auto;display:block;margin:0 auto}.crest figcaption{text-align:center}
 .comp{margin-bottom:40px}.stage{border:1px solid var(--line);overflow:auto;background:var(--paper)}.spec{padding:24px;color:var(--ink-3);font-size:13px;margin:0}
 </style></head><body><main>
-<span class="odh-label">Design system · v${t.version}</span><h1>${esc(t.name)}</h1>
+<span class="${lab}">Design system · v${t.version}</span><h1>${esc(t.name)}</h1>
 <nav><a href="README.md">README</a><a href="tokens.json">tokens.json</a><a href="merch.md">Merch</a><a href="decisions.md">Decisions</a><a href="../../checklists/README.md">Checklists</a></nav>
 <h2>Colour</h2><div class="swatches">${colours}</div>
 <h2>Type</h2>${type}

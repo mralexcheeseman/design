@@ -24,6 +24,7 @@ Shared storefront rules (photography, 12px minimum, one accent, patterns to avoi
 | Brand | System | Browsable version |
 | --- | --- | --- |
 | Off Duty Hotel Club | [`brands/off-duty-hotel-club`](brands/off-duty-hotel-club/README.md), one-page view in `index.html` | [Design System artifact](https://claude.ai/artifact/L4Y5Q8SnMWM58dgqMyyrVt) |
+| Edgework | [`brands/edgework`](brands/edgework/README.md), one-page view in `index.html` | Canvas: [Edgework identity](https://claude.ai/artifact/81MWsBJSGEbyhuRdoBxWrT) |
 | Small Hours | not yet captured; tokens live in `storefront-kit/brands/small-hours/theme.css` | |
 | Long Haul Club | not yet captured; tokens live in `storefront-kit/brands/long-haul-club/theme.css` | |
 
