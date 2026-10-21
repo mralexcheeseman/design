@@ -36,7 +36,7 @@ The look is photographic, not illustrated. Every stain, highlight, tape strip an
 
 ## Iconography
 
-There are no icons. Arrows, circles and underlines are red-pen scans (`pen-*.webp`). The only glyph allowed is "↗" after a link that leaves the site.
+There are no icons. Decorative arrows, circles and underlines are red-pen scans (`pen-*.webp`). Two glyphs are allowed: "→" inside a button, and "↗" after a link that leaves the site.
 
 ## Patterns to avoid
 
@@ -45,6 +45,7 @@ Stock grunge textures, CSS-drawn stains, a flat yellow highlight, rounded cards,
 ## Known drift
 
 - **Owl Farm** (private newsroom) uses the same values under `--ew-*` names in `src/edgework.css` rather than `tokens.css`. That is acceptable while it is private; port it to these token names when it is next touched.
+- **Edgework site** (Base44 `edge-work-vault`) mirrors these values as CSS variables in `src/edgework.css`, plus one overlay colour for the open dossier backdrop (night at 92%).
 - **Owl Farm** sets the masthead with "OWL FARM", not "EDGEWORK", because it is the newsroom, not the publication. This is deliberate (see decisions).
 
 ## Files in this system

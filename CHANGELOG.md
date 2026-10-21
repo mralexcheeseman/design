@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-10-21 · edgework · Manila tokens and button arrows
+Added `manila` and `manila-ink` for the essay folders on the new Edgework site, and allowed "→" inside buttons, matching what the site does. Ran the page and copy checklists against the site.
+
 ## 2026-10-21 · edgework · First version
 New brand folder for Alex's public writing identity, Edgework (after Hunter S. Thompson). Holds the photographic mark library and TT2020 fonts as the master copy, tokens for the paper and night grounds, specs for the masthead, index card, file card, dispatch, Hey Rube band, marks, typed text, scrawl and button, and the settled decisions. Used by the private Owl Farm newsroom and the new public Edgework site. `build-preview.mjs` now reads an optional `meta.preview` block so a brand can name its own display and label styles; Off Duty Hotel Club's view is unchanged.
 
