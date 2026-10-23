@@ -4,6 +4,7 @@ Settled choices, newest first, so nobody reopens them by accident. Change one on
 
 | Date | Decision | Why | Rejected |
 | --- | --- | --- | --- |
+| 2026-10-23 | Fifth hotel: Villa Ceresa, Lake Lugano (est. 1911), department 05 Head Gardener, garden green with cream ink | Alex asked for a green Head Gardener shirt from a picturesque part of Switzerland; Lake Lugano gives a lake-and-gardens summer story distinct from St. Moritz snow | A second Alpine resort |
 | 2026-10-15 | `ink-3` is #6b6c61 | 4.9:1 on paper; the earlier #7c7d72 failed 4.5:1 | #7c7d72 |
 | 2026-10-15 | Wordmark is set in Cinzel 600, "OFF DUTY" over "HOTEL CLUB" | Same inscription face as the crests, so logo and crests read as one family | The serif wordmark used by the other brands |
 | 2026-10-15 | No heart or save button on product cards | Reads as a dropshipping pattern; the card is one link | Heart on hover |
