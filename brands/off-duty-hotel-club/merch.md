@@ -10,6 +10,7 @@ The website is the shop window; the T-shirt is the product. These rules cover ev
 | Security | The Oriole Palace, Los Angeles | washed black (`garment-washed-black`) | off-white `#f5f2ea` | 70 × 85 mm |
 | Pool Boy | Casa Thalene, Mykonos | pool blue (`garment-pool-blue`) | navy | max 85 mm |
 | Ski Patrol | Grand Valbrune, St. Moritz | alpine red (`garment-alpine-red`) | cream `#f1e6d2` | 83 × 85 mm |
+| Head Gardener | Kurhaus Edelmatt, Wengen | garden green (`garment-garden-green`) | geranium `#e1474a` (`ink-geranium`) | 80 × 80 mm |
 
 Pantone references (TCX for fabric, C for ink) are to be confirmed against a swatch book and the supplier's strike-off. Fill in `pantoneTCX` and `pantone` in `tokens.json` when they are.
 
@@ -25,6 +26,7 @@ Pantone references (TCX for fabric, C for ink) are to be confirmed against a swa
 - Hotel name below in Oswald 500, 14 mm, tracked 0.18em; city below that in Oswald 500, 8.5 mm, tracked 0.35em.
 - Use the worn-ink version on dark shirts: about 9% of the lettering knocked out in a speckle, so less ink sits on the fabric and it stays soft.
 - Generator: `artwork/print-files/make_art.py`. Outlined SVG and 300 dpi PNG for every back.
+- **Head Gardener (proposed exception, awaiting Alex):** the title is squared block lettering, drawn from rectangles after the "Ciao" trucker hat Alex brought in, stacked HEAD over GARDENER with GARDENER 280 mm wide (63 mm cap height). Hotel and city lines stay in Oswald as above. Generator: `artwork/print-files/make_gardener.py`, which also writes an Anton version (`head-gardener-anton-back`) in case the range rule wins. Red on green is a low-contrast pair (about 2.5:1), so the green is deep and the red bright; don't move either towards the other.
 
 ## Blanks
 - Softness beats weight. Prefer garment-dyed or combed ring-spun heavyweight cotton.

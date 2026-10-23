@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-10-23 · off-duty-hotel-club · Head Gardener shirt (proposal)
+New shirt for the fifth hotel, Kurhaus Edelmatt in Wengen: `garment-garden-green` and `ink-geranium` tokens, a merch row, back print files and `make_gardener.py`, which draws the squared lettering Alex asked for (after his "Ciao" cap) and an Anton version for comparison. Product renders in `assets/photography/`. The lettering is a proposed exception to the Anton rule, noted in `decisions.md` until Alex chooses.
+
 ## 2026-10-21 · edgework · Manila tokens and button arrows
 Added `manila` and `manila-ink` for the essay folders on the new Edgework site, and allowed "→" inside buttons, matching what the site does. Ran the page and copy checklists against the site.
 
