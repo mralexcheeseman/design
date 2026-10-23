@@ -1,11 +1,11 @@
-Staff-issue T-shirts from four fictional hotels: a small crest on the front, a proper job title on the back. The store should feel like the private stationery of a very good hotel. Use warm paper, black ink and engraved crests, and keep it quiet enough for the shirts and their wit to carry it.
+Staff-issue T-shirts from five fictional hotels: a small crest on the front, a proper job title on the back. The store should feel like the private stationery of a very good hotel. Use warm paper, black ink and engraved crests, and keep it quiet enough for the shirts and their wit to carry it.
 
 ## Content fundamentals
 
 - **Voice: dry, deadpan, a little conspiratorial.** Speak as the club, using "we" and "you". Real lines to match: "Wish you worked here." "Excellent hotels. Questionable employees." "Find your hotel. Choose your role. Take the rest of the day off."
 - **Say less.** Use one strong line per section. Cut captions on photos, decorative strips and repeated footnotes.
-- **The hotels are fictional, so say so plainly.** Never imply the shirts were taken from real hotels ("acquired", "lifted", "never meant to leave the property"). Good: "Four hotels that don't exist. A small crest on the front, a proper job title on the back."
-- **Hotel and job names keep their exact spelling and accents:** Hôtel Solvane, The Oriole Palace, Casa Thalene, Grand Valbrune. The roles are Lifeguard, Security, Pool Boy and Ski Patrol.
+- **The hotels are fictional, so say so plainly.** Never imply the shirts were taken from real hotels ("acquired", "lifted", "never meant to leave the property"). Good: "Five hotels that don't exist. A small crest on the front, a proper job title on the back."
+- **Hotel and job names keep their exact spelling and accents:** Hôtel Solvane, The Oriole Palace, Casa Thalene, Grand Valbrune, Kurhaus Edelmatt. The roles are Lifeguard, Security, Pool Boy, Ski Patrol and Head Gardener.
 - **Sentence case** for headings and buttons. Capitals only come from the `label` style and the wordmark.
 - **Prices in whole pounds:** £48, never £48.00.
 - **One place for disclaimers.** Put the preview notice in the announcement bar's "About this preview" panel. Elsewhere, add one short line only at the add-to-bag button and in the bag.
@@ -13,7 +13,7 @@ Staff-issue T-shirts from four fictional hotels: a small crest on the front, a p
 
 ## Visual foundations
 
-**Colour.** Use one light ground (`paper`), one ink (`ink`) and one accent (`accent`). `staff-green` frames the page (announcement bar and footer) and appears nowhere in between. Set body copy in `ink`, secondary copy in `ink-2`, and tertiary notes in `ink-3`, which reads on paper only. Each hotel has its own ink (`hotel-solvane`, `hotel-oriole`, `hotel-thalene`, `hotel-valbrune`). Use it only for that hotel's crest, its number and its name, never as a fill or a background block, and never with two hotels' colours side by side in large areas. The garment tokens exist only for the 16px colour dot.
+**Colour.** Use one light ground (`paper`), one ink (`ink`) and one accent (`accent`). `staff-green` frames the page (announcement bar and footer) and appears nowhere in between. Set body copy in `ink`, secondary copy in `ink-2`, and tertiary notes in `ink-3`, which reads on paper only. Each hotel has its own ink (`hotel-solvane`, `hotel-oriole`, `hotel-thalene`, `hotel-valbrune`, `hotel-edelmatt`). Use it only for that hotel's crest, its number and its name, never as a fill or a background block, and never with two hotels' colours side by side in large areas. The garment tokens exist only for the 16px colour dot.
 
 **Typography.** Use three families, each with one job:
 - `serif` (Instrument Serif) for headings: `display` for the hero, `headline` for sections, pages and product names, `title` for modals.
@@ -34,7 +34,7 @@ Nothing is set below 12px. The "Line. *Italic line.*" headline appears once, in 
 
 ## Iconography
 
-- **The crests are the brand's pictures** (asset group Crests). There are four engraved single-ink badges, one per hotel, each already in its hotel ink: `hotel-solvane.svg` in `hotel-solvane`, `oriole-palace.svg` in `hotel-oriole`, `casa-thalene.svg` in `hotel-thalene` and `grand-valbrune.svg` in `hotel-valbrune`. Use them on hotel cards, the hotels page, product pages ("The hotel") and print. Never redraw, recolour per page, outline or put them on a coloured block. The minimum size is 56px tall on screen.
+- **The crests are the brand's pictures** (asset group Crests). There are five engraved single-ink badges, one per hotel, each already in its hotel ink: `hotel-solvane.svg` in `hotel-solvane`, `oriole-palace.svg` in `hotel-oriole`, `casa-thalene.svg` in `hotel-thalene` `grand-valbrune.svg` in `hotel-valbrune` and `kurhaus-edelmatt.svg` in `hotel-edelmatt`. Use them on hotel cards, the hotels page, product pages ("The hotel") and print. Never redraw, recolour per page, outline or put them on a coloured block. The minimum size is 56px tall on screen.
 - **Interface icons** are Lucide, at a 1.5px stroke and 20px, in `ink`. Use only menu, search, bag, close, plus and minus. No decorative icons, no emoji, and no ✳ or bullet ornaments between words.
 - There is no drawn logo. The wordmark is type: "OFF DUTY" in `wordmark`, with "HOTEL CLUB" beneath it in `wordmark-sub`, both in `ink` (or `on-dark` in the footer).
 
@@ -46,8 +46,9 @@ Nothing is set below 12px. The "Line. *Italic line.*" headline appears once, in 
 | 02 | The Oriole Palace | Los Angeles, California | Security | `hotel-oriole` |
 | 03 | Casa Thalene | Mykonos, Greek Islands | Pool Boy | `hotel-thalene` |
 | 04 | Grand Valbrune | St. Moritz, Swiss Alps | Ski Patrol | `hotel-valbrune` |
+| 05 | Kurhaus Edelmatt | Wengen, Bernese Oberland | Head Gardener | `hotel-edelmatt` |
 
-The numbers 01–04 are real: they are each hotel's department number and its order in the collection. Set the number as a `label` in the hotel's ink, before the place: "01 · Saint-Tropez".
+The numbers 01–05 are real: they are each hotel's department number and its order in the collection. Set the number as a `label` in the hotel's ink, before the place: "01 · Saint-Tropez".
 
 ## Patterns to avoid
 
@@ -64,7 +65,7 @@ None known. If the live store in storefront-kit stops matching this system, list
 - `merch.md`: the shirts, crests, back prints, blanks and labels.
 - `decisions.md`: settled choices and what was rejected.
 - `index.html`: the whole system on one page (colours, type, crests, every component). Generated by `scripts/build-preview.mjs`; open it in a browser.
-- `assets/crests/`: the four heritage crests in their hotel inks, for screens.
+- `assets/crests/`: the five heritage crests in their hotel inks, for screens.
 - `assets/photography/`: product shots (back and front) and the hero, plus `source/` with the original front and back renders. Design visualisations until the samples are photographed.
 - `artwork/crests/`: the crest source sheet and explorations (`explorations/`), the traced black masters (`heritage/`), `trace_heritage.py` that traces them, and `crests.py`, the code-drawn monogram set kept as the embroidery fallback.
 - `artwork/print-files/`: what goes to suppliers. Outlined SVG and 300 dpi PNG for every crest and back print (clean and worn-ink), and `make_art.py` that builds the backs.
