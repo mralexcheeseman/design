@@ -1,4 +1,4 @@
-# Builds the back-print SVGs for the Security and Ski Patrol samples. Crests: ../crests/crests.py
+# Builds the back-print SVGs (Security, Ski Patrol, Head Gardener). Crests: ../crests/crests.py
 import math,sys
 from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
@@ -67,4 +67,5 @@ valbrune_icon=peaks+f'<rect x="{cx-19}" y="36" width="38" height="1.5"/>'
 
 back('SECURITY','THE ORIOLE PALACE','LOS ANGELES','#F5F2EA','security')
 back('SKI PATROL','GRAND VALBRUNE','ST. MORITZ','#F1E6D2','ski-patrol')
+back('HEAD GARDENER','VILLA CERESA','LAKE LUGANO','#F1E6D2','head-gardener')
 print('done')

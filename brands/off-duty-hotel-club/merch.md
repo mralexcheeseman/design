@@ -10,6 +10,7 @@ The website is the shop window; the T-shirt is the product. These rules cover ev
 | Security | The Oriole Palace, Los Angeles | washed black (`garment-washed-black`) | off-white `#f5f2ea` | 70 × 85 mm |
 | Pool Boy | Casa Thalene, Mykonos | pool blue (`garment-pool-blue`) | navy | max 85 mm |
 | Ski Patrol | Grand Valbrune, St. Moritz | alpine red (`garment-alpine-red`) | cream `#f1e6d2` | 83 × 85 mm |
+| Head Gardener | Villa Ceresa, Lake Lugano | garden green (`garment-garden-green`) | cream `#f1e6d2` | 65 × 85 mm |
 
 Pantone references (TCX for fabric, C for ink) are to be confirmed against a swatch book and the supplier's strike-off. Fill in `pantoneTCX` and `pantone` in `tokens.json` when they are.
 
