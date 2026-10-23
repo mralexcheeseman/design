@@ -1,6 +1,7 @@
 # Builds the Head Gardener back print (Kurhaus Edelmatt, Wengen). Other backs: make_art.py
 # The job title is squared block lettering drawn from rectangles, after the "Ciao" trucker hat Alex
 # brought in (option A). Option B sets it in Anton like the rest of the range, for comparison.
+# Also writes GARDENER alone (gardener-back, gardener-anton-back) for comparison.
 # Hotel and city lines follow merch.md (Oswald 500, 14 mm / 8.5 mm).
 # usage: python3 make_gardener.py <output dir> <fonts dir>   (fonts dir holds Anton.ttf and Oswald.ttf, static 500)
 # Writes outlined SVGs plus 300 dpi PNGs, clean and worn-ink. Needs: pip install fonttools cairosvg numpy pillow
@@ -60,17 +61,19 @@ def squared(s,unit,cx,top):
 def svg(w,h,body,col):
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}mm" height="{h}mm" viewBox="0 0 {w} {h}"><g fill="{col}" fill-rule="nonzero">{body}</g></svg>'
 
-def back_squared(hotel,city,fname):
+def back_squared(lines,hotel,city,fname):
+    """Squared title, one line per entry, the widest 280 mm wide; hotel and city below."""
     W=300
-    _,w=squared('GARDENER',1,0,0); unit=280/w        # widest line is 280 mm
-    p1,_=squared('HEAD',unit,W/2,5)
-    top2=5+10*unit+2.6*unit
-    p2,_=squared('GARDENER',unit,W/2,top2)
-    base=top2+10*unit
+    unit=280/max(squared(l,1,0,0)[1] for l in lines)
+    body,top='',5
+    for i,l in enumerate(lines):
+        if i: top+=10*unit+2.6*unit
+        body+=squared(l,unit,W/2,top)[0]
+    base=top+10*unit
     p3,_=text(oswald,hotel,14,W/2,base+26,track=0.18)
     p4,_=text(oswald,city,8.5,W/2,base+40,track=0.35)
     H=round(base+45)
-    open(f'{OUT}/{fname}-back.svg','w').write(svg(W,H,p1+p2+p3+p4,INK))
+    open(f'{OUT}/{fname}-back.svg','w').write(svg(W,H,body+p3+p4,INK))
     return unit*10
 
 def back_anton(title,hotel,city,fname):
@@ -97,7 +100,10 @@ def png(fname,worn=False,seed=5):
         im=Image.fromarray(a)
     im.save(f'{OUT}/{fname}{"-worn" if worn else ""}-300dpi.png',dpi=(300,300),optimize=True)
 
-cap=back_squared('KURHAUS EDELMATT','WENGEN','head-gardener')
+cap=back_squared(['HEAD','GARDENER'],'KURHAUS EDELMATT','WENGEN','head-gardener')
 back_anton('HEAD GARDENER','KURHAUS EDELMATT','WENGEN','head-gardener-anton')
-for f in ['head-gardener-back','head-gardener-anton-back']: png(f); png(f,worn=True)
+# GARDENER alone, on one line, in both letterings (Alex asked to see whether it fits better)
+back_squared(['GARDENER'],'KURHAUS EDELMATT','WENGEN','gardener')
+back_anton('GARDENER','KURHAUS EDELMATT','WENGEN','gardener-anton')
+for f in ['head-gardener-back','head-gardener-anton-back','gardener-back','gardener-anton-back']: png(f); png(f,worn=True)
 print(f'done; squared cap height {cap:.1f} mm')
