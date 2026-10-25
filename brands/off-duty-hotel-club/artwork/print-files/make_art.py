@@ -27,16 +27,22 @@ def text(font,s,size,cx,y,track=0):
 def svg(w,h,body,col):
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}mm" height="{h}mm" viewBox="0 0 {w} {h}"><g fill="{col}" fill-rule="nonzero">{body}</g></svg>'
 
-def back(title,hotel,city,col,fname):
-    W,H=300,120
-    t,tw=text(anton,title,1,0,0)          # measure at size 1
-    size=280/tw                            # title 280 mm wide
-    text(anton,title,size,W/2,0); top=text.bounds[1]
-    base=5-top
-    p1,_=text(anton,title,size,W/2,base)
+def back(title,hotel,city,col,fname,hotel_col=None,stack=False):
+    # hotel_col: a second, quieter ink for the hotel and city lines (two-ink back).
+    # stack: one word per line, widest line 240 mm (long two-word titles).
+    lines=title.split() if stack else [title]
+    tw=max(text(anton,l,1,0,0)[1] for l in lines)   # measure at size 1
+    size=(240 if stack else 280)/tw                  # title 280 mm wide, or 240 stacked
+    text(anton,lines[0],size,150,0); top,bot=text.bounds[1],text.bounds[3]
+    cap=bot-top; base=5-top; p1=''
+    for i,l in enumerate(lines):
+        p1+=text(anton,l,size,150,base+i*cap*1.1)[0]
+    base+=(len(lines)-1)*cap*1.1
+    W,H=300,(round(base+45) if stack else 120)
     p2,_=text(oswald,hotel,14,W/2,base+26,track=0.18)
     p3,_=text(oswald,city,8.5,W/2,base+40,track=0.35)
-    open(f'{OUT}/{fname}-back.svg','w').write(svg(W,H,p1+p2+p3,col))
+    body=p1+p2+p3 if not hotel_col else p1+f'<g fill="{hotel_col}">{p2+p3}</g>'
+    open(f'{OUT}/{fname}-back.svg','w').write(svg(W,H,body,col))
 
 def crest(icon,hotel,city,col,fname):
     W,H=90,62
@@ -67,5 +73,5 @@ valbrune_icon=peaks+f'<rect x="{cx-19}" y="36" width="38" height="1.5"/>'
 
 back('SECURITY','THE ORIOLE PALACE','LOS ANGELES','#F5F2EA','security')
 back('SKI PATROL','GRAND VALBRUNE','ST. MORITZ','#F1E6D2','ski-patrol')
-back('HEAD GARDENER','VILLA CERESA','LAKE LUGANO','#F1E6D2','head-gardener')
+back('HEAD GARDENER','VILLA CERESA','LAKE LUGANO','#E8772E','head-gardener',hotel_col='#C4D9B0',stack=True)
 print('done')

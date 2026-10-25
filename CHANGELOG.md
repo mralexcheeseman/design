@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-10-25 · off-duty-hotel-club · Head Gardener: brighter shirt, five-star crest
+On Alex's notes: `garment-garden-green` became `garment-lawn-green` (#5a9e47), and two print inks were added, `ink-orange` for the job title and `ink-sage` for the hotel line and chest crest, making Head Gardener the one two-ink back, with its title stacked on two lines (`make_art.py` `stack=True`). The Villa Ceresa crest was redrawn without the spade and rake (swan before a loggia, cypresses, camellia, five stars). New artwork, crest and photography. Ran the crest-and-print, photography, page and copy checklists.
+
 ## 2026-10-23 · off-duty-hotel-club · Fifth hotel: Villa Ceresa, Head Gardener
 Alex asked for a green Head Gardener shirt from a hotel in a picturesque part of Switzerland. Added Villa Ceresa (Lake Lugano, est. 1911, department 05): `hotel-ceresa` ink, `garment-garden-green`, the heritage crest (generated in the set's style with the four existing crests as reference, then traced by `trace_heritage.py`, which now also takes single-crest images), the back print from `make_art.py`, and `render_print.py`, which makes the 300 dpi and worn-ink PNGs. Copy that counted four hotels now says five. Ran the crest-and-print, photography, page and copy checklists.
 
