@@ -12,6 +12,8 @@ SRC = os.path.join(HERE, 'explorations', 'direction-a-heritage-1024.png')
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, 'heritage')
 SCALE = 4
 QUADS = {'oriole-palace': (0, 0), 'grand-valbrune': (1, 0), 'hotel-solvane': (0, 1), 'casa-thalene': (1, 1)}
+# Hotels added later, each generated alone at 1024 px in the same style (one crest per image).
+SINGLES = {'kurhaus-edelmatt': 'kurhaus-edelmatt-source.png'}
 
 def crop(gray, qx, qy):
     """Bounding box of the crest whose centre is in this quadrant (ignores bits of neighbours)."""
@@ -31,8 +33,14 @@ def crop(gray, qx, qy):
     keep = np.where(inside[y0:y1 + 1, x0:x1 + 1], q[y0:y1 + 1, x0:x1 + 1], 255).astype(np.uint8)
     return Image.fromarray(keep)
 
-def trace(img):
-    big = img.resize((img.width * SCALE, img.height * SCALE), Image.LANCZOS).filter(ImageFilter.GaussianBlur(1.2))
+def crop_single(gray):
+    """Bounding box of everything dark in a one-crest image."""
+    ys, xs = np.where(gray < 128)
+    pad = 6
+    return Image.fromarray(gray[max(ys.min() - pad, 0):ys.max() + pad + 1, max(xs.min() - pad, 0):xs.max() + pad + 1])
+
+def trace(img, scale=SCALE):
+    big = img.resize((img.width * scale, img.height * scale), Image.LANCZOS).filter(ImageFilter.GaussianBlur(1.2))
     bits = np.array(big) >= 128  # potracer fills the False region
     path = potrace.Bitmap(bits).trace(turdsize=12, alphamax=1.0, opticurve=True, opttolerance=0.25)
     d = []
@@ -49,8 +57,12 @@ def trace(img):
 if __name__ == '__main__':
     os.makedirs(OUT, exist_ok=True)
     gray = np.array(Image.open(SRC).convert('L'))
-    for name, (qx, qy) in QUADS.items():
-        w, h, d = trace(crop(gray, qx, qy))
+    jobs = [(name, lambda q=q: trace(crop(gray, *q))) for name, q in QUADS.items()]
+    # A single crest fills about twice the pixels of a quadrant, so it needs half the upscale.
+    jobs += [(name, lambda f=f: trace(crop_single(np.array(Image.open(os.path.join(HERE, 'explorations', f)).convert('L'))), SCALE // 2))
+             for name, f in SINGLES.items()]
+    for name, job in jobs:
+        w, h, d = job()
         svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}">'
                f'<path fill="#000" fill-rule="evenodd" d="{d}"/></svg>')
         open(os.path.join(OUT, f'{name}.svg'), 'w').write(svg)

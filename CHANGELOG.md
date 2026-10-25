@@ -2,6 +2,15 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-10-25 · off-duty-hotel-club · Head Gardener becomes Gardener, in Anton
+Alex chose GARDENER alone in Anton over the squared lettering. The shirt, print files (`gardener-back`, `gardener-crest`) and renders are renamed, the squared-lettering files are removed and `make_gardener.py` now builds the Anton back only. The back print is centred on the shirt and sized like Ski Patrol's.
+
+## 2026-10-23 · off-duty-hotel-club · Fifth hotel proposed: Kurhaus Edelmatt, Wengen
+A summer alpine hotel (department 05, Head Gardener) so the Swiss mountains get a second, different address from Grand Valbrune's winter in St. Moritz. Adds the `hotel-edelmatt` ink (gentian blue), a heritage crest generated alone in the same style and traced with `trace_heritage.py` (now handles single-crest sources), its screen asset and a geranium-red print file for the Head Gardener shirt. Hotel cards may now run five across. Proposal for Alex's review; not on the live store.
+
+## 2026-10-23 · off-duty-hotel-club · Head Gardener shirt (proposal)
+New shirt for the fifth hotel, Kurhaus Edelmatt in Wengen: `garment-garden-green` and `ink-geranium` tokens, a merch row, back print files and `make_gardener.py`, which draws the squared lettering Alex asked for (after his "Ciao" cap) and an Anton version for comparison. Product renders in `assets/photography/`. The lettering is a proposed exception to the Anton rule, noted in `decisions.md` until Alex chooses.
+
 ## 2026-10-21 · edgework · Manila tokens and button arrows
 Added `manila` and `manila-ink` for the essay folders on the new Edgework site, and allowed "→" inside buttons, matching what the site does. Ran the page and copy checklists against the site.
 
