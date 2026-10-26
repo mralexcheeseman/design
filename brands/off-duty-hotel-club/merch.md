@@ -41,7 +41,7 @@ Run `checklists/crest-and-print.md` before anything goes to a supplier.
 
 ## Caps: Hat Check (proposed, 26 Oct 2026)
 
-A trucker-cap line, one per hotel, each the department the T-shirt store lists as "on the drawing board". Not approved yet; preview only.
+A trucker-cap line, one per hotel, each for a department that works outside (mostly the ones the T-shirt store lists as "on the drawing board"). Not approved yet; preview only.
 
 | Cap | Hotel | Front / mesh / peak | Ink |
 | --- | --- | --- | --- |
