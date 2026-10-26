@@ -51,6 +51,6 @@ A trucker-cap line, one per hotel, each for a department that works outside (mos
 | Night Porter | Grand Valbrune, St. Moritz | burgundy / cream / burgundy | cream `#f1e6d2` |
 | Boatman | Villa Ceresa, Lake Lugano | cypress green / cream / cypress green | cream `#f1e6d2` |
 
-- Front: the job title in Anton across the foam panel, hotel name and town beneath in Oswald 500, tracked like the shirt backs. Draft art in `artwork/caps/` (raster drafts, not print files yet).
+- Front (picked by Alex, 26 Oct 2026, option C): the hotel crest centred on the foam panel, the job title in Anton beneath it, one ink. Options A (title, hotel and town in Oswald) and B (crest only) were dropped. Draft art in `artwork/caps/` (raster drafts, not print files yet).
 - Boatman moved from orange-on-lawn-green to cream on cypress green: orange and lawn green are the same lightness and merge for colour-blind viewers.
 - Photography in `assets/photography/caps/`: `-front` and `-side` on `stone`, `-scene` on location, and `hero-hat-check.webp`. Design visualisations (nano-banana-pro edit from the draft art) until samples exist.
