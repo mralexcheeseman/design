@@ -45,7 +45,7 @@ A trucker-cap line, one per hotel, each the department the T-shirt store lists a
 
 | Cap | Hotel | Front / mesh / peak | Ink |
 | --- | --- | --- | --- |
-| Tennis Club | Hôtel Solvane, Saint-Tropez | white / white / clay red | red |
+| Tennis Coach | Hôtel Solvane, Saint-Tropez | white / white / clay red | red |
 | Valet | The Oriole Palace, Los Angeles | washed black throughout | off-white `#f5f2ea` |
 | Beach Club | Casa Thalene, Mykonos | pool blue / white / navy | navy |
 | Night Porter | Grand Valbrune, St. Moritz | burgundy / cream / burgundy | cream `#f1e6d2` |
