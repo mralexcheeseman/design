@@ -41,12 +41,14 @@ Run `checklists/crest-and-print.md` before anything goes to a supplier.
 
 ## Caps: Hat Check (proposed, 26 Oct 2026)
 
-A trucker-cap line, one per hotel, each for a department that works outside (mostly the ones the T-shirt store lists as "on the drawing board"). Not approved yet; preview only.
+A trucker-cap line of seven caps from the five hotels, each for a department that works outside: the ones the T-shirt store lists as "on the drawing board", plus Lifeguard and Security to match the shirts (added at Alex's request, 27 Oct 2026; Lifeguard red with white print, Security black with gold). Not approved yet; preview only.
 
 | Cap | Hotel | Front / mesh / peak | Ink |
 | --- | --- | --- | --- |
 | Tennis Coach | Hôtel Solvane, Saint-Tropez | white / white / clay red | red |
+| Lifeguard | Hôtel Solvane, Saint-Tropez | rescue red throughout | white |
 | Valet | The Oriole Palace, Los Angeles | washed black throughout | off-white `#f5f2ea` |
+| Security | The Oriole Palace, Los Angeles | washed black throughout | gold `ink-gold` `#c9a24e` |
 | Beach Club | Casa Thalene, Mykonos | pool blue / white / navy | navy |
 | Night Porter | Grand Valbrune, St. Moritz | burgundy / cream / burgundy | cream `#f1e6d2` |
 | Boatman | Villa Ceresa, Lake Lugano | cypress green / cream / cypress green | cream `#f1e6d2` |

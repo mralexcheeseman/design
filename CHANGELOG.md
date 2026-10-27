@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-10-27 · off-duty-hotel-club · Lifeguard and Security caps, gold ink
+Added Lifeguard (rescue red, white print) and Security (washed black, gold print) to the proposed Hat Check caps, at Alex's request, with draft art and photography. New token `ink-gold` (#c9a24e) for the Security cap print.
+
 ## 2026-10-26 · off-duty-hotel-club · Hat Check caps (proposed)
 Added a proposed trucker-cap line (one cap per hotel), its draft front art (`artwork/caps/`) and generated photography (`assets/photography/caps/`) for the Hat Check preview site on Base44. Merch spec in `merch.md` under "Caps". Also carries `assets/crests/villa-ceresa.svg` from the Head Gardener branch. Nothing here is approved yet. Later the same day: the print is now option C (crest over the job title), picked by Alex; art and photography redone to match.
 
