@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-10-28 · off-duty-hotel-club · Social image sets
+Added the draft social sets to `assets/social/` (Casa Thalene 1966, One night at The Oriole Palace, Hat Check cap shots) so they can be imported into Alex's Air library by URL. Generated images, drafts only; nothing posted.
+
 ## 2026-10-27 · off-duty-hotel-club · Lifeguard and Security caps, gold ink
 Added Lifeguard (rescue red, white print) and Security (washed black, gold print) to the proposed Hat Check caps, at Alex's request, with draft art and photography. New token `ink-gold` (#c9a24e) for the Security cap print.
 
