@@ -5,7 +5,7 @@ Staff-issue T-shirts from five fictional hotels: a small crest on the front, a p
 - **Voice: dry, deadpan, a little conspiratorial.** Speak as the club, using "we" and "you". Real lines to match: "Wish you worked here." "Excellent hotels. Questionable employees." "Find your hotel. Choose your role. Take the rest of the day off."
 - **Say less.** Use one strong line per section. Cut captions on photos, decorative strips and repeated footnotes.
 - **The hotels are fictional, so say so plainly.** Never imply the shirts were taken from real hotels ("acquired", "lifted", "never meant to leave the property"). Good: "Four hotels that don't exist. A small crest on the front, a proper job title on the back."
-- **Hotel and job names keep their exact spelling and accents:** Hôtel Solvane, The Oriole Palace, Casa Thalene, Grand Valbrune, Villa Ceresa. The roles are Lifeguard, Security, Pool Boy, Ski Patrol and Head Gardener.
+- **Hotel and job names keep their exact spelling and accents:** Hôtel Solvane, The Oriole Palace, Casa Thalene, Grand Valbrune, Villa Ceresa. The roles are Lifeguard, Security, Pool Boy, Ski Patrol and Gardener.
 - **Sentence case** for headings and buttons. Capitals only come from the `label` style and the wordmark.
 - **Prices in whole pounds:** £48, never £48.00.
 - **One place for disclaimers.** Put the preview notice in the announcement bar's "About this preview" panel. Elsewhere, add one short line only at the add-to-bag button and in the bag.
@@ -46,7 +46,7 @@ Nothing is set below 12px. The "Line. *Italic line.*" headline appears once, in 
 | 02 | The Oriole Palace | Los Angeles, California | Security | `hotel-oriole` |
 | 03 | Casa Thalene | Mykonos, Greek Islands | Pool Boy | `hotel-thalene` |
 | 04 | Grand Valbrune | St. Moritz, Swiss Alps | Ski Patrol | `hotel-valbrune` |
-| 05 | Villa Ceresa | Lake Lugano, Ticino | Head Gardener | `hotel-ceresa` |
+| 05 | Villa Ceresa | Lake Lugano, Ticino | Gardener | `hotel-ceresa` |
 
 The numbers 01–05 are real: they are each hotel's department number and its order in the collection. Set the number as a `label` in the hotel's ink, before the place: "01 · Saint-Tropez".
 
