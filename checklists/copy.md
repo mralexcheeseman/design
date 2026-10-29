@@ -7,6 +7,6 @@
 - [ ] No emoji, no exclamation marks.
 - [ ] Disclaimers only where the brand allows (for ODHC: the preview panel, one line at add to bag, one in the bag).
 - [ ] Concept products and generated images are described as previews while `preview: true`.
-- [ ] Names are spelled exactly, with accents (for ODHC: Hôtel Solvane, The Oriole Palace, Casa Thalene, Grand Valbrune; Lifeguard, Security, Pool Boy, Ski Patrol).
+- [ ] Names are spelled exactly, with accents (for ODHC: Hôtel Solvane, The Oriole Palace, Casa Thalene, Grand Valbrune, Villa Ceresa; Lifeguard, Security, Pool Boy, Ski Patrol, Gardener).
 - [ ] Nothing claims a fact we can't back (fabric weight, origin, delivery time) until it is confirmed.
 - [ ] Off Duty Hotel Club: the hotels are described as fictional, and nothing implies the shirts were taken from real hotels.
