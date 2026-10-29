@@ -4,6 +4,7 @@ Settled choices, newest first, so nobody reopens them by accident. Change one on
 
 | Date | Decision | Why | Rejected |
 | --- | --- | --- | --- |
+| 2026-10-29 | Department 05 is Gardener: deep garden green `#244b31`, GARDENER in Anton (280 mm), one geranium ink `#e1474a` for title, hotel line and the swan crest | Alex picked it as the best shirt after seeing HEAD / GARDENER and GARDENER in squared lettering and Anton | Head Gardener in lawn green with an orange title and sage hotel line (25 Oct); squared lettering after the "Ciao" cap; the Kurhaus Edelmatt hotel and its spade-and-rake crest |
 | 2026-10-25 | Head Gardener: lawn green shirt, orange job title, sage hotel line and crest; new Villa Ceresa crest (swan before a loggia, cypresses, camellia, five stars) | Alex wanted a brighter shirt with the job loud and the hotel quiet, and a crest fit for an ultra-luxury five-star hotel: a grand hotel's badge shows the place, never the tools of a job | Garden green with cream ink; a crest with a spade and rake |
 | 2026-10-23 | Fifth hotel: Villa Ceresa, Lake Lugano (est. 1911), department 05 Head Gardener, garden green with cream ink | Alex asked for a green Head Gardener shirt from a picturesque part of Switzerland; Lake Lugano gives a lake-and-gardens summer story distinct from St. Moritz snow | A second Alpine resort |
 | 2026-10-15 | `ink-3` is #6b6c61 | 4.9:1 on paper; the earlier #7c7d72 failed 4.5:1 | #7c7d72 |
