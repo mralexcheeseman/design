@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-02 · off-duty-hotel-club · Cap print files
+Vector front print files for all seven Hat Check caps (`artwork/caps/print/`, option C, text outlined, true size in mm) built by `artwork/caps/make_caps.py`, plus factory spec sheets for the Lifeguard and Security samples (`spec_sheet.py`). Pantones are left to the factory to propose, per the print tokens note.
+
 ## 2026-10-28 · off-duty-hotel-club · Social image sets
 Added the draft social sets to `assets/social/` (Casa Thalene 1966, One night at The Oriole Palace, Hat Check cap shots) so they can be imported into Alex's Air library by URL. Generated images, drafts only; nothing posted.
 
