@@ -4,6 +4,7 @@ Settled choices, newest first, so nobody reopens them by accident. Change one on
 
 | Date | Decision | Why | Rejected |
 | --- | --- | --- | --- |
+| 2026-11-10 | Play the fiction straight: heritage and history language allowed, no "fictional" disclaimer required in ads, social or video; type over footage allowed in social video | Alex: the disclaimer kills the fantasy the brand sells ("Take a piece of history home") | Saying the hotels are fictional everywhere; no text over photos in any medium |
 | 2026-10-25 | Head Gardener: lawn green shirt, orange job title, sage hotel line and crest; new Villa Ceresa crest (swan before a loggia, cypresses, camellia, five stars) | Alex wanted a brighter shirt with the job loud and the hotel quiet, and a crest fit for an ultra-luxury five-star hotel: a grand hotel's badge shows the place, never the tools of a job | Garden green with cream ink; a crest with a spade and rake |
 | 2026-10-23 | Fifth hotel: Villa Ceresa, Lake Lugano (est. 1911), department 05 Head Gardener, garden green with cream ink | Alex asked for a green Head Gardener shirt from a picturesque part of Switzerland; Lake Lugano gives a lake-and-gardens summer story distinct from St. Moritz snow | A second Alpine resort |
 | 2026-10-15 | `ink-3` is #6b6c61 | 4.9:1 on paper; the earlier #7c7d72 failed 4.5:1 | #7c7d72 |
