@@ -4,7 +4,7 @@ Staff-issue T-shirts from five fictional hotels: a small crest on the front, a p
 
 - **Voice: dry, deadpan, a little conspiratorial.** Speak as the club, using "we" and "you". Real lines to match: "Wish you worked here." "Excellent hotels. Questionable employees." "Find your hotel. Choose your role. Take the rest of the day off."
 - **Say less.** Use one strong line per section. Cut captions on photos, decorative strips and repeated footnotes.
-- **The hotels are fictional, so say so plainly.** Never imply the shirts were taken from real hotels ("acquired", "lifted", "never meant to leave the property"). Good: "Four hotels that don't exist. A small crest on the front, a proper job title on the back."
+- **Play the fiction straight.** Write as if the hotels are real and old: heritage, history, staff, guests and duties are all fair game ("Take a piece of history home", "Now hiring: Ski Patrol"). Ads, social posts and videos don't need to say the hotels are fictional. Never name a real hotel or brand, and never claim a shirt is genuine vintage or was worn by real staff.
 - **Hotel and job names keep their exact spelling and accents:** Hôtel Solvane, The Oriole Palace, Casa Thalene, Grand Valbrune, Villa Ceresa. The roles are Lifeguard, Security, Pool Boy, Ski Patrol and Head Gardener.
 - **Sentence case** for headings and buttons. Capitals only come from the `label` style and the wordmark.
 - **Prices in whole pounds:** £48, never £48.00.
@@ -24,7 +24,7 @@ Nothing is set below 12px. The "Line. *Italic line.*" headline appears once, in 
 
 **Layout.** Section padding is `space-8` vertically on desktop and `space-7` on phones. The side gutter is `gutter`, never under `space-4`. Product grids have three columns on desktop and two on phones, with a `space-5` gap. Separate sections with `line` hairlines, not boxes. The header is a three-column grid: navigation left, wordmark centred, search and bag right.
 
-**Photography.** Every product shot is a 4:5 portrait on exactly `stone`, with the shirt centred and filling about 78% of the width. The back of the shirt is the main image and the front is the second. The hero is one photograph of one shirt being worn. On phones it is cropped so the back print reads in full; never cut "LIFEGUARD" mid-word. Put no captions or text over photos except the hero headline.
+**Photography.** Every product shot is a 4:5 portrait on exactly `stone`, with the shirt centred and filling about 78% of the width. The back of the shirt is the main image and the front is the second. The hero is one photograph of one shirt being worn. On phones it is cropped so the back print reads in full; never cut "LIFEGUARD" mid-word. Put no captions or text over photos except the hero headline. Social videos and ads are the exception: they carry a few large lines of type over the footage (see the content-engine templates in storefront-kit).
 
 **Borders, radii, shadows.** Corners are square (`radius-0`). `radius-full` is reserved for the colour dot and the bag count. Rules are 1px `line`. Controls that must be seen get `line-strong`. Only the bag drawer (`shadow-drawer`) and modals (`shadow-modal`) cast shadows.
 

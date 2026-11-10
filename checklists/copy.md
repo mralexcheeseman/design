@@ -9,4 +9,4 @@
 - [ ] Concept products and generated images are described as previews while `preview: true`.
 - [ ] Names are spelled exactly, with accents (for ODHC: Hôtel Solvane, The Oriole Palace, Casa Thalene, Grand Valbrune; Lifeguard, Security, Pool Boy, Ski Patrol).
 - [ ] Nothing claims a fact we can't back (fabric weight, origin, delivery time) until it is confirmed.
-- [ ] Off Duty Hotel Club: the hotels are described as fictional, and nothing implies the shirts were taken from real hotels.
+- [ ] Off Duty Hotel Club: the fiction is played straight, no real hotel or brand is named, and nothing claims a shirt is genuine vintage or was worn by real staff.
