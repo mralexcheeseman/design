@@ -11,6 +11,9 @@ The website is the shop window; the T-shirt is the product. These rules cover ev
 | Pool Boy | Casa Thalene, Mykonos | pool blue (`garment-pool-blue`) | navy | max 85 mm |
 | Ski Patrol | Grand Valbrune, St. Moritz | alpine red (`garment-alpine-red`) | cream `#f1e6d2` | 83 × 85 mm |
 | Head Gardener | Villa Ceresa, Lake Lugano | lawn green (`garment-lawn-green`) | orange `#e8772e` title, sage `#c4d9b0` hotel line and crest | 58 × 85 mm |
+| Pool Boy, limited edition | Hôtel Sélune, St. Barths | white (`garment-white`) | Sélune blue `#1f4aa0` | 85 × 74 mm |
+
+A limited edition is marked "Limited edition" wherever the shirt is shown (the `edition` field on the product in storefront-kit). The limit itself, a number of shirts or a closing date, must be decided and stated before orders open.
 
 Pantone references (TCX for fabric, C for ink) are to be confirmed against a swatch book and the supplier's strike-off. Fill in `pantoneTCX` and `pantone` in `tokens.json` when they are.
 
