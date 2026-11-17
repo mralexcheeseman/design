@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-17 · off-duty-hotel-club · In-situ photo library
+Alex asked for a consistent library of each shirt being worn at its hotel. Added `assets/photography/in-situ/`: 25 shots, five per shirt (back hero, three-quarter, front, crest close-up, off duty), one recurring staff member and one setting per hotel, made with FASHN through its API (71 credits including tests). FASHN keeps the back print and the person across shots but garbles chest-crest lettering, so the front product shots were first given the heritage crests (they still showed the old clip-art ones, kept as `in-situ/source/*-front-heritage.png`), and every generated chest crest was then replaced with the print file. One exception, recorded in the library README: the Ski Patrol close-up keeps FASHN's crest. New decision on scope. Ran the photography checklist: 4:5, two or more per product, no text on photos and preview labelling pass; the `stone` background and 78% width items are product-shot rules and are recorded as not applying to in-situ shots. The Design System artifact's Photography group still needs these added.
+
 ## 2026-10-25 · off-duty-hotel-club · Head Gardener: brighter shirt, five-star crest
 On Alex's notes: `garment-garden-green` became `garment-lawn-green` (#5a9e47), and two print inks were added, `ink-orange` for the job title and `ink-sage` for the hotel line and chest crest, making Head Gardener the one two-ink back, with its title stacked on two lines (`make_art.py` `stack=True`). The Villa Ceresa crest was redrawn without the spade and rake (swan before a loggia, cypresses, camellia, five stars). New artwork, crest and photography. Ran the crest-and-print, photography, page and copy checklists.
 
