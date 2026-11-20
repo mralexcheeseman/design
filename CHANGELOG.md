@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-20 · off-duty-hotel-club · Type moves to Adobe Fonts
+Alex approved FreightBig Pro for headings, Neue Haas Unica for text and Trajan Sans Pro 600 for the wordmark, after a side-by-side test on the live store. `fonts` and `families` in tokens.json now point at Adobe Fonts web kit `naj0wqi`, `bundle.css` loads the kit, and the README, merch notes and decisions say so. The crests stay Cinzel. Ran the page, copy and crest-and-print checklists.
+
 ## 2026-10-25 · off-duty-hotel-club · Head Gardener: brighter shirt, five-star crest
 On Alex's notes: `garment-garden-green` became `garment-lawn-green` (#5a9e47), and two print inks were added, `ink-orange` for the job title and `ink-sage` for the hotel line and chest crest, making Head Gardener the one two-ink back, with its title stacked on two lines (`make_art.py` `stack=True`). The Villa Ceresa crest was redrawn without the spade and rake (swan before a loggia, cypresses, camellia, five stars). New artwork, crest and photography. Ran the crest-and-print, photography, page and copy checklists.
 

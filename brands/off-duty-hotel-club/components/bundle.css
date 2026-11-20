@@ -1,5 +1,5 @@
 /* Off Duty Hotel Club — component styles. Values come from tokens.css; nothing here declares a token. */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Instrument+Serif:ital@0;1&display=swap');
+@import url('https://use.typekit.net/naj0wqi.css'); /* Adobe Fonts kit naj0wqi: FreightBig Pro, Neue Haas Unica, Trajan Sans Pro */
 body{background:var(--paper);color:var(--ink);font-family:var(--font-sans);margin:0}
 .odh-label{font-family:var(--font-sans);font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:500;line-height:1.4}
 .odh-wordmark{display:inline-flex;flex-direction:column;align-items:center;gap:8px;color:var(--ink);text-decoration:none}
