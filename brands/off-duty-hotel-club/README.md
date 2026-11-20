@@ -16,9 +16,10 @@ Staff-issue T-shirts from five fictional hotels: a small crest on the front, a p
 **Colour.** Use one light ground (`paper`), one ink (`ink`) and one accent (`accent`). `staff-green` frames the page (announcement bar and footer) and appears nowhere in between. Set body copy in `ink`, secondary copy in `ink-2`, and tertiary notes in `ink-3`, which reads on paper only. Each hotel has its own ink (`hotel-solvane`, `hotel-oriole`, `hotel-thalene`, `hotel-valbrune`, `hotel-ceresa`). Use it only for that hotel's crest, its number and its name, never as a fill or a background block, and never with two hotels' colours side by side in large areas. The garment tokens exist only for the 16px colour dot.
 
 **Typography.** Use three families, each with one job:
-- `serif` (Instrument Serif) for headings: `display` for the hero, `headline` for sections, pages and product names, `title` for modals.
-- `sans` (DM Sans) for everything read: `body`, `body-sm` and `label`.
-- `crest` (Cinzel 600) for the wordmark only. It is the same inscription face as the crests, so the logo and the crests read as one family.
+- `serif` (FreightBig Pro, Adobe Fonts) for headings: `display` for the hero, `headline` for sections, pages and product names, `title` for modals.
+- `sans` (Neue Haas Unica, Adobe Fonts) for everything read: `body`, `body-sm` and `label`.
+- `crest` (Trajan Sans Pro 600, Adobe Fonts) for the wordmark only. The crest artwork stays in Cinzel; both are Roman inscription capitals, so the logo and crests still sit together.
+- The fonts come from Adobe Fonts web kit `naj0wqi`. Every domain the store runs on must be listed in that kit (offdutyhotel.club, www, the .base44.app address and preview, *.vercel.app, localhost). Adobe fonts can't be bundled, so emails, sandbox-rendered images and headless checks fall back to the stack's next face; keep the fallbacks.
 
 Nothing is set below 12px. The "Line. *Italic line.*" headline appears once, in the hero. Every other heading is a single roman line with no full stop.
 

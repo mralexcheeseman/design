@@ -33,7 +33,7 @@ Pantone references (TCX for fabric, C for ink) are to be confirmed against a swa
 - Current samples: Comfort Colors 1717 (Security, Printful) and Stanley/Stella Creator Vintage or Blaster 2.0 (Ski Patrol, Prodigi). The winner on softness after three washes takes the first order.
 
 ## Not designed yet
-These need designing before the first bulk order and should follow this system (Cinzel for names, one ink, square corners, dry voice):
+These need designing before the first bulk order and should follow this system (Trajan Sans Pro for names on new pieces, Cinzel inside the existing crests, one ink, square corners, dry voice):
 - Neck label or printed inner tag (size, care, "Off Duty Hotel Club").
 - Swing tag: crest on one side, the shirt's "staff card" on the other (role, department number, hotel).
 - Mailer and any insert card.
