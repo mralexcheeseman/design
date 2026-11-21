@@ -48,7 +48,7 @@ Nothing is set below 12px. The "Line. *Italic line.*" headline appears once, in 
 | 04 | Grand Valbrune | St. Moritz, Swiss Alps | Ski Patrol | `hotel-valbrune` |
 | 05 | Villa Ceresa | Lake Lugano, Ticino | Head Gardener | `hotel-ceresa` |
 
-The numbers 01–05 are real: they are each hotel's department number and its order in the collection. Set the number as a `label` in the hotel's ink, before the place: "01 · Saint-Tropez".
+The numbers 01–05 are real: they are each hotel's department number and its order in the collection. Set the number as a `label` in the hotel's ink, before the place: "01 · Saint-Tropez". Not on social posts, where the label is the hotel and place (see decisions.md, 2026-11-21).
 
 ## Patterns to avoid
 
