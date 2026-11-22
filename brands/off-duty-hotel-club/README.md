@@ -57,7 +57,9 @@ Scrolling ticker or destination strips, badges, a back/front toggle on every car
 
 ## Known drift
 
-None known. If the live store in storefront-kit stops matching this system, list each difference here until it is fixed.
+If the live store in storefront-kit stops matching this system, list each difference here until it is fixed.
+
+- **Hôtel Sélune (St. Barths, 06, limited-edition Pool Boy) is in the store but not in this system.** storefront-kit `catalog.js`, `theme.css` (`--hotel-selune:#1f4aa0`) and `stories.js` carry it; this README, `tokens.json` and the crest assets don't. The guest-book site (Base44 app "ODHC Guest Book", 2026-11-22) copies the store's value. Add `hotel-selune` and the crest here, or drop Sélune from the store.
 
 ## Files in this system
 
