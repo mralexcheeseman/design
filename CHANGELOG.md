@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-22 · off-duty-hotel-club · Guest-book site; Sélune drift noted
+Built a public guest-book site in Base44 ("ODHC Guest Book", https://odhc-guest-book-9cdeb9ce.base44.app) for Instagram links: one page per hotel with its people and stories from storefront-kit `stories.js`, the uniform, and a waitlist on the store's Klaviyo list. Uses tokens.css and bundle.css as they are. Listed Hôtel Sélune under Known drift, since the store has it and this system doesn't. Ran the page and copy checklists.
+
 ## 2026-11-20 · off-duty-hotel-club · Type moves to Adobe Fonts
 Alex approved FreightBig Pro for headings, Neue Haas Unica for text and Trajan Sans Pro 600 for the wordmark, after a side-by-side test on the live store. `fonts` and `families` in tokens.json now point at Adobe Fonts web kit `naj0wqi`, `bundle.css` loads the kit, and the README, merch notes and decisions say so. The crests stay Cinzel. Ran the page, copy and crest-and-print checklists.
 
