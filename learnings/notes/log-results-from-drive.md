@@ -26,7 +26,7 @@ The Zapier MCP connector can run actions (create a row, find a file), but it can
 ## What to do
 
 1. Give the sheet a log tab (here `Results`) with headers `Added`, `File`, `Drive link`, then formula columns. The Zap fills only the first three.
-2. Do the parsing in the sheet, not in Zapier. A Formatter step makes the Zap three steps, and the free plan allows two. In row 1 of each formula column, one `ARRAYFORMULA` that prints its own header and leaves blank rows truly empty, so Zapier's append still finds the last row:
+2. Do the parsing in the sheet. A Formatter step makes the Zap three steps, and the free plan allows two. In row 1 of each formula column, one `ARRAYFORMULA` that prints its own header and leaves blank rows truly empty, so Zapier's append still finds the last row:
    - ID: `REGEXEXTRACT(B:B,"^([A-Za-z]+[0-9]+[a-z]?)")` (H1, H1b, H10e, K2)
    - Version: `"v"&REGEXEXTRACT(LOWER(B:B),"v([0-9]+)")`. This survives `.jpgv1`, `.jpg.v1` and `-v1.jpg`. Hotel names with a v (Solvane, Valbrune) are safe because a digit must follow.
    - Shot and tool: `VLOOKUP` on ID against both shot tabs stacked with `{...;...}`.
