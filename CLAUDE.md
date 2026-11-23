@@ -10,6 +10,7 @@ This repo holds the design system for each brand. Anything you create for a bran
 2. Use only values from `brands/<brand>/tokens.json`. If you need a value that isn't a token, stop and add the token (with a usage note) rather than hard-coding it.
 3. Use an existing component from `brands/<brand>/components/` when one fits, and follow its README. If none fits, write the component's README (what the consumer provides, rules, what never to do) before building it.
 4. For physical products read `brands/<brand>/merch.md`. Check `brands/<brand>/decisions.md` so you don't reopen a settled choice.
+5. Before you run any AI tool (image, video, voice, site builder, Express import), read `learnings/README.md` and the playbooks for what you're making. Start from their prompts and settings.
 
 ## Before you call it done
 
@@ -21,4 +22,5 @@ Run the checklists in `checklists/` that apply (page, copy, photography, crest a
 - Artwork (crests, print files) lives in `brands/<brand>/artwork/` and is the master copy. Change it here first.
 - Every change gets a dated line in `CHANGELOG.md`. Settled choices go in `decisions.md`.
 - Keep the Design System artifact (link in README.md) in step: when you change this repo, update it, or say in your summary that it needs updating.
-- Brand-specific copy and assets stay in that brand's folder.
+- Brand-specific copy and assets stay in that brand's folder. The exception is `learnings/`, where a playbook carries the brand prompt we used beside its generic prompt.
+- After any AI tool run, add what you learned to `learnings/` the same day (see "Adding to it" in its README). It is the master copy The Back Office publishes from.

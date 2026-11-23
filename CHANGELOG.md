@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-23 · all · AI learnings move into the repo
+Added `learnings/`: one markdown file per playbook (reader's problem as the title, tool and model with the date tested, references, generic and ODHC prompts, settings, cost per usable result, what went wrong, the fix, status, and the making, tool and technique tags), plus three private working notes (scoring, credit prices, what a thread can run). The five playbooks mirror The Back Office's Playbook records slug for slug, so the site publishes from here. Gathered from the Photo Studio and Base44 builder notes, the social factory, the shot sheet and The Back Office data. CLAUDE.md and AGENTS.md now say to read it before running an AI tool and to add to it the same day. Ran the copy checklist.
+
 ## 2026-11-23 · off-duty-hotel-club · No italic second half, no contrast lines
 The README allowed one "Line. *Italic line.*" hero headline; Alex's website rules ban it, and ban contrast lines in copy. README, decisions and the copy checklist now say so. The guest-book site and storefront-kit were rewritten to match. Ran the copy checklist.
 
