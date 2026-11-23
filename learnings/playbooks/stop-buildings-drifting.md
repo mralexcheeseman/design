@@ -32,11 +32,13 @@ We wanted the site to open on a drive up to the club's front door. Before paying
 
 Kling 3.0 Omni took all four as references and made one 12-second take that hit every stop. The trouble was already in still 2. The edit that moved the camera up the drive also redrew the villa with columns and a balcony, while still 3 kept the flat front from still 1. We missed it on a contact sheet. Alex caught it on his phone at full speed.
 
-A remake would have cost about 118 credits. We kept the clip and held the last title over the change with the picture dimmed behind it. That softens the join and you can still see it.
+A remake would have cost about 118 credits. First we held a title over the change with the picture dimmed behind it, and you could still see the house shift. Then Alex suggested cutting it out. We played the drive a quarter faster, stopped at 6.5 seconds while the house is still small, and cut straight to the steps at 9 seconds. The clip is now 8.3 seconds, the portico never appears, and the cut lands under the last title. It cost nothing.
 
 ## What to do
 
 Lay your stills side by side before you spend any video credits and check the building against each one: columns, windows, doors, roofline. Redraw any still that disagrees, because the model will travel from one version to the other in plain sight.
+
+If the clip is already made, cut the change out. Keep the frames before the building is close enough to read, jump to the frames after it has settled, and hide the join under a title. One ffmpeg command does it for free.
 
 For a simple push-in, skip the middle stills. Give the model one photograph as the first frame and a tight crop of the same photograph as the last frame, and there is nothing for the building to drift towards.
 
@@ -72,12 +74,13 @@ Kling's Omni model refers to reference images as 图片1, 图片2 and so on. Typ
 
 ## Cost
 
-142 credits for one usable clip: 46 Recraft credits for the four stills and 96 Kling credits for a single take. Usable with the change covered by a title.
+142 credits for one usable clip: 46 Recraft credits for the four stills and 96 Kling credits for a single take. The cut that removed the change was free.
 
 ## Lessons
 
 | Lesson | Status |
 | --- | --- |
+| `cut-past-the-change`: When a generated clip morphs between two versions of a building, cut from the last frame before it can be read to the first frame after it settles, and put a title over the join. It costs nothing and the change never shows. | try |
 | `waypoints-must-match`: Kling morphs whatever the waypoint stills disagree on, so check that the building is the same in every still before you spend video credits. | tested |
 | `four-refs-hold-the-path`: Give Kling Omni every waypoint as a still and name each one in the prompt, and a 12-second move lands on all of them in one take. | tested |
 | `edit-chain-for-frames`: Making each still as an edit of the one before kept the trees, light and villa consistent from frame to frame. | tested |
@@ -89,8 +92,9 @@ Kling's Omni model refers to reference images as 图片1, 图片2 and so on. Typ
 
 ## Next to try
 
-Redraw stills 1 and 2 backwards from still 3 so all four share one front (about 22 Recraft credits), then make one more Kling take. Alex parked this on 2026-11-23, so spend nothing on it without his say.
+If the entrance is remade, redraw stills 1 and 2 backwards from still 3 so all four share one front (about 22 Recraft credits), then make one more Kling take. Spend nothing on it without Alex's say.
 
 ## History
 
 - 2026-11-23: Entrance clip made, door change found, title moved over it. Written up as a playbook.
+- 2026-11-23: Change cut out on Alex's suggestion: drive 0 to 6.5 s at 1.25x, hard cut to 9 s, 8.3 s clip, no credits.

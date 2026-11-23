@@ -30,7 +30,7 @@ Photo Studio is a small app we built in Base44. You pick a hotel, a shirt and a 
 
 All four shirts came back the right colour, and three had a readable back print first time. The points we lost were at the edges of the frame: heads cut off along the bottom and a tiny number plate. Nano Banana Pro also draws a rounded film-slide border whatever you ask, so the app crops 6.5% off each edge on save.
 
-Later Alex made the same lifeguard in Higgsfield, where the model is free on the Unlimited plan. He scored it 18 of 25. He liked the scene and marked it down for looking too crisp for 1960s film up close, and the two small lines under LIFEGUARD came out as squiggles. The generic prompt below now asks for both.
+Later Alex made the same lifeguard in Higgsfield, where the model is free on the Unlimited plan, and scored it 18 of 25. He liked the scene and marked it down for looking too crisp for 1960s film up close, and the two small lines under LIFEGUARD came out as squiggles. The generic prompt below now asks for both.
 
 | Hotel | Shirt | Score /25 | Note |
 | --- | --- | --- | --- |
