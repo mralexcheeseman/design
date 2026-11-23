@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-23 · off-duty-hotel-club · Shot results log themselves
+Added the private note `learnings/notes/log-results-from-drive.md`. Files dropped in the Drive "ODHC shot results" folder now get a row in the shot sheet's new Results tab through a two-step Zap. Sheet formulas work out the ID, version, shot, tool, score and verdict from the file name, and My shots links each row to its newest file. Drive stays the store, and nothing goes to Cloudinary. Ran the copy checklist on the note.
+
 ## 2026-11-23 · all · AI learnings move into the repo
 Added `learnings/`: one markdown file per playbook (reader's problem as the title, tool and model with the date tested, references, generic and ODHC prompts, settings, cost per usable result, what went wrong, the fix, status, and the making, tool and technique tags), plus three private working notes (scoring, credit prices, what a thread can run). The five playbooks mirror The Back Office's Playbook records slug for slug, so the site publishes from here. Gathered from the Photo Studio and Base44 builder notes, the social factory, the shot sheet and The Back Office data. CLAUDE.md and AGENTS.md now say to read it before running an AI tool and to add to it the same day. The drifting-buildings playbook was then updated to match The Back Office: the house change is now cut out of the clip for free, with a new lesson, `cut-past-the-change`. Ran the copy checklist.
 
