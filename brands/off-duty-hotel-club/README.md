@@ -2,7 +2,7 @@ Staff-issue T-shirts from five fictional hotels: a small crest on the front, a p
 
 ## Content fundamentals
 
-- **Voice: dry, deadpan, a little conspiratorial.** Speak as the club, using "we" and "you". Real lines to match: "Wish you worked here." "Excellent hotels. Questionable employees." "Find your hotel. Choose your role. Take the rest of the day off."
+- **Voice: dry, deadpan, a little conspiratorial.** Speak as the club, using "we" and "you". Real lines to match: "Wish you worked here." "He closes the pool whenever he likes, usually at lunch." "Find your hotel. Choose your role. Take the rest of the day off."
 - **Say less.** Use one strong line per section. Cut captions on photos, decorative strips and repeated footnotes.
 - **Play the fiction straight.** Write as if the hotels are real and old: heritage, history, staff, guests and duties are all fair game ("Take a piece of history home", "Now hiring: Ski Patrol"). Ads, social posts and videos don't need to say the hotels are fictional. Never name a real hotel or brand, and never claim a shirt is genuine vintage or was worn by real staff.
 - **Hotel and job names keep their exact spelling and accents:** Hôtel Solvane, The Oriole Palace, Casa Thalene, Grand Valbrune, Villa Ceresa. The roles are Lifeguard, Security, Pool Boy, Ski Patrol and Head Gardener.
@@ -21,7 +21,7 @@ Staff-issue T-shirts from five fictional hotels: a small crest on the front, a p
 - `crest` (Trajan Sans Pro 600, Adobe Fonts) for the wordmark only. The crest artwork stays in Cinzel; both are Roman inscription capitals, so the logo and crests still sit together.
 - The fonts come from Adobe Fonts web kit `naj0wqi`. Every domain the store runs on must be listed in that kit (offdutyhotel.club, www, the .base44.app address and preview, *.vercel.app, localhost). Adobe fonts can't be bundled, so emails, sandbox-rendered images and headless checks fall back to the stack's next face; keep the fallbacks.
 
-Nothing is set below 12px. The "Line. *Italic line.*" headline appears once, in the hero. Every other heading is a single roman line with no full stop.
+Nothing is set below 12px. Every heading, the hero included, is a single roman line with no full stop. Never set the second half of a headline in italic, and never write a headline or line as a contrast pair ("Excellent hotels. Questionable employees.", "not X, it's Y").
 
 **Layout.** Section padding is `space-8` vertically on desktop and `space-7` on phones. The side gutter is `gutter`, never under `space-4`. Product grids have three columns on desktop and two on phones, with a `space-5` gap. Separate sections with `line` hairlines, not boxes. The header is a three-column grid: navigation left, wordmark centred, search and bag right.
 

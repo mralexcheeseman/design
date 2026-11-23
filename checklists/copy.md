@@ -1,6 +1,7 @@
 # Copy review
 
 - [ ] Reads in the brand's voice (see the brand README's content fundamentals). Read it aloud once.
+- [ ] No contrast lines: search for "not", "never", "however" and two-fragment pairs ("X. Y."), and rewrite any line that sets one thing against another. No headline has an italic second half.
 - [ ] One strong line per section. Decorative micro-copy, captions and repeated footnotes cut.
 - [ ] Sentence case for headings and buttons; capitals only from the label style and the wordmark.
 - [ ] Prices in whole units (£48, never £48.00).

@@ -4,6 +4,7 @@ Settled choices, newest first, so nobody reopens them by accident. Change one on
 
 | Date | Decision | Why | Rejected |
 | --- | --- | --- | --- |
+| 2026-11-23 | No italic second half in any headline, and no contrast lines ("X. Y." pairs, "not X, it's Y") anywhere in copy | Alex's website rules: both read as AI-written. The guest-book site and the store had both | The "Line. *Italic line.*" hero headline once per page |
 | 2026-11-20 | Type moves to Adobe Fonts: FreightBig Pro (headings), Neue Haas Unica (text), Trajan Sans Pro 600 (wordmark). Crest artwork stays Cinzel | Alex picked it after a side-by-side test on the live store. Replaces the 2026-10-15 wordmark choice; redrawing every crest wasn't worth it | Keeping Instrument Serif, DM Sans and Cinzel |
 | 2026-11-10 | Play the fiction straight: heritage and history language allowed, no "fictional" disclaimer required in ads, social or video; type over footage allowed in social video | Alex: the disclaimer kills the fantasy the brand sells ("Take a piece of history home") | Saying the hotels are fictional everywhere; no text over photos in any medium |
 | 2026-10-25 | Head Gardener: lawn green shirt, orange job title, sage hotel line and crest; new Villa Ceresa crest (swan before a loggia, cypresses, camellia, five stars) | Alex wanted a brighter shirt with the job loud and the hotel quiet, and a crest fit for an ultra-luxury five-star hotel: a grand hotel's badge shows the place, never the tools of a job | Garden green with cream ink; a crest with a spade and rake |

@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-23 · off-duty-hotel-club · No italic second half, no contrast lines
+The README allowed one "Line. *Italic line.*" hero headline; Alex's website rules ban it, and ban contrast lines in copy. README, decisions and the copy checklist now say so. The guest-book site and storefront-kit were rewritten to match. Ran the copy checklist.
+
 ## 2026-11-22 · off-duty-hotel-club · Guest-book site; Sélune drift noted
 Built a public guest-book site in Base44 ("ODHC Guest Book", https://odhc-guest-book-9cdeb9ce.base44.app) for Instagram links: one page per hotel with its people and stories from storefront-kit `stories.js`, the uniform, and a waitlist on the store's Klaviyo list. Uses tokens.css and bundle.css as they are. Listed Hôtel Sélune under Known drift, since the store has it and this system doesn't. Ran the page and copy checklists.
 
