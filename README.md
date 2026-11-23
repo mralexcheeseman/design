@@ -12,6 +12,8 @@ brands/
                           tokens.css and index.html (generated), components/, merch.md,
                           decisions.md, assets/ (crests, photography), artwork/ (crest
                           sources, supplier print files)
+learnings/                AI tool playbooks (prompts, settings, costs, fixes): the master copy
+                          The Back Office publishes from. Read before running any AI tool
 scripts/build-tokens.mjs  tokens.json -> tokens.css
 scripts/build-preview.mjs tokens + component previews -> index.html (CI checks both are current)
 CHANGELOG.md              what changed, when, and why
