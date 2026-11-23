@@ -4,6 +4,7 @@ Settled choices, newest first, so nobody reopens them by accident. Change one on
 
 | Date | Decision | Why | Rejected |
 | --- | --- | --- | --- |
+| 2026-11-23 | Instagram profile picture is the wordmark, on-dark on staff-green (1080px, Cinzel 600 stand-in until a Trajan export) | Alex picked it from two options; staff-green is already the brand's frame colour and stands out among photographs | Ink wordmark on paper; a new monogram (the Wordmark README forbids inventing one) |
 | 2026-11-23 | No italic second half in any headline, and no contrast lines ("X. Y." pairs, "not X, it's Y") anywhere in copy | Alex's website rules: both read as AI-written. The guest-book site and the store had both | The "Line. *Italic line.*" hero headline once per page |
 | 2026-11-20 | Type moves to Adobe Fonts: FreightBig Pro (headings), Neue Haas Unica (text), Trajan Sans Pro 600 (wordmark). Crest artwork stays Cinzel | Alex picked it after a side-by-side test on the live store. Replaces the 2026-10-15 wordmark choice; redrawing every crest wasn't worth it | Keeping Instrument Serif, DM Sans and Cinzel |
 | 2026-11-10 | Play the fiction straight: heritage and history language allowed, no "fictional" disclaimer required in ads, social or video; type over footage allowed in social video | Alex: the disclaimer kills the fantasy the brand sells ("Take a piece of history home") | Saying the hotels are fictional everywhere; no text over photos in any medium |
