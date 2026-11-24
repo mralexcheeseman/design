@@ -14,7 +14,7 @@ status: proven
 cost_usable: About 25 cents a usable picture
 back_office: published
 date: 2026-11-23
-updated: 2026-11-23
+updated: 2026-11-24
 ---
 
 # Get your product's print right on an AI model
@@ -52,7 +52,7 @@ To pass as old film, ask for it in plain words: visible grain, soft edges, faded
 ## Prompt (generic)
 
 ```
-A [decade] [photographer or magazine] colour photograph, [place], [month and year]. [Where the camera stands and what it sees: the setting, three or four people each doing something different]. Shot on [camera] on [film stock] in natural light only: [colour notes], visible grain, soft edges, slightly faded colour, skin with pores. The camera stands well back, so the place is half the picture.
+A [decade] colour photograph for a [kind of magazine], [place], [month and year]. [Where the camera stands and what it sees: the setting, three or four people each doing something different]. Shot on [camera] on [film stock] in natural light only: [colour notes], visible grain, soft edges, slightly faded colour, skin with pores. The camera stands well back, so the place is half the picture.
 
 [The wearer] wears the T-shirt in image 1 exactly: the same [colour name and hex] cotton and the same back print, copied letter for letter including the small lines, with nothing added or changed. [He or she] is turned away from the camera so the back print reads in full. That print is the only lettering in the picture. Match the colour and light of image 2.
 
@@ -64,7 +64,7 @@ A [decade] [photographer or magazine] colour photograph, [place], [month and yea
 This is the Higgsfield version Alex scored 18. The generic prompt above adds the grain and small-print lines it was missing.
 
 ```
-A 1960s Slim Aarons colour photograph for Holiday magazine, Saint-Tropez on the French Riviera, July 1965. Seen from a terrace above and behind: a hotel swimming pool cut into pale stone above the sea, a tall white wooden lifeguard chair at its far corner with a young lifeguard sitting high in it under a blue-and-white striped parasol, two women on loungers below him reading, one man mid-dive, a waiter crossing with a tray of drinks, the bay and sailing boats beyond. Shot on a Hasselblad on Kodachrome slide film in natural light only, no flash: real, slightly imperfect colour, rich saturated Riviera blues and whites with rescue-yellow and coral accents, bright highlights that almost burn out, deep clean shadows, fine grain. The camera stands well back, so the place is half the picture and the people are small to medium within it, everything in deep focus. Only a few people, each doing something different, unposed and unhurried, in authentic mid-1960s Riviera resort clothes: linen shirts, one-piece swimsuits, straw hats and white sunglasses. The hotel's lifeguard, a tanned young man with short dark hair, sitting in the chair, wears the T-shirt in image 1 exactly: the same rescue-yellow (#efc331) cotton and the same back print, copied from the reference with nothing added or changed. He is turned away from the camera so the back print reads in full. That print is the only lettering anywhere in the picture. Match the colour and light of image 2. Vertical 4:5 composition, full-bleed edge to edge. No text, no signs, no logos, no emblems, no number plates, no border, no caption, no rounded corners, no vignette, no modern objects. Every head and every foot sits inside the frame. Avoid: modern sunglasses.
+A 1960s colour photograph for a travel magazine, Saint-Tropez on the French Riviera, July 1965. Seen from a terrace above and behind: a hotel swimming pool cut into pale stone above the sea, a tall white wooden lifeguard chair at its far corner with a young lifeguard sitting high in it under a blue-and-white striped parasol, two women on loungers below him reading, one man mid-dive, a waiter crossing with a tray of drinks, the bay and sailing boats beyond. Shot on a Hasselblad on Kodachrome slide film in natural light only, no flash: real, slightly imperfect colour, rich saturated Riviera blues and whites with rescue-yellow and coral accents, bright highlights that almost burn out, deep clean shadows, fine grain. The camera stands well back, so the place is half the picture and the people are small to medium within it, everything in deep focus. Only a few people, each doing something different, unposed and unhurried, in authentic mid-1960s Riviera resort clothes: linen shirts, one-piece swimsuits, straw hats and white sunglasses. The hotel's lifeguard, a tanned young man with short dark hair, sitting in the chair, wears the T-shirt in image 1 exactly: the same rescue-yellow (#efc331) cotton and the same back print, copied from the reference with nothing added or changed. He is turned away from the camera so the back print reads in full. That print is the only lettering anywhere in the picture. Match the colour and light of image 2. Vertical 4:5 composition, full-bleed edge to edge. No text, no signs, no logos, no emblems, no number plates, no border, no caption, no rounded corners, no vignette, no modern objects. Every head and every foot sits inside the frame. Avoid: modern sunglasses.
 ```
 
 Shirt hex values come from `brands/off-duty-hotel-club/tokens.json`. Never type them from memory.
@@ -77,7 +77,7 @@ Shirt hex values come from `brands/off-duty-hotel-club/tokens.json`. Never type 
 | Size | 2K |
 | References | Product shot, plus one picture for the look |
 | Finish | Kodachrome grade, 6.5% crop off each edge |
-| Scored on | Real, Shirt and Slim Aarons, 1 to 5 each (see [scoring note](../notes/score-ai-pictures.md)) |
+| Scored on | Real, Shirt and Period look, 1 to 5 each (see [scoring note](../notes/score-ai-pictures.md)) |
 
 ## References
 
@@ -97,6 +97,7 @@ About 25 cents a usable picture. Five takes on fal for about 75 cents gave three
 | `refine-before-reroll`: One plain-language refine fixed the Solvane shot and kept everything else in the frame. | tested |
 | `say-film-grain-out-loud`: "Kodachrome, fine grain" still gave a crisp digital picture and squiggly small print. Ask for visible grain, soft edges, faded colour and skin with pores, and name the small lines of the print as something to copy letter for letter. | tested |
 | `clear-bottom-edge`: Cropped heads at the bottom edge and a stray number plate cost the most points, so the recipe asks for a clear bottom edge and no plates. | try |
+| `mend-in-firefly`: Fix a near-keeper's stray plate, sign, hand or cut-off head with Firefly Generative Fill or Expand on a masked area, which leaves the rest of the picture as it was. Unlimited on Creative Cloud. | try |
 | `higgsfield-unlimited-for-shirt-stills`: Higgsfield's Unlimited Nano Banana Pro takes up to 14 reference images, so shirt-reference stills can be made there at no cost while fal sits at zero. | try |
 
 ## Next to try
@@ -105,4 +106,6 @@ Run the tightened prompt on Nano Banana Pro in Higgsfield and score two takes si
 
 ## History
 
+- 2026-11-24: Tried extra grain and a soft vignette in the grade at two strengths. Alex judged neither an improvement, so the grade stays as it was.
+- 2026-11-24: Added `mend-in-firefly` from the picture process audit.
 - 2026-11-23: Photo Studio run 01 (four hotels, one refine). Higgsfield lifeguard scored 18. Written up as a playbook.
