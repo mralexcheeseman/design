@@ -2,6 +2,15 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-24 · off-duty-hotel-club · No Slim Aarons references
+Alex settled it: we never reference Slim Aarons, and pictures carry no AI mention. Recorded in `decisions.md`. Took the name out of every prompt and the scoring note: the third score is now "Period look", and prompts describe a 1960s resort colour photograph for a travel magazine. Ran the copy checklist.
+
+## 2026-11-24 · off-duty-hotel-club · Grain and vignette tried and dropped
+Alex asked for a little grain and vignette to make pictures look more real. We tried both in the grade at two strengths on three pictures. He judged neither an improvement, so the grade is back as it was and the lesson came out of the product print playbook. Recorded in `decisions.md`.
+
+## 2026-11-24 · off-duty-hotel-club · Picture process audit and a layout reference test
+Audited how we make ODHC pictures against current advice from Google, OpenAI, Kling, Adobe and the ASA, and against the 27 scored Higgsfield takes (Claude Doc "ODHC picture process audit"). Added the playbook `learnings/playbooks/frame-ai-pictures-with-a-layout-reference.md` (status try): a wordless layout sketch as image 3, one job per reference, four takes per test. Added fail checks and the four-takes rule to the scoring note. Test rows T1a to T1c are in the shot sheet. Added `mend-in-firefly` to the product print playbook: near-keepers get mended with Generative Fill and Expand instead of a fresh take. Recorded Alex's call of no AI label in `decisions.md`. Ran the copy checklist.
+
 ## 2026-11-23 · off-duty-hotel-club · Wordmark as the Instagram profile picture
 Alex picked the on-dark wordmark on staff green as @offdutyhotelclub's profile picture, from the Instagram kit in project files (instagram-profiles/). Recorded it in decisions and as the one exception in the Wordmark README. Ran the copy and crest checklists on the kit. The Design System artifact needs the same note.
 
