@@ -14,7 +14,7 @@ status: proven
 cost_usable: About 25 cents a usable picture
 back_office: published
 date: 2026-11-23
-updated: 2026-11-23
+updated: 2026-11-24
 ---
 
 # Get your product's print right on an AI model
@@ -97,6 +97,7 @@ About 25 cents a usable picture. Five takes on fal for about 75 cents gave three
 | `refine-before-reroll`: One plain-language refine fixed the Solvane shot and kept everything else in the frame. | tested |
 | `say-film-grain-out-loud`: "Kodachrome, fine grain" still gave a crisp digital picture and squiggly small print. Ask for visible grain, soft edges, faded colour and skin with pores, and name the small lines of the print as something to copy letter for letter. | tested |
 | `clear-bottom-edge`: Cropped heads at the bottom edge and a stray number plate cost the most points, so the recipe asks for a clear bottom edge and no plates. | try |
+| `mend-in-firefly`: Fix a near-keeper's stray plate, sign, hand or cut-off head with Firefly Generative Fill or Expand on a masked area, which leaves the rest of the picture as it was. Unlimited on Creative Cloud. | try |
 | `higgsfield-unlimited-for-shirt-stills`: Higgsfield's Unlimited Nano Banana Pro takes up to 14 reference images, so shirt-reference stills can be made there at no cost while fal sits at zero. | try |
 
 ## Next to try
@@ -105,4 +106,5 @@ Run the tightened prompt on Nano Banana Pro in Higgsfield and score two takes si
 
 ## History
 
+- 2026-11-24: Added `mend-in-firefly` from the picture process audit.
 - 2026-11-23: Photo Studio run 01 (four hotels, one refine). Higgsfield lifeguard scored 18. Written up as a playbook.
