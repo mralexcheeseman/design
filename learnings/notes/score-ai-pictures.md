@@ -10,7 +10,7 @@ status: tested
 cost_usable: Free
 back_office: private
 date: 2026-11-23
-updated: 2026-11-23
+updated: 2026-11-24
 ---
 
 # Score AI pictures the same way every time
@@ -36,8 +36,11 @@ Total out of 15. 12 or more is a keeper. 9 to 11, change one plain thing in the 
 | Lesson | Status |
 | --- | --- |
 | `three-line-score`: Three scores of 1 to 5 are enough to pick keepers, and quick enough to give every take. | tested |
+| `fail-checks-first`: Before scoring, tick six pass or fail checks (hands, faces, cut-off heads, stray text, number plates, modern objects). Any fail means refine or drop, whatever the score. | try |
+| `score-every-take`: Two takes of one prompt differed by 3 points on average across 12 rows, so a prompt test scores four takes a side. | tested |
 | `auto-grade-next`: A vision model scoring the same three lines could send anything under 12 straight to refine, with Alex's score as the final say. | try |
 
 ## History
 
+- 2026-11-24: Added fail checks and the four-takes rule from the process audit.
 - 2026-11-23: Cut from five lines to three on Alex's word.
