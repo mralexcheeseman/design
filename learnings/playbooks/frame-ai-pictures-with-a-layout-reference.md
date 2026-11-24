@@ -52,7 +52,7 @@ Shot sheet row T1b: the H1e prompt for Hôtel Solvane (Bastien furling the paras
 
 | Setting | Value |
 | --- | --- |
-| Model | Nano Banana Pro (check the Higgsfield picker says Pro) |
+| Model | Nano Banana Pro |
 | Ratio | 4:5 |
 | Size | 2K |
 | Takes | 4 per arm |
@@ -76,7 +76,7 @@ Free on Higgsfield Unlimited. The same 12 takes on Recraft's Nano Banana Pro wou
 | `layout-sketch-as-reference`: A wordless blocking sketch as its own image should hold framing better than a paragraph of words. | try |
 | `four-takes-per-test`: The same prompt swung by 3 points on average between two takes, so judge a prompt change on four takes a side. | tested |
 | `say-what-the-frame-holds`: Google advises describing what you want ("empty street") over what you don't ("no cars"); our prompts carried more than a dozen bans. | try |
-| `check-the-model-picker`: Higgsfield's history labels our recent takes as Nano Banana 2 while the shot sheet says Pro, so log the model with every take. | try |
+| `log-the-model-yourself`: Higgsfield's history labels Nano Banana Pro takes as Nano Banana 2, so the shot sheet is the record of which model ran. | tested |
 
 ## Next to try
 
