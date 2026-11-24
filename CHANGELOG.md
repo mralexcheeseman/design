@@ -5,8 +5,8 @@ Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 ## 2026-11-24 · off-duty-hotel-club · No Slim Aarons references
 Alex settled it: we never reference Slim Aarons, and pictures carry no AI mention. Recorded in `decisions.md`. Took the name out of every prompt and the scoring note: the third score is now "Period look", and prompts describe a 1960s resort colour photograph for a travel magazine. Ran the copy checklist.
 
-## 2026-11-24 · off-duty-hotel-club · Film grain and a soft vignette in the grade
-Alex asked for a little grain and vignette on assets so they look more real. Added `grain-and-vignette-in-post` (status try) to the product print playbook: grain and vignette go on in the grade, after picking, mending and upscaling, and the prompts keep "no vignette" so the model doesn't add its own. The grade script now adds both (v2, kept outside the repo with the other grade files). Ran the copy checklist.
+## 2026-11-24 · off-duty-hotel-club · Grain and vignette tried and dropped
+Alex asked for a little grain and vignette to make pictures look more real. We tried both in the grade at two strengths on three pictures. He judged neither an improvement, so the grade is back as it was and the lesson came out of the product print playbook. Recorded in `decisions.md`.
 
 ## 2026-11-24 · off-duty-hotel-club · Picture process audit and a layout reference test
 Audited how we make ODHC pictures against current advice from Google, OpenAI, Kling, Adobe and the ASA, and against the 27 scored Higgsfield takes (Claude Doc "ODHC picture process audit"). Added the playbook `learnings/playbooks/frame-ai-pictures-with-a-layout-reference.md` (status try): a wordless layout sketch as image 3, one job per reference, four takes per test. Added fail checks and the four-takes rule to the scoring note. Test rows T1a to T1c are in the shot sheet. Added `mend-in-firefly` to the product print playbook: near-keepers get mended with Generative Fill and Expand instead of a fresh take. Recorded Alex's call of no AI label in `decisions.md`. Ran the copy checklist.
