@@ -22,7 +22,7 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 | Tool | From a thread | Notes |
 | --- | --- | --- |
 | Kling | Generates | Every job is charged. Quote the cost and ask first. Omni prompts name references as 图片1, 图片2. |
-| Recraft | Generates, edits, upscales | Personal account. |
+| Recraft | Generates, edits, upscales | Personal account. A Nano Banana Pro call with three reference images can pass the tool's 60-second limit. It then returns nothing but is still charged (3 timeouts cost 60 credits on 2026-11-24). Send one take per call, check the balance after each, and look in Recraft's own history before retrying. |
 | ElevenLabs | Generates speech, images, video | Usage readout needs a reconnect. |
 | Base44 | Builds, edits files, reads and writes data | Hand-coding with the file tools costs no builder credits. |
 | Adobe | Edits, imports to Express, Firefly Boards | Can't generate new images or video. Firefly generation is by hand. |
@@ -44,4 +44,5 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 
 ## History
 
+- 2026-11-24: Recraft timeouts still charge.
 - 2026-11-23: Written from the week's threads.

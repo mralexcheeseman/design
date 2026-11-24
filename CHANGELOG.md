@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-24 · off-duty-hotel-club · First layout-reference run, and the day's wrap
+Logged the first T1 run in the layout-reference playbook. Every take had shown the lifeguard standing on his chair lowering a parasol, which the prompt itself asked for, so the line is fixed and the lesson `read-the-prompt-first` added. The control (T1a) on Recraft scored 11 and 11 of 15. The sketch takes (T1b) timed out on Recraft and still cost 60 credits, now in the private note on what a thread can drive. Ran the copy checklist.
+
 ## 2026-11-24 · off-duty-hotel-club · No Slim Aarons references
 Alex settled it: we never reference Slim Aarons, and pictures carry no AI mention. Recorded in `decisions.md`. Took the name out of every prompt and the scoring note: the third score is now "Period look", and prompts describe a 1960s resort colour photograph for a travel magazine. Ran the copy checklist.
 
