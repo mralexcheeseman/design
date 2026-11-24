@@ -47,7 +47,7 @@ Attach the product shot as image 1 and write how it is worn and seen: who wears 
 
 When a take is close, refine it with one sentence about the one thing to change. A fresh take can lose everything you liked about the first.
 
-To pass as old film, ask for it in plain words: visible grain, soft edges, faded colour, skin with pores.
+To pass as old film, ask for it in plain words: visible grain, soft edges, faded colour, skin with pores. Then add grain and a soft corner vignette after the picture is picked, mended and upscaled, as the last step before cropping. Keep "no vignette" in the prompt, so the model doesn't draw its own dark corners for you to fight.
 
 ## Prompt (generic)
 
@@ -98,6 +98,7 @@ About 25 cents a usable picture. Five takes on fal for about 75 cents gave three
 | `say-film-grain-out-loud`: "Kodachrome, fine grain" still gave a crisp digital picture and squiggly small print. Ask for visible grain, soft edges, faded colour and skin with pores, and name the small lines of the print as something to copy letter for letter. | tested |
 | `clear-bottom-edge`: Cropped heads at the bottom edge and a stray number plate cost the most points, so the recipe asks for a clear bottom edge and no plates. | try |
 | `mend-in-firefly`: Fix a near-keeper's stray plate, sign, hand or cut-off head with Firefly Generative Fill or Expand on a masked area, which leaves the rest of the picture as it was. Unlimited on Creative Cloud. | try |
+| `grain-and-vignette-in-post`: Models give clean digital pictures even when asked for grain, and grain added before an upscale gets smoothed away. The grade script adds fine clumped grain scaled to the picture's width and a soft vignette as its last step, without touching faces or the print. | try |
 | `higgsfield-unlimited-for-shirt-stills`: Higgsfield's Unlimited Nano Banana Pro takes up to 14 reference images, so shirt-reference stills can be made there at no cost while fal sits at zero. | try |
 
 ## Next to try
@@ -106,5 +107,6 @@ Run the tightened prompt on Nano Banana Pro in Higgsfield and score two takes si
 
 ## History
 
+- 2026-11-24: Added `grain-and-vignette-in-post` after Alex asked for grain and a little vignette on every asset.
 - 2026-11-24: Added `mend-in-firefly` from the picture process audit.
 - 2026-11-23: Photo Studio run 01 (four hotels, one refine). Higgsfield lifeguard scored 18. Written up as a playbook.
