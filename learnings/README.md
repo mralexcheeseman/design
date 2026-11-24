@@ -23,7 +23,7 @@ Kept out of The Back Office: credit planning, account reach and house methods.
 
 | Note | What it covers |
 | --- | --- |
-| [Score AI pictures the same way every time](notes/score-ai-pictures.md) | The Real, Shirt and Slim Aarons score out of 15 |
+| [Score AI pictures the same way every time](notes/score-ai-pictures.md) | The Real, Shirt and Period look score out of 15 |
 | [Pick where to run a model by what each credit costs](notes/spend-credits-before-renewal.md) | Unit prices per app, the use-every-credit rule |
 | [Know which tools a Claude thread can run and which need Alex](notes/what-a-thread-can-drive.md) | Connector reach, blocked hosts, small fixes |
 | [Log every generated picture in the shot sheet without typing](notes/log-results-from-drive.md) | Drive folder to Sheets via a two-step Zap, file-name parsing formulas |

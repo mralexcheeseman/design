@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-24 · off-duty-hotel-club · No Slim Aarons references
+Alex settled it: we never reference Slim Aarons, and pictures carry no AI mention. Recorded in `decisions.md`. Took the name out of every prompt and the scoring note: the third score is now "Period look", and prompts describe a 1960s resort colour photograph for a travel magazine. Ran the copy checklist.
+
 ## 2026-11-24 · off-duty-hotel-club · Film grain and a soft vignette in the grade
 Alex asked for a little grain and vignette on assets so they look more real. Added `grain-and-vignette-in-post` (status try) to the product print playbook: grain and vignette go on in the grade, after picking, mending and upscaling, and the prompts keep "no vignette" so the model doesn't add its own. The grade script now adds both (v2, kept outside the repo with the other grade files). Ran the copy checklist.
 

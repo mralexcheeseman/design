@@ -56,7 +56,7 @@ Shot sheet row T1b: the H1e prompt for Hôtel Solvane (Bastien furling the paras
 | Ratio | 4:5 |
 | Size | 2K |
 | Takes | 4 per arm |
-| Scored on | Real, Shirt and Slim Aarons, 1 to 5 each (see [scoring note](../notes/score-ai-pictures.md)) |
+| Scored on | Real, Shirt and Period look, 1 to 5 each (see [scoring note](../notes/score-ai-pictures.md)) |
 
 ## References
 
