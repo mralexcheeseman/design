@@ -7,6 +7,7 @@ Alex made the references folder link-viewable. Added the four missing shirt fron
 
 ## 2026-11-25 · off-duty-hotel-club · 9:16 first frames by crop
 Tests for the 48-hour content plan. New playbook `portrait-first-frames-for-video`: crop 4:5 keepers to 9:16 around the wearer, since Seedance has no aspect setting and generative expand redraws the edges. Seven keepers cropped. The thread notes now list the Recraft upload, Adobe trusted-host, Drive sharing and 10 MB download limits, and the spend note an ElevenLabs voiceover price. Ran the copy checklist on the new playbook.
+
 ## 2026-11-25 · off-duty-hotel-club · Social posts move to the brand type
 Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, removed the Known drift line, and updated the type spec in `reuse-a-picture-that-works`: FreightBig Pro Book 56px lines and Neue Haas Unica 500 labels, from Adobe Fonts kit `lxh4muu`. The social factory's `build.py` is updated in project files. Ran the copy checklist.
 
