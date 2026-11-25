@@ -11,6 +11,7 @@ The website is the shop window; the T-shirt is the product. These rules cover ev
 | Pool Boy | Casa Thalene, Mykonos | pool blue (`garment-pool-blue`) | navy | max 85 mm |
 | Ski Patrol | Grand Valbrune, St. Moritz | alpine red (`garment-alpine-red`) | cream `#f1e6d2` | 83 × 85 mm |
 | Head Gardener | Villa Ceresa, Lake Lugano | lawn green (`garment-lawn-green`) | orange `#e8772e` title, sage `#c4d9b0` hotel line and crest | 58 × 85 mm |
+| Surf Instructor | Hotel Marisol, Sayulita | Blue Jean (`garment-blue-jean`), Comfort Colors 1717 | warm white `#f7f4ec` (`ink-warm-white`), worn-ink back | 85 × 85 mm |
 
 Pantone references (TCX for fabric, C for ink) are to be confirmed against a swatch book and the supplier's strike-off. Fill in `pantoneTCX` and `pantone` in `tokens.json` when they are.
 
@@ -22,6 +23,7 @@ Pantone references (TCX for fabric, C for ink) are to be confirmed against a swa
 - The current vectors are traces of a 1024 px sheet. A designer clean-up is due before bulk production.
 
 ## Back: the job title
+- Surf Instructor stacks its title on two lines (SURF over INSTRUCTOR), both 280 mm wide.
 - Job title in Anton, capitals, 280 mm wide (`back-print-width`), centred 80 mm below the collar.
 - Hotel name below in Oswald 500, 14 mm, tracked 0.18em; city below that in Oswald 500, 8.5 mm, tracked 0.35em.
 - Head Gardener is the one two-ink back: the job title stacked one word per line (widest line 240 mm) in `ink-orange`, the hotel and city in `ink-sage`, the same quiet ink as its crest. Every other back is one ink.

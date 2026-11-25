@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · off-duty-hotel-club · Hotel Marisol and the Surf Instructor
+Added the seventh hotel to the system: `hotel-marisol` (terracotta `#a54a2a`), `garment-blue-jean` (`#62799a`, Comfort Colors 1717, matched by eye until the swatch arrives) and `ink-warm-white` (`#f7f4ec`). Crest master in `artwork/crests/heritage/`, screen crest in `assets/crests/`, Surf Instructor print files in `artwork/print-files/` (copied from storefront-kit `supply/`). README hotels table, merch range and `decisions.md` updated. Regenerated `tokens.css` and `index.html`.
+
 ## 2026-11-25 · all · Picsart joins the studio
 Alex has Picsart Professional. Added it to the private notes: what a thread can run (the connector reframes video and renders scenes for free but can't generate, so Alex generates on picsart.com) and the credit prices (Flux.2 Klein stills unlimited; other models cost credits at prices Picsart doesn't list). New lesson `picsart-for-what-nobody-else-has`: spend Picsart credits on models no other plan has. Added the `picsart` tool tag. Shot sheet rows PX1 to PX3. Ran the copy checklist.
 
