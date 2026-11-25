@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · all · ElevenLabs video priced for the December Reels choice
+Priced four video models through the ElevenLabs connector with its free estimate (Veo 3.1 Lite 2,424 credits a clip, Kling 3 Pro 5,090, Veo 3.1 Fast 7,271, Seedance 2.0 9,162). Added them to the credit note with the lesson `elevenlabs-for-veo`, and listed the models in what a thread can drive. The December Reels scorecard in the week-of-23-November doc now runs Veo through ElevenLabs. Ran the copy checklist.
+
 ## 2026-11-25 · all · Picsart joins the studio
 Alex has Picsart Professional. Added it to the private notes: what a thread can run (the connector reframes video and renders scenes for free but can't generate, so Alex generates on picsart.com) and the credit prices (Flux.2 Klein stills unlimited; other models cost credits at prices Picsart doesn't list). New lesson `picsart-for-what-nobody-else-has`: spend Picsart credits on models no other plan has. Added the `picsart` tool tag. Shot sheet rows PX1 to PX3. Ran the copy checklist.
 

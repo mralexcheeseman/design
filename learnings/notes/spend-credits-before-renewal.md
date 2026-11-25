@@ -3,7 +3,7 @@ slug: spend-credits-before-renewal
 title: Pick where to run a model by what each credit costs
 dek: The same model can cost very different amounts in two apps. Run it where it's cheapest, and use expiring credits first.
 making: video
-tools: [google-flow, firefly, higgsfield, kling, recraft, picsart]
+tools: [google-flow, firefly, higgsfield, kling, recraft, picsart, elevenlabs]
 techniques: [credit-planning]
 models:
   - name: Veo 3.1 Lite, Fast and Quality
@@ -56,15 +56,30 @@ Picsart's pricing page lists the models but no credit price per model, so read t
 | Picsart Professional | Kling 4.0 and 4.0 Omni, Seedance 2.0, MiniMax H3, Wan 3.0, LTX, Gemini Omni | Credits, price not listed |
 | Picsart connector | Reframe video, render scenes to MP4 or stills | Free |
 
+## ElevenLabs video, priced on 2026-11-25
+
+The ElevenLabs connector generates video from a thread on the Creator plan's credits, and `estimate_only` prices a run for free. One clip each, default length, from a text prompt:
+
+| Where | Model | Price |
+| --- | --- | --- |
+| ElevenLabs Creator | Veo 3.1 Lite | 2,424 credits a clip (about 44 cents) |
+| ElevenLabs Creator | Kling 3 Pro | 5,090 credits a clip |
+| ElevenLabs Creator | Veo 3.1 Fast | 7,271 credits a clip (stays here after it leaves Flow on 5 Dec) |
+| ElevenLabs Creator | Seedance 2.0 | 9,162 credits a clip |
+
+The same catalogue holds Veo 3.1 Quality, Kling 4, Kling Omni, MiniMax H3, Wan 2.6, Runway and LTX.
+
 ## Lessons
 
 | Lesson | Status |
 | --- | --- |
 | `veo-lite-cheaper-in-flow`: Veo 3.1 Lite costs 10 Flow credits a clip, with 50 free credits a day, while the same model in Firefly costs 10 premium credits a second, so Firefly's Veo is for spending credits that are about to reset. | try |
 | `picsart-for-what-nobody-else-has`: Kling, Seedance and Nano Banana run on their own plans, so spend Picsart credits on the models only Picsart has (MiniMax, Seedream, Wan) and on its free unlimited stills. That way no test runs twice. | try |
+| `elevenlabs-for-veo`: The Creator plan's monthly credits run Veo 3.1 from a thread at 2,424 a Lite clip, and voice work uses only about 400 of them, so Veo goes through ElevenLabs and Flow's credits go to Gemini Omni. Seedance stays on Higgsfield, where it costs about 22 credits against 9,162. | try |
 | `higgsfield-unlimited-for-shirt-stills`: Make Nano Banana Pro stills on Higgsfield's Unlimited plan before paying for them on fal. | try |
 
 ## History
 
 - 2026-11-23: Prices gathered for the week-of-23-November test plan.
+- 2026-11-25: Added ElevenLabs video prices and the lesson `elevenlabs-for-veo`.
 - 2026-11-25: Added Picsart Professional and the lesson `picsart-for-what-nobody-else-has`.
