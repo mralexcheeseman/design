@@ -29,7 +29,7 @@ Our own Higgsfield connector reads balance, models and past generations, and can
 
 1. Make a ChatGPT Project with the Higgsfield app on and paste the standing brief into its instructions. The brief is in project files at `higgsfield-chatgpt/chatgpt-brief.md`. It makes ChatGPT check for free or Unlimited first, quote the cost and wait for `go`, pass the prompt word for word, never buy or top up, and end with one LOG line.
 2. Each shot-sheet row on this route has a one-cell job block in **Paste this**: `JOB <ID>`, model, settings, start-image link, takes, save-as names, expected cost and the prompt. Start images use the public store links (`https://offdutyhotel.club/assets/stories/<hotel>/<name>.webp`), so nothing needs attaching.
-3. Results come back by download: ChatGPT gives links (or saves to Drive itself, if its Drive connection can write). Drop each take in the Drive folder "ODHC shot results" under the save-as name. The Zap and sheet formulas log it from the leading ID and `v1`/`v2` (see [log-results-from-drive](log-results-from-drive.md)).
+3. Results come back by download: ChatGPT gives links (or saves to Drive itself, if its Drive connection can write). Drop each take in the Drive folder "ODHC shot results" under the save-as name. The results log and sheet formulas pick it up from the leading ID and `v1`/`v2` (see [log-results-from-drive](log-results-from-drive.md)).
 4. A thread can check afterwards with the read-only connector: `show_generations` lists each take with its model, and `balance` shows the credits actually spent.
 
 ## Route by job
