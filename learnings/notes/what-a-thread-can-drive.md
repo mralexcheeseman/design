@@ -39,6 +39,7 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - Adobe image tools accept only Adobe-trusted hosts, so a Drive link (lh3.googleusercontent.com) is refused.
 - Making a Drive file public by link can be refused by the thread's own permission check. Alex made the ODHC shot references folder link-viewable on 25 Nov, so every file a thread puts there gets a working link for Recraft and Kling: `https://lh3.googleusercontent.com/d/<id>`. Recraft read these first time.
 - Recraft results live on img.recraft.ai, which the cloud container can't reach, so a thread sees only a small preview. The Base44 sandbox (run_command on The Back Office) can fetch them. Alex downloads keepers from his Recraft library to file them in Drive.
+- Recraft's image_edit gives up after 60 seconds, but the job carries on and is charged. On 25 Nov, 4 of 7 Nano Banana Pro calls timed out and 3 were charged. The takes still land in Alex's Recraft library. One take per call (n=1) times out less often. After a timeout, check the balance before trying again.
 - The Reference library in The Back Office (`/references`, entity `Reference`) lists every reference with its direct link. Add new references there and in the Drive folder together.
 
 ## Small fixes that saved time
