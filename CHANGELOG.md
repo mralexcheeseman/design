@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · off-duty-hotel-club · Firefly mends the small print lines
+Tested Firefly before the 27 Nov credit reset. Generative Fill erased the hotel and city lines; Nano Banana Pro in Firefly web Edit, with the Security back print file as reference, added THE ORIOLE PALACE / LOS ANGELES to OP2-v1-flow-take2 cleanly. `mend-in-firefly` moves to tested in the product print playbook, and the thread-reach note now lists Firefly web as drivable from Chrome. Ran the photography checklist (print legibility, no stray text, scene unchanged) and the crest and print checklist (print matches the master file).
+
 ## 2026-11-25 · off-duty-hotel-club · Social posts move to the brand type
 Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, removed the Known drift line, and updated the type spec in `reuse-a-picture-that-works`: FreightBig Pro Book 56px lines and Neue Haas Unica 500 labels, from Adobe Fonts kit `lxh4muu`. The social factory's `build.py` is updated in project files. Ran the copy checklist.
 

@@ -97,7 +97,7 @@ About 25 cents a usable picture. Five takes on fal for about 75 cents gave three
 | `refine-before-reroll`: One plain-language refine fixed the Solvane shot and kept everything else in the frame. | tested |
 | `say-film-grain-out-loud`: "Kodachrome, fine grain" still gave a crisp digital picture and squiggly small print. Ask for visible grain, soft edges, faded colour and skin with pores, and name the small lines of the print as something to copy letter for letter. | tested |
 | `clear-bottom-edge`: Cropped heads at the bottom edge and a stray number plate cost the most points, so the recipe asks for a clear bottom edge and no plates. | try |
-| `mend-in-firefly`: Fix a near-keeper's stray plate, sign, hand or cut-off head with Firefly Generative Fill or Expand on a masked area, which leaves the rest of the picture as it was. Unlimited on Creative Cloud. | try |
+| `mend-in-firefly`: To add or mend the small print lines under the job title on a finished picture, use Firefly web Edit's Prompt tool with Nano Banana Pro at 2K and the real print file attached as image 2, not Generative Fill. Prompt: "Keep the photograph exactly the same ... Only change the print on the back of the [role]'s T-shirt so it matches image 2: the large word [ROLE], then directly under it a small line reading [HOTEL], and under that a smaller line reading [CITY], all in the same off-white ink, centred, condensed sans serif, sized and placed like image 2, following the fabric folds. No other text, no extra letters, nothing else changed." 40 Firefly credits a picture, about 30 seconds, and it upscales 864x1080 to about 1856x2304. Generative Fill on a masked print erased the small lines and left a stray letter, and Edit text only finds the large word. | tested |
 | `print-file-on-generated-blank`: For catalogue shots, ask the model for the blank shirt only (same flat-lay, new garment colour, all print removed) and lay the real print file on it with `storefront-kit/tools/product-images/print_on_blank.py`, which shades the ink by the fabric's folds. The print is exact, including the small lines. Two calls, 40 Recraft credits, for the Surf Instructor front and back. | tested |
 | `higgsfield-unlimited-for-shirt-stills`: Higgsfield's Unlimited Nano Banana Pro takes up to 14 reference images, so shirt-reference stills can be made there at no cost while fal sits at zero. | try |
 
@@ -107,6 +107,7 @@ Run the tightened prompt on Nano Banana Pro in Higgsfield and score two takes si
 
 ## History
 
+- 2026-11-25: Tested `mend-in-firefly` on Firefly web. Generative Fill failed (erased the small lines, stray "S"). Nano Banana Pro in Firefly Edit with the Security back print as reference added THE ORIOLE PALACE / LOS ANGELES cleanly to OP2-v1-flow-take2, which had SECURITY only, and kept the rest of the picture. Before and after: project files `firefly/OP2-firefly-nbp-print-mend-before-after.png`.
 - 2026-11-25: Added `print-file-on-generated-blank` from the Hotel Marisol Surf Instructor product shots.
 - 2026-11-24: Tried extra grain and a soft vignette in the grade at two strengths. Alex judged neither an improvement, so the grade stays as it was.
 - 2026-11-24: Added `mend-in-firefly` from the picture process audit.
