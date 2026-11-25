@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · all · December Reels pick: Veo 3.1 Lite in Flow
+The Lifeguard test (V2) is in. Flow Veo Lite (V2c) held the still best; Gemini Hydrogen (V2b) drifted; Seedance through Higgsfield (V2a) was a clear no from Alex. Three lessons added to the credit note; the pick is written up in the week-of-23-November doc. Ran the copy checklist.
+
 ## 2026-11-25 · all · Flow can edit a finished clip
 Alex found Flow's "Describe how to edit this video" box on his Veo Lite take (shot sheet V1e). Noted in what a thread can drive as a drift fix to try, by hand only. Ran the copy checklist.
 

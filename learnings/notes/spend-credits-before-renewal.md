@@ -76,6 +76,9 @@ The same catalogue holds Veo 3.1 Quality, Kling 4, Kling Omni, MiniMax H3, Wan 2
 | `veo-lite-cheaper-in-flow`: Veo 3.1 Lite costs 10 Flow credits a clip, with 50 free credits a day, while the same model in Firefly costs 10 premium credits a second, so Firefly's Veo is for spending credits that are about to reset. | try |
 | `picsart-for-what-nobody-else-has`: Kling, Seedance and Nano Banana run on their own plans, so spend Picsart credits on the models only Picsart has (MiniMax, Seedream, Wan) and on its free unlimited stills. That way no test runs twice. | try |
 | `veo-by-hand-in-flow`: Alex runs Veo by hand in Flow on his Google credits (10 a Lite clip). Don't generate Veo through ElevenLabs, which charges 2,424 a Lite clip. Replaces `elevenlabs-for-veo`, settled by Alex on 2026-11-25. | proven |
+| `flow-veo-lite-for-reels`: Veo 3.1 Lite in Flow, by hand, is the December Reels tool. It scored 20 of 20 on the Ski Patrol still (V1) and held the Lifeguard print, chair and beach unchanged at 9:16 (V2c), for 10 Flow credits a clip. Kling 3.0 Turbo is the fallback. | proven |
+| `seedance-higgsfield-is-out`: Seedance 2.0 through the ChatGPT Higgsfield app gave a result Alex called shocking on the Lifeguard still (V2a, 25 November). Don't spend Higgsfield credits on Seedance for ODHC Reels. | proven |
+| `gemini-hydrogen-drifts`: Gemini Hydrogen (V2b) gives livelier motion but invents things (a book in the lifeguard's hands, a new chair, a horizon) and pushes in hard. Use it only for a clip you will mend in Flow. | try |
 | `veo-elevenlabs-is-landscape`: Veo 3.1 through ElevenLabs returns 8 seconds at 16:9 unless 9:16 is set, and it takes only 16:9 or 9:16, so a 4:5 still gets reframed. Set 9:16 for Reels. Seen on the V1 test, 25 November. | try |
 | `higgsfield-unlimited-for-shirt-stills`: Make Nano Banana Pro stills on Higgsfield's Unlimited plan before paying for them on fal. | try |
 
@@ -86,3 +89,4 @@ The same catalogue holds Veo 3.1 Quality, Kling 4, Kling Omni, MiniMax H3, Wan 2
 - 2026-11-25: Added Picsart Professional and the lesson `picsart-for-what-nobody-else-has`.
 - 2026-11-25: V1 December Reels test ran (Kling 160, ElevenLabs 19,390); added `veo-elevenlabs-is-landscape`.
 - 2026-11-25: Alex settled Veo as by hand in Flow; `elevenlabs-for-veo` replaced by `veo-by-hand-in-flow`.
+- 2026-11-25: Lifeguard test (V2) in: added `flow-veo-lite-for-reels`, `seedance-higgsfield-is-out` and `gemini-hydrogen-drifts`.
