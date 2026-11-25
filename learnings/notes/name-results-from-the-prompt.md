@@ -32,7 +32,7 @@ Ten pictures fitted no shot exactly (a beach bonfire, lunch on a blanket, Señor
 - The prompt list is the manifest. Every prompt a thread writes starts with its shot ID, and the run keeps the order, so a download's position or name maps back to the ID.
 - Name `<ID>-v<N>-<tool>-take<N>.<ext>`, with the tool taken from where the run happened (a Flow download is `flow`).
 - Crop Flow's 3:4 stills to 4:5 at 864 by 1080 while filing.
-- Logging is an Apps Script on the shot sheet that adds new files in ODHC shot results to the Results tab every 5 minutes (it replaced the Zap: about 400 Zapier tasks a month against a free plan of 100).
+- Logging runs on its own and no longer uses Zapier, which would have needed about 400 tasks a month against a free plan of 100. See [log-results-from-drive](log-results-from-drive.md) for how it works now.
 - Keep the vision model for one job only: flagging a picture that looks unlike its prompt, for a person to check.
 
 ## Lessons
