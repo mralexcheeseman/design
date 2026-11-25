@@ -4,6 +4,7 @@ Settled choices, newest first, so nobody reopens them by accident. Change one on
 
 | Date | Decision | Why | Rejected |
 | --- | --- | --- | --- |
+| 2026-11-25 | Social posts use the brand type: FreightBig Pro Book for lines, Neue Haas Unica 500 for tracked-capitals labels (Adobe Fonts kit lxh4muu for Express) | Alex, asked whether social keeps the older pair: "new fonts". One type system across store and social | Keeping Instrument Serif and DM Sans on social, as in the Oriole pool reference post |
 | 2026-11-24 | No extra grain or vignette added to pictures in the grade | Alex compared two strengths on three pictures and said it didn't feel like an improvement | Grain and a soft vignette added as the last step of the grade |
 | 2026-11-24 | Never reference Slim Aarons: not in prompts, copy, ads, scores or anything public, and never use his photographs as references. Pictures carry no AI mention of any kind | Alex: "100% we dont reference Slim Aarons - no AI mention in imagery." Getty holds his archive and licenses his name. Prompts describe the look instead: a 1960s resort colour photograph on Kodachrome | Naming him in prompts only; an AI line on the pictures |
 | 2026-11-24 | No AI label on ODHC pictures, posts or ads, the EU included | Alex holds commercial licences for every generated asset, and keeps the 2026-11-10 call to play the fiction straight. The audit noted that EU AI Act Article 50 asks publishers for a light AI label on photoreal ads that reach EU customers | A "Pictures made with AI" line in the Instagram bio and on the guest-book site |
