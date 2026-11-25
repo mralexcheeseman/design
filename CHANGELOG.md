@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · off-duty-hotel-club · The Oriole pool post becomes a reference
+Alex found the Oriole Palace pool post in Express and called it "absolutely perfect". Traced it to our own picture (`O01_oriole-palace_society.jpg`, Creative Cloud; post `oriole-1_O01.jpg`). Its prompt was never saved. New playbook `reuse-a-picture-that-works`: the six things that make it work, the type spec, and test T3 in the shot sheet (the picture as style and layout reference against the usual hero reference). Noted the social factory's type drift in the brand README. Ran the copy checklist.
+
 ## 2026-11-25 · all · Picsart joins the studio
 Alex has Picsart Professional. Added it to the private notes: what a thread can run (the connector reframes video and renders scenes for free but can't generate, so Alex generates on picsart.com) and the credit prices (Flux.2 Klein stills unlimited; other models cost credits at prices Picsart doesn't list). New lesson `picsart-for-what-nobody-else-has`: spend Picsart credits on models no other plan has. Added the `picsart` tool tag. Shot sheet rows PX1 to PX3. Ran the copy checklist.
 

@@ -60,6 +60,7 @@ Scrolling ticker or destination strips, badges, a back/front toggle on every car
 If the live store in storefront-kit stops matching this system, list each difference here until it is fixed.
 
 - **Hôtel Sélune (St. Barths, 06, limited-edition Pool Boy) is in the store but not in this system.** storefront-kit `catalog.js`, `theme.css` (`--hotel-selune:#1f4aa0`) and `stories.js` carry it; this README, `tokens.json` and the crest assets don't. The guest-book site (Base44 app "ODHC Guest Book", 2026-11-22) copies the store's value. Add `hotel-selune` and the crest here, or drop Sélune from the store.
+- **Social posts still set type in Instrument Serif and DM Sans.** The social factory (`build.py` in project files, Express kit `pcg1bjw`) predates the 2026-11-20 move to FreightBig Pro and Neue Haas Unica, and the Oriole pool post Alex picked as the reference on 2026-11-25 uses the old pair. Decide whether social keeps them, then update the factory or record the exception in `decisions.md`.
 
 ## Files in this system
 
