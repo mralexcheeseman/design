@@ -2,6 +2,12 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · off-duty-hotel-club · Social posts move to the brand type
+Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, removed the Known drift line, and updated the type spec in `reuse-a-picture-that-works`: FreightBig Pro Book 56px lines and Neue Haas Unica 500 labels, from Adobe Fonts kit `lxh4muu`. The social factory's `build.py` is updated in project files. Ran the copy checklist.
+
+## 2026-11-25 · off-duty-hotel-club · The Oriole pool post becomes a reference
+Alex found the Oriole Palace pool post in Express and called it "absolutely perfect". Traced it to our own picture (`O01_oriole-palace_society.jpg`, Creative Cloud; post `oriole-1_O01.jpg`). Its prompt was never saved. New playbook `reuse-a-picture-that-works`: the six things that make it work, the type spec, and test T3 in the shot sheet (the picture as style and layout reference against the usual hero reference). Noted the social factory's type drift in the brand README. Ran the copy checklist.
+
 ## 2026-11-25 · off-duty-hotel-club · Hotel Marisol and the Surf Instructor
 Added the seventh hotel to the system: `hotel-marisol` (terracotta `#a54a2a`), `garment-blue-jean` (`#62799a`, Comfort Colors 1717, matched by eye until the swatch arrives) and `ink-warm-white` (`#f7f4ec`). Crest master in `artwork/crests/heritage/`, screen crest in `assets/crests/`, Surf Instructor print files in `artwork/print-files/` (copied from storefront-kit `supply/`). README hotels table, merch range and `decisions.md` updated. Regenerated `tokens.css` and `index.html`.
 
