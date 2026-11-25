@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · off-duty-hotel-club · House grade locked, and the first post pipeline slice
+Alex locked one grade for every picture: normalise first, then Faded slide at 75%. Recorded in `decisions.md`. New playbook `make-every-model-look-like-one-film` with the grade, the contact sheet method and what broke (blown snow and sky before the white point was capped). Six of the day's Flow keepers went through to Planner drafts, matched by shot ID. Ran the photography and copy checklists.
+
 ## 2026-11-25 · off-duty-hotel-club · Social posts move to the brand type
 Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, removed the Known drift line, and updated the type spec in `reuse-a-picture-that-works`: FreightBig Pro Book 56px lines and Neue Haas Unica 500 labels, from Adobe Fonts kit `lxh4muu`. The social factory's `build.py` is updated in project files. Ran the copy checklist.
 
