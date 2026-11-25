@@ -76,7 +76,7 @@ The same catalogue holds Veo 3.1 Quality, Kling 4, Kling Omni, MiniMax H3, Wan 2
 | `veo-lite-cheaper-in-flow`: Veo 3.1 Lite costs 10 Flow credits a clip, with 50 free credits a day, while the same model in Firefly costs 10 premium credits a second, so Firefly's Veo is for spending credits that are about to reset. | try |
 | `picsart-for-what-nobody-else-has`: Kling, Seedance and Nano Banana run on their own plans, so spend Picsart credits on the models only Picsart has (MiniMax, Seedream, Wan) and on its free unlimited stills. That way no test runs twice. | try |
 | `elevenlabs-for-veo`: The Creator plan's monthly credits run Veo 3.1 from a thread at 2,424 a Lite clip, and voice work uses only about 400 of them, so Veo goes through ElevenLabs and Flow's credits go to Gemini Omni. Seedance stays on Higgsfield, where it costs about 22 credits against 9,162. | try |
-| `veo-elevenlabs-is-landscape`: Veo 3.1 through ElevenLabs returns 8 seconds at 16:9 unless 9:16 is set, and it takes only 16:9 or 9:16, so a 4:5 still gets reframed. Set 9:16 for Reels. Seen on the R1 test, 25 November. | try |
+| `veo-elevenlabs-is-landscape`: Veo 3.1 through ElevenLabs returns 8 seconds at 16:9 unless 9:16 is set, and it takes only 16:9 or 9:16, so a 4:5 still gets reframed. Set 9:16 for Reels. Seen on the V1 test, 25 November. | try |
 | `higgsfield-unlimited-for-shirt-stills`: Make Nano Banana Pro stills on Higgsfield's Unlimited plan before paying for them on fal. | try |
 
 ## History
@@ -84,4 +84,4 @@ The same catalogue holds Veo 3.1 Quality, Kling 4, Kling Omni, MiniMax H3, Wan 2
 - 2026-11-23: Prices gathered for the week-of-23-November test plan.
 - 2026-11-25: Added ElevenLabs video prices and the lesson `elevenlabs-for-veo`.
 - 2026-11-25: Added Picsart Professional and the lesson `picsart-for-what-nobody-else-has`.
-- 2026-11-25: R1 December Reels test ran (Kling 160, ElevenLabs 19,390); added `veo-elevenlabs-is-landscape`.
+- 2026-11-25: V1 December Reels test ran (Kling 160, ElevenLabs 19,390); added `veo-elevenlabs-is-landscape`.

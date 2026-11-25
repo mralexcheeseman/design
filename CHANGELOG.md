@@ -2,8 +2,8 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
-## 2026-11-25 · all · December Reels video test run (R1)
-Ran the approved test on the Ski Patrol still: Kling 3.0 Turbo and 4.0 Flash, Veo 3.1 Lite and Fast through ElevenLabs, two takes each, for 160 Kling and 19,390 ElevenLabs credits. Logged the input-link trick, real prices and the Base44 copy route in what a thread can drive, and the lesson `veo-elevenlabs-is-landscape` in the credit note. Scores wait on Alex. Ran the copy checklist.
+## 2026-11-25 · all · December Reels video test run (V1)
+Ran the approved test on the Ski Patrol still: Kling 3.0 Turbo and 4.0 Flash, Veo 3.1 Lite and Fast through ElevenLabs, two takes each, for 160 Kling and 19,390 ElevenLabs credits. Logged the input-link trick, real prices and the Base44 copy route in what a thread can drive, and the lesson `veo-elevenlabs-is-landscape` in the credit note. Shot sheet rows V1a to V1d. Scores wait on Alex. Ran the copy checklist.
 
 ## 2026-11-25 · all · ElevenLabs video priced for the December Reels choice
 Priced four video models through the ElevenLabs connector with its free estimate (Veo 3.1 Lite 2,424 credits a clip, Kling 3 Pro 5,090, Veo 3.1 Fast 7,271, Seedance 2.0 9,162). Added them to the credit note with the lesson `elevenlabs-for-veo`, and listed the models in what a thread can drive. The December Reels scorecard in the week-of-23-November doc now runs Veo through ElevenLabs. Ran the copy checklist.
