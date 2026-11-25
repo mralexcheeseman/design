@@ -5,6 +5,9 @@ Alex asked for an agent instead of the Zap. A scheduled task now checks the Driv
 
 ## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · off-duty-hotel-club · Locked house look and cast prep
+Two private Recraft styles saved from people-free crops: "ODHC house look (Oriole pool)" and "ODHC house look (all hotels)", tested on two scenes (shot sheet LK1 to LK4). New playbook `learnings/playbooks/lock-cast-and-look.md`. Kling subjects for the cast and shirts are prepared but not uploaded, because Kling's upload host is blocked from the cloud; noted in `learnings/notes/what-a-thread-can-drive.md`. Ran `checklists/copy.md` on the playbook.
+
 ## 2026-11-25 · off-duty-hotel-club · Social posts move to the brand type
 Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, removed the Known drift line, and updated the type spec in `reuse-a-picture-that-works`: FreightBig Pro Book 56px lines and Neue Haas Unica 500 labels, from Adobe Fonts kit `lxh4muu`. The social factory's `build.py` is updated in project files. Ran the copy checklist.
 
