@@ -27,7 +27,7 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 | Base44 | Builds, edits files, reads and writes data | Hand-coding with the file tools costs no builder credits. |
 | Adobe | Edits, imports to Express, Firefly Boards | Can't generate new images or video. Firefly generation is by hand. |
 | Picsart | Reframes video, builds motion scenes (montage, captions, photo promos), transcribes, renders MP4 or stills, files to Picsart Drive, reads balance and brand kits | Can't generate new images or video: Alex generates on picsart.com. Reframe and export cost nothing. Sources must be public links. Some media analysis spends credits, so read the tool's description first. |
-| Higgsfield | Read only (balance, models, past results) | Alex generates by hand. |
+| Higgsfield | Read only (balance, models, past results) | Alex generates by hand: stills on the website or through the ChatGPT Higgsfield app (Alex, 25 Nov: fine for photos). Not for video: Seedance through it was a clear no (V2a). |
 | Google Flow, Veo, Gemini Omni | No connector | Alex generates by hand. Flow can also edit a finished clip from a written instruction ("Describe how to edit this video"): a candidate fix for drift, by hand only, not yet tested (seen 2026-11-25). |
 | Photo Studio (Base44 app on fal) | Runs headless through its `studio` function (`run`, `tick`) | Details in project memory `odhc-photo-studio`. |
 
@@ -51,3 +51,4 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - 2026-11-25: Kling input links, prices and the Base44 copy route, from the December Reels test.
 - 2026-11-25: Veo is by hand in Flow, never through ElevenLabs.
 - 2026-11-25: Flow's text edit of a finished clip noted as a drift fix to try.
+- 2026-11-25: Higgsfield through ChatGPT: fine for stills (Alex), out for video (V2a).
