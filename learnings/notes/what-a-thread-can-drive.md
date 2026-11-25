@@ -21,7 +21,7 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 
 | Tool | From a thread | Notes |
 | --- | --- | --- |
-| Kling | Generates | Every job is charged. Quote the cost and ask first. Omni prompts name references as 图片1, 图片2. |
+| Kling | Generates | Every job is charged. Quote the cost and ask first. Omni prompts name references as 图片1, 图片2. Image inputs need a public link: a Drive file shared by link works as `https://lh3.googleusercontent.com/d/<id>`, the `uc?export=download` link fails. 3.0 Turbo costs 50 for 5s at 1080p, 4.0 Flash 30 for 5s at 720p. Take the `urlWithoutWatermark` result. |
 | Recraft | Generates, edits, upscales | Personal account. |
 | ElevenLabs | Generates speech, images, video | Video covers Veo 3.1 (Lite, Fast, Quality), Kling 3 Pro and 4, Seedance, MiniMax, Wan and Runway on Creator credits. Pass `estimate_only` to price a run for free. Usage readout needs a reconnect. |
 | Base44 | Builds, edits files, reads and writes data | Hand-coding with the file tools costs no builder credits. |
@@ -48,3 +48,4 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - 2026-11-23: Written from the week's threads.
 - 2026-11-25: ElevenLabs video models listed.
 - 2026-11-25: Added Picsart (connector checked the same day).
+- 2026-11-25: Kling input links, prices and the Base44 copy route, from the December Reels test.
