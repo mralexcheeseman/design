@@ -5,6 +5,7 @@
  * only; the sheet's formulas fill D to I). Free, no Zapier tasks.
  */
 const FOLDER_ID = '1dIJrRxIywfnxHROh_GCwqa9NHleMXZPo'; // ODHC shot results
+const SHEET_ID = '1r8FMSsbHvxBS9qPwK21IHm8-Z4q7tZZhlceBrdRi7zY'; // ODHC shot ideas
 const TAB = 'Results';
 const TZ = 'Europe/London';
 
@@ -17,7 +18,7 @@ function setup() {
 }
 
 function logNewResults() {
-  const sheet = SpreadsheetApp.getActive().getSheetByName(TAB);
+  const sheet = SpreadsheetApp.openById(SHEET_ID).getSheetByName(TAB);
   const last = lastFilledRow_(sheet);
   const links = last > 1 ? sheet.getRange(2, 3, last - 1, 1).getValues().flat() : [];
   const known = new Set(links.map(l => (String(l).match(/\/d\/([\w-]+)/) || [])[1]).filter(Boolean));
