@@ -1,13 +1,13 @@
 # File Result
 
-Names generated pictures and clips by shot ID and files them in the Drive folder **ODHC shot results**, so the Results Zap logs them on the shot sheet. Nothing to type except the shot ID.
+Names generated pictures and clips by shot ID and files them in the Drive folder **ODHC shot results**, so the Results log script ([../results-log](../results-log/README.md)) adds them to the shot sheet. Nothing to type except the shot ID.
 
 ```
 Download from Flow, Gemini, Higgsfield, Firefly...
   -> drop the file(s) on File Result in the Dock
   -> type V2c (add v2 if it's the second prompt version), pick the tool
   -> V2c-v1-flowveolite-take1.mp4 lands in ODHC shot results (Drive for desktop uploads it, any size)
-  -> the Results Zap adds a row; the sheet's formulas fill ID, version, shot, tool and score
+  -> the Results log adds a row within 5 minutes; the sheet's formulas fill ID, version, shot, tool and score
 ```
 
 Take numbers count up on their own from what's already in the folder. The app remembers the last ID and tool, so a second take of the same shot is two clicks.

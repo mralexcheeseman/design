@@ -54,9 +54,12 @@ Video IDs start with V, so the first version formula read the `V2` in `V2b-v1-..
 | `parse-in-the-sheet` | Parse IDs and versions with sheet formulas so the Zap stays at two steps and works on the free plan. | try |
 | `file-on-the-mac` | Name and move results on the Mac (File Result, Drive for desktop). The cloud can't upload clips or rename Alex's Drive files. | try |
 | `version-after-id` | Read the version after the shot ID, or a V-prefixed ID is mistaken for the version. | tested |
+| `log-with-apps-script` | Log with an Apps Script on a 5-minute timer, not a Zap. About 40 files in three days would cost about 400 Zapier tasks a month, against the free plan's 100. | try |
+| `zapier-for-thread-clips` | Thread-made clips go to Drive through the Zapier MCP Drive Upload File action from a public link (2 tasks a clip). A 9.6 MB Kling clip went up fine. | tested |
 | `names-drift` | People rename files by hand. Match on the leading ID and any `v<digit>`, never on the full Save as name. | tested |
 
 ## History
 
+- 2026-11-25: logging moved to an Apps Script (`tools/results-log`) on Alex's call to save Zapier tasks. Zapier Drive Upload File enabled for thread clips.
 - 2026-11-25: added File Result (Mac drop app and iPhone Shortcut) and the version formula fix for V rows. Logged V2b and V2c by hand.
 - 2026-11-23: set up for the ODHC shot sheet. Results tab and backfill done; Zap built by Alex in the editor.

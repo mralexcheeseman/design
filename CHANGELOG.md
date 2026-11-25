@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · studio · Results log script
+Added `tools/results-log/`, an Apps Script that logs new files in ODHC shot results on the Results tab every 5 minutes. It replaces the Results Zap, so logging uses no Zapier tasks. Ran the copy checklist.
+
 ## 2026-11-25 · studio · File Result
 Added `tools/file-result/`, a Mac drop app (and iPhone Shortcut steps) that names generated files by shot ID and files them in the Drive folder ODHC shot results for the Results Zap. Updated the learnings note `log-results-from-drive`. Ran the copy checklist.
 
