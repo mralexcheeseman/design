@@ -50,3 +50,4 @@ The Zapier MCP connector can run actions (create a row, find a file), but it can
 
 - 2026-11-23: set up for the ODHC shot sheet. Results tab and backfill done; Zap built by Alex in the editor.
 - 2026-11-25: the six T1a to T1c files from 24 Nov were never logged. Logged by hand (A to C only, after a first try in D to I broke the formulas for a few minutes). Zapier Manager, signed in to Alex's personal Zapier account, shows no Zaps and no folders there.
+- 2026-11-25 (later): no Zap existed in Alex's personal Zapier account. Alex rebuilt it with Zapier Copilot as "ODHC shot results to Results tab": Title, not Original Filename, for File, and the spreadsheet timezone set to True. Its test row read "Untitled" because the file was still being renamed, so it was cleared.
