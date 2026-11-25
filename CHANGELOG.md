@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · off-duty-hotel-club · Vertical cuts for stories
+New playbook `make-vertical-cuts-for-stories` from shot sheet rows A1 and PX3. Four house looks expanded to 9:16 with Adobe generative expand (446 px top and bottom), and two 16:9 Veo clips reframed to 9:16 with Picsart. Adobe's video resize half of PX3 waits on the clips reaching Creative Cloud. Private notes: Adobe only takes Creative Cloud or S3 inputs, how to view and file results from a thread, and that generative expand shows no premium credit cost. Ran the copy checklist.
+
 ## 2026-11-25 · off-duty-hotel-club · Social posts move to the brand type
 Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, removed the Known drift line, and updated the type spec in `reuse-a-picture-that-works`: FreightBig Pro Book 56px lines and Neue Haas Unica 500 labels, from Adobe Fonts kit `lxh4muu`. The social factory's `build.py` is updated in project files. Ran the copy checklist.
 

@@ -25,7 +25,7 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 | Recraft | Generates, edits, upscales | Personal account. |
 | ElevenLabs | Generates speech, images, video | Usage readout needs a reconnect. |
 | Base44 | Builds, edits files, reads and writes data | Hand-coding with the file tools costs no builder credits. |
-| Adobe | Edits, imports to Express, Firefly Boards | Can't generate new images or video. Firefly generation is by hand. |
+| Adobe | Edits, imports to Express, Firefly Boards | Can't generate new images or video. Firefly generation is by hand. Image and video tools only take Creative Cloud files (find them with `asset_search`, then `asset_get_presigned_urls`) or S3/Azure links: Drive, Picsart and Base44 links are refused. |
 | Picsart | Reframes video, builds motion scenes (montage, captions, photo promos), transcribes, renders MP4 or stills, files to Picsart Drive, reads balance and brand kits | Can't generate new images or video: Alex generates on picsart.com. Reframe and export cost nothing. Sources must be public links. Some media analysis spends credits, so read the tool's description first. |
 | Higgsfield | Read only (balance, models, past results) | Alex generates by hand. |
 | Google Flow, Veo, Gemini Omni | No connector | Alex generates by hand. |
@@ -46,8 +46,12 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - To bring a Recraft result into the container when img.recraft.ai is refused: Zapier's Google Drive Upload File takes the Recraft URL and files it in ODHC shot results under its row name, then Drive `download_file_content` saves the full-size picture locally (its path is in the result) without filling the conversation.
 - Recraft's Nano Banana Pro calls time out at 60 seconds about half the time on 25 Nov, with or without a reference image, and most still charge 20. The picture lands only in Alex's Recraft library. Check `get_user` after every timeout before trying again, or run the same model on ElevenLabs (`gemini-3-pro-image`), which returns at once and is polled, so nothing is lost.
 
+- Adobe results (photoshop-api.adobe.io short links) and Picsart exports (gcdn.picsart.com) are refused in the container, but Picsart's `scene_contact_sheet` with `media` set to the link shows them to you, and Zapier's Google Drive Upload File files them straight into ODHC shot results.
+- A file that only exists in the container or on a website can't reach Adobe from a thread: the Creative Cloud upload link is blocked here too. Alex drops it in Creative Cloud, or the upload runs on his Mac.
+
 ## History
 
 - 2026-11-23: Written from the week's threads.
 - 2026-11-25: Added Picsart (connector checked the same day).
+- 2026-11-25: Vertical cuts run: Adobe input rule, viewing and filing results without downloading.
 - 2026-11-25: Hotel Marisol run: blocked Recraft and Drive hosts, the Zapier-to-Drive route, Recraft timeouts.
