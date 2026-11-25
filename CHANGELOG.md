@@ -17,6 +17,12 @@ Ran the approved test on the Ski Patrol still: Kling 3.0 Turbo and 4.0 Flash, Ve
 ## 2026-11-25 · all · ElevenLabs video priced for the December Reels choice
 Priced four video models through the ElevenLabs connector with its free estimate (Veo 3.1 Lite 2,424 credits a clip, Kling 3 Pro 5,090, Veo 3.1 Fast 7,271, Seedance 2.0 9,162). Added them to the credit note with the lesson `elevenlabs-for-veo`, and listed the models in what a thread can drive. The December Reels scorecard in the week-of-23-November doc now runs Veo through ElevenLabs. Ran the copy checklist.
 
+## 2026-11-25 · off-duty-hotel-club · Social posts move to the brand type
+Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, removed the Known drift line, and updated the type spec in `reuse-a-picture-that-works`: FreightBig Pro Book 56px lines and Neue Haas Unica 500 labels, from Adobe Fonts kit `lxh4muu`. The social factory's `build.py` is updated in project files. Ran the copy checklist.
+
+## 2026-11-25 · off-duty-hotel-club · The Oriole pool post becomes a reference
+Alex found the Oriole Palace pool post in Express and called it "absolutely perfect". Traced it to our own picture (`O01_oriole-palace_society.jpg`, Creative Cloud; post `oriole-1_O01.jpg`). Its prompt was never saved. New playbook `reuse-a-picture-that-works`: the six things that make it work, the type spec, and test T3 in the shot sheet (the picture as style and layout reference against the usual hero reference). Noted the social factory's type drift in the brand README. Ran the copy checklist.
+
 ## 2026-11-25 · all · Picsart joins the studio
 Alex has Picsart Professional. Added it to the private notes: what a thread can run (the connector reframes video and renders scenes for free but can't generate, so Alex generates on picsart.com) and the credit prices (Flux.2 Klein stills unlimited; other models cost credits at prices Picsart doesn't list). New lesson `picsart-for-what-nobody-else-has`: spend Picsart credits on models no other plan has. Added the `picsart` tool tag. Shot sheet rows PX1 to PX3. Ran the copy checklist.
 
