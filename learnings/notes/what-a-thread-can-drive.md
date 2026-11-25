@@ -28,7 +28,8 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 | Adobe | Edits, imports to Express, Firefly Boards | Can't generate new images or video. Firefly generation is by hand. |
 | Picsart | Reframes video, builds motion scenes (montage, captions, photo promos), transcribes, renders MP4 or stills, files to Picsart Drive, reads balance and brand kits | Can't generate new images or video: Alex generates on picsart.com. Reframe and export cost nothing. Sources must be public links. Some media analysis spends credits, so read the tool's description first. |
 | Higgsfield | Read only (balance, models, past results) | Alex generates by hand. |
-| Google Flow, Veo, Gemini Omni | No connector | Alex generates by hand. |
+| Google Flow (images) | Generates through Claude in Chrome on Alex's Mac | Nano Banana Pro stills showed 0 credits on the Pro plan (25 Nov). A thread types the prompt and reads the result; about 40 seconds for two takes. Prompt-only so far: attaching the shirt product shot needs a file upload the Chrome tools can't do from a cloud thread. |
+| Google Flow (video), Veo, Gemini Omni | No connector | Alex generates by hand. |
 | Photo Studio (Base44 app on fal) | Runs headless through its `studio` function (`run`, `tick`) | Details in project memory `odhc-photo-studio`. |
 
 ## Blocked from the cloud container (and the desktop VM)
@@ -47,3 +48,4 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 
 - 2026-11-23: Written from the week's threads.
 - 2026-11-25: Added Picsart (connector checked the same day).
+- 2026-11-25: Flow images driven through Claude in Chrome: SO4 and GV3, two takes each, 0 Flow credits.

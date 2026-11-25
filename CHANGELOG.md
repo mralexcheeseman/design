@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · off-duty-hotel-club · Flow images from a thread
+A thread drove Google Flow in Alex's Chrome and made SO4 and GV3 from the storytelling shot list with Nano Banana Pro, two takes each, 0 Flow credits. Prompt-only, without the shirt reference. Updated the what-a-thread-can-drive note. Ran the copy checklist.
+
 ## 2026-11-25 · all · Picsart joins the studio
 Alex has Picsart Professional. Added it to the private notes: what a thread can run (the connector reframes video and renders scenes for free but can't generate, so Alex generates on picsart.com) and the credit prices (Flux.2 Klein stills unlimited; other models cost credits at prices Picsart doesn't list). New lesson `picsart-for-what-nobody-else-has`: spend Picsart credits on models no other plan has. Added the `picsart` tool tag. Shot sheet rows PX1 to PX3. Ran the copy checklist.
 
