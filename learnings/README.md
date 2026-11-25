@@ -28,6 +28,9 @@ Kept out of The Back Office: credit planning, account reach and house methods.
 | [Pick where to run a model by what each credit costs](notes/spend-credits-before-renewal.md) | Unit prices per app, the use-every-credit rule |
 | [Know which tools a Claude thread can run and which need Alex](notes/what-a-thread-can-drive.md) | Connector reach, blocked hosts, small fixes |
 | [Log every generated picture in the shot sheet without typing](notes/log-results-from-drive.md) | Drive folder to Sheets via a scheduled Claude task, file-name parsing formulas |
+| [Plan on Monday, make midweek, review on Friday](notes/fixed-week.md) | The fixed week, what Monday books first, the Friday review tab |
+| [Get four posts out of every keeper before making new pictures](notes/one-hero-many-cuts.md) | Feed post, story, carousel and clip per hero, the Cuts tab |
+| [Keep two tools for each job and drop the rest](notes/two-tools-per-job.md) | Where tool picks are recorded, the evidence that decides them, what happens to a dropped tool |
 
 Balances, renewal dates, account ids and anything secret stay in project memory and never go in this repo.
 

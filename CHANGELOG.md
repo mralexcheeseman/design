@@ -1,9 +1,12 @@
 # Changelog
 
-Newest first. `## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
-Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
+Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
-## YYYY-MM-DD · brand · what changed`, then why.
+## 2026-11-25 · off-duty-hotel-club · A fixed week, two tools per job, four cuts per hero
+Alex agreed three ways of working on 25 Nov ("Do it all"). New private notes `fixed-week`, `one-hero-many-cuts` and `two-tools-per-job` in `learnings/notes/`, three rows in `decisions.md`, and the README index. The shot sheet gained a Cuts tab (15 heroes seeded from Results) and a Friday review tab, and the Tests block on This week gained a Picks column. `two-tools-per-job` holds the empty picks table with decide-by dates. Ran the copy checklist on the new notes.
+
+## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
+Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
 
 ## 2026-11-25 · off-duty-hotel-club · Social posts move to the brand type
 Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, removed the Known drift line, and updated the type spec in `reuse-a-picture-that-works`: FreightBig Pro Book 56px lines and Neue Haas Unica 500 labels, from Adobe Fonts kit `lxh4muu`. The social factory's `build.py` is updated in project files. Ran the copy checklist.
