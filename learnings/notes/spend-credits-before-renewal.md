@@ -42,6 +42,8 @@ Alex's rule (2026-11-23): use every credit on every plan before it renews, and u
 | Higgsfield Plus | Seedance 2.0 | about 22 credits per 5 s at 720p |
 | Recraft | Nano Banana 2 edit / Nano Banana Pro edit | 11 / 20 credits |
 | Kling | 3.0 Omni, 12 s, 1080p | 96 credits |
+| Kling | Image 4.0, one still with references | 4 credits |
+| Kling | Nano Banana Pro (`gemini-3-pro-image`) 2K, one still | 20 credits |
 | fal | Nano Banana Pro, 2K | about $0.15 an image |
 
 ## Picsart, seen on 2026-11-25

@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · off-duty-hotel-club · T3 baselines on Kling and Recraft
+Ran test T3 (Security at the Oriole pool) before Alex's Higgsfield takes on Saturday. Kling Image 4.0 averaged 9.3 with the hero reference and copied our pool picture guest for guest in all 4 T3b takes. Nano Banana Pro (through Kling) averaged 11.75 on T3a and 12.7 on T3b, a lift of 0.9, with two 13s. Recraft timed out 5 of 6 calls, so we stopped there. Playbook `reuse-a-picture-that-works` gains the baselines and two lessons (`photo-reference-gets-copied`, `kling-image-4-looks-digital`); the credit note gains Kling's still prices; the thread-reach note gains Kling's Drive links and its Nano Banana Pro route. Shot sheet rows T3a-K to T3-R. Ran the copy checklist.
+
 ## 2026-11-25 · off-duty-hotel-club · Social posts move to the brand type
 Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, removed the Known drift line, and updated the type spec in `reuse-a-picture-that-works`: FreightBig Pro Book 56px lines and Neue Haas Unica 500 labels, from Adobe Fonts kit `lxh4muu`. The social factory's `build.py` is updated in project files. Ran the copy checklist.
 
