@@ -14,7 +14,7 @@ status: proven
 cost_usable: About 25 cents a usable picture
 back_office: published
 date: 2026-11-23
-updated: 2026-11-24
+updated: 2026-11-25
 ---
 
 # Get your product's print right on an AI model
@@ -98,6 +98,7 @@ About 25 cents a usable picture. Five takes on fal for about 75 cents gave three
 | `say-film-grain-out-loud`: "Kodachrome, fine grain" still gave a crisp digital picture and squiggly small print. Ask for visible grain, soft edges, faded colour and skin with pores, and name the small lines of the print as something to copy letter for letter. | tested |
 | `clear-bottom-edge`: Cropped heads at the bottom edge and a stray number plate cost the most points, so the recipe asks for a clear bottom edge and no plates. | try |
 | `mend-in-firefly`: Fix a near-keeper's stray plate, sign, hand or cut-off head with Firefly Generative Fill or Expand on a masked area, which leaves the rest of the picture as it was. Unlimited on Creative Cloud. | try |
+| `print-file-on-generated-blank`: For catalogue shots, ask the model for the blank shirt only (same flat-lay, new garment colour, all print removed) and lay the real print file on it with `storefront-kit/tools/product-images/print_on_blank.py`, which shades the ink by the fabric's folds. The print is exact, including the small lines. Two calls, 40 Recraft credits, for the Surf Instructor front and back. | tested |
 | `higgsfield-unlimited-for-shirt-stills`: Higgsfield's Unlimited Nano Banana Pro takes up to 14 reference images, so shirt-reference stills can be made there at no cost while fal sits at zero. | try |
 
 ## Next to try
@@ -106,6 +107,7 @@ Run the tightened prompt on Nano Banana Pro in Higgsfield and score two takes si
 
 ## History
 
+- 2026-11-25: Added `print-file-on-generated-blank` from the Hotel Marisol Surf Instructor product shots.
 - 2026-11-24: Tried extra grain and a soft vignette in the grade at two strengths. Alex judged neither an improvement, so the grade stays as it was.
 - 2026-11-24: Added `mend-in-firefly` from the picture process audit.
 - 2026-11-23: Photo Studio run 01 (four hotels, one refine). Higgsfield lifeguard scored 18. Written up as a playbook.
