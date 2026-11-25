@@ -3,14 +3,14 @@ slug: what-a-thread-can-drive
 title: Know which tools a Claude thread can run and which need Alex
 dek: Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Firefly generation are by hand. Several file hosts are blocked from the cloud.
 making: photo
-tools: [kling, recraft, higgsfield, google-flow, firefly, adobe-express, base44, elevenlabs]
+tools: [kling, recraft, higgsfield, google-flow, firefly, adobe-express, base44, elevenlabs, picsart]
 techniques: [workflow]
 models: []
 status: tested
 cost_usable: n/a
 back_office: private
 date: 2026-11-23
-updated: 2026-11-23
+updated: 2026-11-25
 ---
 
 # Know which tools a Claude thread can run and which need Alex
@@ -26,6 +26,7 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 | ElevenLabs | Generates speech, images, video | Usage readout needs a reconnect. |
 | Base44 | Builds, edits files, reads and writes data | Hand-coding with the file tools costs no builder credits. |
 | Adobe | Edits, imports to Express, Firefly Boards | Can't generate new images or video. Firefly generation is by hand. |
+| Picsart | Reframes video, builds motion scenes (montage, captions, photo promos), transcribes, renders MP4 or stills, files to Picsart Drive, reads balance and brand kits | Can't generate new images or video: Alex generates on picsart.com. Reframe and export cost nothing. Sources must be public links. Some media analysis spends credits, so read the tool's description first. |
 | Higgsfield | Read only (balance, models, past results) | Alex generates by hand. |
 | Google Flow, Veo, Gemini Omni | No connector | Alex generates by hand. |
 | Photo Studio (Base44 app on fal) | Runs headless through its `studio` function (`run`, `tick`) | Details in project memory `odhc-photo-studio`. |
@@ -45,3 +46,4 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 ## History
 
 - 2026-11-23: Written from the week's threads.
+- 2026-11-25: Added Picsart (connector checked the same day).
