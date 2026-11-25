@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · all · Flow can edit a finished clip
+Alex found Flow's "Describe how to edit this video" box on his Veo Lite take (shot sheet V1e). Noted in what a thread can drive as a drift fix to try, by hand only. Ran the copy checklist.
+
 ## 2026-11-25 · all · Veo runs by hand in Flow
 Alex settled it: he runs Veo by hand on his Google credits, so a thread never generates Veo through ElevenLabs again. Recorded in `decisions.md`; lesson `elevenlabs-for-veo` replaced by `veo-by-hand-in-flow`. Ran the copy checklist.
 
