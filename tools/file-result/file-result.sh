@@ -1,6 +1,6 @@
 #!/bin/bash
 # ODHC File Result: names generated files by shot ID and moves them into the
-# Drive-synced "ODHC shot results" folder. The Results Zap then logs each one.
+# Drive-synced "ODHC shot results" folder. The Results log script then logs each one.
 # Works with macOS's built-in bash 3.2. Dialogs live in the app (File Result.app);
 # this script only does the file work.
 #
