@@ -35,7 +35,7 @@ Balances, renewal dates, account ids and anything secret stay in project memory 
 Every file carries the same three public tags as The Back Office.
 
 - **making**: `photo`, `video`, `website`, `social`
-- **tools**: `kling`, `recraft`, `higgsfield`, `nano-banana-pro`, `google-flow`, `firefly`, `adobe-express`, `base44`, `elevenlabs`
+- **tools**: `kling`, `recraft`, `higgsfield`, `nano-banana-pro`, `google-flow`, `firefly`, `adobe-express`, `base44`, `elevenlabs`, `picsart`
 - **techniques**: `waypoint-stills` (Waypoint stills), `edit-chain` (Edit chains), `first-last-frame` (First and last frames), `web-encoding` (Web video encoding), `reference-images` (Reference images), `refine` (Refining a take), `film-look` (Film look), `scoring` (Scoring results), `html-import` (HTML import), `builder-prompts` (Builder prompts). Private notes also use `credit-planning` and `workflow`.
 
 The labels match `TECHNIQUES` in The Back Office's `src/lib/logbook.js`. A new technique gets added in both places.
