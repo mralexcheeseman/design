@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · all · Picsart joins the studio
+Alex has Picsart Professional. Added it to the private notes: what a thread can run (the connector reframes video and renders scenes for free but can't generate, so Alex generates on picsart.com) and the credit prices (Flux.2 Klein stills unlimited; other models cost credits at prices Picsart doesn't list). New lesson `picsart-for-what-nobody-else-has`: spend Picsart credits on models no other plan has. Added the `picsart` tool tag. Shot sheet rows PX1 to PX3. Ran the copy checklist.
+
 ## 2026-11-24 · off-duty-hotel-club · Higgsfield video runs through ChatGPT
 Added the private note `learnings/notes/run-higgsfield-through-chatgpt.md`. Our Higgsfield connector can't generate, and ChatGPT's Higgsfield app can, with Unlimited switched off for connected apps. Seedance video (shot-sheet rows S1 to S3) now runs through ChatGPT from a standing brief that quotes the cost and waits for a go; Unlimited stills stay on the website. Results come back through the Drive results folder as before. Updated the reach and credit notes to match. Ran the copy checklist on the notes.
 
