@@ -37,7 +37,9 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - Creative Cloud storage (at.adobe.com) is unreachable, so Express uploads go through Alex's Mac (see [the Express playbook](../playbooks/live-text-in-adobe-express.md)).
 - Recraft's upload host (mcp.recraft.ai) and elevenlabsusercontent.com refuse the cloud container (2026-11-25), so a thread can't upload a local picture to Recraft or download an ElevenLabs file. Recraft image tools need a public image link.
 - Adobe image tools accept only Adobe-trusted hosts, so a Drive link (lh3.googleusercontent.com) is refused.
-- Making a Drive file public by link can be refused by the thread's own permission check. Without a public link, a thread can't feed Recraft, Kling or Adobe; Alex can switch the references folder to link-viewable once.
+- Making a Drive file public by link can be refused by the thread's own permission check. Alex made the ODHC shot references folder link-viewable on 25 Nov, so every file a thread puts there gets a working link for Recraft and Kling: `https://lh3.googleusercontent.com/d/<id>`. Recraft read these first time.
+- Recraft results live on img.recraft.ai, which the cloud container can't reach, so a thread sees only a small preview. The Base44 sandbox (run_command on The Back Office) can fetch them. Alex downloads keepers from his Recraft library to file them in Drive.
+- The Reference library in The Back Office (`/references`, entity `Reference`) lists every reference with its direct link. Add new references there and in the Drive folder together.
 
 ## Small fixes that saved time
 
@@ -52,3 +54,4 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - 2026-11-23: Written from the week's threads.
 - 2026-11-25: Added Picsart (connector checked the same day).
 - 2026-11-25: Added the Recraft upload, Adobe host, Drive sharing and 10 MB limits found in the 48-hour plan tests.
+- 2026-11-25: References folder link-viewable; Recraft reads Drive links; img.recraft.ai blocked from the cloud; reference library in The Back Office.

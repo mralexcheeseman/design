@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · off-duty-hotel-club · Reference library and thread shirt stills
+Alex made the references folder link-viewable. Added the four missing shirt fronts (Security, Pool Boy, Sélune Pool Boy, Head Gardener) from the storefront product shots, built a Reference library in The Back Office with all 38 references and their direct links, and made the first thread shirt stills on Recraft (rows R1a and R1b). The thread note records that Recraft reads Drive links and that img.recraft.ai is blocked from the cloud. Ran the copy checklist on the note.
+
 ## 2026-11-25 · off-duty-hotel-club · 9:16 first frames by crop
 Tests for the 48-hour content plan. New playbook `portrait-first-frames-for-video`: crop 4:5 keepers to 9:16 around the wearer, since Seedance has no aspect setting and generative expand redraws the edges. Seven keepers cropped. The thread notes now list the Recraft upload, Adobe trusted-host, Drive sharing and 10 MB download limits, and the spend note an ElevenLabs voiceover price. Ran the copy checklist on the new playbook.
 
