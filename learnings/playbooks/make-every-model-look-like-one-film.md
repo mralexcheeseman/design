@@ -73,7 +73,7 @@ Free. The script runs in the cloud container in about a second a picture.
 | `normalise-first`: level and neutralise each picture before the look, or the look keeps each model's differences. | tested |
 | `cap-the-stretch`: never set the white point below 0.85, or pale snow and sky clip. | tested |
 | `choose-on-real-pictures`: pick the look on a sheet of your own mixed-model pictures, never on one hero frame. | tested |
-| `under-full-strength`: 75% kept the look and let each picture's own light through; 100% flattened faces. | tested |
+| `under-full-strength`: show the chosen look at 50%, 75% and 100% before locking it; Alex chose 75%. | tested |
 
 ## Next to try
 
