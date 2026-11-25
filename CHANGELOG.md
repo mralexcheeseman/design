@@ -1,9 +1,12 @@
 # Changelog
 
-Newest first. `## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
-Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
+Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
-## YYYY-MM-DD · brand · what changed`, then why.
+## 2026-11-25 · off-duty-hotel-club · Credit balances read themselves every morning
+Alex approved a live credit board. A scheduled task reads Kling, Recraft, Picsart, Higgsfield and ElevenLabs balances at 07:05 London and writes them into the shot sheet's This week tab. The tab now leads with a "Spend first" line, highlights the pool that lapses soonest, shows a spend-a-day figure, and marks Firefly, Flow and Base44 as manual rows that turn red after a week. Updated `learnings/notes/spend-credits-before-renewal.md`. Also fixed this file's header, which an earlier entry had split. No checklist applies (no brand output).
+
+## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
+Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
 
 ## 2026-11-25 · off-duty-hotel-club · Social posts move to the brand type
 Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, removed the Known drift line, and updated the type spec in `reuse-a-picture-that-works`: FreightBig Pro Book 56px lines and Neue Haas Unica 500 labels, from Adobe Fonts kit `lxh4muu`. The social factory's `build.py` is updated in project files. Ran the copy checklist.
