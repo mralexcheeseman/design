@@ -1,0 +1,105 @@
+# ODHC shot list for File Result. One shot per line: ID<tab>what's in the frame<tab>usual tool. Threads refresh this file.
+OP1	Mr. Whitlock holds the gate at dusk while a white convertible waits to learn its fate (The Oriole Palace; Single, hook; shirt: Security)	Higgsfield
+OP2	Mr. Malone tries the gate five days running, in five different disguises (The Oriole Palace; Carousel, 6 slides; shirt: Security)	Higgsfield
+OP3	Miss Fairweather, dressed for dinner at noon, sits beside a telephone that has not rung since 1941 (The Oriole Palace; Single, portrait; shirt: None)	Higgsfield
+OP4	Your feet on a lounger, the pool, and far off Dee walking the wall (The Oriole Palace; Single, guest's-eye; shirt: Security, small)	Higgsfield
+OP5	Mr. Malone's cream envelope left on the gatehouse ledge beside a folded peaked cap (The Oriole Palace; Carousel last slide, detail; shirt: None)	Higgsfield
+OP6	The morning after a party: one coupe on the diving board, a hat afloat, Security walking the deck (The Oriole Palace; Single, after; shirt: Security)	Higgsfield
+OP7	Midnight, a guest under a coat, and Dee already has the night gate open for her (The Oriole Palace; Single, wild card; shirt: Security)	Higgsfield
+GV1	Seraina takes first tracks at dawn, one red figure drawing one line down an empty mountain (Grand Valbrune; Single, hook; shirt: Ski Patrol, small)	Higgsfield
+GV2	The von Aarburg photograph on the steps, where once again somebody is missing (Grand Valbrune; Carousel, 4 slides; shirt: None)	Higgsfield
+GV3	Seraina makes her eleventh rescue of the season, from lunch (Grand Valbrune; Single, before; shirt: Ski Patrol)	Higgsfield
+GV4	Your fondue, your skis in the snow, and Gian leaning in to pour your wine (Grand Valbrune; Single, guest's-eye; shirt: Ski Patrol)	Higgsfield
+GV5	Mr. Harcourt-Vane asleep in his deckchair, his waxed skis standing either side of him since 1958 (Grand Valbrune; Single, portrait; shirt: None)	Higgsfield
+GV6	Four o'clock: the last lift has gone and one pair of skis is still in the rack (Grand Valbrune; Single, detail, after; shirt: None)	Higgsfield
+GV7	The heated pool at night, fur coats left on the loungers, one swimmer still in (Grand Valbrune; Single, wild card; shirt: None)	Higgsfield
+SE1	Augustin wades out to the pontoon with the Hartwells' usual bottle held above his head (Hôtel Sélune; Single, hook; shirt: Pool Boy, white)	Higgsfield
+SE2	A morning with the Commodore, who has logged every boat in the bay since 1959 (Hôtel Sélune; Carousel, 5 slides; shirt: Pool Boy on slide 5)	Higgsfield
+SE3	Augustin tests the pool with his elbow at seven, then walks down to test the sea (Hôtel Sélune; Single, portrait; shirt: Pool Boy, white)	Higgsfield
+SE4	You are about to ask for a towel and Josette is already holding one out (Hôtel Sélune; Single, guest's-eye; shirt: Pool Boy, white)	Higgsfield
+SE5	Two pairs of espadrilles at the end of the pontoon beside the same bottle as yesterday (Hôtel Sélune; Single, detail; shirt: None)	Higgsfield
+SE6	The afternoon aeroplane leaves, and the Hartwells wave it off from the beach once more (Hôtel Sélune; Single, after; shirt: None)	Higgsfield
+SE7	A yacht's tender waits at the hotel steps while Augustin politely declines his twelfth berth (Hôtel Sélune; Single, wild card; shirt: Pool Boy, white)	Higgsfield
+VC1	A guest lifts one foot towards the lawn and Ottavio, far across it, raises one hand (Villa Ceresa; Single, hook, before; shirt: Head Gardener)	Higgsfield
+VC2	A day on the lawn, from the first stripe at dawn to Ottavio alone on it at dusk (Villa Ceresa; Carousel, 5 slides; shirt: Head Gardener)	Higgsfield
+VC3	Ottavio among the camellias while Signora Brivio paints the same bush for the fourteenth June (Villa Ceresa; Single, portrait; shirt: Head Gardener)	Higgsfield
+VC4	Your boat comes in to the villa landing and Rosalba is already there, hose in hand (Villa Ceresa; Single, guest's-eye; shirt: Head Gardener)	Higgsfield
+VC5	A croquet ball has rolled one inch onto the lawn and nobody will fetch it (Villa Ceresa; Single, detail; shirt: None)	Higgsfield
+VC6	The morning after a wedding, Rosalba picks up the confetti one piece at a time (Villa Ceresa; Single, after; shirt: Head Gardener)	Higgsfield
+VC7	The Contessa, a swan, crosses the lawn, the one guest Ottavio allows (Villa Ceresa; Single, wild card; shirt: Head Gardener, small)	Higgsfield
+SO1	Bastien closes the pool at lunch with one rope while the swimmers look up in disbelief (Hôtel Solvane; Single, hook; shirt: Lifeguard)	Higgsfield
+SO2	Mr. Arkwright's luggage, which has been following on since June 1963 (Hôtel Solvane; Carousel, 5 slides; shirt: Lifeguard on slide 5)	Higgsfield
+SO3	Madame Vasseur-Lange under parasol fourteen, losing to herself at backgammon (Hôtel Solvane; Single, portrait; shirt: None)	Higgsfield
+SO4	You are swimming, and Odile looks down at you from the second white chair (Hôtel Solvane; Single, guest's-eye; shirt: Lifeguard)	Higgsfield
+SO5	A backgammon board mid-game with two coffees, both of them hers (Hôtel Solvane; Single, detail; shirt: None)	Higgsfield
+SO6	A wet straw hat drying on the lifeguard chair, the one rescue of Bastien's career (Hôtel Solvane; Single, after; shirt: Lifeguard, small)	Higgsfield
+SO7	Bastien is at lunch, so Odile lifts the rope and everyone goes in at once (Hôtel Solvane; Single, wild card; shirt: Lifeguard)	Higgsfield
+CT1	Four o'clock, and Dr. Roth stands at the end of the diving board with his manuscript (Casa Thalene; Single, hook, before; shirt: None)	Higgsfield
+CT2	Dr. Roth at four, the day page forty-one blew into the pool (Casa Thalene; Carousel, 5 slides; shirt: Pool Boy on slide 5)	Higgsfield
+CT3	Nikos crosses the whole terrace with one glass of lemonade, on principle (Casa Thalene; Single, portrait; shirt: Pool Boy)	Higgsfield
+CT4	You lunch between the Bevacqua sisters, who speak only through Gaspare (Casa Thalene; Single, guest's-eye; shirt: None)	Higgsfield
+CT5	Gaspare's own towel and his own key, laid out on his own lounger (Casa Thalene; Single, detail; shirt: None)	Higgsfield
+CT6	One wet footprint at the very end of the diving board, and nobody saw (Casa Thalene; Single, after; shirt: None)	Higgsfield
+CT7	Why the towels are always warm: Eleni lays them on the hot rocks at noon (Casa Thalene; Single, wild card; shirt: Pool Boy)	Higgsfield
+MA1	You are out on a board in the swell, and Chuy is shouting advice from his hammock on the beach (Hotel Marisol; Single, hook, guest's-eye; shirt: Surf Instructor, small)	Higgsfield
+MA2	A lesson with Chuy, from reading the tide to lunch (Hotel Marisol; Carousel, 5 slides; shirt: Surf Instructor)	Higgsfield
+MA3	A new guest stands beside the empty hammock, waiting to learn whether Señora Valdés has decided about them (Hotel Marisol; Single, before; shirt: None)	Higgsfield
+MA4	Kit Ashdown plays both her chords on the camper roof and the pelicans fly straight past (Hotel Marisol; Single, portrait; shirt: None)	Higgsfield
+MA5	Chuy's board, unwaxed since 1968, leaning on a palm with a frangipani on it (Hotel Marisol; Single, detail; shirt: None)	Higgsfield
+MA6	The morning after the fiesta: lanterns in the sand and a guitar asleep in a hammock (Hotel Marisol; Single, after; shirt: None)	Higgsfield
+MA7	The hotel keeps no clocks, so lunch waits on the sand until Lupe comes in (Hotel Marisol; Single, wild card; shirt: Surf Instructor, small)	Higgsfield
+H1	Lifeguard shirt, Bastien in the tall white lifeguard chair (Hôtel Solvane)	Higgsfield
+H1b	Bastien on the jetty as the launch leaves (Hôtel Solvane)	Higgsfield
+H1c	Bastien carries towels down the long steps (Hôtel Solvane)	Higgsfield
+H1d	Bastien shows a small girl something in the pool (Hôtel Solvane)	Higgsfield
+H1e	Bastien's last look at the pool at six, furling a parasol (Hôtel Solvane)	Higgsfield
+H2	Pool Boy shirt, Nikos with one glass of lemonade (Casa Thalene)	Higgsfield
+H2b	Nikos carries the lemonade up from the harbour (Casa Thalene)	Higgsfield
+H2c	Nikos skims the pool while the sisters play cards (Casa Thalene)	Higgsfield
+H2d	Nikos brings ouzo under the vine pergola (Casa Thalene)	Higgsfield
+H2e	Nikos lays out towels on the clifftop (Casa Thalene)	Higgsfield
+H3	Head Gardener shirt, Ottavio cutting the lawn with nail scissors (Villa Ceresa)	Higgsfield
+H3b	Ottavio trims the box hedges (Villa Ceresa)	Higgsfield
+H3c	Ottavio feeds the swans from the pier (Villa Ceresa)	Higgsfield
+H3d	Ottavio deadheads the camellia walk (Villa Ceresa)	Higgsfield
+H3e	Ottavio wheels the clippings past tea on the lawn (Villa Ceresa)	Higgsfield
+H4	Sélune Pool Boy shirt, Augustin testing the pool with his elbow (Hôtel Sélune)	Higgsfield
+H4b	Augustin carries loungers down to the beach (Hôtel Sélune)	Higgsfield
+H4c	Augustin waits at the pool bar (Hôtel Sélune)	Higgsfield
+H4d	Augustin checks the water against the sea (Hôtel Sélune)	Higgsfield
+H4e	Augustin lights the lamps before dinner (Hôtel Sélune)	Higgsfield
+H5	Security shirt, Mr. Whitlock at the gate with Mr. Malone outside (The Oriole Palace)	Higgsfield
+H5b	Mr. Whitlock turns a photographer away at the pool (The Oriole Palace)	Higgsfield
+H5c	Mr. Whitlock watches the drive at golden hour (The Oriole Palace)	Higgsfield
+H5d	Mr. Whitlock walks the tennis court fence (The Oriole Palace)	Higgsfield
+H5e	Mr. Whitlock looks the other way at the bungalows (The Oriole Palace)	Higgsfield
+H10	Seraina takes her coffee at the balustrade, Ski Patrol shirt (Grand Valbrune)	Higgsfield
+H10b	Seraina coils a rope at the top of the lift (Grand Valbrune)	Higgsfield
+H10c	Seraina pulls the rescue sled across the frozen lake (Grand Valbrune)	Higgsfield
+H10d	Seraina returns a lost ski (Grand Valbrune)	Higgsfield
+H10e	Seraina leans the sled outside the ski room (Grand Valbrune)	Higgsfield
+H6	Empty place: ten deckchairs facing the peaks, no people (Grand Valbrune)	Firefly
+H7	Empty place: parasols on the beach from above, no people (Hôtel Solvane)	Firefly
+F1	Solvane hero comes to life, video (Hôtel Solvane)	Firefly
+F2	Oriole hero comes to life, video (The Oriole Palace)	Firefly
+F3	Valbrune hero comes to life, video (Grand Valbrune)	Firefly
+F4	Thalene house look comes to life, video (Casa Thalene)	Firefly
+F5	Ceresa house look comes to life, video (Villa Ceresa)	Firefly
+F6	Sélune house look comes to life, video (Hôtel Sélune)	Firefly
+F10	Seraina at the balustrade, guest-book portrait moving, video (Grand Valbrune)	Firefly
+F11	Augustin tests the pool with his elbow, video (Hôtel Sélune)	Firefly
+F12	Bastien story frame with the Lifeguard shirt (Hôtel Solvane)	Firefly
+F9	Gian story frame with the Ski Patrol shirt (Grand Valbrune)	Firefly
+G1	Push in to the Ski Patrol back print, video (Grand Valbrune)	Flow
+G2	Bastien closes the pool at lunch, video (Hôtel Solvane)	Flow
+G3	The Oriole gate at dusk, website hero video (The Oriole Palace)	Flow
+G4	Seraina takes her coffee standing, video (Grand Valbrune)	Flow
+G5	The Signorine Bevacqua consult Gaspare on the menu, video (Casa Thalene)	Flow
+G6	The Commodore logs vessel four thousand and thirteen, video (Hôtel Sélune)	Flow
+S1	Strudel the dachshund declines to sit (Grand Valbrune)	Higgsfield
+S2	Mr. Harcourt-Vane attends lunch, asleep (Grand Valbrune)	Higgsfield
+S3	Dr. Roth reaches the end of the diving board (Casa Thalene)	Higgsfield
+V1a	Ski patrolman on the snowy Valbrune slope holding wooden skis, video (Grand Valbrune)	Kling
+V2a	Lifeguard at Solvane Cove turns, parasols flutter, video (Hôtel Solvane)	Higgsfield Seedance
+V2b	Lifeguard at Solvane Cove turns, parasols flutter, video (Hôtel Solvane)	Gemini
+V2c	Lifeguard at Solvane Cove turns, parasols flutter, video (Hôtel Solvane)	Flow

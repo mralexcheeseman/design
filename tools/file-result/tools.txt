@@ -1,7 +1,9 @@
+flow  Google Flow, still image
 flowveolite  Google Flow, Veo 3.1 Lite
 flowveofast  Google Flow, Veo 3.1 Fast
 flowveoquality  Google Flow, Veo 3.1 Quality
 hydrogen  Gemini app video
+gemini  Gemini app, still image
 geminiomni  Gemini Omni
 seedance  Higgsfield, Seedance 2.0
 higgsfieldnbpro  Higgsfield, Nano Banana Pro

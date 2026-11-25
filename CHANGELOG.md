@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · studio · File Result guesses the shot
+File Result now asks a local Ollama vision model which shot each dropped picture or clip shows (against `ODHC shot list.txt` in My Drive), guesses the tool from the download's name, shows the proposed name for one-click confirm, takes whole folders, and crops Flow's 3:4 stills to 4:5. Ran the copy checklist.
+
 ## 2026-11-25 · studio · Results log script
 Added `tools/results-log/`, an Apps Script that logs new files in ODHC shot results on the Results tab every 5 minutes. It replaces the Results Zap, so logging uses no Zapier tasks. Ran the copy checklist.
 
