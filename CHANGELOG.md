@@ -1,6 +1,9 @@
 # Changelog
 
-Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
+Newest first. `## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
+Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
+
+## YYYY-MM-DD · brand · what changed`, then why.
 
 ## 2026-11-25 · studio · File Result guesses the shot
 File Result now asks a local Ollama vision model which shot each dropped picture or clip shows (against `ODHC shot list.txt` in My Drive), guesses the tool from the download's name, shows the proposed name for one-click confirm, takes whole folders, and crops Flow's 3:4 stills to 4:5. Ran the copy checklist.
@@ -16,6 +19,11 @@ Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, 
 
 ## 2026-11-25 · off-duty-hotel-club · The Oriole pool post becomes a reference
 Alex found the Oriole Palace pool post in Express and called it "absolutely perfect". Traced it to our own picture (`O01_oriole-palace_society.jpg`, Creative Cloud; post `oriole-1_O01.jpg`). Its prompt was never saved. New playbook `reuse-a-picture-that-works`: the six things that make it work, the type spec, and test T3 in the shot sheet (the picture as style and layout reference against the usual hero reference). Noted the social factory's type drift in the brand README. Ran the copy checklist.
+
+## 2026-11-25 · off-duty-hotel-club · Hotel Marisol and the Surf Instructor
+Added the seventh hotel to the system: `hotel-marisol` (terracotta `#a54a2a`), `garment-blue-jean` (`#62799a`, Comfort Colors 1717, matched by eye until the swatch arrives) and `ink-warm-white` (`#f7f4ec`). Crest master in `artwork/crests/heritage/`, screen crest in `assets/crests/`, Surf Instructor print files in `artwork/print-files/` (copied from storefront-kit `supply/`). README hotels table, merch range and `decisions.md` updated. Regenerated `tokens.css` and `index.html`.
+
+Learnings: new lesson `print-file-on-generated-blank` in the product print playbook; the thread-reach note gains the blocked Recraft and Drive hosts, the Zapier-to-Drive route and Recraft's timeouts.
 
 ## 2026-11-25 · all · Picsart joins the studio
 Alex has Picsart Professional. Added it to the private notes: what a thread can run (the connector reframes video and renders scenes for free but can't generate, so Alex generates on picsart.com) and the credit prices (Flux.2 Klein stills unlimited; other models cost credits at prices Picsart doesn't list). New lesson `picsart-for-what-nobody-else-has`: spend Picsart credits on models no other plan has. Added the `picsart` tool tag. Shot sheet rows PX1 to PX3. Ran the copy checklist.

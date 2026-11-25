@@ -1,6 +1,6 @@
 # Results log
 
-A Google Apps Script bound to the shot sheet. Every 5 minutes it lists the Drive folder **ODHC shot results** and gives each new file a row on the Results tab: Added, File, Drive link (columns A to C). The formula columns D to I do the rest. It replaces the Results Zap, so logging uses no Zapier tasks.
+A Google Apps Script bound to the shot sheet. Every 5 minutes it lists the Drive folder **ODHC shot results** and gives each new file a row on the Results tab: Added, File, Drive link (columns A to C). The formula columns D to I do the rest. It uses no Zapier tasks. It is an alternative to the two-hourly scheduled Claude task: both skip files already linked in column C, so running both is safe, but one is enough.
 
 It matches on the Drive file id in column C, so files already logged (by hand or by the old Zap) are never logged twice, and anything missed gets picked up on the next run.
 
