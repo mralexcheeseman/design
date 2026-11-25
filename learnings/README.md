@@ -10,6 +10,7 @@ Each one answers one reader's problem. Public on The Back Office unless marked p
 
 | Playbook | Making | Tools | Status | Cost per usable result | Tested |
 | --- | --- | --- | --- | --- | --- |
+| [Make 9:16 first frames for video without changing the picture](playbooks/portrait-first-frames-for-video.md) | video | higgsfield, google-flow, adobe-express, recraft | tested | Free | 2026-11-25 |
 | [Stop AI pictures cutting off heads and crowding the frame](playbooks/frame-ai-pictures-with-a-layout-reference.md) | photo | nano-banana-pro, higgsfield, recraft | try | Free on Higgsfield Unlimited | 2026-11-24 |
 | [Stop buildings drifting when you stitch stills into video](playbooks/stop-buildings-drifting.md) | video | kling, recraft | tested | 142 credits a clip | 2026-11-23 |
 | [Keep a scroll-scrubbed video sharp on the web](playbooks/keep-scroll-video-sharp.md) | website | kling, base44 | tested | Free | 2026-11-23 |

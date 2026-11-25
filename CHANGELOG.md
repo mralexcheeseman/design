@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · off-duty-hotel-club · 9:16 first frames by crop
+Tests for the 48-hour content plan. New playbook `portrait-first-frames-for-video`: crop 4:5 keepers to 9:16 around the wearer, since Seedance has no aspect setting and generative expand redraws the edges. Seven keepers cropped. The thread notes now list the Recraft upload, Adobe trusted-host, Drive sharing and 10 MB download limits, and the spend note an ElevenLabs voiceover price. Ran the copy checklist on the new playbook.
+
 ## 2026-11-25 · all · Picsart joins the studio
 Alex has Picsart Professional. Added it to the private notes: what a thread can run (the connector reframes video and renders scenes for free but can't generate, so Alex generates on picsart.com) and the credit prices (Flux.2 Klein stills unlimited; other models cost credits at prices Picsart doesn't list). New lesson `picsart-for-what-nobody-else-has`: spend Picsart credits on models no other plan has. Added the `picsart` tool tag. Shot sheet rows PX1 to PX3. Ran the copy checklist.
 

@@ -35,10 +35,14 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 
 - fal.media, res.cloudinary.com and media.base44.com return 403, so view those images in a browser.
 - Creative Cloud storage (at.adobe.com) is unreachable, so Express uploads go through Alex's Mac (see [the Express playbook](../playbooks/live-text-in-adobe-express.md)).
+- Recraft's upload host (mcp.recraft.ai) and elevenlabsusercontent.com refuse the cloud container (2026-11-25), so a thread can't upload a local picture to Recraft or download an ElevenLabs file. Recraft image tools need a public image link.
+- Adobe image tools accept only Adobe-trusted hosts, so a Drive link (lh3.googleusercontent.com) is refused.
+- Making a Drive file public by link can be refused by the thread's own permission check. Without a public link, a thread can't feed Recraft, Kling or Adobe; Alex can switch the references folder to link-viewable once.
 
 ## Small fixes that saved time
 
-- Google Drive `create_file` fails on files under `/mnt/project-files`. Copy the file to `/home/user` first.
+- Google Drive `create_file` fails on files under `/mnt/project-files` or `/tmp`. Copy the file into the working directory (for example `/home/claude/up`) first.
+- The Drive connector won't download a file over 10 MB. Higgsfield 2K PNGs run 7 to 11 MB, so ask for JPEG exports of the big ones.
 - The Sheets `update_values` tool parses input as if typed, so "9:16" alone becomes a time. Keep ratios inside longer text.
 - The Base44 sandbox has no ffmpeg or numpy: `npm i ffmpeg-static` or `pip install --target /tmp/pylib numpy pillow`.
 - Host every Base44 video in the app's media library.
@@ -47,3 +51,4 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 
 - 2026-11-23: Written from the week's threads.
 - 2026-11-25: Added Picsart (connector checked the same day).
+- 2026-11-25: Added the Recraft upload, Adobe host, Drive sharing and 10 MB limits found in the 48-hour plan tests.

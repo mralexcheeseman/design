@@ -43,6 +43,7 @@ Alex's rule (2026-11-23): use every credit on every plan before it renews, and u
 | Recraft | Nano Banana 2 edit / Nano Banana Pro edit | 11 / 20 credits |
 | Kling | 3.0 Omni, 12 s, 1080p | 96 credits |
 | fal | Nano Banana Pro, 2K | about $0.15 an image |
+| ElevenLabs (seen 2026-11-25) | eleven_v3 speech, 17 s read | 250 credits (about 4.5 cents) |
 
 ## Picsart, seen on 2026-11-25
 
@@ -67,4 +68,5 @@ Picsart's pricing page lists the models but no credit price per model, so read t
 ## History
 
 - 2026-11-23: Prices gathered for the week-of-23-November test plan.
+- 2026-11-25: Added an ElevenLabs voiceover price (250 credits for a 17 s read).
 - 2026-11-25: Added Picsart Professional and the lesson `picsart-for-what-nobody-else-has`.
