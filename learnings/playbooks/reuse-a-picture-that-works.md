@@ -38,7 +38,7 @@ Our last framing test showed where a layout reference can go wrong. In test T1 a
 | Colour | Pink stucco, turquoise water, sage stripes, warm skin, cream stone. A faint warm-magenta cast, highlights close to burning out, fine grain, soft edges. The post adds the house grade and a soft full-frame shade that darkens the bottom third for the type. |
 | Type | Bottom centre over the shade. A small tracked-capitals label (hotel · place, no number) and one serif line under it, on one line, about eight words. The line pays off the story beat. |
 
-The type spec, as the social factory builds it at 1080 × 1350: label DM Sans 500, 24px, letter-spacing 0.12em, capitals, 26px above the line; line Instrument Serif 400, 62px, line-height 1.1, letter-spacing −0.01em; both in the brand's on-dark colour, centred; shade a linear gradient from clear at 35% to 65% `#172016` at the bottom edge. See [live text in Express](live-text-in-adobe-express.md) for getting it in with the text still editable.
+The type spec at 1080 × 1350, as the social factory builds it from 25 November: label Neue Haas Unica 500, 24px, letter-spacing 0.12em, capitals, 26px above the line; line FreightBig Pro Book 400, 56px, line-height 1.1, letter-spacing −0.01em; both in the brand's on-dark colour, centred; shade a linear gradient from clear at 35% to 65% `#172016` at the bottom edge. Fonts load from Adobe Fonts kit `lxh4muu`. The original post set the same layout in Instrument Serif and DM Sans; Alex moved social to the brand pair on 25 November, and the line came down from 62px because FreightBig sets wider. See [live text in Express](live-text-in-adobe-express.md) for getting it in with the text still editable.
 
 ## What to do
 
@@ -96,6 +96,7 @@ Free on Higgsfield Unlimited: eight takes for the test.
 | `photo-as-layout-reference`: Attach a picture that already works as the layout reference; a grey sketch cut Real by a point in T1. | try |
 | `staff-apart-as-story-beat`: One uniformed staff member standing still among lounging guests gives the picture its story and puts the shirt in it. | try |
 | `caption-pays-off-the-picture`: The one serif line works when it explains the odd figure in the picture, so write it after choosing the picture. | try |
+| `social-uses-brand-type`: Social posts set type in the brand pair, FreightBig Pro and Neue Haas Unica, like the store (Alex, 25 November). | tested |
 | `shadow-for-depth`: A single hard palm shadow across water gives a top-down picture its depth and its time of day. | try |
 
 ## Next to try
@@ -104,4 +105,5 @@ Run T3a and T3b. Keep the picture as a reference if T3b's four-take average beat
 
 ## History
 
+- 2026-11-25: Type spec moved to FreightBig Pro and Neue Haas Unica after Alex chose the brand pair for social.
 - 2026-11-25: First written from the Oriole pool post Alex picked in Express. Test T3 set up in the shot sheet, not yet run.
