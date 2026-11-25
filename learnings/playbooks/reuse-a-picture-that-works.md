@@ -27,6 +27,12 @@ It is ours. The picture is `O01_oriole-palace_society.jpg` in the Creative Cloud
 
 Our last framing test showed where a layout reference can go wrong. In test T1 a grey blocking sketch as a third image cut Real from 2 to 1 on both scored takes (11 of 15 down to 10), and rewriting the bans as positive wording took it to 9 and 8. The sketch's flat grey seems to leak into the picture. A real photograph carries the same layout with the right texture, so that is what we test next.
 
+## Pictures
+
+![The post, the take from words alone, the take with the post attached, and Kling's copy](../images/reuse-a-picture-t3-sheet.jpg)
+
+From left: the Oriole Palace post we wanted more of; T3a, the six points as words only (11 or 12 of 15, the pool turned into a lap lane); T3b, the same words with the post attached as image 2 (12 or 13 of 15, the corner-to-corner pool and palm shadow back); and Kling Image 4.0, which handed back the post itself and scored 0.
+
 ## What makes it work
 
 | Element | What the picture does |
