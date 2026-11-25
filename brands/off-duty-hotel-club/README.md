@@ -5,7 +5,7 @@ Staff-issue T-shirts from five fictional hotels: a small crest on the front, a p
 - **Voice: dry, deadpan, a little conspiratorial.** Speak as the club, using "we" and "you". Real lines to match: "Wish you worked here." "He closes the pool whenever he likes, usually at lunch." "Find your hotel. Choose your role. Take the rest of the day off."
 - **Say less.** Use one strong line per section. Cut captions on photos, decorative strips and repeated footnotes.
 - **Play the fiction straight.** Write as if the hotels are real and old: heritage, history, staff, guests and duties are all fair game ("Take a piece of history home", "Now hiring: Ski Patrol"). Ads, social posts and videos don't need to say the hotels are fictional. Never name a real hotel or brand, and never claim a shirt is genuine vintage or was worn by real staff.
-- **Hotel and job names keep their exact spelling and accents:** Hôtel Solvane, The Oriole Palace, Casa Thalene, Grand Valbrune, Villa Ceresa. The roles are Lifeguard, Security, Pool Boy, Ski Patrol and Head Gardener.
+- **Hotel and job names keep their exact spelling and accents:** Hôtel Solvane, The Oriole Palace, Casa Thalene, Grand Valbrune, Villa Ceresa, Hotel Marisol (no accent, and México with one). The roles are Lifeguard, Security, Pool Boy, Ski Patrol, Head Gardener and Surf Instructor.
 - **Sentence case** for headings and buttons. Capitals only come from the `label` style and the wordmark.
 - **Prices in whole pounds:** £48, never £48.00.
 - **One place for disclaimers.** Put the preview notice in the announcement bar's "About this preview" panel. Elsewhere, add one short line only at the add-to-bag button and in the bag.
@@ -13,7 +13,7 @@ Staff-issue T-shirts from five fictional hotels: a small crest on the front, a p
 
 ## Visual foundations
 
-**Colour.** Use one light ground (`paper`), one ink (`ink`) and one accent (`accent`). `staff-green` frames the page (announcement bar and footer) and appears nowhere in between. Set body copy in `ink`, secondary copy in `ink-2`, and tertiary notes in `ink-3`, which reads on paper only. Each hotel has its own ink (`hotel-solvane`, `hotel-oriole`, `hotel-thalene`, `hotel-valbrune`, `hotel-ceresa`). Use it only for that hotel's crest, its number and its name, never as a fill or a background block, and never with two hotels' colours side by side in large areas. The garment tokens exist only for the 16px colour dot.
+**Colour.** Use one light ground (`paper`), one ink (`ink`) and one accent (`accent`). `staff-green` frames the page (announcement bar and footer) and appears nowhere in between. Set body copy in `ink`, secondary copy in `ink-2`, and tertiary notes in `ink-3`, which reads on paper only. Each hotel has its own ink (`hotel-solvane`, `hotel-oriole`, `hotel-thalene`, `hotel-valbrune`, `hotel-ceresa`, `hotel-marisol`). Use it only for that hotel's crest, its number and its name, never as a fill or a background block, and never with two hotels' colours side by side in large areas. The garment tokens exist only for the 16px colour dot.
 
 **Typography.** Use three families, each with one job:
 - `serif` (FreightBig Pro, Adobe Fonts) for headings: `display` for the hero, `headline` for sections, pages and product names, `title` for modals.
@@ -35,7 +35,7 @@ Nothing is set below 12px. Every heading, the hero included, is a single roman l
 
 ## Iconography
 
-- **The crests are the brand's pictures** (asset group Crests). There are five engraved single-ink badges, one per hotel, each already in its hotel ink: `hotel-solvane.svg` in `hotel-solvane`, `oriole-palace.svg` in `hotel-oriole`, `casa-thalene.svg` in `hotel-thalene`, `grand-valbrune.svg` in `hotel-valbrune` and `villa-ceresa.svg` in `hotel-ceresa`. Use them on hotel cards, the hotels page, product pages ("The hotel") and print. Never redraw, recolour per page, outline or put them on a coloured block. The minimum size is 56px tall on screen.
+- **The crests are the brand's pictures** (asset group Crests). There are six engraved single-ink badges, one per hotel, each already in its hotel ink: `hotel-solvane.svg` in `hotel-solvane`, `oriole-palace.svg` in `hotel-oriole`, `casa-thalene.svg` in `hotel-thalene`, `grand-valbrune.svg` in `hotel-valbrune` `villa-ceresa.svg` in `hotel-ceresa` and `hotel-marisol.svg` in `hotel-marisol`. Use them on hotel cards, the hotels page, product pages ("The hotel") and print. Never redraw, recolour per page, outline or put them on a coloured block. The minimum size is 56px tall on screen.
 - **Interface icons** are Lucide, at a 1.5px stroke and 20px, in `ink`. Use only menu, search, bag, close, plus and minus. No decorative icons, no emoji, and no ✳ or bullet ornaments between words.
 - There is no drawn logo. The wordmark is type: "OFF DUTY" in `wordmark`, with "HOTEL CLUB" beneath it in `wordmark-sub`, both in `ink` (or `on-dark` in the footer).
 
@@ -48,8 +48,9 @@ Nothing is set below 12px. Every heading, the hero included, is a single roman l
 | 03 | Casa Thalene | Mykonos, Greek Islands | Pool Boy | `hotel-thalene` |
 | 04 | Grand Valbrune | St. Moritz, Swiss Alps | Ski Patrol | `hotel-valbrune` |
 | 05 | Villa Ceresa | Lake Lugano, Ticino | Head Gardener | `hotel-ceresa` |
+| 07 | Hotel Marisol | Sayulita, México (est. 1968) | Surf Instructor | `hotel-marisol` |
 
-The numbers 01–05 are real: they are each hotel's department number and its order in the collection. Set the number as a `label` in the hotel's ink, before the place: "01 · Saint-Tropez".
+Number 06 belongs to Hôtel Sélune (see Known drift). The numbers are real: they are each hotel's department number and its order in the collection. Set the number as a `label` in the hotel's ink, before the place: "01 · Saint-Tropez".
 
 ## Patterns to avoid
 
