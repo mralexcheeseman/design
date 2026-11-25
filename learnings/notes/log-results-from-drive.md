@@ -10,7 +10,7 @@ status: try
 cost_usable: One Zapier task per file (free plan has 100 a month)
 back_office: private
 date: 2026-11-23
-updated: 2026-11-23
+updated: 2026-11-25
 ---
 
 # Log every generated picture in the shot sheet without typing
@@ -42,8 +42,11 @@ The Zapier MCP connector can run actions (create a row, find a file), but it can
 | --- | --- | --- |
 | `zap-needs-a-person` | The Zapier MCP can't create triggered Zaps. Give the person the exact two steps and field mapping instead. | tested |
 | `parse-in-the-sheet` | Parse IDs and versions with sheet formulas so the Zap stays at two steps and works on the free plan. | try |
+| `formula-columns-stay-empty` | When you log a missed file by hand, type only Added, File and Drive link. A value typed into columns D to I blocks the row-1 ARRAYFORMULA and turns the whole column into #REF!. | tested |
+| `check-the-right-zapier-account` | If files stop logging, first see which Zapier account holds the Zap. Zapier Manager on the MCP server sees only the account it signs in to. | try |
 | `names-drift` | People rename files by hand. Match on the leading ID and any `v<digit>`, never on the full Save as name. | tested |
 
 ## History
 
 - 2026-11-23: set up for the ODHC shot sheet. Results tab and backfill done; Zap built by Alex in the editor.
+- 2026-11-25: the six T1a to T1c files from 24 Nov were never logged. Logged by hand (A to C only, after a first try in D to I broke the formulas for a few minutes). Zapier Manager, signed in to Alex's personal Zapier account, shows no Zaps and no folders there.
