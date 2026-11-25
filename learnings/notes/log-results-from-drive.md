@@ -10,7 +10,7 @@ status: try
 cost_usable: One Zapier task per file (free plan has 100 a month)
 back_office: private
 date: 2026-11-23
-updated: 2026-11-23
+updated: 2026-11-25
 ---
 
 # Log every generated picture in the shot sheet without typing
@@ -36,14 +36,27 @@ The Zapier MCP connector can run actions (create a row, find a file), but it can
 4. The Zap: Google Drive **New File in Folder** (that folder, no subfolders), then Google Sheets **Create Spreadsheet Row** on the log tab, mapping Created Time, Title and Alternate Link.
 5. Backfill the files already in the folder by hand, because the trigger only sees new ones. Drive search pages overlap, so remove duplicates by file id.
 
+## Naming and filing without typing
+
+The Zap only logs what lands in the folder, so the slow part was getting each download there with the right name. Today's two clips went in as `V2b-v1-hydrogen-take1.mp4.mp4` and `V2c-v1-flowveolite-take1.mp4,.mp4`, typed by hand after a back-and-forth in chat.
+
+[File Result](../../tools/file-result/README.md) fixes that on the Mac: drop the downloads on a Dock icon, type the shot ID, pick the tool, and it names them `V2c-v1-flowveolite-take1.mp4` (take counted from the folder) and moves them into the Drive for desktop copy of the folder. Drive for desktop uploads any size, which the cloud can't: a thread fails on Drive uploads over about 3 MB, and clips run 8 to 15 MB. An iPhone Shortcut does the same from the share sheet.
+
+A thread can't do the renaming afterwards either. The Drive connector reports `canEdit: false` on files Alex uploaded himself, so it can't rename or move them.
+
+Video IDs start with V, so the first version formula read the `V2` in `V2b-v1-...` as version 2. The version has to be found after the ID: `REGEXEXTRACT(LOWER(B:B),"^[a-z]+[0-9]+[a-z]?.*?v([0-9]+)")`.
+
 ## Lessons
 
 | Slug | Lesson | Status |
 | --- | --- | --- |
 | `zap-needs-a-person` | The Zapier MCP can't create triggered Zaps. Give the person the exact two steps and field mapping instead. | tested |
 | `parse-in-the-sheet` | Parse IDs and versions with sheet formulas so the Zap stays at two steps and works on the free plan. | try |
+| `file-on-the-mac` | Name and move results on the Mac (File Result, Drive for desktop). The cloud can't upload clips or rename Alex's Drive files. | try |
+| `version-after-id` | Read the version after the shot ID, or a V-prefixed ID is mistaken for the version. | tested |
 | `names-drift` | People rename files by hand. Match on the leading ID and any `v<digit>`, never on the full Save as name. | tested |
 
 ## History
 
+- 2026-11-25: added File Result (Mac drop app and iPhone Shortcut) and the version formula fix for V rows. Logged V2b and V2c by hand.
 - 2026-11-23: set up for the ODHC shot sheet. Results tab and backfill done; Zap built by Alex in the editor.

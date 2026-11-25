@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · studio · File Result
+Added `tools/file-result/`, a Mac drop app (and iPhone Shortcut steps) that names generated files by shot ID and files them in the Drive folder ODHC shot results for the Results Zap. Updated the learnings note `log-results-from-drive`. Ran the copy checklist.
+
 ## 2026-11-25 · all · Picsart joins the studio
 Alex has Picsart Professional. Added it to the private notes: what a thread can run (the connector reframes video and renders scenes for free but can't generate, so Alex generates on picsart.com) and the credit prices (Flux.2 Klein stills unlimited; other models cost credits at prices Picsart doesn't list). New lesson `picsart-for-what-nobody-else-has`: spend Picsart credits on models no other plan has. Added the `picsart` tool tag. Shot sheet rows PX1 to PX3. Ran the copy checklist.
 
