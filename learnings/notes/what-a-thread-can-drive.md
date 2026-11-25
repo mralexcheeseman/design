@@ -34,6 +34,7 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 ## Blocked from the cloud container (and the desktop VM)
 
 - fal.media, res.cloudinary.com and media.base44.com return 403, so view those images in a browser.
+- Some sessions also refuse img.recraft.ai, mcp.recraft.ai (Recraft's upload link), lh3.googleusercontent.com and drive.google.com. Recraft itself can still read link-shared Drive files at `https://lh3.googleusercontent.com/d/<id>`, so put references in the Drive references folder and pass that link.
 - Creative Cloud storage (at.adobe.com) is unreachable, so Express uploads go through Alex's Mac (see [the Express playbook](../playbooks/live-text-in-adobe-express.md)).
 
 ## Small fixes that saved time
@@ -42,8 +43,11 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - The Sheets `update_values` tool parses input as if typed, so "9:16" alone becomes a time. Keep ratios inside longer text.
 - The Base44 sandbox has no ffmpeg or numpy: `npm i ffmpeg-static` or `pip install --target /tmp/pylib numpy pillow`.
 - Host every Base44 video in the app's media library.
+- To bring a Recraft result into the container when img.recraft.ai is refused: Zapier's Google Drive Upload File takes the Recraft URL and files it in ODHC shot results under its row name, then Drive `download_file_content` saves the full-size picture locally (its path is in the result) without filling the conversation.
+- Recraft's Nano Banana Pro calls time out at 60 seconds about half the time on 25 Nov, with or without a reference image, and most still charge 20. The picture lands only in Alex's Recraft library. Check `get_user` after every timeout before trying again, or run the same model on ElevenLabs (`gemini-3-pro-image`), which returns at once and is polled, so nothing is lost.
 
 ## History
 
 - 2026-11-23: Written from the week's threads.
 - 2026-11-25: Added Picsart (connector checked the same day).
+- 2026-11-25: Hotel Marisol run: blocked Recraft and Drive hosts, the Zapier-to-Drive route, Recraft timeouts.
