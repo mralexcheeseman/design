@@ -77,6 +77,8 @@ Free. Imports cost no credits.
 | `express-embeds-only`: The Express importer keeps only images embedded in the HTML as data, and every linked image arrives as a 1×1 blank. | proven |
 | `express-font-longhand`: Express ignores the CSS font shorthand, so family, size, weight and line height are set as separate properties. | proven |
 | `express-import-by-url`: Importing the layout by its Creative Cloud URL brings photos in at full size with the text still live. | tested |
+| `express-svg-shapes`: Inline `<svg>` in the HTML imports as native, editable Express shapes, so a logo set in a font Adobe Fonts lacks can go in as outlined vectors. | tested |
+| `express-svg-explicit-paths`: The importer mis-places points after `H`/`V` commands and implicit repeated coordinates, so write every path with explicit `M`, `L`, `Q`, `C` and `Z` only. | tested |
 
 ## Next to try
 
@@ -87,3 +89,4 @@ Import a five-slide carousel as one file and see whether Express keeps the slide
 - 2026-11-20: Linked images and font shorthand found to fail.
 - 2026-11-21: Creative Cloud URL import works at full size.
 - 2026-11-23: Batches 02 to 04 imported the same way. Written up as a playbook.
+- 2026-11-26: A logo outlined from Newsreader imported as editable shapes. The first import broke on `H`/`V` path commands; rewriting the paths with explicit commands fixed it.

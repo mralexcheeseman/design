@@ -3,6 +3,9 @@
 Newest first. `## 2026-11-26 · all · A log of credits lost
 Alex asked us to track every credit a tool charges for nothing, so he can claim it back. New private note `learnings/notes/lost-credits.md`: the 24 Nov Recraft timeouts (60, refunded 26 Nov), the 25 Nov Recraft timeouts (188 over 13 images, claim drafted), and the 840 Firefly credits lost to duplicate takes on 26 Nov (our fault). Also flags an unexplained gap of about 255 Recraft credits. Ran `checklists/copy.md`.
 
+## 2026-11-26 · the-last-animal · Logo outlines import cleanly into Express
+The Last Animal's Masthead logo went into Adobe Express as outlined vector shapes, because Newsreader is not on Adobe Fonts. Added two lessons to `learnings/playbooks/live-text-in-adobe-express.md`: inline SVG imports as editable shapes, and paths must use explicit commands only. The Last Animal has no brand folder here yet. Copy checklist run on the slide template copy.
+
 ## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
 Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
 
