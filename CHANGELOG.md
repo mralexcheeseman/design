@@ -1,6 +1,9 @@
 # Changelog
 
-Newest first. `## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
+Newest first. `## 2026-11-26 · off-duty-hotel-club · Ceresa and Marisol portraits remade in the house look
+Alex put the Villa Ceresa portraits outside the look book and asked for Hotel Marisol to be remade as well. The cause was the light named in the scene wording: misty mornings for Ceresa, golden hour for Marisol. Seven portraits were remade on Nano Banana Pro via Kling with midday sun and a cloudless cobalt sky, 2 takes each, all saved to Drive as `RC-*`. New private note `learnings/notes/name-the-light-to-stop-drift.md` with a before-and-after sheet. Nothing live replaced yet; that waits for Alex's picks. Ran the copy checklist on the note. The photography checklist covers product shots, so it doesn't apply here.
+
+## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
 Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
 
 ## YYYY-MM-DD · brand · what changed`, then why.
