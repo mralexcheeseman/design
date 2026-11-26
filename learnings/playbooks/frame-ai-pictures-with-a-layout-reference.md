@@ -27,6 +27,12 @@ The same prompt also swung hard between takes. Twelve rows had both takes scored
 
 Google's advice for Nano Banana Pro is to "clearly define the role of each" uploaded image, for example one for pose, one for style and one for background. OpenAI says the same for GPT Image: identify each input by number and purpose. So we added a third image that carries only the layout.
 
+## Pictures
+
+![T1a with words only, the grey blocking sketch, and T1b with the sketch as image 3](../images/layout-sketch-t1-sheet.jpg)
+
+From left: T1a, framing described in words only; the blocking sketch sent as image 3; T1b with the sketch. T1b put the pool, the chair and the waiter exactly where the sketch had them, and came back flatter and more posed, which is where the Real score went.
+
 ## What to do
 
 1. Draw the layout as a plain grey blocking sketch at the picture's ratio: horizon, the main shapes, each person as a silhouette where they stand and facing the way they face. Leave a strip of empty ground under the lowest feet. Put no words on it.
