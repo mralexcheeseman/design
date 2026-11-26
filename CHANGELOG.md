@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-26 · off-duty-hotel-club · Good-life set made in Firefly
+Rendered the 21 good-life stills (OP8 to MA10) with Nano Banana Pro in Firefly web Generate, driven from a thread. Repeat takes of the same prompt came back identical, so the thread-reach note now says to vary the prompt for a second take. Ran the photography checklist on the contact sheet: SE8 has a white frame (fails no-border).
+
 ## 2026-11-25 · off-duty-hotel-club · Firefly mends the small print lines
 Tested Firefly before the 27 Nov credit reset. Generative Fill erased the hotel and city lines; Nano Banana Pro in Firefly web Edit, with the Security back print file as reference, added THE ORIOLE PALACE / LOS ANGELES to OP2-v1-flow-take2 cleanly. `mend-in-firefly` moves to tested in the product print playbook, and the thread-reach note now lists Firefly web as drivable from Chrome. Ran the photography checklist (print legibility, no stray text, scene unchanged) and the crest and print checklist (print matches the master file).
 
