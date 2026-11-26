@@ -44,10 +44,13 @@ The logger (see `log-results-from-drive.md`) already ran every two hours, so the
 | `one-writer-per-tab` | Fold new jobs on a tab into the task that already writes it, so one task owns every row. | try |
 | `tool-from-file-name` | The file name says which tool made a picture more reliably than the planned row does. | tested |
 | `small-lines-fail-first` | First run, 25 Nov, 20 stills (T3 on Kling and Recraft, A1 expands): 17 failed the gate. The commonest failures were the small hotel line on the back ("THE ORIDLE PALACE", "LOS ANIELES") and garbled newspapers and magazines on the loungers. Both read fine at phone size and only show in a full-size crop. | tested |
-| `gate-stricter-than-a-glance` | The blind scores ran 2 to 3 points under the scores another thread gave the same T3 takes by eye (Kling with Nano Banana Pro: 9 to 11 here, 12 to 13 by eye). Compare with Alex's own scores before trusting either. | try |
+| `gate-stricter-than-a-glance` | The blind scores ran 2 to 3 points under the scores another thread gave the same T3 takes by eye (Kling with Nano Banana Pro: 9 to 11 here, 12 to 13 by eye). Compare with Alex's own scores before trusting either. | tested |
+| `same-average-different-picks` | On the 32 Higgsfield stills Alex had scored, the blind scores averaged the same as his (0.2 lower) but picked different pictures: they agreed on keeper or not for 17 of 32, and the two sets of scores did not rise and fall together. His five 15s (the Villa Ceresa gardener set) scored 10 here, because the small sage lines on the back were garbled at full size. The blind score squeezes everything into 9 to 12 while he uses 5 to 15. An average alone hides this, so compare the picks. | tested |
 
 ## History
 
 - 2026-11-25: First run checked 20 stills in about 20 minutes: 3 passed, 17 failed. One usable (an Adobe expand of the Valbrune house look, 13).
 
 - 2026-11-26: Scoring and the gate added to the two-hourly results task; Tool ranking tab added.
+
+- 2026-11-26: Calibration against Alex's 32 scored Higgsfield stills: mean gap 0.2, keeper agreement 17 of 32. The prompt stays as it is until Alex says how much the small back-print lines should count.
