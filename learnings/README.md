@@ -31,6 +31,8 @@ Kept out of The Back Office: credit planning, account reach and house methods.
 | [Plan on Monday, make midweek, review on Friday](notes/fixed-week.md) | The fixed week, what Monday books first, the Friday review tab |
 | [Get four posts out of every keeper before making new pictures](notes/one-hero-many-cuts.md) | Feed post, story, carousel and clip per hero, the Cuts tab |
 | [Keep two tools for each job and drop the rest](notes/two-tools-per-job.md) | Where tool picks are recorded, the evidence that decides them, what happens to a dropped tool |
+| [Run Google Flow from a thread through Alex's Chrome](notes/drive-flow-through-chrome.md) | Free Nano Banana Pro stills, queueing Veo clips back to back, limits |
+| [Name generated files from the prompt list](notes/name-results-from-the-prompt.md) | Why the local vision model lost to the shot ID in the prompt |
 
 Balances, renewal dates, account ids and anything secret stay in project memory and never go in this repo.
 
