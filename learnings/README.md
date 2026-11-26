@@ -28,6 +28,7 @@ Kept out of The Back Office: credit planning, account reach and house methods.
 | [Pick where to run a model by what each credit costs](notes/spend-credits-before-renewal.md) | Unit prices per app, the use-every-credit rule |
 | [Know which tools a Claude thread can run and which need Alex](notes/what-a-thread-can-drive.md) | Connector reach, blocked hosts, small fixes |
 | [Log every generated picture in the shot sheet without typing](notes/log-results-from-drive.md) | Drive folder to Sheets via a scheduled Claude task, file-name parsing formulas |
+| [Score and check every generated picture before a person reviews it](notes/gate-pictures-before-review.md) | Blind rubric scores, the quality gate codes, the tool ranking tab |
 
 Balances, renewal dates, account ids and anything secret stay in project memory and never go in this repo.
 
