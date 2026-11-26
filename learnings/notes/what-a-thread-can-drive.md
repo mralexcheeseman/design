@@ -35,6 +35,8 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 
 - fal.media, res.cloudinary.com and media.base44.com return 403, so view those images in a browser.
 - Some sessions also refuse img.recraft.ai, mcp.recraft.ai (Recraft's upload link), lh3.googleusercontent.com and drive.google.com. Recraft itself can still read link-shared Drive files at `https://lh3.googleusercontent.com/d/<id>`, so put references in the Drive references folder and pass that link.
+- kling.ai (Kling's file upload) is refused, so Kling subjects and Kling image-to-image inputs go up from Alex's Mac. Kling refuses Drive links for subjects.
+- img.recraft.ai is refused; file Recraft results to Drive with Zapier's Upload File, named by shot-sheet row.
 - Creative Cloud storage (at.adobe.com) is unreachable, so Express uploads go through Alex's Mac (see [the Express playbook](../playbooks/live-text-in-adobe-express.md)).
 - Recraft's upload host (mcp.recraft.ai) and elevenlabsusercontent.com refuse the cloud container (2026-11-25), so a thread can't upload a local picture to Recraft or download an ElevenLabs file. Recraft image tools need a public image link.
 - Adobe image tools accept only Adobe-trusted hosts, so a Drive link (lh3.googleusercontent.com) is refused.
@@ -59,4 +61,5 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - 2026-11-25: Added Picsart (connector checked the same day).
 - 2026-11-25: Added the Recraft upload, Adobe host, Drive sharing and 10 MB limits found in the 48-hour plan tests.
 - 2026-11-25: References folder link-viewable; Recraft reads Drive links; img.recraft.ai blocked from the cloud; reference library in The Back Office.
+- 2026-11-25: Kling upload host blocked (locked cast thread).
 - 2026-11-25: Hotel Marisol run: blocked Recraft and Drive hosts, the Zapier-to-Drive route, Recraft timeouts.

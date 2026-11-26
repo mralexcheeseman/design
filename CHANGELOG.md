@@ -1,6 +1,18 @@
 # Changelog
 
-Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
+Newest first. `## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
+Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
+
+## YYYY-MM-DD · brand · what changed`, then why.
+
+## 2026-11-25 · off-duty-hotel-club · Locked house look and cast prep
+Two private Recraft styles saved from people-free crops: "ODHC house look (Oriole pool)" and "ODHC house look (all hotels)", tested on two scenes (shot sheet LK1 to LK4). New playbook `learnings/playbooks/lock-cast-and-look.md`. Kling subjects for the cast and shirts are prepared but not uploaded, because Kling's upload host is blocked from the cloud; noted in `learnings/notes/what-a-thread-can-drive.md`. Ran `checklists/copy.md` on the playbook.
+
+## 2026-11-25 · all · Pictures for the lessons
+Alex asked for more images and examples in the lessons. New folder `learnings/images/` with three comparison sheets: the T3 test for `reuse-a-picture-that-works` (the post, words only, the post as image 2, Kling's copy), the T1 test for `frame-ai-pictures-with-a-layout-reference` (control, the blocking sketch, the result), and the Hôtel Solvane cove before and after generative expand for `make-vertical-cuts-for-stories` (that playbook sits on another open branch, so it links the image once both merge). A Pictures section added to the first two playbooks. In The Back Office the three playbooks now have before and after pictures and references, and Day note `day-2026-11-25` gained four pictures. All unpublished. Ran the copy checklist.
+
+## 2026-11-25 · all · Day wrap: Flow through Chrome and naming from the prompt
+Two private notes from the day's runs. `drive-flow-through-chrome`: a thread can queue Flow in Alex's signed-in Chrome, Nano Banana Pro stills there cost no Flow credits (40 keepers filed), and 12 Veo clips (8 Lite, 4 Fast, 160 credits) rendered in about three minutes. `name-results-from-the-prompt`: the local vision model in File Result picked the wrong shot at 90 per cent and its guesses on 40 Flow stills were unusable, so files are named from the shot ID in the prompt list. Day note `day-2026-11-25` rewritten in The Back Office to cover the whole day, unpublished. Ran the copy checklist.
 
 ## 2026-11-25 · off-duty-hotel-club · Reference library and thread shirt stills
 Alex made the references folder link-viewable. Added the four missing shirt fronts (Security, Pool Boy, Sélune Pool Boy, Head Gardener) from the storefront product shots, built a Reference library in The Back Office with all 38 references and their direct links, and made the first thread shirt stills on Recraft (rows R1a and R1b). The thread note records that Recraft reads Drive links and that img.recraft.ai is blocked from the cloud. Ran the copy checklist on the note.
