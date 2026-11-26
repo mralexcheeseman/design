@@ -65,3 +65,4 @@ A pool that lapses within 48 hours with credits unplanned can't wait for Friday.
 ## History
 
 - 2026-11-25: First written. Friday review tab and Cuts tab added to the shot sheet; instructions for the extended Monday check-in and the new Friday pack written to project files; both scheduled tasks wait on Alex to allow the change.
+- 2026-11-26: Both scheduled tasks live on Alex's go. The new Monday check-in first runs Mon 30 Nov 07:32 London and the Friday pack first runs Fri 27 Nov 09:17 London; the first Monday task is switched off.
