@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-26 · off-duty-hotel-club · Slim Aarons back in the prompts
+Alex felt the pictures had drifted from the original look and said "we need to add back in slim aarons refereence". New row in `decisions.md`: his name goes back into the prompts we send to image models and the private look score, and stays out of everything public. New private note `house-style-prompt` holds one fixed style paragraph to paste at the top of every ODHC picture prompt. The scoring note's third line is called Slim Aarons again. Public playbooks keep their generic wording. Ran the copy checklist on the new note.
+
 ## 2026-11-26 · off-duty-hotel-club · Social batches 01 to 04 in the brand type
 Rebuilt the four social factory batches (31 pages) in FreightBig Pro Book 56px and Neue Haas Unica 500 and imported them into Express again. Batch 03 now uses the warm film grade photos like the rest. Every "Now hiring" line fits on one line and no copy needed a trim. Express playbook gains `express-fit-check`, and `express-import-by-url` is now proven. Ran the copy checklist. Two approved guest-book lines read as contrast pairs (Bastien's "He watches everything. The guests watch nothing." and Seraina's "never once got every guest onto it, and she has never once stopped trying"), so they went to Alex for a call rather than being rewritten. The photography checklist covers product photos and doesn't apply here.
 
