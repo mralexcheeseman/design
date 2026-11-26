@@ -76,14 +76,16 @@ Free. Imports cost no credits.
 | --- | --- |
 | `express-embeds-only`: The Express importer keeps only images embedded in the HTML as data, and every linked image arrives as a 1×1 blank. | proven |
 | `express-font-longhand`: Express ignores the CSS font shorthand, so family, size, weight and line height are set as separate properties. | proven |
-| `express-import-by-url`: Importing the layout by its Creative Cloud URL brings photos in at full size with the text still live. | tested |
+| `express-import-by-url`: Importing the layout by its Creative Cloud URL brings photos in at full size with the text still live. | proven |
+| `express-fit-check`: The importer's reply shows whether a line fits. A text box marked `layout-sync="intrinsic-full"` with text pinning sat on one line. One marked `intrinsic-height` wrapped. Adobe Fonts arrive by PostScript name (FreightBigProBook-Regular, NeueHaasUnicaW1G-Medium), which confirms the kit loaded. | tested |
 
 ## Next to try
 
-Import a five-slide carousel as one file and see whether Express keeps the slides as pages.
+Check line fit for a new copy length before the full-size upload by importing a small test file with the same type and no photos.
 
 ## History
 
 - 2026-11-20: Linked images and font shorthand found to fail.
 - 2026-11-21: Creative Cloud URL import works at full size.
 - 2026-11-23: Batches 02 to 04 imported the same way. Written up as a playbook.
+- 2026-11-26: Batches 01 to 04 rebuilt in FreightBig Pro and Neue Haas Unica and imported again (seven files, 31 pages). Multi-page files keep each slide as a page. Line fit was checked from the importer's reply, since the cloud can't load Adobe Fonts to render a check.
