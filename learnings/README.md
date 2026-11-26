@@ -32,6 +32,7 @@ Kept out of The Back Office: credit planning, account reach and house methods.
 | [Log every generated picture in the shot sheet without typing](notes/log-results-from-drive.md) | Drive folder to Sheets via a scheduled Claude task, file-name parsing formulas |
 | [Run Google Flow from a thread through Alex's Chrome](notes/drive-flow-through-chrome.md) | Free Nano Banana Pro stills, queueing Veo clips back to back, limits |
 | [Name generated files from the prompt list](notes/name-results-from-the-prompt.md) | Why the local vision model lost to the shot ID in the prompt |
+| [Log every credit a tool charges for nothing](notes/lost-credits.md) | Timed-out, failed and duplicate runs, credits lost, claim status |
 
 Balances, renewal dates, account ids and anything secret stay in project memory and never go in this repo.
 

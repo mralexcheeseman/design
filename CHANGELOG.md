@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-26 · all · A log of credits lost
+Alex asked us to track every credit a tool charges for nothing, so he can claim it back. New private note `learnings/notes/lost-credits.md`: the 24 Nov Recraft timeouts (60, refunded 26 Nov), the 25 Nov Recraft timeouts (188 over 13 images, claim drafted), and the 840 Firefly credits lost to duplicate takes on 26 Nov (our fault). Also flags an unexplained gap of about 255 Recraft credits. Ran `checklists/copy.md`.
+
 ## 2026-11-25 · off-duty-hotel-club · A reel line from one approved picture
 Alex said "Do it all" to a reel line. Proved it on the Oriole pool picture (row OR1): Kling 3.0 Turbo clip, words set in FreightBig Pro and Neue Haas Unica through Express, ElevenLabs pool sound and lounge music, one ffmpeg finish, then a draft reel in the Social Planner. New playbook `learnings/playbooks/turn-one-picture-into-a-reel.md`; the thread-reach note gains the Base44 sandbox render and Kling file hosting routes. Finishing script in storefront-kit `tools/reel-line/`. Ran the copy checklist (the photography checklist covers product photos, so it doesn't apply).
 
