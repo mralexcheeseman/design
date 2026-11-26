@@ -33,7 +33,7 @@ Kling's clip came with its own soundtrack, which we dropped. Pool sound and a sh
 
 ## What to do
 
-1. **Start from a picture that already won.** Check its original size first: if it's already 9:16 (or taller than 4:5), skip any expand step.
+1. **Start from a picture that already won.** For ODHC, pick from the shot sheet's Results tab where Gate is Pass and Usable is Yes (filter view "For Alex: usable and passed"), or a post Alex has already liked. Check its original size first: if it's already 9:16 (or taller than 4:5), skip any expand step.
 2. **Animate it in Kling 3.0 Turbo**, image to video, 8 seconds at 1080p. Lock the camera, give each person one small action, and tell the subject who should stay still to stay still. The clip follows the picture's own ratio.
 3. **Set the words as their own layer.** Write an HTML page at 1080 x 1920, white type on pure black, brand fonts from the Adobe Fonts kit, and import it to Express. Download it as PNG. The words stay editable in Express for the next version.
 4. **Make the sound.** One sound effects take (8 seconds) for the room, one music take (10 seconds) for the mood. Run music through speech-to-text: an empty transcript means no vocals.
@@ -106,3 +106,4 @@ A second reel from a different hotel, with the words placed higher or a stronger
 ## History
 
 - 2026-11-25: First written from the OR1 Oriole pool reel.
+- 2026-11-26: Step 1 points to the scored Results tab for approved stills.
