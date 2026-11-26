@@ -31,6 +31,17 @@ A Slim Aarons photograph of [place], [month year], shot on Kodachrome for a trav
 
 For snow scenes, swap the colour list for: white snow, deep blue sky, red and navy ski wear, dark pine, warm wood chalets.
 
+## The look book
+
+On 26 November Alex picked 19 of our early pictures as the look every new picture is checked against: the Oriole, Solvane and Valbrune hero shots, the Oriole pool picture, and the guest-book portraits of Fairweather, Malone, Whitlock, Augustin, the Commodore, the honeymooners, Bastien, Odile, Teddy, the Doctor, the Bevacqua sisters, the Baroness, Gian, Harcourt-Vane and Seraina. Files: `/mnt/project-files/odhc-look-book/keep/`. One sheet of all 19 is in Drive, "ODHC shot references / Locked cast and look", file `ODHC look book (Alex picks, 26 Nov).jpg` (id `1NWpYx_5kT9Xe6DPdwX5RSiL2R7YbaMrx`).
+
+He ruled two kinds of picture out:
+
+- **Too real.** Nikos (plain T-shirt, flat light, a documentary portrait) "feels a little too real vs our aesthetic". The house look is polished and sunlit, with glamour, saturated colour and a postcard-blue sky, never gritty documentary realism.
+- **Soft and muted.** The three Villa Ceresa pictures (Ottavio, the Contessa, Emilio) are "completely off": misty light, a pale sky and muted, faded colour. Every keeper has hard sun and strong colour.
+
+Before a picture goes to review, put it beside the look book. If it would stand out in that sheet, it fails, whatever its score.
+
 ## Rules
 
 - The name goes only into prompts sent to image and video models, the shot sheet and this note. It never goes into captions, alt text, ads, product copy, posts, file names others see, Express doc names, The Back Office or any playbook marked `published`.
@@ -40,4 +51,4 @@ For snow scenes, swap the colour list for: white snow, deep blue sky, red and na
 
 ## History
 
-- 2026-11-26: Written when the name went back into prompts.
+- 2026-11-26: Written when the name went back into prompts. Same day: Alex picked the 19-picture look book and ruled out the too-real and soft, muted looks.
