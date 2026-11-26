@@ -1,12 +1,12 @@
 # Changelog
 
-Newest first. `## 2026-11-26 · off-duty-hotel-club · Shot results score and check themselves
+Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
+
+## 2026-11-26 · off-duty-hotel-club · Shot results score and check themselves
 Alex approved a scoring agent and a quality gate. The two-hourly results task now scores each new still blind on the Real, Shirt and Look rubric, gates it for shirt print, hands, faces, stray text, cut-off heads, modern objects, frames and any AI mark, and records the tool and credits. A new Tool ranking tab shows usable rate and credits per usable picture per tool. New note `learnings/notes/gate-pictures-before-review.md`. Ran the copy checklist on the note.
 
 ## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
 Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
-
-## YYYY-MM-DD · brand · what changed`, then why.
 
 ## 2026-11-25 · all · Pictures for the lessons
 Alex asked for more images and examples in the lessons. New folder `learnings/images/` with three comparison sheets: the T3 test for `reuse-a-picture-that-works` (the post, words only, the post as image 2, Kling's copy), the T1 test for `frame-ai-pictures-with-a-layout-reference` (control, the blocking sketch, the result), and the Hôtel Solvane cove before and after generative expand for `make-vertical-cuts-for-stories` (that playbook sits on another open branch, so it links the image once both merge). A Pictures section added to the first two playbooks. In The Back Office the three playbooks now have before and after pictures and references, and Day note `day-2026-11-25` gained four pictures. All unpublished. Ran the copy checklist.
