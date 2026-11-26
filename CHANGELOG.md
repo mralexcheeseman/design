@@ -8,6 +8,12 @@ Alex asked for an agent instead of the Zap. A scheduled task now checks the Driv
 
 ## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-25 · all · Pictures for the lessons
+Alex asked for more images and examples in the lessons. New folder `learnings/images/` with three comparison sheets: the T3 test for `reuse-a-picture-that-works` (the post, words only, the post as image 2, Kling's copy), the T1 test for `frame-ai-pictures-with-a-layout-reference` (control, the blocking sketch, the result), and the Hôtel Solvane cove before and after generative expand for `make-vertical-cuts-for-stories` (that playbook sits on another open branch, so it links the image once both merge). A Pictures section added to the first two playbooks. In The Back Office the three playbooks now have before and after pictures and references, and Day note `day-2026-11-25` gained four pictures. All unpublished. Ran the copy checklist.
+
+## 2026-11-25 · all · Day wrap: Flow through Chrome and naming from the prompt
+Two private notes from the day's runs. `drive-flow-through-chrome`: a thread can queue Flow in Alex's signed-in Chrome, Nano Banana Pro stills there cost no Flow credits (40 keepers filed), and 12 Veo clips (8 Lite, 4 Fast, 160 credits) rendered in about three minutes. `name-results-from-the-prompt`: the local vision model in File Result picked the wrong shot at 90 per cent and its guesses on 40 Flow stills were unusable, so files are named from the shot ID in the prompt list. Day note `day-2026-11-25` rewritten in The Back Office to cover the whole day, unpublished. Ran the copy checklist.
+
 ## 2026-11-25 · off-duty-hotel-club · Social posts move to the brand type
 Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, removed the Known drift line, and updated the type spec in `reuse-a-picture-that-works`: FreightBig Pro Book 56px lines and Neue Haas Unica 500 labels, from Adobe Fonts kit `lxh4muu`. The social factory's `build.py` is updated in project files. Ran the copy checklist.
 
