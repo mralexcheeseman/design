@@ -11,6 +11,7 @@ Each one answers one reader's problem. Public on The Back Office unless marked p
 | Playbook | Making | Tools | Status | Cost per usable result | Tested |
 | --- | --- | --- | --- | --- | --- |
 | [Turn a landscape clip or a 4:5 picture into a 9:16 story without losing the people](playbooks/make-vertical-cuts-for-stories.md) | social | firefly, picsart | tested | Free | 2026-11-25 |
+| [Keep the same people and the same colour across every AI picture](playbooks/lock-cast-and-look.md) | photo | recraft, kling | try | About 2 Recraft credits a picture | 2026-11-25 |
 | [Make your best picture the reference for the next ones](playbooks/reuse-a-picture-that-works.md) | photo | nano-banana-pro, higgsfield, adobe-express | try | Free on Higgsfield Unlimited | 2026-11-25 |
 | [Stop AI pictures cutting off heads and crowding the frame](playbooks/frame-ai-pictures-with-a-layout-reference.md) | photo | nano-banana-pro, higgsfield, recraft | try | Free on Higgsfield Unlimited | 2026-11-24 |
 | [Stop buildings drifting when you stitch stills into video](playbooks/stop-buildings-drifting.md) | video | kling, recraft | tested | 142 credits a clip | 2026-11-23 |
@@ -28,7 +29,9 @@ Kept out of The Back Office: credit planning, account reach and house methods.
 | [Score AI pictures the same way every time](notes/score-ai-pictures.md) | The Real, Shirt and Period look score out of 15 |
 | [Pick where to run a model by what each credit costs](notes/spend-credits-before-renewal.md) | Unit prices per app, the use-every-credit rule |
 | [Know which tools a Claude thread can run and which need Alex](notes/what-a-thread-can-drive.md) | Connector reach, blocked hosts, small fixes |
-| [Log every generated picture in the shot sheet without typing](notes/log-results-from-drive.md) | Drive folder to Sheets via a two-step Zap, file-name parsing formulas |
+| [Log every generated picture in the shot sheet without typing](notes/log-results-from-drive.md) | Drive folder to Sheets via a scheduled Claude task, file-name parsing formulas |
+| [Run Google Flow from a thread through Alex's Chrome](notes/drive-flow-through-chrome.md) | Free Nano Banana Pro stills, queueing Veo clips back to back, limits |
+| [Name generated files from the prompt list](notes/name-results-from-the-prompt.md) | Why the local vision model lost to the shot ID in the prompt |
 
 Balances, renewal dates, account ids and anything secret stay in project memory and never go in this repo.
 
