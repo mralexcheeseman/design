@@ -45,9 +45,13 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - Host every Base44 video in the app's media library.
 - To bring a Recraft result into the container when img.recraft.ai is refused: Zapier's Google Drive Upload File takes the Recraft URL and files it in ODHC shot results under its row name, then Drive `download_file_content` saves the full-size picture locally (its path is in the result) without filling the conversation.
 - Recraft's Nano Banana Pro calls time out at 60 seconds about half the time on 25 Nov, with or without a reference image, and most still charge 20. The picture lands only in Alex's Recraft library. Check `get_user` after every timeout before trying again, or run the same model on ElevenLabs (`gemini-3-pro-image`), which returns at once and is polled, so nothing is lost.
+- Video too big for the Drive connector (10 MB limit): do the whole render in the Base44 sandbox with `run_command`. It reaches the Kling CDN, ElevenLabs results and `lh3` (add `=s0` for full size). `npm i ffmpeg-static ffprobe-static` gives ffmpeg there.
+- To host a file made in the Base44 sandbox: ask Kling `file_upload` for a ticket, POST the file from the sandbox to `https://kling.ai/api/mcp/files` (fields `ticket` and `file`), then pass the public Kling link to Base44 `upload_app_asset` and to Zapier's Drive upload.
+- Brand type for video: Adobe Fonts (use.typekit.net) is blocked in the cloud. Import the words to Express as HTML, `download_design` as PNG, and key the black out (see the reel playbook).
 
 ## History
 
 - 2026-11-23: Written from the week's threads.
 - 2026-11-25: Added Picsart (connector checked the same day).
 - 2026-11-25: Hotel Marisol run: blocked Recraft and Drive hosts, the Zapier-to-Drive route, Recraft timeouts.
+- 2026-11-25: Reel line run: sandbox render, Kling file hosting, type through Express.

@@ -1,9 +1,12 @@
 # Changelog
 
-Newest first. `## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
-Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
+Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
-## YYYY-MM-DD · brand · what changed`, then why.
+## 2026-11-25 · off-duty-hotel-club · A reel line from one approved picture
+Alex said "Do it all" to a reel line. Proved it on the Oriole pool picture (row OR1): Kling 3.0 Turbo clip, words set in FreightBig Pro and Neue Haas Unica through Express, ElevenLabs pool sound and lounge music, one ffmpeg finish, then a draft reel in the Social Planner. New playbook `learnings/playbooks/turn-one-picture-into-a-reel.md`; the thread-reach note gains the Base44 sandbox render and Kling file hosting routes. Finishing script in storefront-kit `tools/reel-line/`. Ran the copy checklist (the photography checklist covers product photos, so it doesn't apply).
+
+## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
+Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
 
 ## 2026-11-25 · off-duty-hotel-club · Social posts move to the brand type
 Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, removed the Known drift line, and updated the type spec in `reuse-a-picture-that-works`: FreightBig Pro Book 56px lines and Neue Haas Unica 500 labels, from Adobe Fonts kit `lxh4muu`. The social factory's `build.py` is updated in project files. Ran the copy checklist.
