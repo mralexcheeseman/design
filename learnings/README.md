@@ -10,6 +10,7 @@ Each one answers one reader's problem. Public on The Back Office unless marked p
 
 | Playbook | Making | Tools | Status | Cost per usable result | Tested |
 | --- | --- | --- | --- | --- | --- |
+| [Keep the same people and the same colour across every AI picture](playbooks/lock-cast-and-look.md) | photo | recraft, kling | try | About 2 Recraft credits a picture | 2026-11-25 |
 | [Make your best picture the reference for the next ones](playbooks/reuse-a-picture-that-works.md) | photo | nano-banana-pro, higgsfield, adobe-express | try | Free on Higgsfield Unlimited | 2026-11-25 |
 | [Stop AI pictures cutting off heads and crowding the frame](playbooks/frame-ai-pictures-with-a-layout-reference.md) | photo | nano-banana-pro, higgsfield, recraft | try | Free on Higgsfield Unlimited | 2026-11-24 |
 | [Stop buildings drifting when you stitch stills into video](playbooks/stop-buildings-drifting.md) | video | kling, recraft | tested | 142 credits a clip | 2026-11-23 |
@@ -31,6 +32,7 @@ Kept out of The Back Office: credit planning, account reach and house methods.
 | [Score and check every generated picture before a person reviews it](notes/gate-pictures-before-review.md) | Blind rubric scores, the quality gate codes, the tool ranking tab |
 | [Run Google Flow from a thread through Alex's Chrome](notes/drive-flow-through-chrome.md) | Free Nano Banana Pro stills, queueing Veo clips back to back, limits |
 | [Name generated files from the prompt list](notes/name-results-from-the-prompt.md) | Why the local vision model lost to the shot ID in the prompt |
+| [Log every credit a tool charges for nothing](notes/lost-credits.md) | Timed-out, failed and duplicate runs, credits lost, claim status |
 
 Balances, renewal dates, account ids and anything secret stay in project memory and never go in this repo.
 
