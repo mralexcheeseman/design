@@ -27,7 +27,7 @@ The logger (see `log-results-from-drive.md`) already ran every two hours, so the
 
 1. Add agent columns after the logger's: Made with, Real, Shirt, Look, Gate, Gate notes, Credits, Checked. Put the formula columns last (Claude /15, Final /15, Usable), so the agent writes one block of eight cells per row and never types into a formula column.
 2. Final score is the person's score where they gave one, otherwise Claude's. Usable is a final score of 12 or more, and for Claude-only scores a gate pass too.
-3. Score blind. The task never reads the person's score columns, so the two can be compared honestly.
+3. Score blind. Small back-print lines fail the gate but do not lower the Shirt score; Alex judges the picture as a whole and a garbled hotel name is caught by the gate anyway. The task never reads the person's score columns, so the two can be compared honestly.
 4. Fetch each still with the Google Drive connector's `download_file_content`. The picture shows to the model and is also saved to a local file, so the run can crop the shirt, hands and any lettering with PIL and look again at full size. `read_file_content` returns nothing for images.
 5. Give the agent the back print of every shirt as text, letter for letter, and a Drive folder of the flat product shots to compare against. Every run can reach Drive.
 6. Gate codes, one per failure, so failures can be counted: `shirt-colour`, `shirt-print`, `hands`, `faces`, `stray-text`, `cut-off`, `modern`, `frame`, `ai-mark`, `name`. A shirt partly hidden by the pose only lowers the shirt score.
@@ -53,4 +53,4 @@ The logger (see `log-results-from-drive.md`) already ran every two hours, so the
 
 - 2026-11-26: Scoring and the gate added to the two-hourly results task; Tool ranking tab added.
 
-- 2026-11-26: Calibration against Alex's 32 scored Higgsfield stills: mean gap 0.2, keeper agreement 17 of 32. The prompt stays as it is until Alex says how much the small back-print lines should count.
+- 2026-11-26: Calibration against Alex's 32 scored Higgsfield stills: mean gap 0.2, keeper agreement 17 of 32. Alex chose to count the small back-print lines in the gate only. The Shirt score now judges colour, ink, the main word and where the print sits, and the task rescores the stills marked down for small lines.
