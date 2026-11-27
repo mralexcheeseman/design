@@ -46,7 +46,7 @@ Total out of 15. 12 or more is a keeper. 9 to 11, change one plain thing in the 
 Alex asked how a model could do the scoring. We compared Claude's scores with his on the 22 files he had scored that the Drive connector could download (files over 10 MB can't be fetched).
 
 - **First scorer (the two-hourly results task):** it matched his Keeper or Try again on 10 of 22 files. It gave Real 4 to every picture, so it could not tell his 1s from his 5s. It also marked Shirt down for small lines that he forgives.
-- **Second scorer (blind, fresh agent):** we gave it 100% crops of faces, hands and the print, plus four of his scored pictures as anchors (H2e v1 at 15, H1d v1 at 12, T1b v1 at 10, H3e v1 at 7). It matched him on 13 of 22. Shirt now follows his practice. On Real the model still gives his three 15s (H2e, H3 v1, H3b v2) Real 3, and his Real-1 T1c pictures Real 4.
+- **Second scorer (blind, fresh agent):** we gave it 100% crops of faces, hands and the print, plus four of his scored pictures as anchors (H2e v1 at 15, H1d v1 at 12, T1b v1 at 10, H3e v1 at 7). It matched him on 13 of 22. Shirt now follows his practice. On Real the model still gives his two 15s in the test (H3 v1, H3b v2) Real 3, and his Real-1 T1c pictures Real 4.
 - **What this means:** his Real covers something the definition doesn't name yet, because the model's zoom check doesn't find it. The next step is a one-line reason from Alex on four disagreements, written into the definition. After that, rerun the same 22 files and switch over at 18 of 22.
 - Training our own picture classifier only makes sense once he has scored about 200 files.
 
