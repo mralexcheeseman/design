@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-27 · off-duty-hotel-club · Day notes in Alex's diary voice
+Alex asked for the Day notes to read as his own diary: storytelling, the reader brought in, clear actions with examples, and quotes from him that build on each point. He approved the second drafts ("perfect"). The notes for 23 to 26 Nov were rewritten live in The Back Office, and the voice is now a "Day notes" section in `learnings/README.md`. Ran `checklists/copy.md` on all four.
+
 ## 2026-11-27 · off-duty-hotel-club · Day wrap 26 Nov: two public playbooks
 Nothing from 26 Nov had reached The Back Office. Two new playbooks written for readers from the day's private notes: `stop-pictures-drifting-off-your-look` (light words in the scene beat the style paragraph; the Villa Ceresa and Hotel Marisol remakes) and `check-ai-pictures-at-full-size` (the results gate, the small back-print rule, the man's head and hubcap badge caught at full size). Four pictures in `learnings/images/`. Mirrored to The Back Office with Day note `day-2026-11-26`, all unpublished. Fixed the broken heading at the top of this file. Ran `checklists/copy.md` on both playbooks and the Day note; the photography checklist covers product shots, so it does not apply.
 
