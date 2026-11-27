@@ -31,6 +31,9 @@ Added the seventh hotel to the system: `hotel-marisol` (terracotta `#a54a2a`), `
 
 Learnings: new lesson `print-file-on-generated-blank` in the product print playbook; the thread-reach note gains the blocked Recraft and Drive hosts, the Zapier-to-Drive route and Recraft's timeouts.
 
+## 2026-11-25 · off-duty-hotel-club · Results log missed the T1 test files
+The six T1a to T1c files from 24 Nov never reached the shot sheet's Results tab. Logged them by hand and added two lessons to `learnings/notes/log-results-from-drive.md`: type only the first three columns when logging by hand, since the rest are formulas, and check which Zapier account holds the Zap when logging stops. Ran the copy checklist.
+
 ## 2026-11-25 · all · Picsart joins the studio
 Alex has Picsart Professional. Added it to the private notes: what a thread can run (the connector reframes video and renders scenes for free but can't generate, so Alex generates on picsart.com) and the credit prices (Flux.2 Klein stills unlimited; other models cost credits at prices Picsart doesn't list). New lesson `picsart-for-what-nobody-else-has`: spend Picsart credits on models no other plan has. Added the `picsart` tool tag. Shot sheet rows PX1 to PX3. Ran the copy checklist.
 ## 2026-11-24 · off-duty-hotel-club · First layout-reference run, and the day's wrap

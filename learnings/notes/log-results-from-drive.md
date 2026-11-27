@@ -44,6 +44,8 @@ Google Drive storage is the rule for generated assets, so nothing goes to Cloudi
 | --- | --- | --- |
 | `zap-needs-a-person` | The Zapier MCP can't create triggered Zaps. A scheduled Claude task does the same job with no editor step. | tested |
 | `parse-in-the-sheet` | Parse IDs and versions with sheet formulas, so the logger only writes three fields and the logic stays visible. | try |
+| `formula-columns-stay-empty` | When you log a missed file by hand, type only Added, File and Drive link (and Note). A value typed into a formula column blocks its row-1 ARRAYFORMULA and turns the whole column into #REF!. | tested |
+| `check-the-right-zapier-account` | If files stop logging, first see which Zapier account holds the Zap. Zapier Manager on the MCP server sees only the account it signs in to. | try |
 | `names-drift` | People rename files by hand. Match on the leading ID and a `v<digit>` after it, never on the full Save as name. | tested |
 | `ids-need-rows` | Files made from a brief outside the sheet (MA, SE, OP, VC, SO, CT, GV on 25 Nov) log fine but get no shot, prompt or cost. Add the row before generating. | tested |
 | `delete-rows-by-content` | Before deleting a "blank" row, re-read the tab and delete by what the row holds. Rows move while other threads append. | tested |
@@ -51,4 +53,6 @@ Google Drive storage is the rule for generated assets, so nothing goes to Cloudi
 ## History
 
 - 2026-11-23: set up for the ODHC shot sheet. Results tab and backfill done; Zap instructions sent to Alex.
+- 2026-11-25: the six T1a to T1c files from 24 Nov were never logged. Logged by hand (A to C only, after a first try in D to I broke the formulas for a few minutes). Zapier Manager, signed in to Alex's personal Zapier account, shows no Zaps and no folders there.
+- 2026-11-25 (later): no Zap existed in Alex's personal Zapier account. Alex rebuilt it with Zapier Copilot as "ODHC shot results to Results tab": Title, not Original Filename, for File, and the spreadsheet timezone set to True. Its test row read "Untitled" because the file was still being renamed, so it was cleared.
 - 2026-11-25: Zap replaced by a scheduled task every two hours. Added Prompt, Cost, Credit pool and Note columns, fixed the version formula, and noted 43 files whose ID has no sheet row.
