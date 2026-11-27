@@ -1,15 +1,30 @@
 # Changelog
 
-Newest first. `## 2026-11-26 · all · A log of credits lost
+Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
+
+## 2026-11-27 · off-duty-hotel-club · Day notes in Alex's diary voice
+Alex asked for the Day notes to read as his own diary: storytelling, the reader brought in, clear actions with examples, and quotes from him that build on each point. He approved the second drafts ("perfect"). The notes for 23 to 26 Nov were rewritten live in The Back Office, and the voice is now a "Day notes" section in `learnings/README.md`. Ran `checklists/copy.md` on all four.
+
+## 2026-11-27 · off-duty-hotel-club · Day wrap 26 Nov: two public playbooks
+Nothing from 26 Nov had reached The Back Office. Two new playbooks written for readers from the day's private notes: `stop-pictures-drifting-off-your-look` (light words in the scene beat the style paragraph; the Villa Ceresa and Hotel Marisol remakes) and `check-ai-pictures-at-full-size` (the results gate, the small back-print rule, the man's head and hubcap badge caught at full size). Four pictures in `learnings/images/`. Mirrored to The Back Office with Day note `day-2026-11-26`, all unpublished. Fixed the broken heading at the top of this file. Ran `checklists/copy.md` on both playbooks and the Day note; the photography checklist covers product shots, so it does not apply.
+
+## 2026-11-27 · off-duty-hotel-club · Layout sketch loses on Recraft
+Ran T1 on Recraft's Nano Banana Pro. The control (no sketch) averaged 14 of 15 over 2 takes, and the sketch arm averaged 12.3 over 4. The sketch kept everyone in frame and garbled the shirt's small lines on 2 of 4 takes, and one take added a border and a drawn circle. `frame-ai-pictures-with-a-layout-reference` stays at try, as a fix for cut-off heads only. Three new lessons: `sketch-costs-the-small-print`, `sketch-can-leak-marks`, `score-full-size`. Ran `checklists/photography.md` and `checklists/copy.md`.
+
+## 2026-11-26 · all · A log of credits lost
 Alex asked us to track every credit a tool charges for nothing, so he can claim it back. New private note `learnings/notes/lost-credits.md`: the 24 Nov Recraft timeouts (60, refunded 26 Nov), the 25 Nov Recraft timeouts (188 over 13 images, claim drafted), and the 840 Firefly credits lost to duplicate takes on 26 Nov (our fault). Also flags an unexplained gap of about 255 Recraft credits. Ran `checklists/copy.md`.
+
+## 2026-11-27 · off-duty-hotel-club · Remade portraits swapped in
+Alex picked the seven remakes and chose 0.08 grain over 0.05 on top of the warm film grade. The three Villa Ceresa portraits are live on the guest book and in the batch 04 Express posts. The four Hotel Marisol portraits are on storefront-kit PR #35. The note gained the feet-in-frame and no-lettering lines.
+
+## 2026-11-27 · off-duty-hotel-club · Cast saved as Kling subjects and tested
+All 18 Kling subjects (12 people, 6 shirts) saved from Alex's iMac through Remote Control. Consistency check LK5 to LK10: Kling O1 held the house look in four pictures and changed the person each time. Kling Image 3.0 Omni, waist-up, with the hair named, came closer, and Alex still saw two different men. Alex settled that a person only needs to hold within their own hotel. Gian's subject needs a front-facing face. Updated `learnings/playbooks/lock-cast-and-look.md` (ids, settings, four lessons) and `learnings/notes/what-a-thread-can-drive.md` (upload route, result links). Ran `checklists/copy.md` on both.
 
 ## 2026-11-26 · off-duty-hotel-club · Ceresa and Marisol portraits remade in the house look
 Alex put the Villa Ceresa portraits outside the look book and asked for Hotel Marisol to be remade as well. The cause was the light named in the scene wording: misty mornings for Ceresa, golden hour for Marisol. Seven portraits were remade on Nano Banana Pro via Kling with midday sun and a cloudless cobalt sky, 2 takes each, all saved to Drive as `RC-*`. New private note `learnings/notes/name-the-light-to-stop-drift.md` with a before-and-after sheet. Nothing live replaced yet; that waits for Alex's picks. Ran the copy checklist on the note. The photography checklist covers product shots, so it doesn't apply here.
 
 ## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
 Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
-
-## YYYY-MM-DD · brand · what changed`, then why.
 
 ## 2026-11-25 · off-duty-hotel-club · Locked house look and cast prep
 Two private Recraft styles saved from people-free crops: "ODHC house look (Oriole pool)" and "ODHC house look (all hotels)", tested on two scenes (shot sheet LK1 to LK4). New playbook `learnings/playbooks/lock-cast-and-look.md`. Kling subjects for the cast and shirts are prepared but not uploaded, because Kling's upload host is blocked from the cloud; noted in `learnings/notes/what-a-thread-can-drive.md`. Ran `checklists/copy.md` on the playbook.
@@ -33,6 +48,8 @@ Learnings: new lesson `print-file-on-generated-blank` in the product print playb
 
 ## 2026-11-25 · all · Picsart joins the studio
 Alex has Picsart Professional. Added it to the private notes: what a thread can run (the connector reframes video and renders scenes for free but can't generate, so Alex generates on picsart.com) and the credit prices (Flux.2 Klein stills unlimited; other models cost credits at prices Picsart doesn't list). New lesson `picsart-for-what-nobody-else-has`: spend Picsart credits on models no other plan has. Added the `picsart` tool tag. Shot sheet rows PX1 to PX3. Ran the copy checklist.
+## 2026-11-24 · off-duty-hotel-club · First layout-reference run, and the day's wrap
+Logged the first T1 run in the layout-reference playbook. Every take had shown the lifeguard standing on his chair lowering a parasol, which the prompt itself asked for, so the line is fixed and the lesson `read-the-prompt-first` added. The control (T1a) on Recraft scored 11 and 11 of 15. The sketch takes (T1b) timed out on Recraft and still cost 60 credits, now in the private note on what a thread can drive. Ran the copy checklist.
 
 ## 2026-11-24 · off-duty-hotel-club · No Slim Aarons references
 Alex settled it: we never reference Slim Aarons, and pictures carry no AI mention. Recorded in `decisions.md`. Took the name out of every prompt and the scoring note: the third score is now "Period look", and prompts describe a 1960s resort colour photograph for a travel magazine. Ran the copy checklist.
