@@ -4,6 +4,12 @@ What we've learned making things with AI tools: the prompts, settings, costs, wh
 
 **Before you run any AI tool for a brand, read the playbooks for what you're making and the tools you'll use.** Start from their prompts and settings rather than from a blank page, and check the `tested` date on each model before you trust a price or a quirk.
 
+**Before any paid run, check these three rules.** They come from runs that charged for nothing (log in [lost-credits](notes/lost-credits.md)):
+
+1. **Every take gets its own prompt.** Firefly's Nano Banana Pro returned the identical picture when the same prompt went in twice (26 Nov, 840 credits lost). For a second take, change the moment, the camera or the framing in writing, and never send a prompt word for word again. If a plan asks for "two takes each", write both prompts out before the run starts.
+2. **Test one take before a batch.** Send one prompt twice to a model you haven't batched on, compare the two, and only then queue the rest.
+3. **One image a call, and read the balance after any timeout.** Recraft charged for calls that timed out at 60 seconds (24 and 25 Nov). Log any loss in `notes/lost-credits.md` the same day.
+
 ## Playbooks
 
 Each one answers one reader's problem. Public on The Back Office unless marked private.
