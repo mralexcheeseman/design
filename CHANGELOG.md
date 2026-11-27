@@ -1,6 +1,9 @@
 # Changelog
 
-Newest first. `## 2026-11-26 · all · A log of credits lost
+Newest first. `## 2026-11-27 · off-duty-hotel-club · Can a model do the scoring?
+Alex asked how to have a model score the shot results. We tested Claude against his scores on 22 files. The current results task matched his Keeper calls on 10, and a version with zoom crops and four anchor pictures matched 13. Real is the gap. Written up in `learnings/notes/score-ai-pictures.md`. Ran `checklists/copy.md` on the note.
+
+## 2026-11-26 · all · A log of credits lost
 Alex asked us to track every credit a tool charges for nothing, so he can claim it back. New private note `learnings/notes/lost-credits.md`: the 24 Nov Recraft timeouts (60, refunded 26 Nov), the 25 Nov Recraft timeouts (188 over 13 images, claim drafted), and the 840 Firefly credits lost to duplicate takes on 26 Nov (our fault). Also flags an unexplained gap of about 255 Recraft credits. Ran `checklists/copy.md`.
 
 ## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
