@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-27 · all · Nano Banana runs only on Gemini or Flow
+Alex's rule: Nano Banana and Nano Banana Pro run only on the Gemini app or Flow, by his hand. Took the Kling route out of the credit note and the thread-reach note, and marked the T3 baselines in `reuse-a-picture-that-works` as a one-off that broke the rule. Ran the copy checklist.
+
 ## 2026-11-27 · off-duty-hotel-club · Day notes in Alex's diary voice
 Alex asked for the Day notes to read as his own diary: storytelling, the reader brought in, clear actions with examples, and quotes from him that build on each point. He approved the second drafts ("perfect"). The notes for 23 to 26 Nov were rewritten live in The Back Office, and the voice is now a "Day notes" section in `learnings/README.md`. Ran `checklists/copy.md` on all four.
 

@@ -46,7 +46,7 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - The Base44 sandbox has no ffmpeg or numpy: `npm i ffmpeg-static` or `pip install --target /tmp/pylib numpy pillow`.
 - Host every Base44 video in the app's media library.
 - To bring a Recraft result into the container when img.recraft.ai is refused: Zapier's Google Drive Upload File takes the Recraft URL and files it in ODHC shot results under its row name, then Drive `download_file_content` saves the full-size picture locally (its path is in the result) without filling the conversation.
-- Recraft's Nano Banana Pro calls time out at 60 seconds about half the time on 25 Nov, with or without a reference image, and most still charge 20. The picture lands only in Alex's Recraft library. Check `get_user` after every timeout before trying again, or run the same model on ElevenLabs or Kling (`gemini-3-pro-image`), which return at once and are polled, so nothing is lost. On 25 Nov the T3 run saw 5 of 6 Recraft calls time out.
+- Nano Banana and Nano Banana Pro run only on the Gemini app or Flow, by Alex's hand (his rule, 27 Nov). A thread never runs them through Recraft, Kling, ElevenLabs or any other route: it writes the prompt and hands it over. On 25 Nov a thread broke this rule for test T3, and Recraft timed out on 5 of 6 calls while still charging.
 - Kling takes link-shared Drive files at `https://lh3.googleusercontent.com/d/<id>` as references, so its `file_upload` isn't needed (kling.ai upload is refused from the cloud). Its result host s15-kling.klingai.com is refused too, so file results through the Zapier-to-Drive route above.
 
 ## History
@@ -54,7 +54,8 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - 2026-11-24: Recraft timeouts still charge.
 - 2026-11-23: Written from the week's threads.
 - 2026-11-25: Added Picsart (connector checked the same day).
-- 2026-11-25: T3 baselines: Kling takes Drive links, Kling's Nano Banana Pro route, Recraft timed out 5 of 6.
+- 2026-11-27: Nano Banana runs only on Gemini or Flow, by hand (Alex). Removed the Kling and ElevenLabs routes.
+- 2026-11-25: T3 baselines: Kling takes Drive links, Recraft timed out 5 of 6.
 - 2026-11-25: Kling upload host blocked (locked cast thread).
 - 2026-11-25: Hotel Marisol run: blocked Recraft and Drive hosts, the Zapier-to-Drive route, Recraft timeouts.
 - 2026-11-27: Kling uploads through Remote Control on the iMac; Kling result links refused (locked cast thread).

@@ -8,7 +8,7 @@ techniques: [reference-images, scoring, html-import]
 models:
   - name: Nano Banana Pro on Higgsfield Unlimited
     tested: 2026-11-25
-  - name: Nano Banana Pro on Kling (gemini-3-pro-image)
+  - name: Nano Banana Pro on Kling (gemini-3-pro-image), run once against the rule below
     tested: 2026-11-25
   - name: Kling Image 4.0
     tested: 2026-11-25
@@ -124,10 +124,14 @@ Nano Banana Pro's control takes looked like real slides (Real 4) and three reach
 
 ## Next to try
 
+Nano Banana runs only on the Gemini app or Flow, by Alex's hand (his rule, 27 Nov). The Kling and Recraft takes above broke that rule; they stand as baselines and are never to be repeated on those routes.
+
+
 Add a guard against copying before Alex runs T3b: say in the first line that image 2 is for camera, light and colour only and that its guests must not reappear, and crop the reference to drop the two foreground women who get copied most. Then run T3a and T3b. Keep the picture as a reference if T3b's four-take average beats T3a's by 1 point or more with Real no lower and no copies.
 
 ## History
 
+- 2026-11-27: Nano Banana runs only on Gemini or Flow, by hand. Noted against the T3 baselines.
 - 2026-11-25: Baselines on Kling Image 4.0 and Nano Banana Pro. The photo reference got copied guest for guest; added `photo-reference-gets-copied` and `kling-image-4-looks-digital`.
 - 2026-11-25: Type spec moved to FreightBig Pro and Neue Haas Unica after Alex chose the brand pair for social.
 - 2026-11-25: First written from the Oriole pool post Alex picked in Express. Test T3 set up in the shot sheet, not yet run.
