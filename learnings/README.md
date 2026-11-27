@@ -12,6 +12,7 @@ Each one answers one reader's problem. Public on The Back Office unless marked p
 | --- | --- | --- | --- | --- | --- |
 | [Bring a set of AI pictures back to your look when they drift soft, misty or golden](playbooks/stop-pictures-drifting-off-your-look.md) | photo | nano-banana-pro, kling | tested | About 40 Kling credits a usable picture | 2026-11-26 |
 | [Catch the mistakes in AI pictures that only show at full size](playbooks/check-ai-pictures-at-full-size.md) | photo | nano-banana-pro, kling, recraft, higgsfield | tested | Free | 2026-11-26 |
+| [Make 9:16 first frames for video without changing the picture](playbooks/portrait-first-frames-for-video.md) | video | higgsfield, google-flow, adobe-express, recraft | tested | Free | 2026-11-25 |
 | [Keep the same people and the same colour across every AI picture](playbooks/lock-cast-and-look.md) | photo | recraft, kling | try | About 2 Recraft credits a picture | 2026-11-25 |
 | [Make your best picture the reference for the next ones](playbooks/reuse-a-picture-that-works.md) | photo | nano-banana-pro, higgsfield, adobe-express | try | Free on Higgsfield Unlimited | 2026-11-25 |
 | [Stop AI pictures cutting off heads and crowding the frame](playbooks/frame-ai-pictures-with-a-layout-reference.md) | photo | nano-banana-pro, higgsfield, recraft | try | Free on Higgsfield Unlimited | 2026-11-24 |
