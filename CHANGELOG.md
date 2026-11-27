@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-27 · off-duty-hotel-club · Go rows: stationery colour, Kling links
+Alex marked the shot-sheet rows go. R2 stationery showed the all-hotels Recraft style overriding named colours, so the six still lifes were made on plain V4.1 raster (`style-swallows-named-colours` in `lock-cast-and-look`). `what-a-thread-can-drive` gains Cloudinary links and crops as Kling frames, the 10 MB Drive download limit on clips, and direct ElevenLabs downloads. Ran `checklists/copy.md`.
+
 ## 2026-11-27 · off-duty-hotel-club · Day notes in Alex's diary voice
 Alex asked for the Day notes to read as his own diary: storytelling, the reader brought in, clear actions with examples, and quotes from him that build on each point. He approved the second drafts ("perfect"). The notes for 23 to 26 Nov were rewritten live in The Back Office, and the voice is now a "Day notes" section in `learnings/README.md`. Ran `checklists/copy.md` on all four.
 
