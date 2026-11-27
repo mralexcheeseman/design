@@ -1,7 +1,7 @@
 ---
 slug: turn-one-picture-into-a-reel
 title: Turn one approved picture into a finished Instagram reel
-dek: Animate the picture you already like, set the words in your real brand fonts as a separate layer, add sound made for the scene, and finish everything in one ffmpeg pass. One 8-second reel cost 80 Kling credits and about 950 ElevenLabs credits.
+dek: Animate the picture you already like, set the words in your real brand fonts as a separate layer, keep the clip's own sound with a music cue under it, and finish everything in one ffmpeg pass. One 8-second reel cost 80 Kling credits and about 950 ElevenLabs credits.
 making: video
 tools: [kling, elevenlabs, adobe-express, base44]
 techniques: [html-import, web-encoding, film-look]
@@ -16,12 +16,12 @@ status: tested
 cost_usable: 80 Kling credits and about 950 ElevenLabs credits for an 8-second reel
 back_office: unpublished
 date: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-27
 ---
 
 # Turn one approved picture into a finished Instagram reel
 
-Animate the picture you already like, set the words in your real brand fonts as a separate layer, add sound made for the scene, and finish everything in one ffmpeg pass. One 8-second reel cost 80 Kling credits and about 950 ElevenLabs credits.
+Animate the picture you already like, set the words in your real brand fonts as a separate layer, keep the clip's own sound with a music cue under it, and finish everything in one ffmpeg pass. One 8-second reel cost 80 Kling credits and about 950 ElevenLabs credits.
 
 ## What happened
 
@@ -29,14 +29,14 @@ We wanted reels without starting a new picture for each one. The source was the 
 
 The video tools couldn't set our type. Kling and Picsart have no FreightBig Pro or Neue Haas Unica, and the Adobe Fonts kit is blocked inside the cloud sandbox. So the words went through Adobe Express as white type on black, came back as a PNG, and the black became transparency in the finishing script.
 
-Kling's clip came with its own soundtrack, which we dropped. Pool sound and a short lounge cue came from ElevenLabs. Music prompts asked for no vocals and we still ran both takes through speech-to-text to be sure. The finished reel is 1080 x 1920, 30 fps, -14 LUFS, 6 MB.
+Kling's clip came with its own soundtrack. The first cut replaced it with ElevenLabs pool sound, and Alex preferred Kling's own swimming sound, so v2 keeps it with the ElevenLabs lounge cue underneath. Music prompts asked for no vocals and we still ran both takes through speech-to-text to be sure. The finished reel is 1080 x 1920, 30 fps, -14 LUFS, 6 MB.
 
 ## What to do
 
 1. **Start from a picture that already won.** For ODHC, pick from the shot sheet's Results tab where Gate is Pass and Usable is Yes (filter view "For Alex: usable and passed"), or a post Alex has already liked. Check its original size first: if it's already 9:16 (or taller than 4:5), skip any expand step.
 2. **Animate it in Kling 3.0 Turbo**, image to video, 8 seconds at 1080p. Lock the camera, give each person one small action, and tell the subject who should stay still to stay still. The clip follows the picture's own ratio.
 3. **Set the words as their own layer.** Write an HTML page at 1080 x 1920, white type on pure black, brand fonts from the Adobe Fonts kit, and import it to Express. Download it as PNG. The words stay editable in Express for the next version.
-4. **Make the sound.** One sound effects take (8 seconds) for the room, one music take (10 seconds) for the mood. Run music through speech-to-text: an empty transcript means no vocals.
+4. **Make the sound.** Keep Kling's own soundtrack for the room: pull it out of the clip and level it to -12 LUFS before the finish, because it arrives quiet (about -28 LUFS). Make one music take (10 seconds) for the mood. Only make a sound effects take if Kling's soundtrack is wrong for the scene. Run music through speech-to-text: an empty transcript means no vocals.
 5. **Finish in one pass** with `finish_reel.py` (storefront-kit `tools/reel-line/`): it fills the frame, lays a soft full-frame shade under the words, fades the words in at 1 second, mixes sound with music 9 dB under, levels to -14 LUFS for Instagram, and writes a cover JPG at 3 seconds.
 6. **Name every file** with the shot-sheet row ID and a version (`OR1-reel-v1.mp4`), file it in Drive, and put the reel in the Social Planner as a draft with the video link and the cover. Nothing posts without the owner's yes.
 
@@ -72,7 +72,7 @@ On-screen words: label "THE ORIOLE PALACE · LOS ANGELES" in Neue Haas Unica 500
 | --- | --- |
 | Kling model | `kling-video-v3_0_turbo`, image to video |
 | Length and size | 8 s, 1080p; output 1076 x 1928, 24 fps |
-| Sound effects | `eleven_text_to_sound_v3`, 8 s |
+| Room sound | Kling's own clip soundtrack, levelled to -12 LUFS (ElevenLabs `eleven_text_to_sound_v3` only as a fallback) |
 | Music | `eleven_music_v2_5`, 10 s, mixed at -9 dB |
 | Words | fade in at 1.0 s over 0.6 s, colour `#fbf8f0` |
 | Shade | `#172016`, stops 0% to 35% clear, 25% at 60%, 65% at the bottom |
@@ -84,7 +84,7 @@ On-screen words: label "THE ORIOLE PALACE · LOS ANGELES" in Neue Haas Unica 500
 
 ## Cost
 
-80 Kling credits (10 a second at 1080p) and about 950 ElevenLabs credits for one usable reel: one sound effects take (17), one music take (about 900) and a vocal check (55). We made two of each sound for choice, so the run spent about 1,944 ElevenLabs credits. Express, the PNG export and the finish cost nothing.
+80 Kling credits (10 a second at 1080p) and about 950 ElevenLabs credits for one usable reel: one music take (about 900) and a vocal check (55). The sound effects take (17) is no longer needed now we keep the clip sound. We made two of each sound for choice, so the run spent about 1,944 ElevenLabs credits. Express, the PNG export and the finish cost nothing.
 
 ## Lessons
 
@@ -94,7 +94,7 @@ On-screen words: label "THE ORIOLE PALACE · LOS ANGELES" in Neue Haas Unica 500
 | `kling-needs-a-plain-image-link`: Kling refuses Creative Cloud share links; copy the file to Drive and pass `lh3.googleusercontent.com/d/<id>`. | tested |
 | `words-as-a-layer`: set on-screen words in Express as white on black, export PNG and key out the black, so the reel carries the real brand fonts. | tested |
 | `lock-the-watcher`: naming the figure who must stay still ("stands perfectly still, watching") kept him still for all 8 seconds. | tested |
-| `drop-the-clip-sound`: Kling adds its own soundtrack; replace it with sound made for the scene. | tested |
+| `keep-the-clip-sound`: Kling's own soundtrack matched the swimmer better than a separate sound effects take; Alex preferred it. Level it up first, since it comes in near -28 LUFS. | tested |
 | `check-music-for-vocals`: run each music take through speech-to-text before using it; an empty transcript means no singing. | tested |
 | `music-costs-more-than-video`: a 10-second music take cost about 900 ElevenLabs credits, more than the Kling clip; make one take unless the first fails. | tested |
 | `finish-in-one-pass`: one ffmpeg pass for shade, words, mix and loudness keeps every reel the same and takes seconds. | tested |
@@ -107,3 +107,4 @@ A second reel from a different hotel, with the words placed higher or a stronger
 
 - 2026-11-25: First written from the OR1 Oriole pool reel.
 - 2026-11-26: Step 1 points to the scored Results tab for approved stills.
+- 2026-11-27: Kling's own soundtrack replaces the sound effects take, after Alex preferred it on OR1 (`OR1-reel-v2.mp4`).

@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-27 · off-duty-hotel-club · Reels keep Kling's own sound
+Alex said the original swimming sound was better. `OR1-reel-v2.mp4` keeps Kling's clip soundtrack, levelled to -12 LUFS, with the same lounge music 9 dB under it. The reel playbook now treats the clip sound as the default and a sound effects take as the fallback (lesson `keep-the-clip-sound`). Ran the copy checklist.
+
 ## 2026-11-27 · off-duty-hotel-club · Go rows: stationery colour, Kling links
 Alex marked the shot-sheet rows go. R2 stationery showed the all-hotels Recraft style overriding named colours, so the six still lifes were made on plain V4.1 raster (`style-swallows-named-colours` in `lock-cast-and-look`). `what-a-thread-can-drive` gains Cloudinary links and crops as Kling frames, the 10 MB Drive download limit on clips, and direct ElevenLabs downloads. Alex watched K4, the Solvane lifeguard push-in: only the lifeguard moved and every guest was frozen. New lesson `give-every-person-a-move` in `stop-buildings-drifting`: lock the building, print and colours, and give each guest a small action. Alex watched K5 too: "the tall white gate" moved a balcony railing. New lesson `point-at-the-moving-thing`: name the moving object by its place, size and material, and say what stays fixed. Ran `checklists/copy.md`.
 
