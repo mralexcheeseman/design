@@ -5,6 +5,9 @@ Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 ## 2026-11-27 · off-duty-hotel-club · Can a model do the scoring?
 Alex asked how to have a model score the shot results. We tested Claude against his scores on 22 files. The current results task matched his Keeper calls on 10, and a version with zoom crops and four anchor pictures matched 13. After Alex explained Real and Shirt in his own words, version 4 matched 20. Written up in `learnings/notes/score-ai-pictures.md`. Ran `checklists/copy.md` on the note.
 
+## 2026-11-27 · all · Pre-run rules against charged duplicates
+Alex asked that duplicate Firefly takes never happen again. On 26 Nov the good-life run sent each of 21 prompts twice, word for word, as planned, and Firefly's Nano Banana Pro returned the same picture both times (840 credits). `learnings/README.md` now opens with three rules every thread reads before a paid run: a written prompt for every take, a one-prompt test before a batch, and one image a call with a balance check after any timeout. Ran `checklists/copy.md`.
+
 ## 2026-11-27 · off-duty-hotel-club · Go rows: stationery colour, Kling links
 Alex marked the shot-sheet rows go. R2 stationery showed the all-hotels Recraft style overriding named colours, so the six still lifes were made on plain V4.1 raster (`style-swallows-named-colours` in `lock-cast-and-look`). `what-a-thread-can-drive` gains Cloudinary links and crops as Kling frames, the 10 MB Drive download limit on clips, and direct ElevenLabs downloads. Alex watched K4, the Solvane lifeguard push-in: only the lifeguard moved and every guest was frozen. New lesson `give-every-person-a-move` in `stop-buildings-drifting`: lock the building, print and colours, and give each guest a small action. Alex watched K5 too: "the tall white gate" moved a balcony railing. New lesson `point-at-the-moving-thing`: name the moving object by its place, size and material, and say what stays fixed. Ran `checklists/copy.md`.
 
