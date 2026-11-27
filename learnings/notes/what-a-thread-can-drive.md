@@ -49,6 +49,10 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - Nano Banana and Nano Banana Pro run only on the Gemini app or Flow, by Alex's hand (his rule, 27 Nov). A thread never runs them through Recraft, Kling, ElevenLabs or any other route: it writes the prompt and hands it over. On 25 Nov a thread broke this rule for test T3, and Recraft timed out on 5 of 6 calls while still charging.
 - Kling takes link-shared Drive files at `https://lh3.googleusercontent.com/d/<id>` as references, so its `file_upload` isn't needed (kling.ai upload is refused from the cloud). Its result host s15-kling.klingai.com is refused too, so file results through the Zapier-to-Drive route above.
 
+- Kling takes a public res.cloudinary.com link as `first_image` or `tail_image` even though this container can't open it. A Cloudinary crop in the link (`c_crop,ar_4:5,w_0.55,g_auto:subject/c_scale,w_1615/`) makes a tail frame without uploading anything new.
+- Kling result files over 10 MB can't come back through Drive's `download_file_content`, so a thread can't watch its own clips. File them to Drive with Zapier and let Alex score them.
+- elevenlabsusercontent.com is reachable, so ElevenLabs audio downloads straight into the container and uploads to Drive with `create_file`.
+
 ## History
 
 - 2026-11-24: Recraft timeouts still charge.
@@ -58,4 +62,5 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - 2026-11-25: T3 baselines: Kling takes Drive links, Recraft timed out 5 of 6.
 - 2026-11-25: Kling upload host blocked (locked cast thread).
 - 2026-11-25: Hotel Marisol run: blocked Recraft and Drive hosts, the Zapier-to-Drive route, Recraft timeouts.
+- 2026-11-27: Kling takes Cloudinary links and crops; big Kling clips can't be watched from a thread; ElevenLabs audio downloads directly (go rows run 27 Nov).
 - 2026-11-27: Kling uploads through Remote Control on the iMac; Kling result links refused (locked cast thread).
