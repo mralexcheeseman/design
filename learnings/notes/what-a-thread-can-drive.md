@@ -22,8 +22,8 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 | Tool | From a thread | Notes |
 | --- | --- | --- |
 | Kling | Generates | Every job is charged. Quote the cost and ask first. Omni prompts name references as 图片1, 图片2. Image inputs need a public link: a Drive file shared by link works as `https://lh3.googleusercontent.com/d/<id>`, the `uc?export=download` link fails. 3.0 Turbo costs 50 for 5s at 1080p, 4.0 Flash 30 for 5s at 720p. Take the `urlWithoutWatermark` result. |
-| Recraft | Generates, edits, upscales | Personal account. |
-| ElevenLabs | Generates speech, images, video | Video covers Veo 3.1 (Lite, Fast, Quality), Kling 3 Pro and 4, Seedance, MiniMax, Wan and Runway on Creator credits. Pass `estimate_only` to price a run for free. Don't run Veo here: Alex runs Veo by hand in Flow on his Google credits. Usage readout needs a reconnect. |
+| Recraft | Generates, edits, upscales | Personal account. A Nano Banana Pro call with three reference images can pass the tool's 60-second limit. It then returns nothing but is still charged (3 timeouts cost 60 credits on 2026-11-24). Send one take per call, check the balance after each, and look in Recraft's own history before retrying. |
+| ElevenLabs | Generates speech, images, video | Video covers Veo 3.1 (Lite, Fast, Quality), Kling 3 Pro and 4, Seedance, MiniMax, Wan and Runway on Creator credits. Pass `estimate_only` to price a run for free. Don't run Veo here: Alex runs Veo by hand in Flow on his Google credits. Usage readout needs a reconnect. Usage readout needs a reconnect. |
 | Base44 | Builds, edits files, reads and writes data | Hand-coding with the file tools costs no builder credits. |
 | Adobe | Edits, imports to Express, Firefly Boards | Can't generate new images or video. Firefly generation is by hand. |
 | Picsart | Reframes video, builds motion scenes (montage, captions, photo promos), transcribes, renders MP4 or stills, files to Picsart Drive, reads balance and brand kits | Can't generate new images or video: Alex generates on picsart.com. Reframe and export cost nothing. Sources must be public links. Some media analysis spends credits, so read the tool's description first. |
@@ -50,6 +50,7 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 
 ## History
 
+- 2026-11-24: Recraft timeouts still charge.
 - 2026-11-23: Written from the week's threads.
 - 2026-11-25: ElevenLabs video models listed.
 - 2026-11-25: Added Picsart (connector checked the same day).
