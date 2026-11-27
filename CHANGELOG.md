@@ -37,6 +37,24 @@ Alex asked for more images and examples in the lessons. New folder `learnings/im
 ## 2026-11-25 · all · Day wrap: Flow through Chrome and naming from the prompt
 Two private notes from the day's runs. `drive-flow-through-chrome`: a thread can queue Flow in Alex's signed-in Chrome, Nano Banana Pro stills there cost no Flow credits (40 keepers filed), and 12 Veo clips (8 Lite, 4 Fast, 160 credits) rendered in about three minutes. `name-results-from-the-prompt`: the local vision model in File Result picked the wrong shot at 90 per cent and its guesses on 40 Flow stills were unusable, so files are named from the shot ID in the prompt list. Day note `day-2026-11-25` rewritten in The Back Office to cover the whole day, unpublished. Ran the copy checklist.
 
+## 2026-11-25 · all · Higgsfield through ChatGPT for stills
+Alex: the ChatGPT Higgsfield app is fine for photos. Noted in what a thread can drive, with Seedance video through it ruled out. Ran the copy checklist.
+
+## 2026-11-25 · all · December Reels pick: Veo 3.1 Lite in Flow
+The Lifeguard test (V2) is in. Flow Veo Lite (V2c) held the still best; Gemini Hydrogen (V2b) drifted; Seedance through Higgsfield (V2a) was a clear no from Alex. Three lessons added to the credit note; the pick is written up in the week-of-23-November doc. Ran the copy checklist.
+
+## 2026-11-25 · all · Flow can edit a finished clip
+Alex found Flow's "Describe how to edit this video" box on his Veo Lite take (shot sheet V1e). Noted in what a thread can drive as a drift fix to try, by hand only. Ran the copy checklist.
+
+## 2026-11-25 · all · Veo runs by hand in Flow
+Alex settled it: he runs Veo by hand on his Google credits, so a thread never generates Veo through ElevenLabs again. Recorded in `decisions.md`; lesson `elevenlabs-for-veo` replaced by `veo-by-hand-in-flow`. Ran the copy checklist.
+
+## 2026-11-25 · all · December Reels video test run (V1)
+Ran the approved test on the Ski Patrol still: Kling 3.0 Turbo and 4.0 Flash, Veo 3.1 Lite and Fast through ElevenLabs, two takes each, for 160 Kling and 19,390 ElevenLabs credits. Logged the input-link trick, real prices and the Base44 copy route in what a thread can drive, and the lesson `veo-elevenlabs-is-landscape` in the credit note. Shot sheet rows V1a to V1d. Scores wait on Alex. Ran the copy checklist.
+
+## 2026-11-25 · all · ElevenLabs video priced for the December Reels choice
+Priced four video models through the ElevenLabs connector with its free estimate (Veo 3.1 Lite 2,424 credits a clip, Kling 3 Pro 5,090, Veo 3.1 Fast 7,271, Seedance 2.0 9,162). Added them to the credit note with the lesson `elevenlabs-for-veo`, and listed the models in what a thread can drive. The December Reels scorecard in the week-of-23-November doc now runs Veo through ElevenLabs. Ran the copy checklist.
+
 ## 2026-11-25 · off-duty-hotel-club · Social posts move to the brand type
 Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, removed the Known drift line, and updated the type spec in `reuse-a-picture-that-works`: FreightBig Pro Book 56px lines and Neue Haas Unica 500 labels, from Adobe Fonts kit `lxh4muu`. The social factory's `build.py` is updated in project files. Ran the copy checklist.
 
