@@ -12,7 +12,7 @@ status: try
 cost_usable: Free on Higgsfield Unlimited
 back_office: unpublished
 date: 2026-11-24
-updated: 2026-11-24
+updated: 2026-11-27
 ---
 
 # Stop AI pictures cutting off heads and crowding the frame
@@ -83,11 +83,15 @@ Free on Higgsfield Unlimited. The same 12 takes on Recraft's Nano Banana Pro wou
 | `four-takes-per-test`: The same prompt swung by 3 points on average between two takes, so judge a prompt change on four takes a side. | tested |
 | `say-what-the-frame-holds`: Google advises describing what you want ("empty street") over what you don't ("no cars"); our prompts carried more than a dozen bans. | try |
 | `log-the-model-yourself`: Higgsfield's history labels Nano Banana Pro takes as Nano Banana 2, so the shot sheet is the record of which model ran. | tested |
+| `sketch-costs-the-small-print`: On Recraft the sketch kept every head and foot in frame, but the small lines under the main word came out garbled on 2 of 4 takes, against 0 of 2 without it. A third image seems to take attention from the product image. | try |
+| `sketch-can-leak-marks`: 1 of 4 sketch takes came back with a rounded black border and a white circle drawn round the waiter, though the sketch had neither. Check every sketch take for drawn marks. | try |
+| `score-full-size`: Scored from the tool's small previews, the two control takes got 11; at full size they got 14. Never score from a preview. | tested |
 
 ## Next to try
 
-Run rows T1a, T1b and T1c, and keep the sketch if T1b beats T1a by 1.5 points or more without copying the sketch's flat grey look.
+The sketch hasn't earned a place as a default. On Recraft (27 Nov) T1b averaged 12.3 against 14 for T1a, so it lost by more than the 1.5-point bar it needed to win. Keep it as a fix for one job only: a prompt that keeps cutting off heads. Redraw `composition-h1e-blocking.png` first, because it still shows the parasol tilted open, the pose we dropped from the prompt. T1c (positive wording) is still to run.
 
 ## History
 
+- 2026-11-27: Recraft run, Nano Banana Pro, 4:5. T1a got 2 takes, scored 14 and 14. T1b got 4 takes, scored 13, 13, 13 and 10; the 10 failed the gate for a drawn border and circle. 3-reference calls ran past Recraft's tool time limit, so the T1b images came back only through Alex's Recraft history. About 120 Recraft credits in all.
 - 2026-11-24: First written from the process audit (Claude Doc "ODHC picture process audit"). Test set up in the shot sheet, not yet run.
