@@ -4,6 +4,7 @@ Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
 ## 2026-11-27 · all · Pre-run rules against charged duplicates
 Alex asked that duplicate Firefly takes never happen again. On 26 Nov the good-life run sent each of 21 prompts twice, word for word, as planned, and Firefly's Nano Banana Pro returned the same picture both times (840 credits). `learnings/README.md` now opens with three rules every thread reads before a paid run: a written prompt for every take, a one-prompt test before a batch, and one image a call with a balance check after any timeout. Ran `checklists/copy.md`.
+
 ## 2026-11-27 · off-duty-hotel-club · Master brand, and Small Hours' hotels join the club
 Alex approved the brand and channel plan (https://claude.ai/artifact/1fBPKL5qwQNWZTikoHdyaU). Off Duty Hotel Club becomes the master brand and the one shop, and each line becomes a hotel department. Small Hours' four hotels join the register: Bagatelle and The Wrenfield as they are, Belle Nuit as the night hotel, Cap Soleil to Capri or dropped. Recorded in `decisions.md` only. Hotel numbers, inks, crests and the Small Hours store changes wait for the Small Hours project's feedback. Ran `checklists/copy.md` on the new entries.
 
