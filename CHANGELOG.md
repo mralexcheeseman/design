@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-27 · off-duty-hotel-club · Master brand, and Small Hours' hotels join the club
+Alex approved the brand and channel plan (https://claude.ai/artifact/1fBPKL5qwQNWZTikoHdyaU). Off Duty Hotel Club becomes the master brand and the one shop, and each line becomes a hotel department. Small Hours' four hotels join the register: Bagatelle and The Wrenfield as they are, Belle Nuit as the night hotel, Cap Soleil to Capri or dropped. Recorded in `decisions.md` only. Hotel numbers, inks, crests and the Small Hours store changes wait for the Small Hours project's feedback. Ran `checklists/copy.md` on the new entries.
+
 ## 2026-11-27 · off-duty-hotel-club · Go rows: stationery colour, Kling links
 Alex marked the shot-sheet rows go. R2 stationery showed the all-hotels Recraft style overriding named colours, so the six still lifes were made on plain V4.1 raster (`style-swallows-named-colours` in `lock-cast-and-look`). `what-a-thread-can-drive` gains Cloudinary links and crops as Kling frames, the 10 MB Drive download limit on clips, and direct ElevenLabs downloads. Alex watched K4, the Solvane lifeguard push-in: only the lifeguard moved and every guest was frozen. New lesson `give-every-person-a-move` in `stop-buildings-drifting`: lock the building, print and colours, and give each guest a small action. Alex watched K5 too: "the tall white gate" moved a balcony railing. New lesson `point-at-the-moving-thing`: name the moving object by its place, size and material, and say what stays fixed. Ran `checklists/copy.md`.
 
