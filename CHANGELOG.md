@@ -1,6 +1,9 @@
 # Changelog
 
-Newest first. `## 2026-11-26 · all · A log of credits lost
+Newest first. `## 2026-11-27 · the-last-animal · Aurochs colophon mark
+Alex asked for a proper logo rather than text and picked the aurochs. The mark came from Recraft V4.1 Pro Vector using a publisher's-colophon prompt, then was finished by hand (merged paths, a redrawn oval). It is now on every Last Animal carousel slide, large on the close slide, and on the Instagram avatar. New playbook `learnings/playbooks/get-a-logo-mark-from-a-vector-model.md`, and a new lesson in `live-text-in-adobe-express.md`: bake path transforms into the coordinates before an Express import. The Last Animal still has no brand folder here, so the master artwork is in the project files (`tla-slide-redesign/logo-marks/final/`). Ran `checklists/copy.md` on the playbook.
+
+## 2026-11-26 · all · A log of credits lost
 Alex asked us to track every credit a tool charges for nothing, so he can claim it back. New private note `learnings/notes/lost-credits.md`: the 24 Nov Recraft timeouts (60, refunded 26 Nov), the 25 Nov Recraft timeouts (188 over 13 images, claim drafted), and the 840 Firefly credits lost to duplicate takes on 26 Nov (our fault). Also flags an unexplained gap of about 255 Recraft credits. Ran `checklists/copy.md`.
 
 ## 2026-11-26 · the-last-animal · Logo outlines import cleanly into Express

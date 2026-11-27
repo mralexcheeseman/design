@@ -12,7 +12,7 @@ status: proven
 cost_usable: Free
 back_office: published
 date: 2026-11-21
-updated: 2026-11-23
+updated: 2026-11-27
 ---
 
 # Get editable text into Adobe Express from HTML
@@ -79,6 +79,7 @@ Free. Imports cost no credits.
 | `express-import-by-url`: Importing the layout by its Creative Cloud URL brings photos in at full size with the text still live. | tested |
 | `express-svg-shapes`: Inline `<svg>` in the HTML imports as native, editable Express shapes, so a logo set in a font Adobe Fonts lacks can go in as outlined vectors. | tested |
 | `express-svg-explicit-paths`: The importer mis-places points after `H`/`V` commands and implicit repeated coordinates, so write every path with explicit `M`, `L`, `Q`, `C` and `Z` only. | tested |
+| `express-svg-no-transform`: A `transform` on a `<path>` imports as a flat picture pinned to the top-left corner, so bake the move and scale into the coordinates and the path arrives as an editable shape in the right place. | tested |
 
 ## Next to try
 
@@ -90,3 +91,4 @@ Import a five-slide carousel as one file and see whether Express keeps the slide
 - 2026-11-21: Creative Cloud URL import works at full size.
 - 2026-11-23: Batches 02 to 04 imported the same way. Written up as a playbook.
 - 2026-11-26: A logo outlined from Newsreader imported as editable shapes. The first import broke on `H`/`V` path commands; rewriting the paths with explicit commands fixed it.
+- 2026-11-27: The Last Animal's aurochs set went in with `translate` and `scale` on each path and landed as pictures in the corner. Baking the transform into the coordinates fixed it.
