@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-27 · off-duty-hotel-club · Layout sketch loses on Recraft
+Ran T1 on Recraft's Nano Banana Pro. The control (no sketch) averaged 14 of 15 over 2 takes, and the sketch arm averaged 12.3 over 4. The sketch kept everyone in frame and garbled the shirt's small lines on 2 of 4 takes, and one take added a border and a drawn circle. `frame-ai-pictures-with-a-layout-reference` stays at try, as a fix for cut-off heads only. Three new lessons: `sketch-costs-the-small-print`, `sketch-can-leak-marks`, `score-full-size`. Ran `checklists/photography.md` and `checklists/copy.md`.
+
 ## 2026-11-26 · all · A log of credits lost
 Alex asked us to track every credit a tool charges for nothing, so he can claim it back. New private note `learnings/notes/lost-credits.md`: the 24 Nov Recraft timeouts (60, refunded 26 Nov), the 25 Nov Recraft timeouts (188 over 13 images, claim drafted), and the 840 Firefly credits lost to duplicate takes on 26 Nov (our fault). Also flags an unexplained gap of about 255 Recraft credits. Ran `checklists/copy.md`.
 
@@ -33,6 +36,8 @@ Learnings: new lesson `print-file-on-generated-blank` in the product print playb
 
 ## 2026-11-25 · all · Picsart joins the studio
 Alex has Picsart Professional. Added it to the private notes: what a thread can run (the connector reframes video and renders scenes for free but can't generate, so Alex generates on picsart.com) and the credit prices (Flux.2 Klein stills unlimited; other models cost credits at prices Picsart doesn't list). New lesson `picsart-for-what-nobody-else-has`: spend Picsart credits on models no other plan has. Added the `picsart` tool tag. Shot sheet rows PX1 to PX3. Ran the copy checklist.
+## 2026-11-24 · off-duty-hotel-club · First layout-reference run, and the day's wrap
+Logged the first T1 run in the layout-reference playbook. Every take had shown the lifeguard standing on his chair lowering a parasol, which the prompt itself asked for, so the line is fixed and the lesson `read-the-prompt-first` added. The control (T1a) on Recraft scored 11 and 11 of 15. The sketch takes (T1b) timed out on Recraft and still cost 60 credits, now in the private note on what a thread can drive. Ran the copy checklist.
 
 ## 2026-11-24 · off-duty-hotel-club · No Slim Aarons references
 Alex settled it: we never reference Slim Aarons, and pictures carry no AI mention. Recorded in `decisions.md`. Took the name out of every prompt and the scoring note: the third score is now "Period look", and prompts describe a 1960s resort colour photograph for a travel magazine. Ran the copy checklist.
