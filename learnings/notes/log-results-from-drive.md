@@ -10,7 +10,7 @@ status: try
 cost_usable: One short scheduled run every two hours, no Zapier tasks
 back_office: private
 date: 2026-11-23
-updated: 2026-11-25
+updated: 2026-11-26
 ---
 
 # Log every generated picture in the shot sheet without typing
@@ -49,6 +49,8 @@ Google Drive storage is the rule for generated assets, so nothing goes to Cloudi
 | `delete-rows-by-content` | Before deleting a "blank" row, re-read the tab and delete by what the row holds. Rows move while other threads append. | tested |
 
 ## History
+
+- 2026-11-26: the same task now scores and gates each still (see `gate-pictures-before-review.md`). Its runs start a new project thread, so the prompt can't be edited in place: the old task was switched off and a new one made.
 
 - 2026-11-23: set up for the ODHC shot sheet. Results tab and backfill done; Zap instructions sent to Alex.
 - 2026-11-25: Zap replaced by a scheduled task every two hours. Added Prompt, Cost, Credit pool and Note columns, fixed the version formula, and noted 43 files whose ID has no sheet row.
