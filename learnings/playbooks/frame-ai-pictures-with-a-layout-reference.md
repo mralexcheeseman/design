@@ -8,11 +8,13 @@ techniques: [reference-images, scoring]
 models:
   - name: Nano Banana Pro on Higgsfield Unlimited
     tested: 2026-11-24
+  - name: Nano Banana Pro on Recraft
+    tested: 2026-11-24
 status: try
 cost_usable: Free on Higgsfield Unlimited
 back_office: unpublished
 date: 2026-11-24
-updated: 2026-11-24
+updated: 2026-11-27
 ---
 
 # Stop AI pictures cutting off heads and crowding the frame
@@ -26,6 +28,14 @@ We scored 27 Higgsfield takes of 1960s resort pictures with our shirts in them. 
 The same prompt also swung hard between takes. Twelve rows had both takes scored, and the two differed by 3 points on average. One scored 11 and then 3.
 
 Google's advice for Nano Banana Pro is to "clearly define the role of each" uploaded image, for example one for pose, one for style and one for background. OpenAI says the same for GPT Image: identify each input by number and purpose. So we added a third image that carries only the layout.
+
+## Pictures
+
+![T1a with words only, the grey blocking sketch, and T1b with the sketch as image 3](../images/layout-sketch-t1-sheet.jpg)
+
+From left: T1a, framing described in words only; the blocking sketch sent as image 3; T1b with the sketch. T1b put the pool, the chair and the waiter exactly where the sketch had them, and came back flatter and more posed, which is where the Real score went.
+
+The first run went wrong before the sketch had a chance. Every take of all three rows showed the lifeguard standing on his tall chair holding a parasol over his head. The prompt had asked for exactly that: "standing on the tall white chair lowering its striped parasol". No lifeguard does that, and the model did as it was told. We rewrote the line so he sits high on the chair at the end of his day, with the parasol beside it already furled and tied.
 
 ## What to do
 
@@ -66,7 +76,7 @@ Shot sheet row T1b: the H1e prompt for Hôtel Solvane (Bastien furling the paras
 
 ## Cost
 
-Free on Higgsfield Unlimited. The same 12 takes on Recraft's Nano Banana Pro would cost about 240 credits.
+Free on Higgsfield Unlimited. On Recraft, Nano Banana Pro costs 20 credits a take, so the full 12-take test is about 240 credits. We ran the control there for 40 credits.
 
 ## Lessons
 
@@ -77,11 +87,17 @@ Free on Higgsfield Unlimited. The same 12 takes on Recraft's Nano Banana Pro wou
 | `four-takes-per-test`: The same prompt swung by 3 points on average between two takes, so judge a prompt change on four takes a side. | tested |
 | `say-what-the-frame-holds`: Google advises describing what you want ("empty street") over what you don't ("no cars"); our prompts carried more than a dozen bans. | try |
 | `log-the-model-yourself`: Higgsfield's history labels Nano Banana Pro takes as Nano Banana 2, so the shot sheet is the record of which model ran. | tested |
+| `sketch-costs-the-small-print`: On Recraft the sketch kept every head and foot in frame and garbled the small lines under the main word on 2 of 4 takes (0 of 2 without it). A third image seems to take attention from the product image. | try |
+| `sketch-can-leak-marks`: 1 of 4 sketch takes came back with a rounded black border and a white circle drawn round the waiter, neither of which is in the sketch. Check every sketch take for drawn marks. | try |
+| `read-the-prompt-first`: When every take shows the same odd pose, read the prompt before blaming a reference. Ours asked a lifeguard to lower a parasol while standing on his chair, and all twelve takes obeyed. | tested |
+| `score-full-size`: Scored from the tool's small previews, the two control takes got 11; at full size they got 14. Never score from a preview. | tested |
 
 ## Next to try
 
-Run rows T1a, T1b and T1c, and keep the sketch if T1b beats T1a by 1.5 points or more without copying the sketch's flat grey look.
+The sketch hasn't earned a place as a default. On Recraft (27 Nov) T1b averaged 12.3 against 14 for T1a, so it lost by more than the 1.5-point bar it needed to win. Keep it as a fix for one job only: a prompt that keeps cutting off heads. Redraw `composition-h1e-blocking.png` first, because it still shows the parasol tilted open, the pose we dropped from the prompt. T1c (positive wording) is still to run.
 
 ## History
 
+- 2026-11-27: Recraft run, Nano Banana Pro, 4:5. T1a got 2 takes, scored 14 and 14. T1b got 4 takes, scored 13, 13, 13 and 10; the 10 failed the gate for a drawn border and circle. 3-reference calls ran past Recraft's tool time limit, so the T1b images came back only through Alex's Recraft history. About 120 Recraft credits in all.
+- 2026-11-24 (evening): First run. Fixed the lifeguard line in H1e and T1a to T1c. T1a on Recraft scored 11 and 11 from the small previews (14 and 14 at full size on 27 Nov). T1b's calls timed out before returning images. Added `read-the-prompt-first`.
 - 2026-11-24: First written from the process audit (Claude Doc "ODHC picture process audit"). Test set up in the shot sheet, not yet run.
