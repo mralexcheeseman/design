@@ -55,8 +55,9 @@ Recraft read 3,040 on 26 Nov at 11:55 UTC. Working from 3,371 after the R1 batch
 | Lesson | Status |
 | --- | --- |
 | `recraft-timeouts-still-charge`: Recraft calls through the connector give up at 60 seconds while the job keeps running and charges. Ask for one image a call and read the balance after every timeout. | tested |
-| `vary-the-second-take`: A second take with the same prompt in Firefly's Nano Banana Pro returns the same picture, so change the prompt or seed for every extra take. | tested |
+| `vary-the-second-take`: A second take with the same prompt in Firefly's Nano Banana Pro returns the same picture, so write a different prompt for every extra take before the run starts. Now a pre-run rule in `learnings/README.md`. | tested |
 
 ## History
 
+- 2026-11-27: The two lessons became pre-run rules at the top of `learnings/README.md`, at Alex's request.
 - 2026-11-26: Started from the Recraft claim thread with every loss logged so far.
