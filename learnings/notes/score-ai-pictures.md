@@ -39,7 +39,7 @@ Total out of 15. 12 or more is a keeper. 9 to 11, change one plain thing in the 
 | `fail-checks-first`: Before scoring, tick six pass or fail checks (hands, faces, cut-off heads, stray text, number plates, modern objects). Any fail means refine or drop, whatever the score. | try |
 | `score-every-take`: Two takes of one prompt differed by 3 points on average across 12 rows, so a prompt test scores four takes a side. | tested |
 | `auto-grade-next`: A vision model scoring the same three lines could send anything under 12 straight to refine, with Alex's score as the final say. | tested, not ready |
-| `real-needs-calibrating`: Claude's Real score does not track Alex's yet. Zoom crops and four anchor pictures moved Keeper agreement from 10 to 13 of 22, but Real still had no correlation with his. Keep Alex as the scorer until a model reaches 18 of 22. | tested |
+| `real-needs-calibrating`: Judge Real the way Alex does, on the whole picture at post size. Zoom crops made the match worse. With his definition the scorer matched 15 of 22. Keep Alex as the scorer until a model reaches 18 of 22. | tested |
 
 ## Can a model score for us? (27 Nov test)
 
@@ -48,6 +48,8 @@ Alex asked how a model could do the scoring. We compared Claude's scores with hi
 - **First scorer (the two-hourly results task):** it matched his Keeper or Try again on 10 of 22 files. It gave Real 4 to every picture, so it could not tell his 1s from his 5s. It also marked Shirt down for small lines that he forgives.
 - **Second scorer (blind, fresh agent):** we gave it 100% crops of faces, hands and the print, plus four of his scored pictures as anchors (H2e v1 at 15, H1d v1 at 12, T1b v1 at 10, H3e v1 at 7). It matched him on 13 of 22. Shirt now follows his practice. On Real the model still gives his two 15s in the test (H3 v1, H3b v2) Real 3, and his Real-1 T1c pictures Real 4.
 - **What this means:** his Real covers something the definition doesn't name yet, because the model's zoom check doesn't find it. The next step is a one-line reason from Alex on four disagreements, written into the definition. After that, rerun the same 22 files and switch over at 18 of 22.
+- **Third scorer (same 22, same evening):** Alex explained Real in his own words: "it looks like a real photo. the characters are good. it'll work as a good social post. it doesnt feel ai created." We rewrote Real as one whole-picture call at 1080 px (post size) with no zooming. Agreement rose to 15 of 22, and Real now tracks his (correlation 0.48, from about 0). Two of the seven misses are Shirt. On H3 v1 and H3b v2 the scorer could not read the print and gave 2, and Alex gave 5.
+- Alex also scores the ungraded file and doesn't mark it down for missing the ageing grade, which goes on later. Rule-of-thirds framing and good shadows count in a picture's favour (H3b v2).
 - Training our own picture classifier only makes sense once he has scored about 200 files.
 
 ## History
