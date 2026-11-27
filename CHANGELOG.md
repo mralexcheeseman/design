@@ -1,9 +1,35 @@
 # Changelog
 
-Newest first. `## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
+Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
+
+## 2026-11-27 · off-duty-hotel-club · Day notes in Alex's diary voice
+Alex asked for the Day notes to read as his own diary: storytelling, the reader brought in, clear actions with examples, and quotes from him that build on each point. He approved the second drafts ("perfect"). The notes for 23 to 26 Nov were rewritten live in The Back Office, and the voice is now a "Day notes" section in `learnings/README.md`. Ran `checklists/copy.md` on all four.
+
+## 2026-11-27 · off-duty-hotel-club · Day wrap 26 Nov: two public playbooks
+Nothing from 26 Nov had reached The Back Office. Two new playbooks written for readers from the day's private notes: `stop-pictures-drifting-off-your-look` (light words in the scene beat the style paragraph; the Villa Ceresa and Hotel Marisol remakes) and `check-ai-pictures-at-full-size` (the results gate, the small back-print rule, the man's head and hubcap badge caught at full size). Four pictures in `learnings/images/`. Mirrored to The Back Office with Day note `day-2026-11-26`, all unpublished. Fixed the broken heading at the top of this file. Ran `checklists/copy.md` on both playbooks and the Day note; the photography checklist covers product shots, so it does not apply.
+
+## 2026-11-27 · off-duty-hotel-club · Layout sketch loses on Recraft
+Ran T1 on Recraft's Nano Banana Pro. The control (no sketch) averaged 14 of 15 over 2 takes, and the sketch arm averaged 12.3 over 4. The sketch kept everyone in frame and garbled the shirt's small lines on 2 of 4 takes, and one take added a border and a drawn circle. `frame-ai-pictures-with-a-layout-reference` stays at try, as a fix for cut-off heads only. Three new lessons: `sketch-costs-the-small-print`, `sketch-can-leak-marks`, `score-full-size`. Ran `checklists/photography.md` and `checklists/copy.md`.
+
+## 2026-11-26 · off-duty-hotel-club · Slim Aarons back in the prompts
+Alex felt the pictures had drifted from the original look and said "we need to add back in slim aarons refereence". New row in `decisions.md`: his name goes back into the prompts we send to image models and the private look score, and stays out of everything public. New private note `house-style-prompt` holds one fixed style paragraph to paste at the top of every ODHC picture prompt. The scoring note's third line is called Slim Aarons again. Public playbooks keep their generic wording. Alex then picked a 19-picture look book from our early pictures and ruled out two looks: too real (documentary portrait) and soft, muted colour (the three Villa Ceresa pictures). Both are in the note. Ran the copy checklist on the new note.
+
+## 2026-11-26 · off-duty-hotel-club · Social batches 01 to 04 in the brand type
+Rebuilt the four social factory batches (31 pages) in FreightBig Pro Book 56px and Neue Haas Unica 500 and imported them into Express again. Batch 03 now uses the warm film grade photos like the rest. Every "Now hiring" line fits on one line and no copy needed a trim. Express playbook gains `express-fit-check`, and `express-import-by-url` is now proven. Ran the copy checklist. Two approved guest-book lines read as contrast pairs (Bastien's "He watches everything. The guests watch nothing." and Seraina's "never once got every guest onto it, and she has never once stopped trying"), so they went to Alex for a call rather than being rewritten. The photography checklist covers product photos and doesn't apply here.
+
+## 2026-11-26 · all · A log of credits lost
+Alex asked us to track every credit a tool charges for nothing, so he can claim it back. New private note `learnings/notes/lost-credits.md`: the 24 Nov Recraft timeouts (60, refunded 26 Nov), the 25 Nov Recraft timeouts (188 over 13 images, claim drafted), and the 840 Firefly credits lost to duplicate takes on 26 Nov (our fault). Also flags an unexplained gap of about 255 Recraft credits. Ran `checklists/copy.md`.
+
+## 2026-11-27 · off-duty-hotel-club · Cast saved as Kling subjects and tested
+All 18 Kling subjects (12 people, 6 shirts) saved from Alex's iMac through Remote Control. Consistency check LK5 to LK10: Kling O1 held the house look in four pictures and changed the person each time. Kling Image 3.0 Omni, waist-up, with the hair named, came closer, and Alex still saw two different men. Alex settled that a person only needs to hold within their own hotel. Gian's subject needs a front-facing face. Updated `learnings/playbooks/lock-cast-and-look.md` (ids, settings, four lessons) and `learnings/notes/what-a-thread-can-drive.md` (upload route, result links). Ran `checklists/copy.md` on both.
+## 2026-11-25 · off-duty-hotel-club · Credit balances read themselves every morning
+Alex approved a live credit board. A scheduled task reads Kling, Recraft, Picsart, Higgsfield and ElevenLabs balances at 07:05 London and writes them into the shot sheet's This week tab. The tab now leads with a "Spend first" line, highlights the pool that lapses soonest, shows a spend-a-day figure, and marks Firefly, Flow and Base44 as manual rows that turn red after a week. Updated `learnings/notes/spend-credits-before-renewal.md`. Also fixed this file's header, which an earlier entry had split. No checklist applies (no brand output).
+
+## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
 Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
 
-## YYYY-MM-DD · brand · what changed`, then why.
+## 2026-11-25 · off-duty-hotel-club · Locked house look and cast prep
+Two private Recraft styles saved from people-free crops: "ODHC house look (Oriole pool)" and "ODHC house look (all hotels)", tested on two scenes (shot sheet LK1 to LK4). New playbook `learnings/playbooks/lock-cast-and-look.md`. Kling subjects for the cast and shirts are prepared but not uploaded, because Kling's upload host is blocked from the cloud; noted in `learnings/notes/what-a-thread-can-drive.md`. Ran `checklists/copy.md` on the playbook.
 
 ## 2026-11-25 · all · Pictures for the lessons
 Alex asked for more images and examples in the lessons. New folder `learnings/images/` with three comparison sheets: the T3 test for `reuse-a-picture-that-works` (the post, words only, the post as image 2, Kling's copy), the T1 test for `frame-ai-pictures-with-a-layout-reference` (control, the blocking sketch, the result), and the Hôtel Solvane cove before and after generative expand for `make-vertical-cuts-for-stories` (that playbook sits on another open branch, so it links the image once both merge). A Pictures section added to the first two playbooks. In The Back Office the three playbooks now have before and after pictures and references, and Day note `day-2026-11-25` gained four pictures. All unpublished. Ran the copy checklist.
@@ -24,6 +50,8 @@ Learnings: new lesson `print-file-on-generated-blank` in the product print playb
 
 ## 2026-11-25 · all · Picsart joins the studio
 Alex has Picsart Professional. Added it to the private notes: what a thread can run (the connector reframes video and renders scenes for free but can't generate, so Alex generates on picsart.com) and the credit prices (Flux.2 Klein stills unlimited; other models cost credits at prices Picsart doesn't list). New lesson `picsart-for-what-nobody-else-has`: spend Picsart credits on models no other plan has. Added the `picsart` tool tag. Shot sheet rows PX1 to PX3. Ran the copy checklist.
+## 2026-11-24 · off-duty-hotel-club · First layout-reference run, and the day's wrap
+Logged the first T1 run in the layout-reference playbook. Every take had shown the lifeguard standing on his chair lowering a parasol, which the prompt itself asked for, so the line is fixed and the lesson `read-the-prompt-first` added. The control (T1a) on Recraft scored 11 and 11 of 15. The sketch takes (T1b) timed out on Recraft and still cost 60 credits, now in the private note on what a thread can drive. Ran the copy checklist.
 
 ## 2026-11-24 · off-duty-hotel-club · Higgsfield video runs through ChatGPT
 Added the private note `learnings/notes/run-higgsfield-through-chatgpt.md`. Our Higgsfield connector can't generate, and ChatGPT's Higgsfield app can, with Unlimited switched off for connected apps. Seedance video (shot-sheet rows S1 to S3) now runs through ChatGPT from a standing brief that quotes the cost and waits for a go; Unlimited stills stay on the website. Results come back through the Drive results folder as before. Updated the reach and credit notes to match. Ran the copy checklist on the notes.

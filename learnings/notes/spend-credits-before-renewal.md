@@ -21,7 +21,7 @@ updated: 2026-11-25
 
 The same model can cost very different amounts in two apps. Run it where it's cheapest, and use expiring credits first.
 
-Credit planning stays out of The Back Office. Balances and renewal dates live in project memory (`odhc-creative-tools`), since they change daily. This note keeps the unit prices, which change only when a vendor reprices. Re-check any price older than a month before planning with it.
+Credit planning stays out of The Back Office. Balances and renewal dates live on the shot sheet's This week tab, refreshed every morning (see below), and in project memory (`odhc-credit-renewals`). This note keeps the unit prices, which change only when a vendor reprices. Re-check any price older than a month before planning with it.
 
 ## What to do
 
@@ -56,12 +56,26 @@ Picsart's pricing page lists the models but no credit price per model, so read t
 | Picsart Professional | Kling 4.0 and 4.0 Omni, Seedance 2.0, MiniMax H3, Wan 3.0, LTX, Gemini Omni | Credits, price not listed |
 | Picsart connector | Reframe video, render scenes to MP4 or stills | Free |
 
+## Which balances a thread can read (checked 2026-11-25)
+
+| Plan | Read-only tool | Notes |
+| --- | --- | --- |
+| Kling | `query_membership_and_credits` | Gives the balance only, no reset date |
+| Recraft | `get_user` | Personal account balance; never switch workspace to read it |
+| Picsart | `picsart_balance` | Also gives the exact reset time |
+| Higgsfield | `balance` | Credits and plan, no renewal date |
+| ElevenLabs | `account_get_usage` | Needs a fresh sign-in to the connector before it answers |
+| Firefly, Flow, Base44 | none | Alex types these by hand |
+
+The scheduled task "Refresh credit balances" runs these at 07:05 London and writes them into This week. It sends no notification; the Monday check-in is the one that speaks.
+
 ## Lessons
 
 | Lesson | Status |
 | --- | --- |
 | `veo-lite-cheaper-in-flow`: Veo 3.1 Lite costs 10 Flow credits a clip, with 50 free credits a day, while the same model in Firefly costs 10 premium credits a second, so Firefly's Veo is for spending credits that are about to reset. | try |
 | `picsart-for-what-nobody-else-has`: Kling, Seedance and Nano Banana run on their own plans, so spend Picsart credits on the models only Picsart has (MiniMax, Seedream, Wan) and on its free unlimited stills. That way no test runs twice. | try |
+| `read-balances-daily-speak-weekly`: Read balances every day in silence and summarise them once a week, so the sheet is always current and Alex gets one message, not seven. | try |
 | `higgsfield-unlimited-for-shirt-stills`: Make Nano Banana Pro stills on Higgsfield's Unlimited plan, on the website, before paying for them on fal. | try |
 | `higgsfield-free-generations`: The Plus plan had 4 free generations on 2026-11-24, for motion control and object replacement only (480p to 720p, up to 30 s). Spend them before credits on those jobs. | try |
 
@@ -70,3 +84,4 @@ Picsart's pricing page lists the models but no credit price per model, so read t
 - 2026-11-23: Prices gathered for the week-of-23-November test plan.
 - 2026-11-24: Higgsfield Unlimited is website-only; free generations noted.
 - 2026-11-25: Added Picsart Professional and the lesson `picsart-for-what-nobody-else-has`.
+- 2026-11-25: Added which balances a thread can read, and the daily refresh.
