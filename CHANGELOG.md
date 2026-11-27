@@ -1,7 +1,12 @@
 # Changelog
 
-Newest first. `## 2026-11-27 · the-last-animal · Aurochs colophon mark
+Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
+
+## 2026-11-27 · the-last-animal · Aurochs colophon mark
 Alex asked for a proper logo rather than text and picked the aurochs. The mark came from Recraft V4.1 Pro Vector using a publisher's-colophon prompt, then was finished by hand (merged paths, a redrawn oval). It is now on every Last Animal carousel slide, large on the close slide, and on the Instagram avatar. New playbook `learnings/playbooks/get-a-logo-mark-from-a-vector-model.md`, and a new lesson in `live-text-in-adobe-express.md`: bake path transforms into the coordinates before an Express import. The Last Animal still has no brand folder here, so the master artwork is in the project files (`tla-slide-redesign/logo-marks/final/`). Ran `checklists/copy.md` on the playbook.
+
+## 2026-11-27 · off-duty-hotel-club · Layout sketch loses on Recraft
+Ran T1 on Recraft's Nano Banana Pro. The control (no sketch) averaged 14 of 15 over 2 takes, and the sketch arm averaged 12.3 over 4. The sketch kept everyone in frame and garbled the shirt's small lines on 2 of 4 takes, and one take added a border and a drawn circle. `frame-ai-pictures-with-a-layout-reference` stays at try, as a fix for cut-off heads only. Three new lessons: `sketch-costs-the-small-print`, `sketch-can-leak-marks`, `score-full-size`. Ran `checklists/photography.md` and `checklists/copy.md`.
 
 ## 2026-11-26 · all · A log of credits lost
 Alex asked us to track every credit a tool charges for nothing, so he can claim it back. New private note `learnings/notes/lost-credits.md`: the 24 Nov Recraft timeouts (60, refunded 26 Nov), the 25 Nov Recraft timeouts (188 over 13 images, claim drafted), and the 840 Firefly credits lost to duplicate takes on 26 Nov (our fault). Also flags an unexplained gap of about 255 Recraft credits. Ran `checklists/copy.md`.
@@ -11,8 +16,6 @@ The Last Animal's Masthead logo went into Adobe Express as outlined vector shape
 
 ## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
 Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
-
-## YYYY-MM-DD · brand · what changed`, then why.
 
 ## 2026-11-25 · off-duty-hotel-club · Locked house look and cast prep
 Two private Recraft styles saved from people-free crops: "ODHC house look (Oriole pool)" and "ODHC house look (all hotels)", tested on two scenes (shot sheet LK1 to LK4). New playbook `learnings/playbooks/lock-cast-and-look.md`. Kling subjects for the cast and shirts are prepared but not uploaded, because Kling's upload host is blocked from the cloud; noted in `learnings/notes/what-a-thread-can-drive.md`. Ran `checklists/copy.md` on the playbook.
@@ -36,6 +39,8 @@ Learnings: new lesson `print-file-on-generated-blank` in the product print playb
 
 ## 2026-11-25 · all · Picsart joins the studio
 Alex has Picsart Professional. Added it to the private notes: what a thread can run (the connector reframes video and renders scenes for free but can't generate, so Alex generates on picsart.com) and the credit prices (Flux.2 Klein stills unlimited; other models cost credits at prices Picsart doesn't list). New lesson `picsart-for-what-nobody-else-has`: spend Picsart credits on models no other plan has. Added the `picsart` tool tag. Shot sheet rows PX1 to PX3. Ran the copy checklist.
+## 2026-11-24 · off-duty-hotel-club · First layout-reference run, and the day's wrap
+Logged the first T1 run in the layout-reference playbook. Every take had shown the lifeguard standing on his chair lowering a parasol, which the prompt itself asked for, so the line is fixed and the lesson `read-the-prompt-first` added. The control (T1a) on Recraft scored 11 and 11 of 15. The sketch takes (T1b) timed out on Recraft and still cost 60 credits, now in the private note on what a thread can drive. Ran the copy checklist.
 
 ## 2026-11-24 · off-duty-hotel-club · No Slim Aarons references
 Alex settled it: we never reference Slim Aarons, and pictures carry no AI mention. Recorded in `decisions.md`. Took the name out of every prompt and the scoring note: the third score is now "Period look", and prompts describe a 1960s resort colour photograph for a travel magazine. Ran the copy checklist.
