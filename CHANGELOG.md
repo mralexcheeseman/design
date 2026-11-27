@@ -17,11 +17,20 @@ Ran T1 on Recraft's Nano Banana Pro. The control (no sketch) averaged 14 of 15 o
 ## 2026-11-26 · off-duty-hotel-club · Good-life set made in Firefly
 Rendered the 21 good-life stills (OP8 to MA10) with Nano Banana Pro in Firefly web Generate, driven from a thread. Repeat takes of the same prompt came back identical, so the thread-reach note now says to vary the prompt for a second take. Ran the photography checklist on the contact sheet: SE8 has a white frame (fails no-border).
 
+## 2026-11-26 · off-duty-hotel-club · Slim Aarons back in the prompts
+Alex felt the pictures had drifted from the original look and said "we need to add back in slim aarons refereence". New row in `decisions.md`: his name goes back into the prompts we send to image models and the private look score, and stays out of everything public. New private note `house-style-prompt` holds one fixed style paragraph to paste at the top of every ODHC picture prompt. The scoring note's third line is called Slim Aarons again. Public playbooks keep their generic wording. Alex then picked a 19-picture look book from our early pictures and ruled out two looks: too real (documentary portrait) and soft, muted colour (the three Villa Ceresa pictures). Both are in the note. Ran the copy checklist on the new note.
+
+## 2026-11-26 · off-duty-hotel-club · Social batches 01 to 04 in the brand type
+Rebuilt the four social factory batches (31 pages) in FreightBig Pro Book 56px and Neue Haas Unica 500 and imported them into Express again. Batch 03 now uses the warm film grade photos like the rest. Every "Now hiring" line fits on one line and no copy needed a trim. Express playbook gains `express-fit-check`, and `express-import-by-url` is now proven. Ran the copy checklist. Two approved guest-book lines read as contrast pairs (Bastien's "He watches everything. The guests watch nothing." and Seraina's "never once got every guest onto it, and she has never once stopped trying"), so they went to Alex for a call rather than being rewritten. The photography checklist covers product photos and doesn't apply here.
+
 ## 2026-11-26 · all · A log of credits lost
 Alex asked us to track every credit a tool charges for nothing, so he can claim it back. New private note `learnings/notes/lost-credits.md`: the 24 Nov Recraft timeouts (60, refunded 26 Nov), the 25 Nov Recraft timeouts (188 over 13 images, claim drafted), and the 840 Firefly credits lost to duplicate takes on 26 Nov (our fault). Also flags an unexplained gap of about 255 Recraft credits. Ran `checklists/copy.md`.
 
 ## 2026-11-25 · off-duty-hotel-club · Firefly mends the small print lines
 Tested Firefly before the 27 Nov credit reset. Generative Fill erased the hotel and city lines; Nano Banana Pro in Firefly web Edit, with the Security back print file as reference, added THE ORIOLE PALACE / LOS ANGELES to OP2-v1-flow-take2 cleanly. `mend-in-firefly` moves to tested in the product print playbook, and the thread-reach note now lists Firefly web as drivable from Chrome. Ran the photography checklist (print legibility, no stray text, scene unchanged) and the crest and print checklist (print matches the master file).
+
+## 2026-11-25 · off-duty-hotel-club · Credit balances read themselves every morning
+Alex approved a live credit board. A scheduled task reads Kling, Recraft, Picsart, Higgsfield and ElevenLabs balances at 07:05 London and writes them into the shot sheet's This week tab. The tab now leads with a "Spend first" line, highlights the pool that lapses soonest, shows a spend-a-day figure, and marks Firefly, Flow and Base44 as manual rows that turn red after a week. Updated `learnings/notes/spend-credits-before-renewal.md`. Also fixed this file's header, which an earlier entry had split. No checklist applies (no brand output).
 
 ## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
 Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
@@ -48,6 +57,7 @@ Learnings: new lesson `print-file-on-generated-blank` in the product print playb
 
 ## 2026-11-25 · all · Picsart joins the studio
 Alex has Picsart Professional. Added it to the private notes: what a thread can run (the connector reframes video and renders scenes for free but can't generate, so Alex generates on picsart.com) and the credit prices (Flux.2 Klein stills unlimited; other models cost credits at prices Picsart doesn't list). New lesson `picsart-for-what-nobody-else-has`: spend Picsart credits on models no other plan has. Added the `picsart` tool tag. Shot sheet rows PX1 to PX3. Ran the copy checklist.
+
 ## 2026-11-24 · off-duty-hotel-club · First layout-reference run, and the day's wrap
 Logged the first T1 run in the layout-reference playbook. Every take had shown the lifeguard standing on his chair lowering a parasol, which the prompt itself asked for, so the line is fixed and the lesson `read-the-prompt-first` added. The control (T1a) on Recraft scored 11 and 11 of 15. The sketch takes (T1b) timed out on Recraft and still cost 60 credits, now in the private note on what a thread can drive. Ran the copy checklist.
 
