@@ -36,7 +36,7 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield and Flow gen
 
 - fal.media, res.cloudinary.com and media.base44.com return 403, so view those images in a browser.
 - Some sessions also refuse img.recraft.ai, mcp.recraft.ai (Recraft's upload link), lh3.googleusercontent.com and drive.google.com. Recraft itself can still read link-shared Drive files at `https://lh3.googleusercontent.com/d/<id>`, so put references in the Drive references folder and pass that link.
-- kling.ai (Kling's file upload) is refused, so Kling subjects and Kling image-to-image inputs go up from Alex's Mac. Kling refuses Drive links for subjects.
+- kling.ai (Kling's file upload) is refused, so Kling subjects and Kling image-to-image inputs go up from Alex's Mac. Kling refuses Drive links for subjects. The route that works: start a Remote Control session on the iMac, point it at the files through Google Drive for Desktop, and have it run Kling's `file_upload` and post each file to the upload link straight away (a link lasts 10 minutes). Kling's result links (s15-kling.klingai.com) are refused too; file them to Drive with Zapier's Upload File, giving the new name without an extension (it adds one).
 - img.recraft.ai is refused; file Recraft results to Drive with Zapier's Upload File, named by shot-sheet row.
 - Creative Cloud storage (at.adobe.com) is unreachable, so Express uploads go through Alex's Mac (see [the Express playbook](../playbooks/live-text-in-adobe-express.md)).
 
@@ -56,3 +56,4 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield and Flow gen
 - 2026-11-25: Added Picsart (connector checked the same day).
 - 2026-11-25: Kling upload host blocked (locked cast thread).
 - 2026-11-25: Hotel Marisol run: blocked Recraft and Drive hosts, the Zapier-to-Drive route, Recraft timeouts.
+- 2026-11-27: Kling uploads through Remote Control on the iMac; Kling result links refused (locked cast thread).
