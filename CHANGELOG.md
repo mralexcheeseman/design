@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-27 · all · Pre-run rules against charged duplicates
+Alex asked that duplicate Firefly takes never happen again. On 26 Nov the good-life run sent each of 21 prompts twice, word for word, as planned, and Firefly's Nano Banana Pro returned the same picture both times (840 credits). `learnings/README.md` now opens with three rules every thread reads before a paid run: a written prompt for every take, a one-prompt test before a batch, and one image a call with a balance check after any timeout. Ran `checklists/copy.md`.
+
 ## 2026-11-27 · off-duty-hotel-club · Day notes in Alex's diary voice
 Alex asked for the Day notes to read as his own diary: storytelling, the reader brought in, clear actions with examples, and quotes from him that build on each point. He approved the second drafts ("perfect"). The notes for 23 to 26 Nov were rewritten live in The Back Office, and the voice is now a "Day notes" section in `learnings/README.md`. Ran `checklists/copy.md` on all four.
 
