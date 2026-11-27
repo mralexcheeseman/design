@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-27 · off-duty-hotel-club · Friday's rules written down
+Four of Alex's calls from today go into `decisions.md`: the publish gate (only the look of the four reference posts goes public), 0.08 grain as the last step on every still (replacing the 24 Nov no-grain entry), Nano Banana only on the Gemini or Flow website by Alex, and no re-runs for small flaws. `house-style-prompt` gains the reason the Flow run came out modern (an old prompt with realism lines) and the grade-then-look-book step. `what-a-thread-can-drive` carries the Nano Banana rule. Day note `day-2026-11-27` drafted in The Back Office, unpublished. Ran `checklists/copy.md`.
+
 ## 2026-11-27 · all · Pre-run rules against charged duplicates
 Alex asked that duplicate Firefly takes never happen again. On 26 Nov the good-life run sent each of 21 prompts twice, word for word, as planned, and Firefly's Nano Banana Pro returned the same picture both times (840 credits). `learnings/README.md` now opens with three rules every thread reads before a paid run: a written prompt for every take, a one-prompt test before a batch, and one image a call with a balance check after any timeout. Ran `checklists/copy.md`.
 

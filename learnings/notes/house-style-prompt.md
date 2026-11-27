@@ -47,6 +47,8 @@ Before a picture goes to review, put it beside the look book. If it would stand 
 - The name goes only into prompts sent to image and video models, the shot sheet and this note. It never goes into captions, alt text, ads, product copy, posts, file names others see, Express doc names, The Back Office or any playbook marked `published`.
 - Public playbooks keep their generic wording. A thread running an ODHC prompt from a playbook puts this paragraph in front of it.
 - Never attach one of his photographs as a reference. Attach one of our own keepers (for example the Oriole pool picture) for colour and light.
+- Never reuse an old prompt. On 27 Nov a Flow run came back looking like current photos because it reused the 25 Nov T3 prompts, which didn't open with this paragraph and still asked for "real, slightly imperfect colour" and "skin with pores". Realism lines pull every model modern. Rebuild each prompt from this paragraph and the scene.
+- Finish every still with the warm film grade and 0.08 grain, then put it beside the look book. Only pictures that pass go public (`decisions.md`, publish gate, 2026-11-27).
 - Score the look on the "Slim Aarons" line of the [scoring note](score-ai-pictures.md).
 
 ## History
