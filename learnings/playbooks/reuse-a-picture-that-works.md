@@ -125,7 +125,7 @@ Free on Higgsfield Unlimited: eight takes for the test.
 
 ## Next to try
 
-Try the picture as a reference on the Higgsfield website with Unlimited at 4:5, and put the shirt last in the prompt as well as first, to see whether the small print survives.
+Nano Banana runs only by hand on the Gemini or Flow website (Alex, 27 November), never through Kling, Recraft, Higgsfield or an API. Next time this shot is wanted, open the prompt with the house style paragraph, attach the cropped picture, and name the shirt last in the prompt as well as first, to see whether the small print survives.
 
 ## History
 
