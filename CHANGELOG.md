@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-27 · off-duty-hotel-club · The pool picture is not a default reference
+Alex ran T3 in Google Flow (Nano Banana Pro, 9:16) with the reference cropped and a "do not copy its people" line. With the picture: 10.5 of 15 average, Real 3.5; without: 11.5, Real 4.0. Kling on 25 Nov gave +0.9. The picture brings back the camera and courtyard but costs the shirt's small print, so `reuse-a-picture-that-works` now says use it only for this exact shot. Two new lessons: `crop-the-reference-guests`, `reference-costs-the-small-print`. Ran `checklists/copy.md`; the photography checklist covers product shots, so it does not apply.
+
 ## 2026-11-27 · all · Pre-run rules against charged duplicates
 Alex asked that duplicate Firefly takes never happen again. On 26 Nov the good-life run sent each of 21 prompts twice, word for word, as planned, and Firefly's Nano Banana Pro returned the same picture both times (840 credits). `learnings/README.md` now opens with three rules every thread reads before a paid run: a written prompt for every take, a one-prompt test before a batch, and one image a call with a balance check after any timeout. Ran `checklists/copy.md`.
 
