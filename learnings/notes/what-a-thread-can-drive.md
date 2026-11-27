@@ -46,13 +46,16 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - The Base44 sandbox has no ffmpeg or numpy: `npm i ffmpeg-static` or `pip install --target /tmp/pylib numpy pillow`.
 - Host every Base44 video in the app's media library.
 - To bring a Recraft result into the container when img.recraft.ai is refused: Zapier's Google Drive Upload File takes the Recraft URL and files it in ODHC shot results under its row name, then Drive `download_file_content` saves the full-size picture locally (its path is in the result) without filling the conversation.
-- Recraft's Nano Banana Pro calls time out at 60 seconds about half the time on 25 Nov, with or without a reference image, and most still charge 20. The picture lands only in Alex's Recraft library. Check `get_user` after every timeout before trying again, or run the same model on ElevenLabs (`gemini-3-pro-image`), which returns at once and is polled, so nothing is lost.
+- Recraft's Nano Banana Pro calls time out at 60 seconds about half the time on 25 Nov, with or without a reference image, and most still charge 20. Since 27 Nov this no longer matters: a thread never runs Nano Banana anywhere (see below).
+- **Nano Banana rule (Alex, 27 Nov, firm).** Nano Banana and Nano Banana Pro run only on the Gemini or Google Flow website, and Alex runs them. A thread writes the prompt and settings for him and reads the results from Drive. Never route them through Recraft, Kling, Higgsfield, fal or ElevenLabs.
 
 - Kling takes a public res.cloudinary.com link as `first_image` or `tail_image` even though this container can't open it. A Cloudinary crop in the link (`c_crop,ar_4:5,w_0.55,g_auto:subject/c_scale,w_1615/`) makes a tail frame without uploading anything new.
 - Kling result files over 10 MB can't come back through Drive's `download_file_content`, so a thread can't watch its own clips. File them to Drive with Zapier and let Alex score them.
 - elevenlabsusercontent.com is reachable, so ElevenLabs audio downloads straight into the container and uploads to Drive with `create_file`.
 
 ## History
+
+- 2026-11-27: Nano Banana runs only on Gemini or Flow, by Alex.
 
 - 2026-11-24: Recraft timeouts still charge.
 - 2026-11-23: Written from the week's threads.
