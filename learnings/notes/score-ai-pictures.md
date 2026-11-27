@@ -10,7 +10,7 @@ status: tested
 cost_usable: Free
 back_office: private
 date: 2026-11-23
-updated: 2026-11-26
+updated: 2026-11-27
 ---
 
 # Score AI pictures the same way every time
@@ -38,10 +38,25 @@ Total out of 15. 12 or more is a keeper. 9 to 11, change one plain thing in the 
 | `three-line-score`: Three scores of 1 to 5 are enough to pick keepers, and quick enough to give every take. | tested |
 | `fail-checks-first`: Before scoring, tick six pass or fail checks (hands, faces, cut-off heads, stray text, number plates, modern objects). Any fail means refine or drop, whatever the score. | try |
 | `score-every-take`: Two takes of one prompt differed by 3 points on average across 12 rows, so a prompt test scores four takes a side. | tested |
-| `auto-grade-next`: A vision model scoring the same three lines could send anything under 12 straight to refine, with Alex's score as the final say. | try |
+| `auto-grade-next`: A vision model scoring the same three lines could send anything under 12 straight to refine, with Alex's score as the final say. | tested, not ready |
+| `real-needs-calibrating`: Judge Real the way Alex does, on the whole picture at post size. Zoom crops made the match worse. With his definition, and his checks for believable actions, scale and "too perfect", the scorer matched 20 of 22. Prove it on a fresh week before it replaces him. | tested |
+
+## Can a model score for us? (27 Nov test)
+
+Alex asked how a model could do the scoring. We compared Claude's scores with his on the 22 files he had scored that the Drive connector could download (files over 10 MB can't be fetched).
+
+- **First scorer (the two-hourly results task):** it matched his Keeper or Try again on 10 of 22 files. It gave Real 4 to every picture, so it could not tell his 1s from his 5s. It also marked Shirt down for small lines that he forgives.
+- **Second scorer (blind, fresh agent):** we gave it 100% crops of faces, hands and the print, plus four of his scored pictures as anchors (H2e v1 at 15, H1d v1 at 12, T1b v1 at 10, H3e v1 at 7). It matched him on 13 of 22. Shirt now follows his practice. On Real the model still gives his two 15s in the test (H3 v1, H3b v2) Real 3, and his Real-1 T1c pictures Real 4.
+- **What this means:** his Real covers something the definition doesn't name yet, because the model's zoom check doesn't find it. The next step is a one-line reason from Alex on four disagreements, written into the definition. After that, rerun the same 22 files and switch over at 18 of 22.
+- **Third scorer (same 22, same evening):** Alex explained Real in his own words: "it looks like a real photo. the characters are good. it'll work as a good social post. it doesnt feel ai created." We rewrote Real as one whole-picture call at 1080 px (post size) with no zooming. Agreement rose to 15 of 22, and Real now tracks his (correlation 0.48, from about 0). Two of the seven misses are Shirt. On H3 v1 and H3b v2 the scorer could not read the print and gave 2, and Alex gave 5.
+- Alex also scores the ungraded file and doesn't mark it down for missing the ageing grade, which goes on later. Rule-of-thirds framing and good shadows count in a picture's favour (H3b v2).
+- **Fourth scorer:** this version added Alex's answers. Real drops when someone does something a real person wouldn't, like a lifeguard holding a parasol up from his chair. It also drops when the scale is off or the picture is too perfect. A missing ageing grade doesn't count against a picture. Shirt follows his rule: "as long as it doesnt look AI created I'm fine." Agreement rose to **20 of 22**, with Real correlation 0.73. Two of the 22 (T1c v2, H3b v2) had Alex's reasons written into the prompt, so the fair figure is 18 of 20. The two misses (H3b v1, H3c v1) are pictures where Alex gave Shirt 2, which the scorer read as fine. The prompt lives in the project files (scoring-calibration/scoring-prompt.md).
+- It was tuned on these same 22 pictures, so it has to hold on new files before it takes over. Next step: run it beside Alex on next week's files.
+- Training our own picture classifier only makes sense once he has scored about 200 files.
 
 ## History
 
+- 2026-11-27: Tested four versions of a Claude scorer against Alex's scores (see above).
 - 2026-11-26: The third line is called Slim Aarons again (it was Period look from 24 Nov). It scores the same thing. The name stays private.
 - 2026-11-24: Added fail checks and the four-takes rule from the process audit.
 - 2026-11-23: Cut from five lines to three on Alex's word.

@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-27 · off-duty-hotel-club · Can a model do the scoring?
+Alex asked how to have a model score the shot results. We tested Claude against his scores on 22 files. The current results task matched his Keeper calls on 10, and a version with zoom crops and four anchor pictures matched 13. After Alex explained Real and Shirt in his own words, version 4 matched 20. Written up in `learnings/notes/score-ai-pictures.md`. Ran `checklists/copy.md` on the note.
+
 ## 2026-11-27 · all · Pre-run rules against charged duplicates
 Alex asked that duplicate Firefly takes never happen again. On 26 Nov the good-life run sent each of 21 prompts twice, word for word, as planned, and Firefly's Nano Banana Pro returned the same picture both times (840 credits). `learnings/README.md` now opens with three rules every thread reads before a paid run: a written prompt for every take, a one-prompt test before a batch, and one image a call with a balance check after any timeout. Ran `checklists/copy.md`.
 
