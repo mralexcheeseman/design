@@ -1,6 +1,9 @@
 # Changelog
 
-Newest first. `## 2026-11-26 · all · A log of credits lost
+Newest first. `## 2026-11-27 · off-duty-hotel-club · Hero stills expanded for feed and stories
+Expanded the three 3:2 hero pictures with Adobe generative expand. 4:5 feed versions are clean; 9:16 story versions invent too much (legs, a mismatched deck, stars in a day sky), so the playbook now says stop at 4:5 from landscape. Adobe video resize can't be collected from a thread. Updated `learnings/playbooks/make-vertical-cuts-for-stories.md` and `learnings/notes/what-a-thread-can-drive.md`. Ran `checklists/photography.md` on the six pictures.
+
+## 2026-11-26 · all · A log of credits lost
 Alex asked us to track every credit a tool charges for nothing, so he can claim it back. New private note `learnings/notes/lost-credits.md`: the 24 Nov Recraft timeouts (60, refunded 26 Nov), the 25 Nov Recraft timeouts (188 over 13 images, claim drafted), and the 840 Firefly credits lost to duplicate takes on 26 Nov (our fault). Also flags an unexplained gap of about 255 Recraft credits. Ran `checklists/copy.md`.
 
 ## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap

@@ -49,6 +49,7 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - Recraft's Nano Banana Pro calls time out at 60 seconds about half the time on 25 Nov, with or without a reference image, and most still charge 20. The picture lands only in Alex's Recraft library. Check `get_user` after every timeout before trying again, or run the same model on ElevenLabs (`gemini-3-pro-image`), which returns at once and is polled, so nothing is lost.
 
 - Adobe results (photoshop-api.adobe.io short links) and Picsart exports (gcdn.picsart.com) are refused in the container, but Picsart's `scene_contact_sheet` with `media` set to the link shows them to you, and Zapier's Google Drive Upload File files them straight into ODHC shot results.
+- Adobe `video_resize` starts and returns a task id, but the tool it names for collecting the result (`resizeVideoPoll`) isn't offered to a thread and the output isn't saved to Creative Cloud, so video resize can't be finished from here (27 Nov).
 - A file that only exists in the container or on a website can't reach Adobe from a thread: the Creative Cloud upload link is blocked here too. Alex drops it in Creative Cloud, or the upload runs on his Mac.
 
 ## History
@@ -56,5 +57,6 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - 2026-11-23: Written from the week's threads.
 - 2026-11-25: Added Picsart (connector checked the same day).
 - 2026-11-25: Vertical cuts run: Adobe input rule, viewing and filing results without downloading.
+- 2026-11-27: Adobe video resize can't be collected from a thread.
 - 2026-11-25: Kling upload host blocked (locked cast thread).
 - 2026-11-25: Hotel Marisol run: blocked Recraft and Drive hosts, the Zapier-to-Drive route, Recraft timeouts.
