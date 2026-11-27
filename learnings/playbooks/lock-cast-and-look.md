@@ -35,7 +35,9 @@ Kling subjects (Elements) are the other half: a cover picture plus one to three 
 
 On 27 November a Claude session on Alex's iMac (Remote Control) uploaded the portraits, face crops and shirt pictures and saved all 18 subjects: 12 people and 6 shirts. The cloud thread then made the pictures with those ids.
 
-Six test pictures showed when a saved face holds. On Kling Image O1, with a people-free look picture as image 1, the look held in all four (hard sun, deep blue sky, saturated colour). Gian came out as a different man in each picture, and his subject was weak from the start: his only face crop is a profile behind dark glasses. Bastien, saved from a clear front face, still came out as an older stranger in a hat and sunglasses whenever he was a small figure in a wide scene. On Kling Image 3.0 Omni, framed waist-up and three-quarter, with the prompt naming his tousled fair hair and ruling out hats and sunglasses, the same young man appeared on the Riviera and in St. Moritz.
+Six test pictures showed when a saved face holds. On Kling Image O1, with a people-free look picture as image 1, the look held in all four (hard sun, deep blue sky, saturated colour). Gian came out as a different man in each picture, and his subject was weak from the start: his only face crop is a profile behind dark glasses. Bastien, saved from a clear front face, still came out as an older stranger in a hat and sunglasses whenever he was a small figure in a wide scene. On Kling Image 3.0 Omni, framed waist-up and three-quarter, with the prompt naming his tousled fair hair and ruling out hats and sunglasses, both pictures showed a young fair-haired man of the same type. Alex judged them two different men.
+
+That is enough for the club. Each person belongs to one hotel, so a face only has to hold within that hotel's pictures. A person never appears at a second hotel.
 
 ## What to do
 
@@ -46,7 +48,7 @@ Six test pictures showed when a saved face holds. On Kling Image O1, with a peop
 5. **Cast:** for each recurring person save a subject with the full portrait as cover and a head-and-shoulders crop as the extra angle. Both must show the face front-on or three-quarter, without dark glasses. For each product save the back as cover, the front if you have it, and a close crop of the print.
 6. Call a subject by id in the prompt and in the elements list. Give the look picture one job in the first line: light, colour and grain only, none of its layout.
 7. When the person must be recognisable, use Kling Image 3.0 Omni, frame them waist-up or closer, name their hair and face in the prompt ("same face and tousled fair hair as the subject"), and rule out hats and sunglasses. Keep wide scenes for pictures where the staff member can be anyone.
-8. Check consistency with two different scenes of the same person and ask someone who hasn't seen the prompts whether it is the same man.
+8. Keep each person to their own hotel. Check consistency with two scenes at that hotel and ask someone who hasn't seen the prompts whether it is the same man.
 
 ## Prompt (generic)
 
@@ -141,13 +143,14 @@ About 2 Recraft credits a picture with a style; 16 credits for the six test pict
 | `kling-subjects-need-kling-upload`: Kling subjects only take pictures sent through Kling's own upload, which Claude's cloud can't reach; Drive links are refused. A Claude session on a Mac does the upload. | tested |
 | `subjects-need-a-clear-face`: Save each person from a front or three-quarter face with no dark glasses. A profile in sunglasses gave a different man in every picture. | tested |
 | `wide-scenes-lose-the-face`: On Kling O1 a saved person who is a small figure in a wide scene turns into a stranger, even from a good face. | tested |
-| `omni-waist-up-holds-the-face`: Kling Image 3.0 Omni, waist-up, with the hair named and hats and sunglasses ruled out, kept the same man in two places. | tested |
+| `omni-waist-up-gets-closer`: Kling Image 3.0 Omni, waist-up, with the hair named and hats and sunglasses ruled out, gave the same type of man in two places. Alex still saw two different men. | tested |
+| `continuity-within-one-hotel`: A recurring person only needs to hold within their own hotel (Alex, 27 Nov), so test and use each subject in that hotel's scenes alone. | settled |
 
 ## Next to try
 
-Rebuild Gian's subject from a front-facing picture. Test one person in a wide scene on 3.0 Omni to see whether the model or the framing lost the face. Test a shirt subject on its own. Make a snow-only and a Riviera-only Recraft style to test against the all-hotels one.
+Test one person in two scenes at their own hotel on 3.0 Omni. Rebuild Gian's subject from a front-facing picture. Test one person in a wide scene on 3.0 Omni to see whether the model or the framing lost the face. Test a shirt subject on its own. Make a snow-only and a Riviera-only Recraft style to test against the all-hotels one.
 
 ## History
 
 - 2026-11-25: First written. Two Recraft styles saved and tested on two scenes; Kling subjects prepared but not uploaded.
-- 2026-11-27: 18 Kling subjects saved from Alex's Mac. Consistency check LK5 to LK10: 3.0 Omni, waist-up, kept the look and the person.
+- 2026-11-27: 18 Kling subjects saved from Alex's Mac. Consistency check LK5 to LK10: the look held; the person changed between hotels, which Alex is happy with because each person belongs to one hotel.
