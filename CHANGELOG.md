@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-27 · off-duty-hotel-club · Reels keep Kling's own sound
+Alex said the original swimming sound was better. `OR1-reel-v2.mp4` keeps Kling's clip soundtrack, levelled to -12 LUFS, with the same lounge music 9 dB under it. The reel playbook now treats the clip sound as the default and a sound effects take as the fallback (lesson `keep-the-clip-sound`). Ran the copy checklist.
+
 ## 2026-11-27 · all · Pre-run rules against charged duplicates
 Alex asked that duplicate Firefly takes never happen again. On 26 Nov the good-life run sent each of 21 prompts twice, word for word, as planned, and Firefly's Nano Banana Pro returned the same picture both times (840 credits). `learnings/README.md` now opens with three rules every thread reads before a paid run: a written prompt for every take, a one-prompt test before a batch, and one image a call with a balance check after any timeout. Ran `checklists/copy.md`.
 
@@ -30,6 +33,9 @@ Alex asked us to track every credit a tool charges for nothing, so he can claim 
 All 18 Kling subjects (12 people, 6 shirts) saved from Alex's iMac through Remote Control. Consistency check LK5 to LK10: Kling O1 held the house look in four pictures and changed the person each time. Kling Image 3.0 Omni, waist-up, with the hair named, came closer, and Alex still saw two different men. Alex settled that a person only needs to hold within their own hotel. Gian's subject needs a front-facing face. Updated `learnings/playbooks/lock-cast-and-look.md` (ids, settings, four lessons) and `learnings/notes/what-a-thread-can-drive.md` (upload route, result links). Ran `checklists/copy.md` on both.
 ## 2026-11-25 · off-duty-hotel-club · Credit balances read themselves every morning
 Alex approved a live credit board. A scheduled task reads Kling, Recraft, Picsart, Higgsfield and ElevenLabs balances at 07:05 London and writes them into the shot sheet's This week tab. The tab now leads with a "Spend first" line, highlights the pool that lapses soonest, shows a spend-a-day figure, and marks Firefly, Flow and Base44 as manual rows that turn red after a week. Updated `learnings/notes/spend-credits-before-renewal.md`. Also fixed this file's header, which an earlier entry had split. No checklist applies (no brand output).
+
+## 2026-11-25 · off-duty-hotel-club · A reel line from one approved picture
+Alex said "Do it all" to a reel line. Proved it on the Oriole pool picture (row OR1): Kling 3.0 Turbo clip, words set in FreightBig Pro and Neue Haas Unica through Express, ElevenLabs pool sound and lounge music, one ffmpeg finish, then a draft reel in the Social Planner. New playbook `learnings/playbooks/turn-one-picture-into-a-reel.md`; the thread-reach note gains the Base44 sandbox render and Kling file hosting routes. Finishing script in storefront-kit `tools/reel-line/`. Ran the copy checklist (the photography checklist covers product photos, so it doesn't apply).
 
 ## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
 Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
