@@ -16,6 +16,7 @@ Each one answers one reader's problem. Public on The Back Office unless marked p
 
 | Playbook | Making | Tools | Status | Cost per usable result | Tested |
 | --- | --- | --- | --- | --- | --- |
+| [Turn a landscape clip or a 4:5 picture into a 9:16 story without losing the people](playbooks/make-vertical-cuts-for-stories.md) | social | firefly, picsart | tested | Free | 2026-11-25 |
 | [Bring a set of AI pictures back to your look when they drift soft, misty or golden](playbooks/stop-pictures-drifting-off-your-look.md) | photo | nano-banana-pro, kling | tested | About 40 Kling credits a usable picture | 2026-11-26 |
 | [Catch the mistakes in AI pictures that only show at full size](playbooks/check-ai-pictures-at-full-size.md) | photo | nano-banana-pro, kling, recraft, higgsfield | tested | Free | 2026-11-26 |
 | [Keep the same people and the same colour across every AI picture](playbooks/lock-cast-and-look.md) | photo | recraft, kling | try | About 2 Recraft credits a picture | 2026-11-25 |

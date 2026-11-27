@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-27 · off-duty-hotel-club · Hero stills expanded for feed and stories
+Expanded the three 3:2 hero pictures with Adobe generative expand. 4:5 feed versions are clean; 9:16 story versions invent too much (legs, a mismatched deck, stars in a day sky), so the playbook now says stop at 4:5 from landscape. Adobe video resize can't be collected from a thread. Updated `learnings/playbooks/make-vertical-cuts-for-stories.md` and `learnings/notes/what-a-thread-can-drive.md`. Ran `checklists/photography.md` on the six pictures.
+
 ## 2026-11-27 · all · Pre-run rules against charged duplicates
 Alex asked that duplicate Firefly takes never happen again. On 26 Nov the good-life run sent each of 21 prompts twice, word for word, as planned, and Firefly's Nano Banana Pro returned the same picture both times (840 credits). `learnings/README.md` now opens with three rules every thread reads before a paid run: a written prompt for every take, a one-prompt test before a batch, and one image a call with a balance check after any timeout. Ran `checklists/copy.md`.
 
@@ -42,6 +45,9 @@ Alex asked for more images and examples in the lessons. New folder `learnings/im
 
 ## 2026-11-25 · all · Day wrap: Flow through Chrome and naming from the prompt
 Two private notes from the day's runs. `drive-flow-through-chrome`: a thread can queue Flow in Alex's signed-in Chrome, Nano Banana Pro stills there cost no Flow credits (40 keepers filed), and 12 Veo clips (8 Lite, 4 Fast, 160 credits) rendered in about three minutes. `name-results-from-the-prompt`: the local vision model in File Result picked the wrong shot at 90 per cent and its guesses on 40 Flow stills were unusable, so files are named from the shot ID in the prompt list. Day note `day-2026-11-25` rewritten in The Back Office to cover the whole day, unpublished. Ran the copy checklist.
+
+## 2026-11-25 · off-duty-hotel-club · Vertical cuts for stories
+New playbook `make-vertical-cuts-for-stories` from shot sheet rows A1 and PX3. Four house looks expanded to 9:16 with Adobe generative expand (446 px top and bottom), and two 16:9 Veo clips reframed to 9:16 with Picsart. Adobe's video resize half of PX3 waits on the clips reaching Creative Cloud. Private notes: Adobe only takes Creative Cloud or S3 inputs, how to view and file results from a thread, and that generative expand shows no premium credit cost. Ran the copy checklist.
 
 ## 2026-11-25 · off-duty-hotel-club · Social posts move to the brand type
 Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, removed the Known drift line, and updated the type spec in `reuse-a-picture-that-works`: FreightBig Pro Book 56px lines and Neue Haas Unica 500 labels, from Adobe Fonts kit `lxh4muu`. The social factory's `build.py` is updated in project files. Ran the copy checklist.

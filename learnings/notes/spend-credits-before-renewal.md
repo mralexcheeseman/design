@@ -38,6 +38,7 @@ Alex's rule (2026-11-23): use every credit on every plan before it renews, and u
 | Firefly | Veo 3.1 Lite (partner) | 10 credits a second |
 | Firefly | Nano Banana Pro (partner) | 40 credits an image |
 | Firefly | Upscaler | 10 credits |
+| Firefly | Generative Expand and Fill (connector or app) | No premium credits reported on 25 Nov (standard feature) |
 | Higgsfield Plus | Nano Banana Pro, Nano Banana 2, Soul 2, GPT Image 2 | Unlimited |
 | Higgsfield Plus | Seedance 2.0 | about 22 credits per 5 s at 720p |
 | Recraft | Nano Banana 2 edit / Nano Banana Pro edit | 11 / 20 credits |
