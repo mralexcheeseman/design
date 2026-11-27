@@ -21,7 +21,7 @@ updated: 2026-11-25
 
 The same model can cost very different amounts in two apps. Run it where it's cheapest, and use expiring credits first.
 
-Credit planning stays out of The Back Office. Balances and renewal dates live in project memory (`odhc-creative-tools`), since they change daily. This note keeps the unit prices, which change only when a vendor reprices. Re-check any price older than a month before planning with it.
+Credit planning stays out of The Back Office. Balances and renewal dates live on the shot sheet's This week tab, refreshed every morning (see below), and in project memory (`odhc-credit-renewals`). This note keeps the unit prices, which change only when a vendor reprices. Re-check any price older than a month before planning with it.
 
 ## What to do
 
@@ -69,6 +69,19 @@ The ElevenLabs connector generates video from a thread on the Creator plan's cre
 
 The same catalogue holds Veo 3.1 Quality, Kling 4, Kling Omni, MiniMax H3, Wan 2.6, Runway and LTX.
 
+## Which balances a thread can read (checked 2026-11-25)
+
+| Plan | Read-only tool | Notes |
+| --- | --- | --- |
+| Kling | `query_membership_and_credits` | Gives the balance only, no reset date |
+| Recraft | `get_user` | Personal account balance; never switch workspace to read it |
+| Picsart | `picsart_balance` | Also gives the exact reset time |
+| Higgsfield | `balance` | Credits and plan, no renewal date |
+| ElevenLabs | `account_get_usage` | Needs a fresh sign-in to the connector before it answers |
+| Firefly, Flow, Base44 | none | Alex types these by hand |
+
+The scheduled task "Refresh credit balances" runs these at 07:05 London and writes them into This week. It sends no notification; the Monday check-in is the one that speaks.
+
 ## Lessons
 
 | Lesson | Status |
@@ -80,6 +93,7 @@ The same catalogue holds Veo 3.1 Quality, Kling 4, Kling Omni, MiniMax H3, Wan 2
 | `seedance-higgsfield-is-out`: Seedance 2.0 through the ChatGPT Higgsfield app gave a result Alex called shocking on the Lifeguard still (V2a, 25 November). Don't spend Higgsfield credits on Seedance for ODHC Reels. | proven |
 | `gemini-hydrogen-drifts`: Gemini Hydrogen (V2b) gives livelier motion but invents things (a book in the lifeguard's hands, a new chair, a horizon) and pushes in hard. Use it only for a clip you will mend in Flow. | try |
 | `veo-elevenlabs-is-landscape`: Veo 3.1 through ElevenLabs returns 8 seconds at 16:9 unless 9:16 is set, and it takes only 16:9 or 9:16, so a 4:5 still gets reframed. Set 9:16 for Reels. Seen on the V1 test, 25 November. | try |
+| `read-balances-daily-speak-weekly`: Read balances every day in silence and summarise them once a week, so the sheet is always current and Alex gets one message, not seven. | try |
 | `higgsfield-unlimited-for-shirt-stills`: Make Nano Banana Pro stills on Higgsfield's Unlimited plan before paying for them on fal. | try |
 
 ## History
@@ -90,3 +104,4 @@ The same catalogue holds Veo 3.1 Quality, Kling 4, Kling Omni, MiniMax H3, Wan 2
 - 2026-11-25: V1 December Reels test ran (Kling 160, ElevenLabs 19,390); added `veo-elevenlabs-is-landscape`.
 - 2026-11-25: Alex settled Veo as by hand in Flow; `elevenlabs-for-veo` replaced by `veo-by-hand-in-flow`.
 - 2026-11-25: Lifeguard test (V2) in: added `flow-veo-lite-for-reels`, `seedance-higgsfield-is-out` and `gemini-hydrogen-drifts`.
+- 2026-11-25: Added which balances a thread can read, and the daily refresh.
