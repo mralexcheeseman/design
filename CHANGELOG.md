@@ -1,12 +1,16 @@
 # Changelog
 
-Newest first. `## 2026-11-26 · all · A log of credits lost
+Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
+
+## 2026-11-27 · off-duty-hotel-club · Day wrap 26 Nov: two public playbooks
+Nothing from 26 Nov had reached The Back Office. Two new playbooks written for readers from the day's private notes: `stop-pictures-drifting-off-your-look` (light words in the scene beat the style paragraph; the Villa Ceresa and Hotel Marisol remakes) and `check-ai-pictures-at-full-size` (the results gate, the small back-print rule, the man's head and hubcap badge caught at full size). Four pictures in `learnings/images/`. Mirrored to The Back Office with Day note `day-2026-11-26`, all unpublished. Fixed the broken heading at the top of this file. Ran `checklists/copy.md` on both playbooks and the Day note; the photography checklist covers product shots, so it does not apply.
+
+## 2026-11-26 · all · A log of credits lost
 Alex asked us to track every credit a tool charges for nothing, so he can claim it back. New private note `learnings/notes/lost-credits.md`: the 24 Nov Recraft timeouts (60, refunded 26 Nov), the 25 Nov Recraft timeouts (188 over 13 images, claim drafted), and the 840 Firefly credits lost to duplicate takes on 26 Nov (our fault). Also flags an unexplained gap of about 255 Recraft credits. Ran `checklists/copy.md`.
 
 ## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
 Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
 
-## YYYY-MM-DD · brand · what changed`, then why.
 
 ## 2026-11-25 · off-duty-hotel-club · Locked house look and cast prep
 Two private Recraft styles saved from people-free crops: "ODHC house look (Oriole pool)" and "ODHC house look (all hotels)", tested on two scenes (shot sheet LK1 to LK4). New playbook `learnings/playbooks/lock-cast-and-look.md`. Kling subjects for the cast and shirts are prepared but not uploaded, because Kling's upload host is blocked from the cloud; noted in `learnings/notes/what-a-thread-can-drive.md`. Ran `checklists/copy.md` on the playbook.
