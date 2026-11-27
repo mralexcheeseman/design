@@ -5,6 +5,12 @@ Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 ## 2026-11-27 · off-duty-hotel-club · Hero stills expanded for feed and stories
 Expanded the three 3:2 hero pictures with Adobe generative expand. 4:5 feed versions are clean; 9:16 story versions invent too much (legs, a mismatched deck, stars in a day sky), so the playbook now says stop at 4:5 from landscape. Adobe video resize can't be collected from a thread. Updated `learnings/playbooks/make-vertical-cuts-for-stories.md` and `learnings/notes/what-a-thread-can-drive.md`. Ran `checklists/photography.md` on the six pictures.
 
+## 2026-11-27 · off-duty-hotel-club · Day notes in Alex's diary voice
+Alex asked for the Day notes to read as his own diary: storytelling, the reader brought in, clear actions with examples, and quotes from him that build on each point. He approved the second drafts ("perfect"). The notes for 23 to 26 Nov were rewritten live in The Back Office, and the voice is now a "Day notes" section in `learnings/README.md`. Ran `checklists/copy.md` on all four.
+
+## 2026-11-27 · off-duty-hotel-club · Day wrap 26 Nov: two public playbooks
+Nothing from 26 Nov had reached The Back Office. Two new playbooks written for readers from the day's private notes: `stop-pictures-drifting-off-your-look` (light words in the scene beat the style paragraph; the Villa Ceresa and Hotel Marisol remakes) and `check-ai-pictures-at-full-size` (the results gate, the small back-print rule, the man's head and hubcap badge caught at full size). Four pictures in `learnings/images/`. Mirrored to The Back Office with Day note `day-2026-11-26`, all unpublished. Fixed the broken heading at the top of this file. Ran `checklists/copy.md` on both playbooks and the Day note; the photography checklist covers product shots, so it does not apply.
+
 ## 2026-11-27 · off-duty-hotel-club · Layout sketch loses on Recraft
 Ran T1 on Recraft's Nano Banana Pro. The control (no sketch) averaged 14 of 15 over 2 takes, and the sketch arm averaged 12.3 over 4. The sketch kept everyone in frame and garbled the shirt's small lines on 2 of 4 takes, and one take added a border and a drawn circle. `frame-ai-pictures-with-a-layout-reference` stays at try, as a fix for cut-off heads only. Three new lessons: `sketch-costs-the-small-print`, `sketch-can-leak-marks`, `score-full-size`. Ran `checklists/photography.md` and `checklists/copy.md`.
 

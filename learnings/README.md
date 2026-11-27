@@ -11,6 +11,8 @@ Each one answers one reader's problem. Public on The Back Office unless marked p
 | Playbook | Making | Tools | Status | Cost per usable result | Tested |
 | --- | --- | --- | --- | --- | --- |
 | [Turn a landscape clip or a 4:5 picture into a 9:16 story without losing the people](playbooks/make-vertical-cuts-for-stories.md) | social | firefly, picsart | tested | Free | 2026-11-25 |
+| [Bring a set of AI pictures back to your look when they drift soft, misty or golden](playbooks/stop-pictures-drifting-off-your-look.md) | photo | nano-banana-pro, kling | tested | About 40 Kling credits a usable picture | 2026-11-26 |
+| [Catch the mistakes in AI pictures that only show at full size](playbooks/check-ai-pictures-at-full-size.md) | photo | nano-banana-pro, kling, recraft, higgsfield | tested | Free | 2026-11-26 |
 | [Keep the same people and the same colour across every AI picture](playbooks/lock-cast-and-look.md) | photo | recraft, kling | try | About 2 Recraft credits a picture | 2026-11-25 |
 | [Make your best picture the reference for the next ones](playbooks/reuse-a-picture-that-works.md) | photo | nano-banana-pro, higgsfield, adobe-express | try | Free on Higgsfield Unlimited | 2026-11-25 |
 | [Stop AI pictures cutting off heads and crowding the frame](playbooks/frame-ai-pictures-with-a-layout-reference.md) | photo | nano-banana-pro, higgsfield, recraft | try | Free on Higgsfield Unlimited | 2026-11-24 |
@@ -69,5 +71,20 @@ Every thread that runs an AI tool adds what it learned the same day, here first 
 ### Writing rules
 
 Write for a creative or brand marketer who wants tested answers. Lead with the failure and the picture. Plain British English, specific numbers, no AI phrasing. No contrast lines ("not X, it's Y" or "X. Y." pairs) and no headline with an italic second half (see `brands/off-duty-hotel-club/decisions.md`, 2026-11-23). Run `checklists/copy.md` on anything that will be published.
+
+### Day notes
+
+A Day note is the daily post on The Back Office (Post record, slug `day-YYYY-MM-DD`). Alex approved this voice on 27 Nov 2026. The four notes for 23 to 26 Nov are the reference.
+
+- **Alex is the writer.** First person, like a diary he keeps for himself. Use "I" for his picks and calls, and "we" for work done with the team.
+- **Tell it as a story.** Open on a scene from the day, for example "It started like a typical Monday...". Then move through the day in order.
+- **Bring the reader in.** Use lines like "Let's start with the shirts", "Here's what happened", "Let's take it in order".
+- **Short lines.** Most paragraphs are one to three sentences. No flowery writing.
+- **Teach.** Every story beat ends with a bold **Try this:** line that names one action and one concrete example: a file name, an exact prompt sentence, or a number.
+- **Quotes from Alex.** Each key point carries a short quote in his voice that builds on it. Write new ones in that voice, and show them to him before they go live. Keep his real words exactly as he said them ("shocking", "a little too real").
+- **End with a list, then a picture.** A numbered "What to take from today" list of 4 or 5 actions comes near the end. The last line is a callback or an image from the day.
+- **Pictures and boxes.** Picture lines and `[[playbook:slug]]` embeds sit right after the beat they illustrate.
+- **Length.** About 600 to 900 words.
+- The writing rules above still apply. Never name Slim Aarons in public copy, and keep credit balances and internal tool details out.
 
 Brand values in an example prompt (hex codes, hotel names, shirt names) come from that brand's `tokens.json` and README, never from memory.
