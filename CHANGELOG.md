@@ -37,6 +37,9 @@ Alex asked for more images and examples in the lessons. New folder `learnings/im
 ## 2026-11-25 · all · Day wrap: Flow through Chrome and naming from the prompt
 Two private notes from the day's runs. `drive-flow-through-chrome`: a thread can queue Flow in Alex's signed-in Chrome, Nano Banana Pro stills there cost no Flow credits (40 keepers filed), and 12 Veo clips (8 Lite, 4 Fast, 160 credits) rendered in about three minutes. `name-results-from-the-prompt`: the local vision model in File Result picked the wrong shot at 90 per cent and its guesses on 40 Flow stills were unusable, so files are named from the shot ID in the prompt list. Day note `day-2026-11-25` rewritten in The Back Office to cover the whole day, unpublished. Ran the copy checklist.
 
+## 2026-11-25 · off-duty-hotel-club · House grade locked, and the first post pipeline slice
+Alex locked one grade for every picture: normalise first, then Faded slide at 75%. Recorded in `decisions.md`. New playbook `make-every-model-look-like-one-film` with the grade, the contact sheet method and what broke (blown snow and sky before the white point was capped). Six of the day's Flow keepers went through to Planner drafts, matched by shot ID. Ran the photography and copy checklists.
+
 ## 2026-11-25 · off-duty-hotel-club · Social posts move to the brand type
 Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, removed the Known drift line, and updated the type spec in `reuse-a-picture-that-works`: FreightBig Pro Book 56px lines and Neue Haas Unica 500 labels, from Adobe Fonts kit `lxh4muu`. The social factory's `build.py` is updated in project files. Ran the copy checklist.
 
