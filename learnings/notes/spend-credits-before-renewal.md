@@ -38,7 +38,7 @@ Alex's rule (2026-11-23): use every credit on every plan before it renews, and u
 | Firefly | Veo 3.1 Lite (partner) | 10 credits a second |
 | Firefly | Nano Banana Pro (partner) | 40 credits an image |
 | Firefly | Upscaler | 10 credits |
-| Higgsfield Plus | Nano Banana Pro, Nano Banana 2, Soul 2, GPT Image 2 | Unlimited |
+| Higgsfield Plus | Nano Banana Pro, Nano Banana 2, Soul 2, GPT Image 2 | Unlimited on the website only. Through ChatGPT's Higgsfield app they cost credits (checked 2026-11-24). |
 | Higgsfield Plus | Seedance 2.0 | about 22 credits per 5 s at 720p |
 | Recraft | Nano Banana 2 edit / Nano Banana Pro edit | 11 / 20 credits |
 | Kling | 3.0 Omni, 12 s, 1080p | 96 credits |
@@ -76,10 +76,12 @@ The scheduled task "Refresh credit balances" runs these at 07:05 London and writ
 | `veo-lite-cheaper-in-flow`: Veo 3.1 Lite costs 10 Flow credits a clip, with 50 free credits a day, while the same model in Firefly costs 10 premium credits a second, so Firefly's Veo is for spending credits that are about to reset. | try |
 | `picsart-for-what-nobody-else-has`: Kling, Seedance and Nano Banana run on their own plans, so spend Picsart credits on the models only Picsart has (MiniMax, Seedream, Wan) and on its free unlimited stills. That way no test runs twice. | try |
 | `read-balances-daily-speak-weekly`: Read balances every day in silence and summarise them once a week, so the sheet is always current and Alex gets one message, not seven. | try |
-| `higgsfield-unlimited-for-shirt-stills`: Make Nano Banana Pro stills on Higgsfield's Unlimited plan before paying for them on fal. | try |
+| `higgsfield-unlimited-for-shirt-stills`: Make Nano Banana Pro stills on Higgsfield's Unlimited plan, on the website, before paying for them on fal. | try |
+| `higgsfield-free-generations`: The Plus plan had 4 free generations on 2026-11-24, for motion control and object replacement only (480p to 720p, up to 30 s). Spend them before credits on those jobs. | try |
 
 ## History
 
 - 2026-11-23: Prices gathered for the week-of-23-November test plan.
+- 2026-11-24: Higgsfield Unlimited is website-only; free generations noted.
 - 2026-11-25: Added Picsart Professional and the lesson `picsart-for-what-nobody-else-has`.
 - 2026-11-25: Added which balances a thread can read, and the daily refresh.

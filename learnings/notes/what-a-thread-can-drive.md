@@ -27,7 +27,7 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 | Base44 | Builds, edits files, reads and writes data | Hand-coding with the file tools costs no builder credits. |
 | Adobe | Edits, imports to Express, Firefly Boards | Can't generate new images or video. Firefly generation is by hand. |
 | Picsart | Reframes video, builds motion scenes (montage, captions, photo promos), transcribes, renders MP4 or stills, files to Picsart Drive, reads balance and brand kits | Can't generate new images or video: Alex generates on picsart.com. Reframe and export cost nothing. Sources must be public links. Some media analysis spends credits, so read the tool's description first. |
-| Higgsfield | Read only (balance, models, past results) | Alex generates by hand. |
+| Higgsfield | Read only (balance, models, past results) | Alex generates by hand on the website (Unlimited stills), or through ChatGPT's Higgsfield app for paid video. Unlimited is off in connected apps. See [run-higgsfield-through-chatgpt](run-higgsfield-through-chatgpt.md). |
 | Google Flow, Veo, Gemini Omni | No connector | Alex generates by hand. |
 | Photo Studio (Base44 app on fal) | Runs headless through its `studio` function (`run`, `tick`) | Details in project memory `odhc-photo-studio`. |
 
@@ -52,6 +52,7 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 
 - 2026-11-24: Recraft timeouts still charge.
 - 2026-11-23: Written from the week's threads.
+- 2026-11-24: Higgsfield row adds the ChatGPT route.
 - 2026-11-25: Added Picsart (connector checked the same day).
 - 2026-11-25: Kling upload host blocked (locked cast thread).
 - 2026-11-25: Hotel Marisol run: blocked Recraft and Drive hosts, the Zapier-to-Drive route, Recraft timeouts.

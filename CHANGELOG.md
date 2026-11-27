@@ -53,6 +53,9 @@ Alex has Picsart Professional. Added it to the private notes: what a thread can 
 ## 2026-11-24 · off-duty-hotel-club · First layout-reference run, and the day's wrap
 Logged the first T1 run in the layout-reference playbook. Every take had shown the lifeguard standing on his chair lowering a parasol, which the prompt itself asked for, so the line is fixed and the lesson `read-the-prompt-first` added. The control (T1a) on Recraft scored 11 and 11 of 15. The sketch takes (T1b) timed out on Recraft and still cost 60 credits, now in the private note on what a thread can drive. Ran the copy checklist.
 
+## 2026-11-24 · off-duty-hotel-club · Higgsfield video runs through ChatGPT
+Added the private note `learnings/notes/run-higgsfield-through-chatgpt.md`. Our Higgsfield connector can't generate, and ChatGPT's Higgsfield app can, with Unlimited switched off for connected apps. Seedance video (shot-sheet rows S1 to S3) now runs through ChatGPT from a standing brief that quotes the cost and waits for a go; Unlimited stills stay on the website. Results come back through the Drive results folder as before. Updated the reach and credit notes to match. Ran the copy checklist on the notes.
+
 ## 2026-11-24 · off-duty-hotel-club · No Slim Aarons references
 Alex settled it: we never reference Slim Aarons, and pictures carry no AI mention. Recorded in `decisions.md`. Took the name out of every prompt and the scoring note: the third score is now "Period look", and prompts describe a 1960s resort colour photograph for a travel magazine. Ran the copy checklist.
 

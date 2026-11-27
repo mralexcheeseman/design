@@ -32,6 +32,7 @@ Kept out of The Back Office: credit planning, account reach and house methods.
 | [Pick where to run a model by what each credit costs](notes/spend-credits-before-renewal.md) | Unit prices per app, the use-every-credit rule |
 | [Know which tools a Claude thread can run and which need Alex](notes/what-a-thread-can-drive.md) | Connector reach, blocked hosts, small fixes |
 | [Log every generated picture in the shot sheet without typing](notes/log-results-from-drive.md) | Drive folder to Sheets via a scheduled Claude task, file-name parsing formulas |
+| [Run paid Higgsfield video through ChatGPT and keep Unlimited stills on the website](notes/run-higgsfield-through-chatgpt.md) | The ChatGPT standing brief, one-cell job blocks, which jobs go where |
 | [Run Google Flow from a thread through Alex's Chrome](notes/drive-flow-through-chrome.md) | Free Nano Banana Pro stills, queueing Veo clips back to back, limits |
 | [Name generated files from the prompt list](notes/name-results-from-the-prompt.md) | Why the local vision model lost to the shot ID in the prompt |
 | [Log every credit a tool charges for nothing](notes/lost-credits.md) | Timed-out, failed and duplicate runs, credits lost, claim status |
