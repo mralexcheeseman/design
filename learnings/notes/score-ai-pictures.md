@@ -39,7 +39,7 @@ Total out of 15. 12 or more is a keeper. 9 to 11, change one plain thing in the 
 | `fail-checks-first`: Before scoring, tick six pass or fail checks (hands, faces, cut-off heads, stray text, number plates, modern objects). Any fail means refine or drop, whatever the score. | try |
 | `score-every-take`: Two takes of one prompt differed by 3 points on average across 12 rows, so a prompt test scores four takes a side. | tested |
 | `auto-grade-next`: A vision model scoring the same three lines could send anything under 12 straight to refine, with Alex's score as the final say. | tested, not ready |
-| `real-needs-calibrating`: Judge Real the way Alex does, on the whole picture at post size. Zoom crops made the match worse. With his definition the scorer matched 15 of 22. Keep Alex as the scorer until a model reaches 18 of 22. | tested |
+| `real-needs-calibrating`: Judge Real the way Alex does, on the whole picture at post size. Zoom crops made the match worse. With his definition, and his checks for believable actions, scale and "too perfect", the scorer matched 20 of 22. Prove it on a fresh week before it replaces him. | tested |
 
 ## Can a model score for us? (27 Nov test)
 
@@ -50,6 +50,8 @@ Alex asked how a model could do the scoring. We compared Claude's scores with hi
 - **What this means:** his Real covers something the definition doesn't name yet, because the model's zoom check doesn't find it. The next step is a one-line reason from Alex on four disagreements, written into the definition. After that, rerun the same 22 files and switch over at 18 of 22.
 - **Third scorer (same 22, same evening):** Alex explained Real in his own words: "it looks like a real photo. the characters are good. it'll work as a good social post. it doesnt feel ai created." We rewrote Real as one whole-picture call at 1080 px (post size) with no zooming. Agreement rose to 15 of 22, and Real now tracks his (correlation 0.48, from about 0). Two of the seven misses are Shirt. On H3 v1 and H3b v2 the scorer could not read the print and gave 2, and Alex gave 5.
 - Alex also scores the ungraded file and doesn't mark it down for missing the ageing grade, which goes on later. Rule-of-thirds framing and good shadows count in a picture's favour (H3b v2).
+- **Fourth scorer:** this version added Alex's answers. Real drops when someone does something a real person wouldn't, like a lifeguard holding a parasol up from his chair. It also drops when the scale is off or the picture is too perfect. A missing ageing grade doesn't count against a picture. Shirt follows his rule: "as long as it doesnt look AI created I'm fine." Agreement rose to **20 of 22**, with Real correlation 0.73. Two of the 22 (T1c v2, H3b v2) had Alex's reasons written into the prompt, so the fair figure is 18 of 20. The two misses (H3b v1, H3c v1) are pictures where Alex gave Shirt 2, which the scorer read as fine. The prompt lives in the project files (scoring-calibration/scoring-prompt.md).
+- It was tuned on these same 22 pictures, so it has to hold on new files before it takes over. Next step: run it beside Alex on next week's files.
 - Training our own picture classifier only makes sense once he has scored about 200 files.
 
 ## History
