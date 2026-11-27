@@ -1,7 +1,7 @@
 ---
 slug: what-a-thread-can-drive
 title: Know which tools a Claude thread can run and which need Alex
-dek: Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Firefly generation are by hand. Several file hosts are blocked from the cloud.
+dek: Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield and Flow generation are by hand, and Firefly web Edit can be driven in Alex's Chrome. Several file hosts are blocked from the cloud.
 making: photo
 tools: [kling, recraft, higgsfield, google-flow, firefly, adobe-express, base44, elevenlabs, picsart]
 techniques: [workflow]
@@ -15,7 +15,7 @@ updated: 2026-11-25
 
 # Know which tools a Claude thread can run and which need Alex
 
-Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Firefly generation are by hand. Several file hosts are blocked from the cloud.
+Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield and Flow generation are by hand, and Firefly web Edit can be driven in Alex's Chrome. Several file hosts are blocked from the cloud.
 
 ## Reach, as of 2026-11-23
 
@@ -25,7 +25,8 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 | Recraft | Generates, edits, upscales | Personal account. A Nano Banana Pro call with three reference images can pass the tool's 60-second limit. It then returns nothing but is still charged (3 timeouts cost 60 credits on 2026-11-24). Send one take per call, check the balance after each, and look in Recraft's own history before retrying. |
 | ElevenLabs | Generates speech, images, video | Usage readout needs a reconnect. |
 | Base44 | Builds, edits files, reads and writes data | Hand-coding with the file tools costs no builder credits. |
-| Adobe | Edits, imports to Express, Firefly Boards | Can't generate new images or video. Firefly generation is by hand. |
+| Adobe | Edits, imports to Express, Firefly Boards | The connector can't generate or do Generative Fill. |
+| Firefly web (Alex's Chrome, Browser 1) | Edits a picture with the Prompt tool (Nano Banana Pro 40 credits at 2K, Nano Banana 2 20) and Fill | Since 2026-11-25. Load a Drive file at full size by opening `https://lh3.googleusercontent.com/d/<id>=s0` in a tab opened from the Firefly tab, fetching it there and posting the blob to `window.opener`. For the main picture, set the file on the input inside `FIREFLY-EMPTY-STATE-UPLOAD`; for a reference, patch `HTMLInputElement.prototype.click` once, then click References, Your device. Model and resolution reset on each new picture, so set Nano Banana Pro and 2K every time. Read results by drawing the blob images to a canvas. Generate (text to image) also runs from a thread: set Nano Banana Pro, Standard (4:5), 2K, put the prompt in the contenteditable `Prompt` box with `execCommand('insertText')` and click the `Generate` sp-button; about 40 seconds and 40 credits each, one at a time. The same prompt gives the same picture (2026-11-26: 21 repeat takes came back pixel-identical, 840 credits lost), so change the prompt for a second take. Drive opens with no opener, so files can't be posted from the Firefly tab to a Drive tab. |
 | Picsart | Reframes video, builds motion scenes (montage, captions, photo promos), transcribes, renders MP4 or stills, files to Picsart Drive, reads balance and brand kits | Can't generate new images or video: Alex generates on picsart.com. Reframe and export cost nothing. Sources must be public links. Some media analysis spends credits, so read the tool's description first. |
 | Higgsfield | Read only (balance, models, past results) | Alex generates by hand. |
 | Google Flow, Veo, Gemini Omni | No connector | Alex generates by hand. |
