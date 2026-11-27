@@ -144,6 +144,7 @@ About 2 Recraft credits a picture with a style; 16 credits for the six test pict
 | `subjects-need-a-clear-face`: Save each person from a front or three-quarter face with no dark glasses. A profile in sunglasses gave a different man in every picture. | tested |
 | `wide-scenes-lose-the-face`: On Kling O1 a saved person who is a small figure in a wide scene turns into a stranger, even from a good face. | tested |
 | `omni-waist-up-gets-closer`: Kling Image 3.0 Omni, waist-up, with the hair named and hats and sunglasses ruled out, gave the same type of man in two places. Alex still saw two different men. | tested |
+| `style-swallows-named-colours`: On a still life, the all-hotels Recraft style ignored the hex colours in the prompt: five of six tablecloths and most shirts came out pale blue or turquoise, with sea or mountains behind. The same prompts on plain V4.1 raster, seen from directly above, held the cloth and shirt colour in all six. Use the style for places, and leave it off when an object's colour matters. | tested |
 | `continuity-within-one-hotel`: A recurring person only needs to hold within their own hotel (Alex, 27 Nov), so test and use each subject in that hotel's scenes alone. | settled |
 
 ## Next to try
@@ -153,4 +154,5 @@ Test one person in two scenes at their own hotel on 3.0 Omni. Rebuild Gian's sub
 ## History
 
 - 2026-11-25: First written. Two Recraft styles saved and tested on two scenes; Kling subjects prepared but not uploaded.
+- 2026-11-27: R2 hotel stationery still lifes: the all-hotels style overrode the named colours on 6 of 6 hotels; plain V4.1 raster held them (13 pictures, 26 credits).
 - 2026-11-27: 18 Kling subjects saved from Alex's Mac. Consistency check LK5 to LK10: the look held; the person changed between hotels, which Alex is happy with because each person belongs to one hotel.

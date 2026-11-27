@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-27 · off-duty-hotel-club · Go rows: stationery colour, Kling links
+Alex marked the shot-sheet rows go. R2 stationery showed the all-hotels Recraft style overriding named colours, so the six still lifes were made on plain V4.1 raster (`style-swallows-named-colours` in `lock-cast-and-look`). `what-a-thread-can-drive` gains Cloudinary links and crops as Kling frames, the 10 MB Drive download limit on clips, and direct ElevenLabs downloads. Alex watched K4, the Solvane lifeguard push-in: only the lifeguard moved and every guest was frozen. New lesson `give-every-person-a-move` in `stop-buildings-drifting`: lock the building, print and colours, and give each guest a small action. Alex watched K5 too: "the tall white gate" moved a balcony railing. New lesson `point-at-the-moving-thing`: name the moving object by its place, size and material, and say what stays fixed. Ran `checklists/copy.md`.
+
 ## 2026-11-27 · the-last-animal · Aurochs colophon mark
 Alex asked for a proper logo rather than text and picked the aurochs. The mark came from Recraft V4.1 Pro Vector using a publisher's-colophon prompt, then was finished by hand (merged paths, a redrawn oval). It is now on every Last Animal carousel slide, large on the close slide, and on the Instagram avatar. New playbook `learnings/playbooks/get-a-logo-mark-from-a-vector-model.md`, and a new lesson in `live-text-in-adobe-express.md`: bake path transforms into the coordinates before an Express import. The Last Animal still has no brand folder here, so the master artwork is in the project files (`tla-slide-redesign/logo-marks/final/`). Ran `checklists/copy.md` on the playbook.
 
