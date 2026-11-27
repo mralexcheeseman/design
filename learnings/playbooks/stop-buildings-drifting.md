@@ -16,7 +16,7 @@ status: tested
 cost_usable: 142 credits for one usable clip
 back_office: published
 date: 2026-11-23
-updated: 2026-11-23
+updated: 2026-11-27
 ---
 
 # Stop buildings drifting when you stitch stills into video
@@ -89,6 +89,8 @@ Kling's Omni model refers to reference images as 图片1, 图片2 and so on. Typ
 | `stitched-stills-show-the-seam`: Stitching separately made stills into one clip leaves a visible change where they disagree, and a title over it softens the change without hiding it. | tested |
 | `title-over-the-seam`: A flaw in a scroll clip can be hidden for free by holding a title at full strength over that stretch and dimming the picture behind it. | try |
 | `one-photo-at-both-ends`: For a push-in clip, give the video model the same photograph as first frame and a tight crop of it as last frame. | try |
+| `give-every-person-a-move`: A lock line that says the people stay exactly as in the image freezes them. In the Solvane lifeguard push-in (Kling 3.0, 27 Nov) only the lifeguard moved and every guest stood completely still, so the clip read as a photo with one actor. Lock only the building, the shirt print and the colours, and give each guest or group a small action of their own: a woman turns a page, a man lifts his glass, two children splash at the edge. | try |
+| `point-at-the-moving-thing`: A vague noun lets the model pick the wrong object. In the Oriole gate clip (Kling 3.0 Omni, 27 Nov) "the tall white gate" moved the white railing on a balcony instead. Name the one thing that moves by where it sits in the frame, how big it is and what it's made of ("the white iron gate at ground level, between the two gateposts, in front of the security man"), and say what stays fixed ("balconies, railings and shutters do not move"). | try |
 
 ## Next to try
 
@@ -96,5 +98,7 @@ If the entrance is remade, redraw stills 1 and 2 backwards from still 3 so all f
 
 ## History
 
+- 2026-11-27: Lesson `point-at-the-moving-thing`: "the tall white gate" moved a balcony railing in the Oriole gate clip (Alex).
+- 2026-11-27: Lesson `give-every-person-a-move`: the lock line froze every guest in the Solvane lifeguard push-in (Alex).
 - 2026-11-23: Entrance clip made, door change found, title moved over it. Written up as a playbook.
 - 2026-11-23: Change cut out on Alex's suggestion: drive 0 to 6.5 s at 1.25x, hard cut to 9 s, 8.3 s clip, no credits.

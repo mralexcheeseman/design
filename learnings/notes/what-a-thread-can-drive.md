@@ -35,7 +35,7 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 
 - fal.media, res.cloudinary.com and media.base44.com return 403, so view those images in a browser.
 - Some sessions also refuse img.recraft.ai, mcp.recraft.ai (Recraft's upload link), lh3.googleusercontent.com and drive.google.com. Recraft itself can still read link-shared Drive files at `https://lh3.googleusercontent.com/d/<id>`, so put references in the Drive references folder and pass that link.
-- kling.ai (Kling's file upload) is refused, so Kling subjects and Kling image-to-image inputs go up from Alex's Mac. Kling refuses Drive links for subjects.
+- kling.ai (Kling's file upload) is refused, so Kling subjects and Kling image-to-image inputs go up from Alex's Mac. Kling refuses Drive links for subjects. The route that works: start a Remote Control session on the iMac, point it at the files through Google Drive for Desktop, and have it run Kling's `file_upload` and post each file to the upload link straight away (a link lasts 10 minutes). Kling's result links (s15-kling.klingai.com) are refused too; file them to Drive with Zapier's Upload File, giving the new name without an extension (it adds one).
 - img.recraft.ai is refused; file Recraft results to Drive with Zapier's Upload File, named by shot-sheet row.
 - Creative Cloud storage (at.adobe.com) is unreachable, so Express uploads go through Alex's Mac (see [the Express playbook](../playbooks/live-text-in-adobe-express.md)).
 
@@ -51,6 +51,9 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - Adobe results (photoshop-api.adobe.io short links) and Picsart exports (gcdn.picsart.com) are refused in the container, but Picsart's `scene_contact_sheet` with `media` set to the link shows them to you, and Zapier's Google Drive Upload File files them straight into ODHC shot results.
 - Adobe `video_resize` starts and returns a task id, but the tool it names for collecting the result (`resizeVideoPoll`) isn't offered to a thread and the output isn't saved to Creative Cloud, so video resize can't be finished from here (27 Nov).
 - A file that only exists in the container or on a website can't reach Adobe from a thread: the Creative Cloud upload link is blocked here too. Alex drops it in Creative Cloud, or the upload runs on his Mac.
+- Kling takes a public res.cloudinary.com link as `first_image` or `tail_image` even though this container can't open it. A Cloudinary crop in the link (`c_crop,ar_4:5,w_0.55,g_auto:subject/c_scale,w_1615/`) makes a tail frame without uploading anything new.
+- Kling result files over 10 MB can't come back through Drive's `download_file_content`, so a thread can't watch its own clips. File them to Drive with Zapier and let Alex score them.
+- elevenlabsusercontent.com is reachable, so ElevenLabs audio downloads straight into the container and uploads to Drive with `create_file`.
 
 ## History
 
@@ -61,3 +64,5 @@ Kling, Recraft, ElevenLabs and Base44 run from a thread. Higgsfield, Flow and Fi
 - 2026-11-27: Adobe video resize can't be collected from a thread.
 - 2026-11-25: Kling upload host blocked (locked cast thread).
 - 2026-11-25: Hotel Marisol run: blocked Recraft and Drive hosts, the Zapier-to-Drive route, Recraft timeouts.
+- 2026-11-27: Kling takes Cloudinary links and crops; big Kling clips can't be watched from a thread; ElevenLabs audio downloads directly (go rows run 27 Nov).
+- 2026-11-27: Kling uploads through Remote Control on the iMac; Kling result links refused (locked cast thread).
