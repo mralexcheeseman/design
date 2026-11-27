@@ -14,6 +14,9 @@ Ran T1 on Recraft's Nano Banana Pro. The control (no sketch) averaged 14 of 15 o
 ## 2026-11-26 · all · A log of credits lost
 Alex asked us to track every credit a tool charges for nothing, so he can claim it back. New private note `learnings/notes/lost-credits.md`: the 24 Nov Recraft timeouts (60, refunded 26 Nov), the 25 Nov Recraft timeouts (188 over 13 images, claim drafted), and the 840 Firefly credits lost to duplicate takes on 26 Nov (our fault). Also flags an unexplained gap of about 255 Recraft credits. Ran `checklists/copy.md`.
 
+## 2026-11-27 · off-duty-hotel-club · Cast saved as Kling subjects and tested
+All 18 Kling subjects (12 people, 6 shirts) saved from Alex's iMac through Remote Control. Consistency check LK5 to LK10: Kling O1 held the house look in four pictures and changed the person each time. Kling Image 3.0 Omni, waist-up, with the hair named, came closer, and Alex still saw two different men. Alex settled that a person only needs to hold within their own hotel. Gian's subject needs a front-facing face. Updated `learnings/playbooks/lock-cast-and-look.md` (ids, settings, four lessons) and `learnings/notes/what-a-thread-can-drive.md` (upload route, result links). Ran `checklists/copy.md` on both.
+
 ## 2026-11-25 · off-duty-hotel-club · Shot results log themselves without a Zap
 Alex asked for an agent instead of the Zap. A scheduled task now checks the Drive results folder every two hours and appends new files to the shot sheet's Results tab. Results gained Prompt, Cost, Credit pool and Note columns, and the version formula no longer reads IDs like GV3 as v3. Updated `learnings/notes/log-results-from-drive.md`. No checklist applies (no brand output).
 
