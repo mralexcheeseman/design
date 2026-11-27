@@ -3,10 +3,14 @@ slug: reuse-a-picture-that-works
 title: Make your best picture the reference for the next ones
 dek: Write down the six things that make the picture work, then attach the picture itself as the style and layout reference. A real photograph should hold the framing without the flat look a sketch brought in. Under test on Nano Banana Pro.
 making: photo
-tools: [nano-banana-pro, higgsfield, adobe-express]
+tools: [nano-banana-pro, higgsfield, kling, recraft, adobe-express]
 techniques: [reference-images, scoring, html-import]
 models:
   - name: Nano Banana Pro on Higgsfield Unlimited
+    tested: 2026-11-25
+  - name: Nano Banana Pro on Kling (gemini-3-pro-image), run once against the rule below
+    tested: 2026-11-25
+  - name: Kling Image 4.0
     tested: 2026-11-25
 status: try
 cost_usable: Free on Higgsfield Unlimited
@@ -104,12 +108,30 @@ Free on Higgsfield Unlimited: eight takes for the test.
 | `caption-pays-off-the-picture`: The one serif line works when it explains the odd figure in the picture, so write it after choosing the picture. | try |
 | `social-uses-brand-type`: Social posts set type in the brand pair, FreightBig Pro and Neue Haas Unica, like the store (Alex, 25 November). | tested |
 | `shadow-for-depth`: A single hard palm shadow across water gives a top-down picture its depth and its time of day. | try |
+| `photo-reference-gets-copied`: With our pool picture as image 2, Kling Image 4.0 rebuilt it guest for guest in 4 of 4 takes, and Nano Banana Pro did the same in 1 of 4 (the Recraft take; none of the 3 on Kling copied), despite "make every guest a new person". Every copy scores 0, so a photo reference needs a stronger guard than one sentence. | tested |
+| `kling-image-4-looks-digital`: Kling Image 4.0 held the print well (5, 4, 4, 4) but every take scored 2 on Real: glossy skin, flat stucco, a digital look. At 4 credits a picture it suits rough layout drafts. | tested |
+
+## Baselines, 25 November
+
+Before Alex's Higgsfield takes, a thread ran both arms on the models it can drive (shot sheet, Claude's shots, rows T3a-K to T3-R). Scores are Real/Shirt/Period out of 15.
+
+| Arm | Kling Image 4.0 (4 credits) | Nano Banana Pro on Kling (20 credits) |
+| --- | --- | --- |
+| T3a, hero for colour | 10, 9, 9, 9 (avg 9.3) | 12, 12, 11, 12 (avg 11.75) |
+| T3b, our picture as image 2 | 4 copies, all 0 | 13, 12 (fails: slide border), 13; the fourth failed at Kling (avg 12.7) |
+
+Nano Banana Pro's control takes looked like real slides (Real 4) and three reached 12. Kling 4.0 held the print but looked digital. On Nano Banana Pro the picture as image 2 lifted the average by 0.9, just under the 1-point rule, and gave the only two 13s, both with every print line right. One of the four Nano Banana Pro T3b takes (on Recraft) copied the reference, and one drew a rounded slide border round the frame. The reference helps, and the copying of its guests is what needs fixing.
 
 ## Next to try
 
-Run T3a and T3b. Keep the picture as a reference if T3b's four-take average beats T3a's by 1 point or more with Real no lower and no copies.
+Nano Banana runs only on the Gemini app or Flow, by Alex's hand (his rule, 27 Nov). The Kling and Recraft takes above broke that rule; they stand as baselines and are never to be repeated on those routes.
+
+
+Add a guard against copying before Alex runs T3b: say in the first line that image 2 is for camera, light and colour only and that its guests must not reappear, and crop the reference to drop the two foreground women who get copied most. Then run T3a and T3b. Keep the picture as a reference if T3b's four-take average beats T3a's by 1 point or more with Real no lower and no copies.
 
 ## History
 
+- 2026-11-27: Nano Banana runs only on Gemini or Flow, by hand. Noted against the T3 baselines.
+- 2026-11-25: Baselines on Kling Image 4.0 and Nano Banana Pro. The photo reference got copied guest for guest; added `photo-reference-gets-copied` and `kling-image-4-looks-digital`.
 - 2026-11-25: Type spec moved to FreightBig Pro and Neue Haas Unica after Alex chose the brand pair for social.
 - 2026-11-25: First written from the Oriole pool post Alex picked in Express. Test T3 set up in the shot sheet, not yet run.

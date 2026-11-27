@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-27 · all · Nano Banana runs only on Gemini or Flow
+Alex's rule: Nano Banana and Nano Banana Pro run only on the Gemini app or Flow, by his hand. Took the Kling route out of the credit note and the thread-reach note, and marked the T3 baselines in `reuse-a-picture-that-works` as a one-off that broke the rule. Ran the copy checklist.
+
 ## 2026-11-27 · all · Pre-run rules against charged duplicates
 Alex asked that duplicate Firefly takes never happen again. On 26 Nov the good-life run sent each of 21 prompts twice, word for word, as planned, and Firefly's Nano Banana Pro returned the same picture both times (840 credits). `learnings/README.md` now opens with three rules every thread reads before a paid run: a written prompt for every take, a one-prompt test before a batch, and one image a call with a balance check after any timeout. Ran `checklists/copy.md`.
 
@@ -42,6 +45,9 @@ Alex asked for more images and examples in the lessons. New folder `learnings/im
 
 ## 2026-11-25 · all · Day wrap: Flow through Chrome and naming from the prompt
 Two private notes from the day's runs. `drive-flow-through-chrome`: a thread can queue Flow in Alex's signed-in Chrome, Nano Banana Pro stills there cost no Flow credits (40 keepers filed), and 12 Veo clips (8 Lite, 4 Fast, 160 credits) rendered in about three minutes. `name-results-from-the-prompt`: the local vision model in File Result picked the wrong shot at 90 per cent and its guesses on 40 Flow stills were unusable, so files are named from the shot ID in the prompt list. Day note `day-2026-11-25` rewritten in The Back Office to cover the whole day, unpublished. Ran the copy checklist.
+
+## 2026-11-25 · off-duty-hotel-club · T3 baselines on Kling and Recraft
+Ran test T3 (Security at the Oriole pool) before Alex's Higgsfield takes on Saturday. Kling Image 4.0 averaged 9.3 with the hero reference and copied our pool picture guest for guest in all 4 T3b takes. Nano Banana Pro (through Kling) averaged 11.75 on T3a and 12.7 on T3b, a lift of 0.9, with two 13s. Recraft timed out 5 of 6 calls, so we stopped there. Playbook `reuse-a-picture-that-works` gains the baselines and two lessons (`photo-reference-gets-copied`, `kling-image-4-looks-digital`); the credit note gains Kling's still prices; the thread-reach note gains Kling's Drive links and its Nano Banana Pro route. Shot sheet rows T3a-K to T3-R. Ran the copy checklist.
 
 ## 2026-11-25 · off-duty-hotel-club · Social posts move to the brand type
 Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, removed the Known drift line, and updated the type spec in `reuse-a-picture-that-works`: FreightBig Pro Book 56px lines and Neue Haas Unica 500 labels, from Adobe Fonts kit `lxh4muu`. The social factory's `build.py` is updated in project files. Ran the copy checklist.
