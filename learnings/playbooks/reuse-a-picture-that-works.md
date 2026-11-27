@@ -1,23 +1,27 @@
 ---
 slug: reuse-a-picture-that-works
 title: Make your best picture the reference for the next ones
-dek: Write down the six things that make the picture work, then attach the picture itself as the style and layout reference. A real photograph should hold the framing without the flat look a sketch brought in. Under test on Nano Banana Pro.
+dek: Write down the six things that make the picture work, then attach the picture itself as the style and layout reference. It brings back the camera and the light, but it does not lift the average take, and the model may copy its guests. Tested on Nano Banana Pro.
 making: photo
 tools: [nano-banana-pro, higgsfield, adobe-express]
 techniques: [reference-images, scoring, html-import]
 models:
   - name: Nano Banana Pro on Higgsfield Unlimited
     tested: 2026-11-25
+  - name: Nano Banana Pro on Kling
+    tested: 2026-11-25
+  - name: Nano Banana Pro in Google Flow
+    tested: 2026-11-27
 status: try
 cost_usable: Free on Higgsfield Unlimited
 back_office: unpublished
 date: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-27
 ---
 
 # Make your best picture the reference for the next ones
 
-Write down the six things that make the picture work, then attach the picture itself as the style and layout reference. A real photograph should hold the framing without the flat look a sketch brought in. Under test on Nano Banana Pro.
+Write down the six things that make the picture work, then attach the picture itself as the style and layout reference. It brings back the camera and the light, but it does not lift the average take, and the model may copy its guests. Tested on Nano Banana Pro.
 
 ## What happened
 
@@ -32,6 +36,18 @@ Our last framing test showed where a layout reference can go wrong. In test T1 a
 ![The post, the take from words alone, the take with the post attached, and Kling's copy](../images/reuse-a-picture-t3-sheet.jpg)
 
 From left: the Oriole Palace post we wanted more of; T3a, the six points as words only (11 or 12 of 15, the pool turned into a lap lane); T3b, the same words with the post attached as image 2 (12 or 13 of 15, the corner-to-corner pool and palm shadow back); and Kling Image 4.0, which handed back the post itself and scored 0.
+
+## Results
+
+| Run | Without the picture (T3a) | With the picture (T3b) | Difference |
+| --- | --- | --- | --- |
+| Nano Banana Pro on Kling, 25 Nov | 11.75 of 15 | 12.7 of 15 | +0.9 |
+| Nano Banana Pro in Google Flow, 27 Nov, picture cropped and a "don't copy its people" line added | 11.5 of 15, Real 4.0 | 10.5 of 15, Real 3.5 | -1.0 |
+| Kling Image 4.0, 25 Nov | 9.3 of 15 | copied the picture 4 of 4 times, 0 | |
+
+The picture did its first job. With it attached the camera went steeper, the courtyard turned back into plain pink stucco and the palm shadow sat across the water. It did not lift the average. In Flow it cost the shirt: two of four takes dropped the small lines under SECURITY and one printed the wrong hotel name. The best single take of the whole test (13 of 15) still came from the arm with the picture.
+
+So the picture is not a default reference. Use it when you want this exact camera and courtyard and are happy to make more takes and pick the best; write the six points as words for everything else. Always crop the reference so no guest is large enough to copy, and add the line "do not copy its people".
 
 ## What makes it work
 
@@ -99,7 +115,9 @@ Free on Higgsfield Unlimited: eight takes for the test.
 | Lesson | Status |
 | --- | --- |
 | `save-the-prompt-with-the-picture`: Our best Oriole picture lost its prompt because only the image was uploaded. Save the prompt beside every keeper under the same file name. | tested |
-| `photo-as-layout-reference`: Attach a picture that already works as the layout reference; a grey sketch cut Real by a point in T1. | try |
+| `photo-as-layout-reference`: A picture that already works brings back its camera and light, but in T3 it lifted the average by 0.9 on Kling and lowered it by 1.0 in Flow, so it is not a default. | tested |
+| `crop-the-reference-guests`: With a photograph as a reference, crop out any guest big enough to copy and say "do not copy its people"; Kling Image 4.0 handed the picture back four times out of four. | tested |
+| `reference-costs-the-small-print`: A second picture competes with the shirt; in Flow two of four takes with the pool picture lost the small lines of the print. | try |
 | `staff-apart-as-story-beat`: One uniformed staff member standing still among lounging guests gives the picture its story and puts the shirt in it. | try |
 | `caption-pays-off-the-picture`: The one serif line works when it explains the odd figure in the picture, so write it after choosing the picture. | try |
 | `social-uses-brand-type`: Social posts set type in the brand pair, FreightBig Pro and Neue Haas Unica, like the store (Alex, 25 November). | tested |
@@ -107,9 +125,10 @@ Free on Higgsfield Unlimited: eight takes for the test.
 
 ## Next to try
 
-Run T3a and T3b. Keep the picture as a reference if T3b's four-take average beats T3a's by 1 point or more with Real no lower and no copies.
+Try the picture as a reference on the Higgsfield website with Unlimited at 4:5, and put the shirt last in the prompt as well as first, to see whether the small print survives.
 
 ## History
 
+- 2026-11-27: T3 results added from Kling (25 Nov) and Google Flow (27 Nov). The picture is not a default reference.
 - 2026-11-25: Type spec moved to FreightBig Pro and Neue Haas Unica after Alex chose the brand pair for social.
 - 2026-11-25: First written from the Oriole pool post Alex picked in Express. Test T3 set up in the shot sheet, not yet run.

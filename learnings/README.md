@@ -13,7 +13,7 @@ Each one answers one reader's problem. Public on The Back Office unless marked p
 | [Bring a set of AI pictures back to your look when they drift soft, misty or golden](playbooks/stop-pictures-drifting-off-your-look.md) | photo | nano-banana-pro, kling | tested | About 40 Kling credits a usable picture | 2026-11-26 |
 | [Catch the mistakes in AI pictures that only show at full size](playbooks/check-ai-pictures-at-full-size.md) | photo | nano-banana-pro, kling, recraft, higgsfield | tested | Free | 2026-11-26 |
 | [Keep the same people and the same colour across every AI picture](playbooks/lock-cast-and-look.md) | photo | recraft, kling | try | About 2 Recraft credits a picture | 2026-11-25 |
-| [Make your best picture the reference for the next ones](playbooks/reuse-a-picture-that-works.md) | photo | nano-banana-pro, higgsfield, adobe-express | try | Free on Higgsfield Unlimited | 2026-11-25 |
+| [Make your best picture the reference for the next ones](playbooks/reuse-a-picture-that-works.md) | photo | nano-banana-pro, higgsfield, adobe-express | try | Free on Higgsfield Unlimited | 2026-11-27 |
 | [Stop AI pictures cutting off heads and crowding the frame](playbooks/frame-ai-pictures-with-a-layout-reference.md) | photo | nano-banana-pro, higgsfield, recraft | try | Free on Higgsfield Unlimited | 2026-11-24 |
 | [Stop buildings drifting when you stitch stills into video](playbooks/stop-buildings-drifting.md) | video | kling, recraft | tested | 142 credits a clip | 2026-11-23 |
 | [Keep a scroll-scrubbed video sharp on the web](playbooks/keep-scroll-video-sharp.md) | website | kling, base44 | tested | Free | 2026-11-23 |

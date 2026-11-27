@@ -2,6 +2,9 @@
 
 Newest first. `## YYYY-MM-DD · brand · what changed`, then why.
 
+## 2026-11-27 · off-duty-hotel-club · The pool picture is not a default reference
+Alex ran T3 in Google Flow (Nano Banana Pro, 9:16) with the reference cropped and a "do not copy its people" line. With the picture: 10.5 of 15 average, Real 3.5; without: 11.5, Real 4.0. Kling on 25 Nov gave +0.9. The picture brings back the camera and courtyard but costs the shirt's small print, so `reuse-a-picture-that-works` now says use it only for this exact shot. Two new lessons: `crop-the-reference-guests`, `reference-costs-the-small-print`. Ran `checklists/copy.md`; the photography checklist covers product shots, so it does not apply.
+
 ## 2026-11-27 · off-duty-hotel-club · Day notes in Alex's diary voice
 Alex asked for the Day notes to read as his own diary: storytelling, the reader brought in, clear actions with examples, and quotes from him that build on each point. He approved the second drafts ("perfect"). The notes for 23 to 26 Nov were rewritten live in The Back Office, and the voice is now a "Day notes" section in `learnings/README.md`. Ran `checklists/copy.md` on all four.
 
