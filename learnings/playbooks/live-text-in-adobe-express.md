@@ -76,14 +76,15 @@ Free. Imports cost no credits.
 | --- | --- |
 | `express-embeds-only`: The Express importer keeps only images embedded in the HTML as data, and every linked image arrives as a 1×1 blank. | proven |
 | `express-font-longhand`: Express ignores the CSS font shorthand, so family, size, weight and line height are set as separate properties. | proven |
-| `express-import-by-url`: Importing the layout by its Creative Cloud URL brings photos in at full size with the text still live. | tested |
+| `express-import-by-url`: Importing the layout by its Creative Cloud URL brings photos in at full size with the text still live. | proven |
+| `express-fit-check`: The importer's reply shows whether a line fits. A text box marked `layout-sync="intrinsic-full"` with text pinning sat on one line. One marked `intrinsic-height` wrapped. Adobe Fonts arrive by PostScript name (FreightBigProBook-Regular, NeueHaasUnicaW1G-Medium), which confirms the kit loaded. | tested |
 | `express-svg-shapes`: Inline `<svg>` in the HTML imports as native, editable Express shapes, so a logo set in a font Adobe Fonts lacks can go in as outlined vectors. | tested |
 | `express-svg-explicit-paths`: The importer mis-places points after `H`/`V` commands and implicit repeated coordinates, so write every path with explicit `M`, `L`, `Q`, `C` and `Z` only. | tested |
 | `express-svg-no-transform`: A `transform` on a `<path>` imports as a flat picture pinned to the top-left corner, so bake the move and scale into the coordinates and the path arrives as an editable shape in the right place. | tested |
 
 ## Next to try
 
-Import a five-slide carousel as one file and see whether Express keeps the slides as pages.
+Check line fit for a new copy length before the full-size upload by importing a small test file with the same type and no photos.
 
 ## History
 
@@ -91,4 +92,5 @@ Import a five-slide carousel as one file and see whether Express keeps the slide
 - 2026-11-21: Creative Cloud URL import works at full size.
 - 2026-11-23: Batches 02 to 04 imported the same way. Written up as a playbook.
 - 2026-11-26: A logo outlined from Newsreader imported as editable shapes. The first import broke on `H`/`V` path commands; rewriting the paths with explicit commands fixed it.
+- 2026-11-26: Batches 01 to 04 rebuilt in FreightBig Pro and Neue Haas Unica and imported again (seven files, 31 pages). Multi-page files keep each slide as a page. Line fit was checked from the importer's reply, since the cloud can't load Adobe Fonts to render a check.
 - 2026-11-27: The Last Animal's aurochs set went in with `translate` and `scale` on each path and landed as pictures in the corner. Baking the transform into the coordinates fixed it.
