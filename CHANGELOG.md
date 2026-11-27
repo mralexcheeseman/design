@@ -20,6 +20,15 @@ Alex asked for more images and examples in the lessons. New folder `learnings/im
 ## 2026-11-25 · all · Day wrap: Flow through Chrome and naming from the prompt
 Two private notes from the day's runs. `drive-flow-through-chrome`: a thread can queue Flow in Alex's signed-in Chrome, Nano Banana Pro stills there cost no Flow credits (40 keepers filed), and 12 Veo clips (8 Lite, 4 Fast, 160 credits) rendered in about three minutes. `name-results-from-the-prompt`: the local vision model in File Result picked the wrong shot at 90 per cent and its guesses on 40 Flow stills were unusable, so files are named from the shot ID in the prompt list. Day note `day-2026-11-25` rewritten in The Back Office to cover the whole day, unpublished. Ran the copy checklist.
 
+## 2026-11-25 · studio · File Result guesses the shot
+File Result now asks a local Ollama vision model which shot each dropped picture or clip shows (against `ODHC shot list.txt` in My Drive), guesses the tool from the download's name, shows the proposed name for one-click confirm, takes whole folders, and crops Flow's 3:4 stills to 4:5. Ran the copy checklist.
+
+## 2026-11-25 · studio · Results log script
+Added `tools/results-log/`, an Apps Script that logs new files in ODHC shot results on the Results tab every 5 minutes. It replaces the Results Zap, so logging uses no Zapier tasks. Ran the copy checklist.
+
+## 2026-11-25 · studio · File Result
+Added `tools/file-result/`, a Mac drop app (and iPhone Shortcut steps) that names generated files by shot ID and files them in the Drive folder ODHC shot results for the Results Zap. Updated the learnings note `log-results-from-drive`. Ran the copy checklist.
+
 ## 2026-11-25 · off-duty-hotel-club · Social posts move to the brand type
 Alex chose the brand pair for social ("new fonts"). Recorded in `decisions.md`, removed the Known drift line, and updated the type spec in `reuse-a-picture-that-works`: FreightBig Pro Book 56px lines and Neue Haas Unica 500 labels, from Adobe Fonts kit `lxh4muu`. The social factory's `build.py` is updated in project files. Ran the copy checklist.
 
